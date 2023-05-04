@@ -1224,12 +1224,13 @@ font-family: var(--Fuenteprincipal);
       border: solid;
       border-radius: 1rem;
       width: auto;
+      color: white;
       }
       .formulario__campo-1{
         background-color: black;
         color: white;
         width: 22rem;
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         font-family: var(--Fuenteprincipal);
       }
      
