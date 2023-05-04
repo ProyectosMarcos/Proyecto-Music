@@ -16,6 +16,7 @@
   }
   body {
     min-height: 100%;
+    font-family: var(--Fuenteprincipal);
   }
   
   *, *:before, *:after {
@@ -179,6 +180,23 @@
   background-color: var(--ColorNav);
   }
   
+  .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
+  }
+  .formulario__campo-2 {
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 15rem;
+  font-size: 1.7rem;
+  font-family: var(--Fuenteprincipal);
+  } 
+
+
   /**H2 - H3**/
   
   #H2 {
@@ -248,7 +266,25 @@
     width: 3.4rem;
     height: 3rem;
   }
-  }
+ 
+
+button {
+ background-color: black;
+ color: var(--ColorBlanco);
+width: 11rem;
+height: 2.3rem;
+transition: .2s;
+cursor: pointer;
+}
+button span {
+  font-size: 1.7rem;
+  transition: .2s;
+}
+button:active {
+  transform: scale(0.9);
+}
+
+}
   
   
   
@@ -277,21 +313,314 @@
   .NAV-LIST a {
     font-size: 2rem;
   }
+  button {
+    background-color: black;
+    color: var(--ColorBlanco);
+   width: 11rem;
+   height: 2.3rem;
+   transition: .2s;
+   cursor: pointer;
+   }
+   button span {
+     font-size: 1.7rem;
+     transition: .2s;
+   }
+   button:active {
+     transform: scale(0.9);
+   }
+
+   .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
+  }
+  .formulario__campo-2 {
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 15rem;
+  font-size: 1.7rem;
+  font-family: var(--Fuenteprincipal);
+  } 
+
   }
   
   
+  @media only screen and (min-width: 800px) and (max-width:831px) {
+    .NAV-LIST a {
+      font-size: 1.8rem
+    }
+  }
+
+
   @media only screen and (min-width: 700px) and (max-width:799px) {
     .NAV-LIST a {
       font-size: 1.7rem
     }
+    button {
+      background-color: black;
+      color: var(--ColorBlanco);
+     width: 11rem;
+     height: 2.3rem;
+     transition: .2s;
+     cursor: pointer;
+     }
+     button span {
+       font-size: 1.7rem;
+       transition: .2s;
+     }
+     button:active {
+       transform: scale(0.9);
+     }
+  
   }
   
+  @media only screen and (min-width: 701px) and (max-width:748px) {
+    .NAV-LIST a {
+      font-size: 1.5rem
+    }
+    .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+    }
+ 
+  
+  }
+
+  @media only screen and (min-width: 701px) and (max-width:799px) {
+    
+    .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+    }
+    
+    .formulario__campo-2 {
+      margin: auto;
+      font-size: 1.5rem;
+      font-family: var(--Fuenteprincipal);
+      background-color: black;
+      color: white;
+      width: 15rem;
+      font-size: 1.7rem;
+      font-family: var(--Fuenteprincipal);
+      } 
+  }
+
+  @media only screen and (min-width:600px) and (max-width:700px) {
+    .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+    }
+    
+    .formulario__campo-2 {
+      margin: auto;
+      font-size: 1.5rem;
+      font-family: var(--Fuenteprincipal);
+      background-color: black;
+      color: white;
+      width: 15rem;
+      font-size: 1.7rem;
+      font-family: var(--Fuenteprincipal);
+      } 
+  }
+
+  @media only screen and (min-width:600px) and (max-width:599px) {
+ 
+ 
+  }
+
+  @media only screen and (min-width: 542px) and (max-width:699px) {
+    button {
+      background-color: black;
+      color: var(--ColorBlanco);
+     width: 11rem;
+     height: 2.3rem;
+     transition: .2s;
+     cursor: pointer;
+     }
+     button span {
+       font-size: 1.7rem;
+       transition: .2s;
+     }
+     button:active {
+       transform: scale(0.9);
+     }
+  
+     .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+    }
+    
+    .formulario__campo-2 {
+      margin: auto;
+      font-size: 1.5rem;
+      font-family: var(--Fuenteprincipal);
+      background-color: black;
+      color: white;
+      width: 15rem;
+      font-size: 1.7rem;
+      font-family: var(--Fuenteprincipal);
+      } 
+    }
+  
+
+  @media only screen and (min-width: 469px) and (max-width:541px) {
+button {
+  color: var(--ColorBlanco);
+  background-color: black;
+  transition: .2s;
+  width: 8rem;
+  height: 3rem;
+  cursor: pointer;
+}
+button span {
+  font-size: 1.4rem;
+transition: .2s;
+}
+button:active {
+  transform: scale(0.9);
+}
+  
+.input-contenedor-2 {
+  border: solid;
+  width: 18rem;
+ border-color:rgb(255, 255, 255);
+
+
+}
+.formulario__campo-2 {
+margin: auto;
+font-size: 1.2rem;
+font-family: var(--Fuenteprincipal);
+background-color: black;
+color: white;
+width: 9rem;
+height: 3rem;
+font-size: 1.5rem;
+font-family: var(--Fuenteprincipal);
+}
+
+}
+
+
+@media only screen and (min-width: 407px) and (max-width:468px) {
+  .input-contenedor-2 {
+    border: solid;
+    width: 18rem;
+   border-color:rgb(255, 255, 255);
   
   
+  }
+  .formulario__campo-2 {
+  margin: auto;
+  font-size: 1.2rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 9rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  }
+  button {
+    color: var(--ColorBlanco);
+    background-color: black;
+    transition: .2s;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+  button span {
+    font-size: 1.4rem;
+  transition: .2s;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width:406px) {
+  
+  .input-contenedor-2 {
+    border: solid;
+    width: 18rem;
+   border-color:rgb(255, 255, 255);
   
   
-   
+  }
+  .formulario__campo-2 {
+  margin: auto;
+  font-size: 1.2rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 9rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  }
   
+  button {
+    color: var(--ColorBlanco);
+    background-color: black;
+    transition: .2s;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+  button span {
+    font-size: 1.4rem;
+  transition: .2s;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+}
+
+
+@media only screen and (min-width:0px) and (max-width:364px) {
+ .input-contenedor-2 {
+    border: solid;
+    width: 18rem;
+   border-color:rgb(255, 255, 255);
+  
+  
+  }
+  .formulario__campo-2 {
+  margin: auto;
+  font-size: 1.2rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 9rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  }
+  
+  button {
+    color: var(--ColorBlanco);
+    background-color: black;
+    transition: .2s;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+  button span {
+    font-size: 1.4rem;
+  transition: .2s;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+}
   /* @media (max-width: 768px) {
     .contenedor-grid {
         grid-template-rows: 10rem 5rem 1fr 1rem;
@@ -753,7 +1082,22 @@
   }
   /**H2 - H3**/
   
-  
+  /* .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
+  }
+  .formulario__campo-2 {
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 15rem;
+  font-size: 1.7rem;
+  font-family: var(--Fuenteprincipal);
+  }  */
+
   
   
     /*Cajas y imagenes*/
@@ -853,7 +1197,7 @@
       .imagen-3 {
         border: solid;
         height: 25.4rem;
-        width: 40rem;
+        width: 39rem;
         margin-left: 2.5rem;
       margin-top: 4rem;
       }
@@ -888,23 +1232,10 @@
         font-size: 1.6rem;
         font-family: var(--Fuenteprincipal);
       }
-      .input-contenedor-2 {
-        border: solid;
-        width: auto;
-       border-color:rgb(255, 255, 255);
-      }
-      .formulario__campo-2 {
-      margin: auto;
-      font-size: 1.5rem;
-      font-family: var(--Fuenteprincipal);
-      background-color: black;
-      color: white;
-      width: 15rem;
-      font-size: 1.7rem;
-      font-family: var(--Fuenteprincipal);
-      }
+     
+    
+    
     } 
-  
   
   
   
