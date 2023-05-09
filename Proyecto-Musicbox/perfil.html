@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    </style>
+    <title>Proyecto2</title>
+</head>
+<body class="contenedor-grid">
+    <header class="header">
+        <nav class="nav" id="nav">
+            <ul class="NAV-LIST">
+              <li class="Listas"><a href="index.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/house-black-silhouette-without-door.png"></i>Inicio</a></li>
+              <li class="Listas"><a href="perfil.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-2" src="/Proyecto-Musicbox/iconos/music-lover.png"></i>Perfil</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-3" src="/Proyecto-Musicbox/iconos/album-de-musica.png"></i>Listenlist</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-4" src="/Proyecto-Musicbox/iconos/icono.png"></i>Listas</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-5" src="/Proyecto-Musicbox/iconos/chat.png"></i>Reviews</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-5" src="/Proyecto-Musicbox/iconos/grupo.png"></i>Actividad</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-5" src="/Proyecto-Musicbox/iconos/exit.png"></i>Cerrar sesíon</a></li>
+              </ul>
+              <div class="hamburguer">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </div>
+          </nav>
+    </header>
+    <nav class="navbar">
+<div class="contenedor-perfil">
+    <picture>
+        <img src="/Proyecto-Musicbox/iconos/zeppelin.jpg"zeppelin" class="imagen-perfil">
+    </picture>
+  <h2 class="h2-nombre">gabo.alvarez</h2>
+</div>
+<button aria-label="setting" class="boton__tuerca" id="btn-abrir-modal">
+    <i class="Listas-i"><img class="imagen-icono-1" src="/Proyecto-Musicbox/iconos/settings.png"></i>
+    <span class="texto-tuerca">Mofidicar perfil</span>
+</button>
+
+<dialog  id="modal">
+<h2 id="h2-usuario">Nombre de usuario</h2>
+<input type="text" placeholder="Nombre usuario actual" class="input-usuario">
+<h2 class ="h2-avatar">Avatar actual</h2>
+<img src="/Proyecto-Musicbox/iconos/zeppelin.jpg" alt="zeppelin" class="imagen-modal">
+
+
+<button id="btn-cerrar-modal">cerrar modal</button>
+</dialog>
+  </nav>
+ 
+  <main class="main">
+    <h2 id="H2">Artistas Favoritos</h2>
+<div class="carrusel__contenedor">
+    <div class="carrusel">
+    <div class="carrusel__contenedor">
+        <button aria-label="Anterior" class="carrusel__anterior">
+            <i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/back.png"></i>
+        </button>
+
+
+<div class="carrusel__lista">
+    <div class="carrusel__elemento">
+    <img src="/Proyecto-Musicbox/albums/adele.png" alt="adele" class="imagen-4">
+    <h3 id="h3-1">Adele</h3>  
+</div>
+<div class="carrusel__elemento">
+    <img src="/Proyecto-Musicbox/albums/Cerati.jpg" alt="Soda Stereo" class="imagen-4">
+    <h3 id="h3-1">Soda Stereo</h3>  
+</div>
+<div class="carrusel__elemento">
+    <img src="/Proyecto-Musicbox/albums/Queen.jpg" alt="Queen" class="imagen-4">
+    <h3 id="h3-1">Queen</h3>  
+</div>
+<div class="carrusel__elemento">
+    <img src="/Proyecto-Musicbox/albums/The_Beatles.jpg" alt="The Beatles" class="imagen-4">
+    <h3 id="h3-1">The Beatles</h3>  
+</div>
+<div class="carrusel__elemento">
+    <img src="/Proyecto-Musicbox/albums/adele.png" alt="adele" class="imagen-4">
+    <h3 id="h3-1">Adele</h3> 
+</div>
+</div>
+
+
+        <button aria-label="Anterior" class="carrusel__siguiente">
+            <i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/next.png"></i>
+        </button>
+    </div>
+
+    <div role="tablist" class="carrusel__indicadores"></div>
+</div>
+</div>
+
+<div class="contenedor-albums-favoritos">
+<div class="elementos-seccion">
+    <div class="elementos-1">
+        <h2 id="H2-editado">Albumes Favoritos</h2>
+<img src="/Proyecto-Musicbox/albums/triangulo.png" alt="triangulo" class="imagen-1-editada-1">
+<h3 id="h3-1-editado-2">The Dark Side of the Moon</h3> 
+    </div>
+    <div class="elementos-1">
+<img src="/Proyecto-Musicbox/albums/The_Wall.png" alt="the The_Wall" class="imagen-2-editada">
+<h3 id="h3-1-editado">The Wall</h3>
+</div>
+    <div class="elementos-2">
+        <h2 id="H2-editado-2">Actividad Reciente</h2>
+<img src="/Proyecto-Musicbox/albums/triangulo.png" alt="triangulo" class="imagen-1-editada-1">
+<h3 id="h3-1-editado-2">The Dark Side of the Moon</h3> 
+    </div>
+    <div class="elementos-2">
+<img src="/Proyecto-Musicbox/albums/comfort.jpg" alt="triangulo" class="imagen-1-editada-comfort">
+<h3 id="h3-1-editado">Comfort y musica para volar</h3> 
+    </div>
+
+</div>
+
+
+ 
+</main>
+    <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+    <script src="menu.js"></script>
+    <script src="app.js"></script>
+    <script src="perfil.js"></script>
+</body>
+</html>
+  
+
+</html>
