@@ -89,39 +89,47 @@
     }
    .boton__tuerca {
     margin-left: 42.5%;
-    margin-top:1rem;
-    height: 3rem;
     font-size: 1.3rem;
     background-color: rgba(13, 87, 214, 0.237);
-   }
-   .h2-nombre {
-    margin-left: 44.33%;
-    color: var(--ColorBlanco);
-   }
-   .texto-tuerca {
-    font-size: 1.5rem;
-    background-color:var(--ColorPrincipal);
-    color: var(--ColorBlanco);
-    border:solid;
-   }
-.imagen-2-modal {
+    overflow: hidden;
+    width: 15rem;
+    display: inline-flex;
+    gap: .1rem;
+   } 
 
-}
+  
+  
+   .texto-tuerca {
+    font-size: 1.6rem;
+    margin-top: .1rem;
+    color: var(--ColorBlanco);
+   }
+
 
    .texto-tuerca:hover {
-    font-size: 1.6rem;
-    background-color:black;
-    color: rgb(143, 255, 255);
+    color: rgb(53, 245, 187);
     transition: .1s;
+    margin-top: .1rem;
+    
    }
 
    .boton__tuerca:hover {
     font-size: 1.6rem;
-    background-color: rgb(4, 66, 107);
+    display: inline-block;
+     background-color: rgb(4, 66, 107);
     color: aqua;
-    transition: .1s;
+     
+    transition: .1s; 
+    overflow: hidden;
+    
+    display: inline-flex;
+    gap: .1rem;
    }
-
+  
+   .h2-nombre {
+    margin-left: 44.33%;
+    color: var(--ColorBlanco);
+   }
 
 /*MODAL*/
 #modal{ 
@@ -428,21 +436,7 @@ color: var(--ColorBlanco);
   }
  
 
-.buscar {
- background-color: black;
- color: var(--ColorBlanco);
-width: 11rem;
-height: 2.3rem;
-transition: .2s;
-cursor: pointer;
-}
-.buscar span {
-  font-size: 1.7rem;
-  transition: .2s;
-}
-.buscar:active {
-  transform: scale(0.9);
-}
+
 
 }
   
@@ -478,43 +472,51 @@ cursor: pointer;
       border-radius: 1rem;
     }
     .imagen-icono-1 {
-      width: 2.5rem;
-     
+      width: 2.5rem; 
     }
-   .boton__tuerca {
-    margin-left: 42.5%;
-    margin-top:1rem;
-    height: 3rem;
-    font-size: 1.3rem;
-    background-color: rgba(13, 87, 214, 0.237);
-   }
+
    .h2-nombre {
     margin-left: 44.33%;
     color: var(--ColorBlanco);
    }
-   .texto-tuerca {
-    font-size: 1.5rem;
-    background-color:var(--ColorPrincipal);
-    color: var(--ColorBlanco);
-    border:solid;
-   }
-.imagen-2-modal {
+ 
 
-}
+   .boton__tuerca {
+    margin-left: 42.5%;
+    font-size: 1.3rem;
+    background-color: rgba(13, 87, 214, 0.237);
+    overflow: hidden;
+    width: 15rem;
+    display: inline-flex;
+    gap: .1rem;
+   } 
+
+  
+  
+   .texto-tuerca {
+    font-size: 1.6rem;
+    margin-top: .1rem;
+    color: var(--ColorBlanco);
+   }
+
 
    .texto-tuerca:hover {
-    font-size: 1.6rem;
-    background-color:black;
-    color: rgb(143, 255, 255);
+    color: rgb(53, 245, 187);
     transition: .1s;
+    margin-top: .1rem;
    }
 
    .boton__tuerca:hover {
     font-size: 1.6rem;
-    background-color: rgb(4, 66, 107);
+    display: inline-block;
+     background-color: rgb(4, 66, 107);
     color: aqua;
-    transition: .1s;
+    transition: .1s; 
+    overflow: hidden;
+    display: inline-flex;
+    gap: .1rem;
    }
+   
 
 
 /*MODAL*/
@@ -734,21 +736,7 @@ color: var(--ColorBlanco);
   background-color: var(--ColorNav);
   }
   
-  .input-contenedor-2 {
-    border: solid;
-    width: auto;
-   border-color:rgb(255, 255, 255);
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 15rem;
-  font-size: 1.7rem;
-  font-family: var(--Fuenteprincipal);
-  } 
+
 
 
   /**H2 - H3**/
@@ -821,45 +809,8 @@ color: var(--ColorBlanco);
     height: 3rem;
   }
  
-
-.buscar {
- background-color: black;
- color: var(--ColorBlanco);
-width: 11rem;
-height: 2.3rem;
-transition: .2s;
-cursor: pointer;
-}
-.buscar span {
-  font-size: 1.7rem;
-  transition: .2s;
-}
-.buscar:active {
-  transform: scale(0.9);
-}
-    
     }
   
-
-
-
-
-
-
-
-
-
-
-
-
-    
-  /* .imagen-4 {
-  margin-top: 6rem;
-  } */
-  /* #h3-4 {
-  color: var(--ColorBlanco);
-  margin: auto;
-  } */
   .NAV-LIST a {
     font-size: 2rem;
   }
@@ -884,13 +835,7 @@ cursor: pointer;
       "footer footer footer" 
   }   
     
-    /* .contenedor-main {
-      display: grid;
-      gap: 1rem;
-      grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr;                  
-   
-    } */
+  
     
  
     
@@ -903,40 +848,53 @@ cursor: pointer;
       width: 2.5rem;
      
     }
-   .boton__tuerca {
-    margin-left: 42.5%;
-    margin-top:1rem;
-    height: 3rem;
-    font-size: 1.3rem;
-    background-color: rgba(13, 87, 214, 0.237);
-   }
+ 
    .h2-nombre {
     margin-left: 44.33%;
     color: var(--ColorBlanco);
    }
-   .texto-tuerca {
-    font-size: 1.5rem;
-    background-color:var(--ColorPrincipal);
-    color: var(--ColorBlanco);
-    border:solid;
-   }
-.imagen-2-modal {
 
-}
+   .boton__tuerca {
+    margin-left: 42.5%;
+    font-size: 1.3rem;
+    background-color: rgba(13, 87, 214, 0.237);
+    overflow: hidden;
+    width: 15rem;
+    display: inline-flex;
+    gap: .1rem;
+   } 
+
+   .texto-tuerca {
+    font-size: 1.6rem;
+    margin-top: .1rem;
+   
+    color: var(--ColorBlanco);
+   }
+
 
    .texto-tuerca:hover {
-    font-size: 1.6rem;
-    background-color:black;
-    color: rgb(143, 255, 255);
+    color: rgb(53, 245, 187);
     transition: .1s;
+    margin-top: .1rem;
+    
    }
 
    .boton__tuerca:hover {
     font-size: 1.6rem;
-    background-color: rgb(4, 66, 107);
+    display: inline-block;
+     background-color: rgb(4, 66, 107);
     color: aqua;
-    transition: .1s;
+     
+    transition: .1s; 
+    overflow: hidden;
+    
+    display: inline-flex;
+    gap: .1rem;
    }
+
+  
+
+ 
 
 
 /*MODAL*/
@@ -1244,21 +1202,7 @@ color: var(--ColorBlanco);
   }
  
 
-.buscar {
- background-color: black;
- color: var(--ColorBlanco);
-width: 11rem;
-height: 2.3rem;
-transition: .2s;
-cursor: pointer;
-}
-.buscar span {
-  font-size: 1.7rem;
-  transition: .2s;
-}
-.buscar:active {
-  transform: scale(0.9);
-}
+
     
     }
   
@@ -1295,39 +1239,47 @@ cursor: pointer;
         width: 2.5rem;
        
       }
-     .boton__tuerca {
-      margin-left: 42.5%;
-      margin-top:1rem;
-      height: 3rem;
-      font-size: 1.3rem;
-      background-color: rgba(13, 87, 214, 0.237);
-     }
+
      .h2-nombre {
       margin-left: 44.33%;
       color: var(--ColorBlanco);
      }
-     .texto-tuerca {
-      font-size: 1.5rem;
-      background-color:var(--ColorPrincipal);
-      color: var(--ColorBlanco);
-      border:solid;
-     }
-  .imagen-2-modal {
   
-  }
+
+     .boton__tuerca {
+      margin-left: 42.5%;
+      font-size: 1.3rem;
+      background-color: rgba(13, 87, 214, 0.237);
+      overflow: hidden;
+      width: 15rem;
+      display: inline-flex;
+      gap: .1rem;
+     } 
+  
+    
+     .texto-tuerca {
+      font-size: 1.6rem;
+      margin-top: .1rem;
+     
+      color: var(--ColorBlanco);
+     }
+  
   
      .texto-tuerca:hover {
-      font-size: 1.6rem;
-      background-color:black;
-      color: rgb(143, 255, 255);
+      color: rgb(53, 245, 187);
       transition: .1s;
+      margin-top: .1rem;
      }
   
      .boton__tuerca:hover {
       font-size: 1.6rem;
-      background-color: rgb(4, 66, 107);
+      display: inline-block;
+       background-color: rgb(4, 66, 107);
       color: aqua;
-      transition: .1s;
+      transition: .1s; 
+      overflow: hidden;
+      display: inline-flex;
+      gap: .1rem;
      }
   
   
@@ -1639,22 +1591,7 @@ cursor: pointer;
       height: 3rem;
     }
    
-  
-  .buscar {
-   background-color: black;
-   color: var(--ColorBlanco);
-  width: 11rem;
-  height: 2.3rem;
-  transition: .2s;
-  cursor: pointer;
-  }
-  .buscar span {
-    font-size: 1.7rem;
-    transition: .2s;
-  }
-  .buscar:active {
-    transform: scale(0.9);
-  }
+
  
     }
 
@@ -1702,41 +1639,47 @@ cursor: pointer;
       width: 2.5rem;
      
     }
-   .boton__tuerca {
-    margin-left: 42.5%;
-    margin-top:1rem;
-    height: 3rem;
-    font-size: 1.3rem;
-    background-color: rgba(13, 87, 214, 0.237);
-   }
+
    .h2-nombre {
     margin-left: 44.33%;
     color: var(--ColorBlanco);
    }
-   .texto-tuerca {
-    font-size: 1.5rem;
-    background-color:var(--ColorPrincipal);
-    color: var(--ColorBlanco);
-    border:solid;
-   }
-.imagen-2-modal {
 
-}
+
+   .boton__tuerca {
+    margin-left: 42.5%;
+    font-size: 1.3rem;
+    background-color: rgba(13, 87, 214, 0.237);
+    overflow: hidden;
+    width: 15rem;
+    display: inline-flex;
+    gap: .1rem;
+   } 
+
+   .texto-tuerca {
+    font-size: 1.6rem;
+    margin-top: .1rem;
+   
+    color: var(--ColorBlanco);
+   }
 
    .texto-tuerca:hover {
-    font-size: 1.6rem;
-    background-color:black;
-    color: rgb(143, 255, 255);
+    color: rgb(53, 245, 187);
     transition: .1s;
+    margin-top: .1rem;
    }
 
    .boton__tuerca:hover {
     font-size: 1.6rem;
-    background-color: rgb(4, 66, 107);
+    display: inline-block;
+     background-color: rgb(4, 66, 107);
     color: aqua;
-    transition: .1s;
+    transition: .1s; 
+    overflow: hidden;
+    display: inline-flex;
+    gap: .1rem;
    }
-
+   
 
 /*MODAL*/
 #modal{ 
@@ -2047,22 +1990,6 @@ color: var(--ColorBlanco);
   }
  
 
-.buscar {
- background-color: black;
- color: var(--ColorBlanco);
-width: 11rem;
-height: 2.3rem;
-transition: .2s;
-cursor: pointer;
-}
-.buscar span {
-  font-size: 1.7rem;
-  transition: .2s;
-}
-.buscar:active {
-  transform: scale(0.9);
-}
-
   }
 
 
@@ -2106,40 +2033,48 @@ cursor: pointer;
       width: 2.5rem;
      
     }
-   .boton__tuerca {
-    margin-left: 42.5%;
-    margin-top:1rem;
-    height: 3rem;
-    font-size: 1.3rem;
-    background-color: rgba(13, 87, 214, 0.237);
-   }
+
    .h2-nombre {
     margin-left: 44.33%;
     color: var(--ColorBlanco);
    }
-   .texto-tuerca {
-    font-size: 1.5rem;
-    background-color:var(--ColorPrincipal);
-    color: var(--ColorBlanco);
-    border:solid;
-   }
-.imagen-2-modal {
 
-}
+
+
+   .boton__tuerca {
+    margin-left: 42.5%;
+    font-size: 1.3rem;
+    background-color: rgba(13, 87, 214, 0.237);
+    overflow: hidden;
+    width: 15rem;
+    display: inline-flex;
+    gap: .1rem;
+   } 
+
+   .texto-tuerca {
+    font-size: 1.6rem;
+    margin-top: .1rem;
+    color: var(--ColorBlanco);
+   }
 
    .texto-tuerca:hover {
-    font-size: 1.6rem;
-    background-color:black;
-    color: rgb(143, 255, 255);
+    color: rgb(53, 245, 187);
     transition: .1s;
+    margin-top: .1rem;
    }
 
    .boton__tuerca:hover {
     font-size: 1.6rem;
-    background-color: rgb(4, 66, 107);
+    display: inline-block;
+     background-color: rgb(4, 66, 107);
     color: aqua;
-    transition: .1s;
+    transition: .1s; 
+    overflow: hidden;
+    display: inline-flex;
+    gap: .1rem;
    }
+
+  
 
 
 /*MODAL*/
@@ -2449,23 +2384,7 @@ color: var(--ColorBlanco);
     width: 3.4rem;
     height: 3rem;
   }
- 
 
-.buscar {
- background-color: black;
- color: var(--ColorBlanco);
-width: 11rem;
-height: 2.3rem;
-transition: .2s;
-cursor: pointer;
-}
-.buscar span {
-  font-size: 1.7rem;
-  transition: .2s;
-}
-.buscar:active {
-  transform: scale(0.9);
-}
 
      }
   
