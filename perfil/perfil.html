@@ -17,7 +17,7 @@
     <header class="header">
         <nav class="nav" id="nav">
             <ul class="NAV-LIST">
-              <li class="Listas"><a href="index.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/house-black-silhouette-without-door.png"></i>Inicio</a></li>
+              <li class="Listas"><a href="/Proyecto-Musicbox/index.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/house-black-silhouette-without-door.png"></i>Inicio</a></li>
               <li class="Listas"><a href="perfil.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-2" src="/Proyecto-Musicbox/iconos/music-lover.png"></i>Perfil</a></li>
               <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-3" src="/Proyecto-Musicbox/iconos/album-de-musica.png"></i>Listenlist</a></li>
               <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-4" src="/Proyecto-Musicbox/iconos/icono.png"></i>Listas</a></li>
@@ -41,7 +41,7 @@
 </div>
 
 <button aria-label="setting" class="boton__tuerca" id="btn-abrir-modal">
-    <box-icon type='solid' animation="spin"  name='cog' size="md"></box-icon></i><p class="texto-tuerca">Modificar perfil</p></button>
+    <box-icon type='solid'   name='cog' size="md"></box-icon></i><p class="texto-tuerca">Modificar perfil</p></button>
 
 <dialog  id="modal">
 <h2 id="h2-usuario">Nombre de usuario</h2>
@@ -55,47 +55,23 @@
   </nav>
  
   <main class="main">
-    <h2 id="H2">Artistas Favoritos</h2>
-<div class="carrusel__contenedor">
-    <div class="carrusel">
-    <div class="carrusel__contenedor">
-        <button aria-label="Anterior" class="carrusel__anterior">
-            <i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/back.png"></i>
-        </button>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <h2 id="H2">Artistas favoritos</h2>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+<img src="/Proyecto-Musicbox/albums/adele.png" alt="" class="item current-item">
+<img src="/Proyecto-Musicbox/albums/Cerati.jpg" alt="" class="item current-item">
+<img src="/Proyecto-Musicbox/albums/Queen.jpg" alt="" class="item current-item">
+<img src="/Proyecto-Musicbox/albums/The_Beatles.jpg" alt="" class="item current-item">
+
+          </div>
+        </div>
+      </div>
 
 
-<div class="carrusel__lista">
-    <div class="carrusel__elemento">
-    <img src="/Proyecto-Musicbox/albums/adele.png" alt="adele" class="imagen-4">
-    <h3 id="h3-1">Adele</h3>  
-</div>
-<div class="carrusel__elemento">
-    <img src="/Proyecto-Musicbox/albums/Cerati.jpg" alt="Soda Stereo" class="imagen-4">
-    <h3 id="h3-1">Soda Stereo</h3>  
-</div>
-<div class="carrusel__elemento">
-    <img src="/Proyecto-Musicbox/albums/Queen.jpg" alt="Queen" class="imagen-4">
-    <h3 id="h3-1">Queen</h3>  
-</div>
-<div class="carrusel__elemento">
-    <img src="/Proyecto-Musicbox/albums/The_Beatles.jpg" alt="The Beatles" class="imagen-4">
-    <h3 id="h3-1">The Beatles</h3>  
-</div>
-<div class="carrusel__elemento">
-    <img src="/Proyecto-Musicbox/albums/adele.png" alt="adele" class="imagen-4">
-    <h3 id="h3-1">Adele</h3> 
-</div>
-</div>
-
-
-        <button aria-label="Anterior" class="carrusel__siguiente">
-            <i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/next.png"></i>
-        </button>
-    </div>
-
-    <div role="tablist" class="carrusel__indicadores"></div>
-</div>
-</div>
+   
 
 <div class="contenedor-albums-favoritos">
 <div class="elementos-seccion">
@@ -117,7 +93,6 @@
 <img src="/Proyecto-Musicbox/albums/comfort.jpg" alt="triangulo" class="imagen-1-editada-comfort">
 <h3 id="h3-1-editado">Comfort y musica para volar</h3> 
     </div>
-
 </div>
 
 
@@ -127,7 +102,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="menu.js"></script>
+    <script src="/Proyecto-Musicbox/menu.js"></script>
     <script src="app.js"></script>
     <script src="perfil.js"></script>
 </body>

@@ -464,7 +464,7 @@ color: var(--ColorBlanco);
    
     }
     
- 
+    
     
     .imagen-perfil {
       margin-left: 43.3%;
@@ -739,36 +739,7 @@ color: var(--ColorBlanco);
 
 
 
-  /**H2 - H3**/
-  
-  /* #H2 {
-    color: var(--ColorBlanco);
-    margin-left: rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-  }
-  
-  #H2-dos {
-    color: var(--ColorBlanco);
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
-  #h3-1 {
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem;
-  }
-  #h3-2{
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem
-  }
-  #h3-3{
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem;
-  }
-  #h3-4{
-    color: var(--ColorBlanco);
-   text-align: center;
-  } */
+ 
   .footer {
     background-color: var(--ColorPrincipal);
   }
@@ -836,7 +807,13 @@ color: var(--ColorBlanco);
   }   
     
   
-    
+  .container {
+    position: relative;
+    margin-top: 5rem;
+    padding: 15px;
+    max-width: 70rem;
+   
+  } 
  
     
     .imagen-perfil {
@@ -1114,53 +1091,7 @@ color: var(--ColorBlanco);
   background-color: var(--ColorNav);
   }
   
-  /* .input-contenedor-2 {
-    border: solid;
-    width: auto;
-   border-color:rgb(255, 255, 255);
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 15rem;
-  font-size: 1.7rem;
-  font-family: var(--Fuenteprincipal);
-  }  */
-
-
-  /**H2 - H3**/
   
-  /* #H2 {
-    color: var(--ColorBlanco);
-    margin-left: rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-  }
-  
-  #H2-dos {
-    color: var(--ColorBlanco);
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
-  #h3-1 {
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem;
-  }
-  #h3-2{
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem
-  }
-  #h3-3{
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem;
-  }
-  #h3-4{
-    color: var(--ColorBlanco);
-   text-align: center;
-  } */
   .footer {
     background-color: var(--ColorPrincipal);
   }
@@ -1219,13 +1150,7 @@ color: var(--ColorBlanco);
         "footer footer" 
     }   
       
-      /* .contenedor-main {
-        display: grid;
-        gap: 1rem;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;                  
-     
-      } */
+   
       
    
       
@@ -1504,53 +1429,7 @@ color: var(--ColorBlanco);
     background-color: var(--ColorNav);
     }
     
-    /* .input-contenedor-2 {
-      border: solid;
-      width: auto;
-     border-color:rgb(255, 255, 255);
-    }
-    .formulario__campo-2 {
-    margin: auto;
-    font-size: 1.5rem;
-    font-family: var(--Fuenteprincipal);
-    background-color: black;
-    color: white;
-    width: 15rem;
-    font-size: 1.7rem;
-    font-family: var(--Fuenteprincipal);
-    }  */
   
-  
-    /**H2 - H3**/
-    
-    /* #H2 {
-      color: var(--ColorBlanco);
-      margin-left: rem;
-      margin-bottom: 2rem;
-      font-size: 2rem;
-    }
-    
-    #H2-dos {
-      color: var(--ColorBlanco);
-      margin-top: 1rem;
-      margin-left: 2rem;
-    }
-    #h3-1 {
-    color: var(--ColorBlanco);
-    margin-left: 2.4rem;
-    }
-    #h3-2{
-    color: var(--ColorBlanco);
-    margin-left: 2.4rem
-    }
-    #h3-3{
-    color: var(--ColorBlanco);
-    margin-left: 2.4rem;
-    }
-    #h3-4{
-      color: var(--ColorBlanco);
-     text-align: center;
-    } */
     .footer {
       background-color: var(--ColorPrincipal);
     }
@@ -1902,53 +1781,7 @@ color: var(--ColorBlanco);
   background-color: var(--ColorNav);
   }
   
-  /* .input-contenedor-2 {
-    border: solid;
-    width: auto;
-   border-color:rgb(255, 255, 255);
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 15rem;
-  font-size: 1.7rem;
-  font-family: var(--Fuenteprincipal);
-  }  */
 
-
-  /**H2 - H3**/
-  
-  /* #H2 {
-    color: var(--ColorBlanco);
-    margin-left: rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-  }
-  
-  #H2-dos {
-    color: var(--ColorBlanco);
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
-  #h3-1 {
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem;
-  }
-  #h3-2{
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem
-  }
-  #h3-3{
-  color: var(--ColorBlanco);
-  margin-left: 2.4rem;
-  }
-  #h3-4{
-    color: var(--ColorBlanco);
-   text-align: center;
-  } */
   .footer {
     background-color: var(--ColorPrincipal);
   }
@@ -1992,21 +1825,40 @@ color: var(--ColorBlanco);
 
   }
 
-
+ 
+  @media only screen and (min-width: 800px) and (max-width:831px) {
+    .NAV-LIST a {
+      font-size: 1.8rem;
+    }
+  }
 
   @media only screen and (min-width:749px) and (max-width:830px) {
-.NAV-LIST a {
-  font-size: 1.7rem;
+
+.container {
+  position: relative;
+  margin-top: 5rem;
+  padding: 15px;
+  max-width: 70rem;
 }
   }
-  @media only screen and (min-width:701px) and (max-width:745px) {
+
+
+  @media only screen and (min-width: 700px) and (max-width:799px) {
     .NAV-LIST a {
-      font-size: 1.7rem;
+      font-size: 1.7rem
     }
+  }
+
+  @media only screen and (min-width:701px) and (max-width:748px) {
+    
+
+    .container {
+      position: relative;
+      margin-top: 5rem;
+      padding: 15px;
+      max-width: 70rem;
+    } 
       }
-
-
-
 
 
   @media only screen and (min-width:0px) and (max-width:499px) {
@@ -2548,7 +2400,7 @@ color: var(--ColorBlanco);
           text-decoration: none;
           color: var(--ColorBlanco)
         }
-        /.hamburguer {
+        .hamburguer {
           display: none;
           cursor: pointer
         }
@@ -2565,50 +2417,23 @@ color: var(--ColorBlanco);
          
   
   
-  
+
   
   
   
         @media only screen and (min-width: 0px) and (max-width:700px) {
-        /* .contenedor-grid{
-            display: grid;
-          
-        grid-template-areas: 
-         "header"
-          "navbar"
-          "main"
-          "footer";
-        }
-        .header {
-            grid-area: header;
-            background-color:var(--ColorNav);
+          .container {
+            position: relative;
+            margin-top: 13rem;
+            padding: 15px;
+            max-width: 70rem;
            
-            
-        }
-        .navbar {
-            grid-area: navbar;
-           background-color: var(--ColorNav);
-        }
-        .main {
-            grid-area: main;
-            background-color: var(--ColorPrincipal);
-        }
-        .footer {
-            grid-area: footer;
-            background-color: var(--ColorPrincipal);
-        }
-        #H2 {
-          color: var(--ColorBlanco);
-          margin-left: 3rem;
-          margin-bottom: 2rem;
-          font-size: 2rem;
-        }
-        #h3-4{
-          color: var(--ColorBlanco);
-        margin-left: 15.5rem;
-       
-        } */
+          } 
  
+
+        
+
+
         .hamburguer {
           display: block;
         }
@@ -2644,7 +2469,8 @@ color: var(--ColorBlanco);
         } 
        
       }     
-  
+       
+    
         
         .NAV-LIST.active {
           right: 0;
@@ -2801,9 +2627,76 @@ color: var(--ColorBlanco);
       } */
     
      
-    
-    
+
     } 
+
+
+
+    .container {
+      position: relative;
+      margin-top: 4rem;
+      padding: 14px;
+      max-width: 70rem;
+     
+    } 
+
   
-  
-  
+.gallery-wrapper {
+overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+position: absolute;
+top: 0;
+left: 0;
+right: auto;
+bottom: 0;
+font-size: 20px;
+line-height: 250px;
+width: 40px;
+color: #fff;
+transition: all 600ms ease-in-out;
+background: linear-gradient(to left, transparent 0%, black 200%);
+opacity: 0.1;
+cursor: pointer;
+border: none;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+opacity: 1;
+}
+.arrow-right {
+right: 0;
+left: auto;
+text-align: right;
+background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+
+.gallery {
+display: flex;
+flex-flow: row nowrap;
+gap: 15px;
+}
+
+.item {
+width: 300rem;
+height: 250px;
+flex-shrink: 0;
+/* transition: all 600ms ease-in-out; */
+opacity: 0.5;
+}
+.current-item {
+opacity: 1;
+}
+
+
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.gallery-wrapper {
+-ms-overflow-style: none; /* IE and Edge */
+scrollbar-width: none; /* Firefox */
+}
+

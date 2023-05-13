@@ -621,55 +621,7 @@ font-family: var(--Fuenteprincipal);
     transform: scale(0.9);
   }
 }
-  /* @media (max-width: 768px) {
-    .contenedor-grid {
-        grid-template-rows: 10rem 5rem 1fr 1rem;
-        grid-template-areas: 
-        "header header"
-        "navbar navbar"
-         "main  main"
-         "footer footer" }
-   
-         .barra {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: row-reverse;
-            }
-   
-            .footer {
-              grid-area: footer;
-              padding: 1rem;
-            }
-            .NAV-LIST a {
-              font-size: 1.2rem;
-            } */
-  
-            /* .contenedor-inputs {
-              margin-right: 17rem;
-              margin-top: 2rem;
-              border: solid;
-             
-             }
-          
-            .input-contenedor-1 {
-            
-              border: solid;
-              border-radius: 1rem;
-            border-style: solid;
-            border-color: rgb(10, 79, 208);
-              }
-              .formulario-1 {
-              font-size: 1.4rem;
-              }
-              .input-contenedor-2 {
-              border: solid;
-              border-style: solid;
-              border-radius: 1rem;
-              border-color: rgb(10, 79, 208);
-              font-size: 1.4rem;
-              
-            } */
+
   
             .imagen-icono {
               width: 2.4rem;
@@ -710,129 +662,7 @@ font-family: var(--Fuenteprincipal);
             }
             
   
-  /* 
-  @media (min-width: 769px) {
-  .imagen-icono {
-    width: 2.4rem;
-    margin-top: 1px;
-  }
-  .imagen-icono-2 {
-    width: 2.6rem;
-    margin-top: 1.2px;
-  
-  }
-  .imagen-icono-3 {
-    width: 2.5rem;
-    margin-top: 1px;
-  }
-  .imagen-icono-4 {
-    width: 2.5rem;
-    margin-top: 1px;
-  }
-  .imagen-icono-5 {
-    width: 2.5rem;
-    margin-top: 1px;
-  }
-  .imagen-icono-6 {
-    width: 2.9rem;
-    margin-top: 1px;
-  }
-  .imagen-icono-7 {
-    width: 2.5rem;
-    margin-top: 1px;
-  }
-  .imagen-icono-logo {
-    width: 3.4rem;
-    height: 3rem;
-  }
-  .NAV-LIST a {
-    font-size: 1.6rem;
-  }
-  .NAV-LIST a:hover{
-    transition: 0.3s ease;
-    color: aqua;
-  }
-  
-  .barra {
-    border-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
-  }
-  .input-contenedor-1 {
-  border: solid;
-  border-radius: 1rem;
-  
-  width: auto;
-  margin-left: 33.3%;
-  }
-  .formulario__campo-1{
-    background-color: black;
-    color: white;
-    width: 25rem;
-    font-size: 1.7rem;
-    font-family: var(--Fuenteprincipal);
-  }
-  .input-contenedor-2 {
-    border: solid;
-    width: auto;
-   border-color:rgb(255, 255, 255);
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 25rem;
-  font-size: 1.7rem;
-  font-family: var(--Fuenteprincipal);
-  }
-  } */
-  
-  
-  
-  
-  
-  
-  
-  
-  /* .barra {
-    border-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
-  }
-  .input-contenedor-1 {
-  border: solid;
-  border-radius: 1rem;
-  
-  width: auto;
-  margin-left: 33.3%;
-  }
-  .formulario__campo-1{
-    background-color: black;
-    color: white;
-    width: 25rem;
-    font-size: 1.7rem;
-    font-family: var(--Fuenteprincipal);
-  }
-  .input-contenedor-2 {
-    border: solid;
-    width: auto;
-   border-color:rgb(255, 255, 255);
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 25rem;
-  font-size: 1.7rem;
-  font-family: var(--Fuenteprincipal);
-  } */
-  
+
   
   
   
@@ -1234,7 +1064,6 @@ font-family: var(--Fuenteprincipal);
         font-family: var(--Fuenteprincipal);
       }
      
-    
     
     } 
   
