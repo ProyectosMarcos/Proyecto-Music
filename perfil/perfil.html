@@ -44,13 +44,42 @@
     <box-icon type='solid'   name='cog' size="md"></box-icon></i><p class="texto-tuerca">Modificar perfil</p></button>
 
 <dialog  id="modal">
-<h2 id="h2-usuario">Nombre de usuario</h2>
-<input type="text" placeholder="Nombre usuario actual" class="input-usuario">
-<h2 class ="h2-avatar">Avatar actual</h2>
-<img src="/Proyecto-Musicbox/iconos/zeppelin.jpg" alt="zeppelin" class="imagen-modal">
+   
+<div class="container-1">
+    <div class="form-content">
+      
+    <form>
+        <h1 id="title">Editar perfil</h1>
+        <h2 id="usuario-title">Usuario</h2>
 
 
-<button id="btn-cerrar-modal">cerrar modal</button>
+  
+  
+   <img src="/Proyecto-Musicbox/iconos/music-lover.png" alt="" class="imagen-icono-user">
+    <input type="text" placeholder="Nombre de usuario actual" id="input-usuario">
+    <h2 id="H2-modal">Avatar actual</h2>
+   <div class="contenedor-imagen">
+    <img src="/Proyecto-Musicbox/iconos/zeppelin.jpg" alt="zeppelin" class="imagen-modal"> 
+    </div>
+    <input class="input-archivo" type="text" placeholder="Seleccionar archivo" >
+
+    <h2 class="contraseña-actual">Contraseña actual</h2>
+    <input type="text" placeholder="Ingresar contraseña" id="ingresar-contraseña">
+
+    <h2 class="contraseña-nueva">Contraseña nueva</h2>
+    <input type="text" placeholder="Ingresar contraseña" id="nueva-contraseña">
+    
+
+    <h2 class="confirmar">Confirmar contraseña actual</h2>
+    <input  class="confirmar-contraseña" type="text" placeholder="Ingresar contraseña">
+
+<button id="Guardar">Guardar</button>
+<button id="btn-cerrar-modal">Cerrar</button>
+    </form>
+   
+   
+</div>
+
 </dialog>
   </nav>
  
@@ -100,7 +129,7 @@
 </main>
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="/Proyecto-Musicbox/menu.js"></script>
     <script src="app.js"></script>
