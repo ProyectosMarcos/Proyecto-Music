@@ -255,6 +255,8 @@ margin-top: 1rem;
   padding: .3rem;
   font-size: 1.2rem;
   cursor: pointer;
+  background-color: black;
+  color: var(--ColorBlanco);
 }
 #btn-cerrar-modal {
   border: solid;
@@ -262,6 +264,9 @@ margin-top: 1rem;
   padding: .3rem;
   font-size: 1.2rem;
   cursor: pointer;
+  background-color: black;
+  color: var(--ColorBlanco);
+ 
 }
 
 .input-usuario {
@@ -665,12 +670,16 @@ cursor: pointer;
     padding: .3rem;
     font-size: 1.2rem;
     cursor: pointer;
+    background-color: black;
+  color: var(--ColorBlanco);
   }
   #btn-cerrar-modal {
     border: solid;
     border-style: outset;
     padding: .3rem;
     font-size: 1.2rem;
+    background-color: black;
+  color: var(--ColorBlanco);
     cursor: pointer;
   }
   
@@ -805,6 +814,8 @@ cursor: pointer;
       padding: .3rem;
       font-size: 1.2rem;
       cursor: pointer;
+      background-color: black;
+  color: var(--ColorBlanco);
     }
     #btn-cerrar-modal {
       border: solid;
@@ -812,6 +823,8 @@ cursor: pointer;
       padding: .3rem;
       font-size: 1.2rem;
       cursor: pointer;
+      background-color: black;
+  color: var(--ColorBlanco);
     }
     
   }
@@ -938,6 +951,8 @@ cursor: pointer;
         padding: .3rem;
         font-size: 1.2rem;
         cursor: pointer;
+        background-color: black;
+        color: var(--ColorBlanco);
       }
       #btn-cerrar-modal {
         border: solid;
@@ -945,6 +960,8 @@ cursor: pointer;
         padding: .3rem;
         font-size: 1.2rem;
         cursor: pointer;
+        background-color: black;
+        color: var(--ColorBlanco);
       }
       
 
@@ -1077,6 +1094,8 @@ cursor: pointer;
         padding: .3rem;
         font-size: 1.2rem;
         cursor: pointer;
+        background-color: black;
+        color: var(--ColorBlanco);
       }
       #btn-cerrar-modal {
         border: solid;
@@ -1084,8 +1103,10 @@ cursor: pointer;
         padding: .3rem;
         font-size: 1.2rem;
         cursor: pointer;
+        background-color: black;
+        color: var(--ColorBlanco);
       }
-      
+
     }
   
 
@@ -1213,6 +1234,8 @@ cursor: pointer;
           padding: .3rem;
           font-size: 1.2rem;
           cursor: pointer;
+          background-color: black;
+          color: var(--ColorBlanco);
         }
         #btn-cerrar-modal {
           border: solid;
@@ -1220,6 +1243,8 @@ cursor: pointer;
           padding: .3rem;
           font-size: 1.2rem;
           cursor: pointer;
+          background-color: black;
+          color: var(--ColorBlanco);
         }
         
       }
@@ -1231,9 +1256,9 @@ cursor: pointer;
         #modal{ 
         border: none;
         width: auto;
-          background: none;
-          background-repeat: no-repeat;
-          cursor: pointer;
+        background: none;
+        background-repeat: no-repeat;
+        cursor: pointer;
           }
           
           .boton__tuerca {
@@ -1345,6 +1370,8 @@ cursor: pointer;
             padding: .3rem;
             font-size: 1.2rem;
             cursor: pointer;
+            background-color: black;
+            color: var(--ColorBlanco);
           }
           #btn-cerrar-modal {
             border: solid;
@@ -1352,6 +1379,8 @@ cursor: pointer;
             padding: .3rem;
             font-size: 1.2rem;
             cursor: pointer;
+            background-color: black;
+            color: var(--ColorBlanco);
           }
         }
 
@@ -1365,6 +1394,7 @@ cursor: pointer;
             background: none;
             background-repeat: no-repeat;
             cursor: pointer;
+            
             }
             
             .boton__tuerca {
@@ -1478,6 +1508,8 @@ cursor: pointer;
               border-style: outset;
               font-size: 1.2rem;
               cursor: pointer;
+              background-color: black;
+              color: var(--ColorBlanco);
             }
             #btn-cerrar-modal {
               border: solid;
@@ -1486,6 +1518,8 @@ cursor: pointer;
               font-size: 1.2rem;
               margin-left: 12rem;
               cursor: pointer;
+              background-color: black;
+              color: var(--ColorBlanco);
             }
             
           }
@@ -1612,6 +1646,8 @@ cursor: pointer;
                 border-style: outset;
                 font-size: 1.2rem;
                 cursor: pointer;
+                background-color: black;
+                color: var(--ColorBlanco);
               }
               #btn-cerrar-modal {
                 border: solid;
@@ -1620,6 +1656,8 @@ cursor: pointer;
                 font-size: 1.2rem;
                 margin-left: 12rem;
                 cursor: pointer;
+                background-color: black;
+                color: var(--ColorBlanco);
               }
               
             }
@@ -1744,8 +1782,9 @@ cursor: pointer;
                 #Guardar {
                   border: solid;
                   border-style: outset;
-                 
                   font-size: 1.2rem;
+                  background-color: black;
+                  color: var(--ColorBlanco);
                 }
                 #btn-cerrar-modal {
                   border: solid;
@@ -1753,6 +1792,8 @@ cursor: pointer;
                   padding: .3rem;
                   font-size: 1.2rem;
                   margin-left: 12rem;
+                  background-color: black;
+                  color: var(--ColorBlanco);
                 }
                 
               }
@@ -1876,7 +1917,8 @@ cursor: pointer;
                   #Guardar {
                     border: solid;
                     border-style: outset;
-                   
+                    background-color: black;
+                     color: var(--ColorBlanco);
                     font-size: 1.2rem;
                   }
                   #btn-cerrar-modal {
@@ -1885,6 +1927,8 @@ cursor: pointer;
                     padding: .3rem;
                     font-size: 1.2rem;
                     margin-left: 12rem;
+                    background-color: black;
+                    color: var(--ColorBlanco);
                   }
                   
                 }
@@ -2693,16 +2737,20 @@ cursor: pointer;
           @media (min-width: 0px) {
             #btn-cerrar-modal {
               cursor: pointer;
+              background-color: black;
+              color: var(--ColorBlanco);
             }
 
 
 
             #input-usuario {
               cursor: pointer;
+              
             }
             #Guardar {
-            
           cursor: pointer;
+          background-color: black;
+          color: var(--ColorBlanco);
             }
 
             #nueva-contraseña {
@@ -2726,6 +2774,7 @@ cursor: pointer;
 
             #nueva-contraseña {
               cursor: pointer;
+
             }
         }
 

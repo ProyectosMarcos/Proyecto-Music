@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo4.css">
+    <link rel="stylesheet" href="normalize.css">
+   
+    <script src="https://kit.fontawesome.com/ef233ec86e.js" crossorigin="anonymous"></script>
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    </style>
+    <title>Proyecto3</title>
+</head>
+<body class="contenedor-grid">
+    <header class="header">
+        <nav class="nav" id="nav">
+            <ul class="NAV-LIST">
+              <li class="Listas"><a href="/Proyecto-Musicbox/index.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono" src="/Proyecto-Musicbox/iconos/house-black-silhouette-without-door.png"></i>Inicio</a></li>
+              <li class="Listas"><a href="/perfil/perfil.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-2" src="/Proyecto-Musicbox/iconos/music-lover.png"></i>Perfil</a></li>
+              <li class="Listas"><a href="/Listenlist/Listenlist.html" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-3" src="/Proyecto-Musicbox/iconos/album-de-musica.png"></i>Listenlist</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-4" src="/Proyecto-Musicbox/iconos/icono.png"></i>Listas</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-5" src="/Proyecto-Musicbox/iconos/chat.png"></i>Reviews</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-5" src="/Proyecto-Musicbox/iconos/grupo.png"></i>Actividad</a></li>
+              <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"><img class="imagen-icono-5" src="/Proyecto-Musicbox/iconos/exit.png"></i>Cerrar sesíon</a></li>
+              </ul>
+              <div class="hamburguer">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </div>
+          </nav>
+    </header>
+    <nav class="navbar"><nav class="inputs-nav">
+            <div class="barra">
+        <div class="input-contenedor-1">
+                <form class="formulario-1">
+        <input class="formulario__campo-1" type="text" placeholder="Ingrese texto para buscar">
+    </form>
+    </div>
+    <div class="input-contenedor-2">
+        <form class="formulario-2">
+        <select class="formulario__campo-2">
+            <option disabled selected>Tipo busqueda</option>
+            <option>HHHH</option>
+            <option>EEEE</option>
+            <option>AAAA</option>
+        </select>
+        <button class="buscar">
+            <span>
+                Buscar
+            </span>
+           </button>
+        </form>
+    </div>
+    </div>
+    </div>
+    </nav>
+    </nav>
+    <main class="main">
+
+        <div class="Titulo">
+        <h2 id="H2">Listenlist</h2>
+        <h2 id="H2">Albumes que tenes pendientes para escuchar
+            Cantidad albumes: 5
+        </h2>
+        <button aria-label="setting" id="btn-abrir-modal" class="boton">Editar listado</button>
+        </div>
+        <div class="modal">
+
+            <dialog  id="modal">
+                <div class="container-1">
+                    <h2 id="title">Editar Listenlist</h2>
+                    <form>
+                      <h2 id="sub-title">Seleccioná los albumes que aún queres tener pendientes a escuchar:</h2>
+                     <label for="Album" class="text-album">Album</label>
+                     <input type="checkbox" name="Album" id="Album">
+                     <label for="Album" class="text-album">Album</label>
+                     <input type="checkbox" name="Album" id="Album">
+                     <label for="Album" class="text-album">Album</label>
+                     <input type="checkbox" name="Album" id="Album">
+
+                        <button id="btn-cerrar-modal" class="boton-cerrar">Cerrar</button>
+                    </form>
+                </div>
+            </dialog>
+        </div>
+       <div class="contenedor-main">
+      
+      
+        <div class="caja1">
+           
+           
+        <section>
+<img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
+<h3 id="h3-3">Animals</h3>
+    
+</section>
+        </div>
+<div class="caja2">
+    <section>
+<img src="/Proyecto-Musicbox/albums/triangulo.png" alt=""  class="imagen-2">
+<h3 id="h3-1">The Dark Side of the Moon</h3>    
+</section>
+</div>
+<div class="caja3">
+    <section>
+<img src="/Proyecto-Musicbox/albums/The_Wall.png" alt=""class="imagen-3" >
+  <h3 id="h3-2">The Wall</h3>
+</section>
+</div>
+<div class="caja4">
+    <section>
+       
+<img src="/Proyecto-Musicbox/albums/adele.png" alt="" class="imagen-4">
+    <h3 id="h3-4">nombre_usuario_seguido</h3>
+</section>
+</div>
+<div class="caja5">
+    <section>
+<img src="/Proyecto-Musicbox/albums/comfort.jpg" alt="" class="imagen-5-nueva" >
+  <h3 id="h3-2">Comfort y musica para volar</h3>
+</section>
+</div>
+
+    </main>
+    <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+    <script src="/Proyecto-Musicbox/menu.js"></script>
+    <script src ="/Listenlist/modal.js"></script>
+</body>
+</html>
