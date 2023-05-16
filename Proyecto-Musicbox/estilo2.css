@@ -96,10 +96,9 @@
       .imagen-3 {
         border: solid;
         height: 25.5rem;
-        width: 40rem;
-        margin-left: 2.5rem;
-        margin-top: 2rem;
-        
+        width: 35rem;
+        margin-left: 2rem;
+        margin-top: 4rem;
       }
       
       .imagen-4 {
@@ -298,11 +297,24 @@ button:active {
       grid-template-columns: 1fr 1fr;                  
     }
   
-  .imagen-4 {
-  margin-top: 6rem;
-  }
+    .imagen-3 {
+      border: solid;
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 4rem;
+    }
+    
+    .imagen-4 {
+      border: solid;
+      border-color: gray;
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.6rem;
+      margin-top: 6.3rem;
+    }
   #H2-dos {
-  margin-top: 3rem;
+  margin-top: rem;
   color: var(--ColorBlanco);
   text-align: center;
   }
@@ -353,7 +365,24 @@ button:active {
       font-size: 1.8rem
     }
   }
-
+@media only screen and (min-width: 0px) and (max-width:799px) {
+  .imagen-3 {
+    border: solid;
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+   margin-top: 1.5rem;
+  }
+  
+  .imagen-4 {
+    border: solid;
+    border-color: gray;
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+  }
+}
 
   @media only screen and (min-width: 700px) and (max-width:799px) {
     .NAV-LIST a {
@@ -698,20 +727,7 @@ font-family: var(--Fuenteprincipal);
             border: solid;
             margin-left: 2.5rem;
           }
-          .imagen-3 {
-            border: solid;
-            height: 25.4rem;
-            width: 40rem;
-            margin-left: 2.5rem;
-          }
-          
-          .imagen-4 {
-            border: solid;
-            border-color: gray;
-            height: 25.4rem;
-            width: 40rem;
-            margin-left: 2.5rem;
-          }
+        
   
         /** Arreglos header **/
         .header {
@@ -835,27 +851,7 @@ font-family: var(--Fuenteprincipal);
           border: solid;
         }
         
-        
-        /* .input-contenedor-1 {
-        
-          border: solid;
-          border-radius: 1rem;
-        border-style: solid;
-        border-color: rgb(10, 79, 208);
-          }
-          .formulario-1 {
-          font-size: 1.4rem;
-          }
-          .input-contenedor-2 {
-          border: solid;
-          border-style: solid;
-          border-radius: 1rem;
-          border-color: rgb(10, 79, 208);
-          font-size: 1.4rem;
-          
-        } */
-    
-  
+      
   
       }     
   
@@ -910,24 +906,7 @@ font-family: var(--Fuenteprincipal);
   .footer {
   background-color: var(--ColorPrincipal);
   }
-  /**H2 - H3**/
   
-  /* .input-contenedor-2 {
-    border: solid;
-    width: auto;
-   border-color:rgb(255, 255, 255);
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 15rem;
-  font-size: 1.7rem;
-  font-family: var(--Fuenteprincipal);
-  }  */
-
   
   
     /*Cajas y imagenes*/
@@ -968,21 +947,7 @@ font-family: var(--Fuenteprincipal);
       margin-left: 2.5rem;
     margin-top: 4rem;
     }
-    .imagen-3 {
-      border: solid;
-      height: 25.4rem;
-      width: 40rem;
-      margin-left: 2.5rem;
-    margin-top: 4rem;
-    }
-    
-    .imagen-4 {
-      border: solid;
-      border-color: gray;
-      height: 25.4rem;
-      width: 40rem;
-      margin-left: 2.5rem;
-    }
+ 
   /*Cajas y imagenes*/
   
   
@@ -1024,21 +989,21 @@ font-family: var(--Fuenteprincipal);
         margin-left: 2.5rem;
       margin-top: 4rem;
       }
-      .imagen-3 {
+      /* .imagen-3 {
         border: solid;
         height: 25.4rem;
-        width: 39rem;
+        width: 37rem;
         margin-left: 2.5rem;
       margin-top: 4rem;
       }
-      
-      .imagen-4 {
+       */
+      /* .imagen-4 {
         border: solid;
         border-color: gray;
         height: 25.4rem;
         width: 40rem;
         margin-left: 2.5rem;
-      }
+      } */
       #h3-4{
         color: var(--ColorBlanco);
         margin-left: 10rem;
