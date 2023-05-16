@@ -60,6 +60,7 @@
   }
   
   
+  
   @media (min-width: 1224px) {
     .contenedor-grid {
         grid-template-columns: 4rem 3rem 1fr;
@@ -113,17 +114,7 @@
       }
   
 
-      /* .modal {
-        background-color: red;
-        border:solid;
-        border-color: red;
-        width: 20rem;
-        height: 5rem;
-        margin-left: 100rem;
-        margin-bottom: 3rem;
-      } */
-
-      /*MODAL*/
+     
 #modal{ 
   margin: auto;
   border: none;
@@ -138,10 +129,14 @@ background: none;
   cursor: pointer;
 }
 .boton-cerrar {
-  margin-top: 13rem;
+  margin-top: 10rem;
   margin-left: 41rem;
   cursor: pointer;
 }
+
+#Guardar {
+ margin-left: 29rem;
+  }
 .text-album {
   color: var(--ColorBlanco);
  font-size: 2rem;
@@ -217,7 +212,7 @@ background: none;
             margin-top: 2rem;
        
             
-          }----------------------------------------------------------------------------ATENTO
+          }
           
     
           /** Arreglos header **/
@@ -484,6 +479,9 @@ background: none;
   color: var(--ColorBlanco);
 }
 
+#Guardar {
+  margin-left: 29rem;
+   }
 
 #sub-title {
   margin-left: 6.7rem;
@@ -525,8 +523,10 @@ background: none;
     }
   }
 
-  @media (min-width: 800px) and (max-width:1222px) {
- 
+  @media (min-width:727px) and (max-width:799px) {
+    #Guardar {
+      margin-left: 29rem;
+       }
 }
   
   @media only screen and (min-width: 800px) and (max-width:831px) {
@@ -687,6 +687,14 @@ background: none;
   
     }
 
+    @media (min-width: 400px) and (max-width: 725px) {
+      #Guardar {
+        margin-left: 16rem;
+         }
+         .boton-cerrar {
+          margin-bottom: rem;
+         }
+    }
   @media only screen and (min-width:600px) and (max-width:699px) {
      /*MODAL*/
      #modal{ 
@@ -703,9 +711,12 @@ background: none;
       cursor: pointer;
     }
     .boton-cerrar {
-      margin-top: 13rem;
-      margin-left: 41rem;
+
+      margin-left: 20rem;
       cursor: pointer;
+    }
+    #Guardar {
+      margin-left: 14.5rem;
     }
     .text-album {
       color: var(--ColorBlanco);
@@ -878,6 +889,9 @@ font-family: var(--Fuenteprincipal);
     transform: scale(0.9);
   }
 }
+
+
+
 @media (min-width: 360px) and (max-width:427px) {
     
   /*MODAL*/
@@ -896,10 +910,13 @@ background: none;
   height: 4rem;
 }
 .boton-cerrar {
-  margin-top: 13rem;
+  margin-top: 10rem;
   margin-left: 17rem;
   cursor: pointer;
 }
+#Guardar {
+  margin-left: 12.4rem;
+   }
 .text-album {
   color: var(--ColorBlanco);
  font-size: 2rem;
@@ -1060,7 +1077,7 @@ background: none;
     height: 4rem;
   }
   .boton-cerrar {
-    margin-top: 13rem;
+    margin-top: 11rem;
     margin-left: 20rem;
     cursor: pointer;
   }
@@ -1070,6 +1087,9 @@ background: none;
    margin-left: 16rem;
    margin-top: 3rem;
     
+  }
+  #Guardar {
+    margin-left: 14rem;
   }
   #Album {
     margin-top: 8rem;
@@ -1149,9 +1169,12 @@ background: none;
   height: 4rem;
 }
 .boton-cerrar {
-  margin-top: 13rem;
+  margin-top: 11rem;
   margin-left: 20rem;
   cursor: pointer;
+}
+#Guardar {
+  margin-left: 15.9rem;
 }
 .text-album {
   color: var(--ColorBlanco);
