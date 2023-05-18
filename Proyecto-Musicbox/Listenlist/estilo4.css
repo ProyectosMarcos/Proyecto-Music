@@ -384,9 +384,21 @@ button:active {
     }
   
 
-.imagen-1 {
-  margin-top: 4rem;
-}
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    }
+
 .imagen-3 {
   margin-bottom: rem;
 }
@@ -528,16 +540,59 @@ background: none;
     #Guardar {
       margin-left: 29rem;
        }
+       .caja2 .imagen-1 {
+        height: 25.4rem;
+        width: 40rem;
+        margin-left: 2.5rem;
+        margin-top: 3.9rem;
+        border: solid;
+        border-color: grey;
+        
+      }
+      #h3-2{
+        color: white;
+        margin-left: 2.6rem;
+        font-size:2rem;
+      }
 }
   
   @media only screen and (min-width: 800px) and (max-width:831px) {
     .NAV-LIST a {
       font-size: 1.8rem
     }
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    }
   }
 
 
   @media only screen and (min-width: 700px) and (max-width:799px) {
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    }
+    
     .NAV-LIST a {
       font-size: 1.7rem
     }
@@ -644,11 +699,40 @@ background: none;
       width: auto;
      border-color:rgb(255, 255, 255);
     }
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    }
  
   
   }
 
   @media only screen and (min-width: 701px) and (max-width:799px) {
+    
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    }
     
     .input-contenedor-2 {
       border: solid;
@@ -685,6 +769,21 @@ background: none;
       font-size: 1.7rem;
       font-family: var(--Fuenteprincipal);
       } 
+
+      .caja2 .imagen-1 {
+        height: 25.4rem;
+        width: 40rem;
+        margin-left: 2.5rem;
+        margin-top: 3.9rem;
+        border: solid;
+        border-color: grey;
+        
+      }
+      #h3-2{
+        color: white;
+        margin-left: 2.6rem;
+        font-size:2rem;
+      }
   
     }
 
@@ -695,9 +794,38 @@ background: none;
          .boton-cerrar {
           margin-bottom: rem;
          }
+         .caja2 .imagen-1 {
+          height: 25.4rem;
+          width: 40rem;
+          margin-left: 2.5rem;
+          margin-top: 3.9rem;
+          border: solid;
+          border-color: grey;
+          
+        }
+        #h3-2{
+          color: white;
+          margin-left: 2.6rem;
+          font-size:2rem;
+        }
     }
   @media only screen and (min-width:600px) and (max-width:699px) {
-     /*MODAL*/
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    } 
+    
+    /*MODAL*/
      #modal{ 
       margin: auto;
       border: none;
@@ -779,6 +907,21 @@ background: none;
   }
 
   @media only screen and (min-width: 542px) and (max-width:699px) {
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    }
+    
     button {
       background-color: black;
       color: var(--ColorBlanco);
@@ -815,7 +958,22 @@ background: none;
   
 
   @media only screen and (min-width: 469px) and (max-width:541px) {
-button {
+    .caja2 .imagen-1 {
+      height: 25.4rem;
+      width: 40rem;
+      margin-left: 2.5rem;
+      margin-top: 3.9rem;
+      border: solid;
+      border-color: grey;
+      
+    }
+    #h3-2{
+      color: white;
+      margin-left: 2.6rem;
+      font-size:2rem;
+    }
+
+    button {
   color: var(--ColorBlanco);
   background-color: black;
   transition: .2s;
@@ -856,6 +1014,21 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width: 407px) and (max-width:468px) {
+  .caja2 .imagen-1 {
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 3.9rem;
+    border: solid;
+    border-color: grey;
+    
+  }
+  #h3-2{
+    color: white;
+    margin-left: 2.6rem;
+    font-size:2rem;
+  }
+  
   .input-contenedor-2 {
     border: solid;
     width: 18rem;
@@ -894,7 +1067,20 @@ font-family: var(--Fuenteprincipal);
 
 
 @media (min-width: 360px) and (max-width:427px) {
+  .caja2 .imagen-1 {
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 3.9rem;
+    border: solid;
+    border-color: grey;
     
+  }
+  #h3-2{
+    color: white;
+    margin-left: 2.6rem;
+    font-size:2rem;
+  }
   /*MODAL*/
  #modal{ 
   margin: auto;
@@ -978,7 +1164,20 @@ background: none;
 }
 
 @media only screen  and (min-width: 428px) and (max-width: 599px) {
+  .caja2 .imagen-1 {
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 3.9rem;
+    border: solid;
+    border-color: grey;
     
+  }
+  #h3-2{
+    color: white;
+    margin-left: 2.6rem;
+    font-size:2rem;
+  }
   
   /*MODAL*/
  #modal{ 
@@ -1061,7 +1260,20 @@ background: none;
 
 
 @media only screen and (min-width: 600px) and (max-width: 726px){
-
+  .caja2 .imagen-1 {
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 3.9rem;
+    border: solid;
+    border-color: grey;
+    
+  }
+  #h3-2{
+    color: white;
+    margin-left: 2.6rem;
+    font-size:2rem;
+  }
   /*MODAL*/
   #modal{ 
     margin: auto;
@@ -1151,7 +1363,20 @@ background: none;
 
 
 @media only screen and (min-width: 400px) and (max-width: 599px){
-       
+  .caja2 .imagen-1 {
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 3.9rem;
+    border: solid;
+    border-color: grey;
+    
+  }
+  #h3-2{
+    color: white;
+    margin-left: 2.6rem;
+    font-size:2rem;
+  }
   
  
   /*MODAL*/
@@ -1237,7 +1462,20 @@ background: none;
 }
 
 @media only screen and (min-width: 360px) and (max-width:406px) {
-  
+  .caja2 .imagen-1 {
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 3.9rem;
+    border: solid;
+    border-color: grey;
+    
+  }
+  #h3-2{
+    color: white;
+    margin-left: 2.6rem;
+    font-size:2rem;
+  }
   .input-contenedor-2 {
     border: solid;
     width: 18rem;
@@ -1278,7 +1516,22 @@ background: none;
 
 
 @media only screen and (min-width:0px) and (max-width:364px) {
- .input-contenedor-2 {
+  .caja2 .imagen-1 {
+    height: 25.4rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+    margin-top: 3.9rem;
+    border: solid;
+    border-color: grey;
+    
+  }
+  #h3-2{
+    color: white;
+    margin-left: 2.6rem;
+    font-size:2rem;
+  }
+ 
+  .input-contenedor-2 {
     border: solid;
     width: 18rem;
    border-color:rgb(255, 255, 255);
@@ -1450,7 +1703,22 @@ background: none;
   
   
         @media only screen and (min-width: 0px) and (max-width:700px) {
-        .contenedor-grid{
+          .caja2 .imagen-1 {
+            height: 25.4rem;
+            width: 40rem;
+            margin-left: 2.5rem;
+            margin-top: 3.9rem;
+            border: solid;
+            border-color: grey;
+            
+          }
+          #h3-2{
+            color: white;
+            margin-left: 2.6rem;
+            font-size:2rem;
+          }
+        
+          .contenedor-grid{
             display: grid;
           
         grid-template-areas: 
@@ -1713,9 +1981,19 @@ background: none;
       height: 30rem;
       margin-top: 7rem;
       }
-      .caja2 {
-      height: 30rem;
-      margin-top: 7rem;
+      .caja2 .imagen-1 {
+        height: 25.4rem;
+        width: 40rem;
+        margin-left: 2.5rem;
+        margin-top: 3.9rem;
+        border: solid;
+        border-color: grey;
+        
+      }
+      #h3-2{
+        color: white;
+        margin-left: 2.6rem;
+        font-size:2rem;
       }
       .caja3 {
       height: 30rem;
@@ -1728,13 +2006,7 @@ background: none;
       }
       
       
-      .imagen-1 {
-        border: solid;
-        border-color:crimson;
-        height: 25.4rem;
-        width: 40rem;
-        margin-left: 2.5rem;
-      }
+      
       
       .imagen-2 {
         height: 25.4rem;
