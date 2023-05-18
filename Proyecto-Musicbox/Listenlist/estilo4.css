@@ -1577,6 +1577,32 @@ background: none;
   margin-bottom: 2rem;
   font-size: 2rem;
   }
+
+  .titulo_pagina_navbar{
+    color:white;
+    font-size: 4.3rem;
+  }
+  .barra_boton_nueva_lista {
+    background-color: #590306; /* COLOR BORDO */
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+  }
+  
+  .descripcion_lista{
+    color:white;
+    font-size: 3rem;
+    margin-top:2rem;
+    margin-left:2rem;
+    margin-bottom: -70px;
+  }
+  
+  .barra_boton_nueva_lista .btn {
+    font-size: 16px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+  }
   
   #H2-dos {
   color: var(--ColorBlanco);
