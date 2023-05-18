@@ -79,15 +79,15 @@
       }
       .caja2 .imagen-1 {
         height: 25.4rem;
-        width: 40rem;
+        width: 37rem;
         margin-left: 2.5rem;
-        margin-top: 3.9rem;
+        margin-top: 3rem;
         border: solid;
         border-color: grey;
         
       }
       
-      .imagen-2 {
+      /* .imagen-2 {
         height: 25.4rem;
         width: 40rem;
         border: solid;
@@ -112,7 +112,7 @@
         margin-left: 2.5rem;
         margin-top: 3.4rem;
       }
-  
+   */
 
      
 #modal{ 
@@ -384,6 +384,9 @@ button:active {
     }
   
 
+
+
+    
 .imagen-1 {
   margin-top: 4rem;
 }

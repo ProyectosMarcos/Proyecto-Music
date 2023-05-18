@@ -54,40 +54,58 @@
             <div class="titulo_pagina_navbar">Tus listas de musica</div>
         </div>
         <div class="barra_boton_nueva_lista">
-            <button class="btn">Nueva lista</button>
+            <button class="btn" id="btn-abrir-modal">Nueva lista</button>
         </div>
     </nav></nav>
 
+    <dialog  id="modal">
+        <div class="container-1">
+            <form>
+              <h2 id="sub-title">Nueva Lista</h2>
+                <input id="input-1" type="text" placeholder="Ingresar nombre">
+                <h2 id="sub-title-2">Descripcion</h2>
+                <input id="input-2" type="text" placeholder="Ingresar descripcion de la lista">
+           
+                <button id="Guardar"><i><a href="/Proyecto-Musicbox/LISTAS/detalle_lista_propia.html">Crear</a></i></button>
+                <button id="btn-cerrar-modal" class="boton-cerrar">Cerrar</button>
+            </form>
+        </div>
+    </dialog>
+</div>
+
     <main class="main">
         <div class="contenedor-main">
+             <div class="contenedor-main">
                         
-            <div class="caja1">
-                <a class="titulo_lista" href="detalle_lista_propia.html">Rock de los 70s</a>
-                <section> 
+            <div class="caja-1">
+                <a class="titulo_lista-2" href="detalle_lista_propia.html">Rock de los 70s</a>
+                <section class="section-album"> 
                     <!-- SE DEBEN MOSTRAR HASTA 4 ALBUMES POR LISTA, NO MAS, DESPUES CONFIGURARLO
                     PARA QUE MUESTREN LOS ULTIMOS 4 DISCOS AGREGADOS -->
-                    <img src="/Proyecto-Musicbox/albums/Rumours.png" alt="" class="imagen-1">
-                    <img src="/Proyecto-Musicbox/albums/Led Zeppelin 4.jpg" alt="" class="imagen-1"> 
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <img src="/Proyecto-Musicbox/albums/Rumours.png" alt="" class="imagen-1"> 
+                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1"></div>
+                    <div id="album-2" class="imagen-"><img src="/Proyecto-Musicbox/albums/The_Wall.png" alt="" class="imagen-1"></div>
+                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div >
+                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
                 </section>
             </div>
             
-            <div class="caja1">
-                <a class="titulo_lista" href="">Pop argentino</a>
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1">
-                    <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"> 
-                    <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"> 
+            <div class="caja-1">
+                <a class="titulo_lista-2" href="">Pop argentino</a>
+                <section class="section-album-2">
+                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
+                    <div id="album-2" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
+                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
+                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
                 </section>
             </div>
 
-            <div class="caja1">
-                <a class="titulo_lista" href="">Hip Hop</a>
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1">
-                    <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"> 
-                    <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"> 
+            <div class="caja-1">
+                <a class="titulo_lista-3" href="">Hip Hop</a>
+                <section class="section-album-3">
+                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
+                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
+                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
+               
                 </section>
             </div>
 
@@ -97,6 +115,7 @@
     </main>
 
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
-    <script src="menu.js"></script>
+    <script src="/Proyecto-Musicbox/menu.js"></script>
+    <script src="/Proyecto-Musicbox/LISTAS/modal.js"></script>
 </body>
 </html>
