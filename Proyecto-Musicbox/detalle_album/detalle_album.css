@@ -65,7 +65,7 @@
       background-color:#232526;
       border-color: white;
       border-style: solid;
-      margin-right: 20rem;
+      margin-right: 17rem;
       padding-left: 2rem;
     }
     
@@ -381,11 +381,218 @@ button:active {
 
 }
   
+@media only screen and (min-width: 1080px) and (max-width:1223px) {
+  .review_usuario{
+    background-color:#232526;
+    border-color: white;
+    border-style: solid;
+    margin-right: 20rem;
+    padding-left: 2rem;
+  }
   
+  .datos-review{
+    color:rgb(185, 185, 0);
+    font-size: 1.9rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+  }
   
+  .nombre_usuario{
+    color:rgb(185, 185, 0);
+    font-size: 2rem;
+    margin-top: 0.6rem;
+  }
   
+  .reviews{
+    color:white;
+    font-size: 2.7rem;
+    margin-left: 5rem;     
+  }
   
-  @media only screen and (min-width: 800px) and (max-width:1223px) {
+  .boton-puntuacion-album{
+    margin-top: 5rem;
+    margin-left: 18.4rem;
+    color:white;
+  }
+  .boton-puntuar{
+    background-color:#590306;
+    width: 21rem;
+    height: 3rem;
+    border-color: white;
+    border-radius: 0.7rem;
+    border-style: solid;
+    font-size: 1.8rem;
+    color:white;
+  }
+  
+  .link_album{
+    color:white;
+    margin-top: 1rem; 
+  }
+  .datos-album{
+    color:white;
+    font-size: 2.7rem;
+    margin-left: 62rem;
+    margin-top: -35.8rem;
+  }
+  .listado-canciones{
+    color:white;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+  .caracteristica{
+    margin-top: 1rem;
+  }
+  
+  .portada-album{
+    width: 45rem;
+    height: 35rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+  
+  .titulo_album{
+    color:white;
+    font-size: 5rem;
+    margin-left: 5rem;
+  }
+  .banda_album{
+    color:white;
+    font-size: 2.3rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+
+.barra_boton_nueva_lista .btn { 
+  font-size: 18px;
+  color: white;
+  background-color: #590306;
+  border-color: white;
+  border-radius: 5px;
+  padding-bottom: 0.5rem;
+}
+.formulario__campo-2 {
+margin: auto;
+font-size: 1.5rem;
+font-family: var(--Fuenteprincipal);
+background-color: black;
+color: white;
+width: 20rem;
+font-size: 1.7rem;
+font-family: var(--Fuenteprincipal);
+} 
+.formulario__campo-1{
+      background-color: black;
+      color: white;
+      width: 24.4rem;
+      font-size: 1.7rem;
+      font-family: var(--Fuenteprincipal);
+      font-weight: bold;        
+    }
+.input-contenedor-1 {
+    border: solid;
+    border-radius: 0.7rem;
+    width: 25rem;
+    color: white;
+    }
+.formulario-1{
+      background-color: black;
+    }
+.input-contenedor-2 {
+  border: solid;
+  width: auto;
+ border-color:rgb(255, 255, 255);
+ border-radius: 1rem;
+}
+}
+  
+  @media only screen and (min-width: 800px) and (max-width:1080px) {    
+    .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+     border-radius: 1rem;
+    }
+    
+    .review_usuario{
+      background-color:#232526;
+      border-color: white;
+      border-style: solid;
+      margin-right: 12rem;
+      padding-left: 2rem;
+    }
+    
+    .datos-review{
+      color:rgb(185, 185, 0);
+      font-size: 1.9rem;
+      margin-left: 6rem;
+      margin-bottom: 1rem;
+    }
+    
+    .nombre_usuario{
+      color:rgb(185, 185, 0);
+      font-size: 2rem;
+      margin-top: 0.6rem;
+    }
+    
+    .reviews{
+      color:white;
+      font-size: 2.7rem;
+      margin-left: 5rem;     
+    }
+    
+    .boton-puntuacion-album{
+      margin-top: 5rem;
+      margin-left: 18.4rem;
+    }
+    .boton-puntuar{
+      background-color:#590306;
+      width: 21rem;
+      height: 3rem;
+      border-color: white;
+      border-radius: 0.7rem;
+      border-style: solid;
+      font-size: 1.8rem;
+    }
+    
+    .link_album{
+      color:white;
+      margin-top: 1rem; 
+    }
+    .datos-album{
+      color:white;
+      font-size: 2.7rem;
+      margin-left: 5rem;
+      margin-top: 0rem;
+    }
+    .listado-canciones{
+      color:white;
+      margin-left: 5rem;
+      margin-top: 1rem;
+    }
+    .caracteristica{
+      margin-top: 1rem;
+    }
+    
+    .portada-album{
+      width: 45rem;
+      height: 35rem;
+      margin-left: 5rem;
+      margin-top: 5rem;
+    }
+    
+    .titulo_album{
+      color:white;
+      font-size: 5rem;
+      margin-left: 5rem;
+    }
+    .banda_album{
+      color:white;
+      font-size: 2.3rem;
+      margin-left: 5rem;
+      margin-top: 1rem;
+    }
+    
     .contenedor-main {
       display: grid;
       gap: 1rem;
@@ -442,16 +649,41 @@ button:active {
     width: auto;
    border-color:rgb(255, 255, 255);
   }
-  .formulario__campo-2 {
+  .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
+  }
+.formulario__campo-2 {
   margin: auto;
   font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
   background-color: black;
   color: white;
-  width: 15rem;
+  width: 20rem;
   font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
   } 
+.formulario__campo-1{
+        background-color: black;
+        color: white;
+        width: 24.4rem;
+        font-size: 1.7rem;
+        font-family: var(--Fuenteprincipal);
+        font-weight: bold;        
+      }
+.input-contenedor-1 {
+      border: solid;
+      border-radius: 0.7rem;
+      width: 25rem;
+      color: white;
+      }
+.formulario-1{
+        background-color: black;
+      }
 
   }
   
@@ -462,6 +694,92 @@ button:active {
     }
   }
 @media only screen and (min-width: 0px) and (max-width:799px) {
+  .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
+   border-radius: 1rem;
+  }
+  
+  .review_usuario{
+    background-color:#232526;
+    border-color: white;
+    border-style: solid;
+    margin-right: 12rem;
+    padding-left: 2rem;
+  }
+  
+  .datos-review{
+    color:rgb(185, 185, 0);
+    font-size: 1.9rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .nombre_usuario{
+    color:rgb(185, 185, 0);
+    font-size: 2rem;
+    margin-top: 0.6rem;
+  }
+  
+  .reviews{
+    color:white;
+    font-size: 2.7rem;
+    margin-left: 5rem;     
+  }
+  
+  .boton-puntuacion-album{
+    margin-top: 5rem;
+    margin-left: 18.4rem;
+  }
+  .boton-puntuar{
+    background-color:#590306;
+    width: 21rem;
+    height: 3rem;
+    border-color: white;
+    border-radius: 0.7rem;
+    border-style: solid;
+    font-size: 1.8rem;
+  }
+  
+  .link_album{
+    color:white;
+    margin-top: 1rem; 
+  }
+  .datos-album{
+    color:white;
+    font-size: 2.7rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+  .listado-canciones{
+    color:white;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+  .caracteristica{
+    margin-top: 1rem;
+  }
+  
+  .portada-album{
+    width: 45rem;
+    height: 35rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+  
+  .titulo_album{
+    color:white;
+    font-size: 5rem;
+    margin-left: 5rem;
+  }
+  .banda_album{
+    color:white;
+    font-size: 2.3rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+  
   .imagen-3 {
     border: solid;
     height: 25.4rem;
