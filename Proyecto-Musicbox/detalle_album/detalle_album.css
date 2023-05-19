@@ -716,6 +716,32 @@ font-family: var(--Fuenteprincipal);
    border-color:rgb(255, 255, 255);
    border-radius: 1rem;
   }
+.formulario__campo-2 {
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 20rem;
+  font-size: 1.7rem;
+  font-family: var(--Fuenteprincipal);
+  }
+  
+  .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
+  }
+  
+  .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
+   border-radius: 1rem;
+  }
   
   .review_usuario{
     background-color:#232526;
@@ -894,6 +920,23 @@ font-family: var(--Fuenteprincipal);
   }
 
   @media only screen and (min-width: 542px) and (max-width:699px) {
+    .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+     border-radius: 1rem;
+    }
+  .formulario__campo-2 {
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: var(--Fuenteprincipal);
+    background-color: black;
+    color: white;
+    width: 20rem;
+    font-size: 1.7rem;
+    font-family: var(--Fuenteprincipal);
+    }
+    
     button {
       background-color: black;
       color: var(--ColorBlanco);
@@ -930,7 +973,24 @@ font-family: var(--Fuenteprincipal);
   
 
   @media only screen and (min-width: 469px) and (max-width:541px) {
-button {
+    .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+     border-radius: 1rem;
+    }
+  .formulario__campo-2 {
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: var(--Fuenteprincipal);
+    background-color: black;
+    color: white;
+    width: 20rem;
+    font-size: 1.7rem;
+    font-family: var(--Fuenteprincipal);
+    }
+
+    button {
   color: var(--ColorBlanco);
   background-color: black;
   transition: .2s;
@@ -1383,6 +1443,21 @@ font-family: var(--Fuenteprincipal);
   
   /*Comienza @media querie mas baja - movil pequeño 360x640px */
   @media (min-width:0px) {
+    .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+     border-radius: 1rem;
+    }
+  .formulario__campo-2 {
+    margin: auto;
+    font-family: var(--Fuenteprincipal);
+    background-color: black;
+    color: white;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: var(--Fuenteprincipal);
+    }
     /*Cajas y imagenes*/
   
     .caja1 {
