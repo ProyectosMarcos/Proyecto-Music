@@ -1205,8 +1205,8 @@ font-family: var(--Fuenteprincipal);
             .imagen-1 {
               border: solid;
               border-color:yellow;
-              height: 25.4rem;
-              width: 27rem;
+              height: 23rem;
+              width: 25rem;
               margin-left: 1.5rem;
             }
            #album{
@@ -1259,8 +1259,8 @@ font-family: var(--Fuenteprincipal);
               .imagen-1 {
                 border: solid;
                 border-color:yellow;
-                height: 25.4rem;
-                width: 25rem;
+                height: 23rem;
+                width: 24.5rem;
                 margin-left: 1.5rem;
               }
             
@@ -1309,7 +1309,7 @@ font-family: var(--Fuenteprincipal);
             .imagen-1 {
               border: solid;
               border-color:yellow;
-              height: 25.4rem;
+              height: 23rem;
               width: 27rem;
               margin-left: 2.5rem;
          
