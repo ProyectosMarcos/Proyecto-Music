@@ -794,6 +794,8 @@ background: none;
     }
 
     @media (min-width: 400px) and (max-width: 725px) {
+      
+      
       #Guardar {
         margin-left: 16rem;
          }
@@ -816,6 +818,8 @@ background: none;
         }
     }
   @media only screen and (min-width:600px) and (max-width:699px) {
+    
+    
     .caja2 .imagen-1 {
       height: 25.4rem;
       width: 40rem;
@@ -913,6 +917,8 @@ background: none;
   }
 
   @media only screen and (min-width: 542px) and (max-width:699px) {
+    
+    
     .caja2 .imagen-1 {
       height: 25.4rem;
       width: 40rem;
@@ -964,6 +970,8 @@ background: none;
   
 
   @media only screen and (min-width: 469px) and (max-width:541px) {
+    
+    
     .caja2 .imagen-1 {
       height: 25.4rem;
       width: 40rem;
@@ -1020,6 +1028,8 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width: 407px) and (max-width:468px) {
+  
+  
   .caja2 .imagen-1 {
     height: 25.4rem;
     width: 40rem;
@@ -1073,6 +1083,8 @@ font-family: var(--Fuenteprincipal);
 
 
 @media (min-width: 360px) and (max-width:427px) {
+  
+  
   .caja2 .imagen-1 {
     height: 25.4rem;
     width: 40rem;
@@ -1170,6 +1182,8 @@ background: none;
 }
 
 @media only screen  and (min-width: 428px) and (max-width: 599px) {
+  
+  
   .caja2 .imagen-1 {
     height: 25.4rem;
     width: 40rem;
@@ -1266,6 +1280,8 @@ background: none;
 
 
 @media only screen and (min-width: 600px) and (max-width: 726px){
+  
+  
   .caja2 .imagen-1 {
     height: 25.4rem;
     width: 40rem;
@@ -1369,6 +1385,8 @@ background: none;
 
 
 @media only screen and (min-width: 400px) and (max-width: 599px){
+  
+  
   .caja2 .imagen-1 {
     height: 25.4rem;
     width: 40rem;
@@ -1708,7 +1726,9 @@ background: none;
   
   
   
-        @media only screen and (min-width: 0px) and (max-width:700px) {
+        @media only screen and (min-width: 0px) and (max-width:700px) { /*ACA MODIFICAR EDITAR LISTA*/
+          
+          
           .caja2 .imagen-1 {
             height: 25.4rem;
             width: 40rem;
@@ -1872,7 +1892,7 @@ background: none;
   }
   
   .barra_boton_nueva_lista .btn {
-    font-size: 16px;
+    font-size: 14.2px;
     color: white;
     background-color: #590306;
     border-color: white;
