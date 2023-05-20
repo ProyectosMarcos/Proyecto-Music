@@ -75,39 +75,6 @@
       display: none;
   }
     
-  .atributo-puntuacion{
-    color:white;
-    margin-top:10rem;
-    margin-left: 6rem;
-    font-size: 3rem;
-  }
-  .atributo-review{
-    color:white;
-    margin-top:2rem;
-    margin-left: 6rem;
-    font-size: 3rem;
-  }
-  textarea{
-    margin-left: 6.2rem;
-  }
-
-  .select-estrellas{
-    margin-left: 41rem;
-    font-size: 4rem;
-    margin-top: -4.3rem;
-  }
-  .select-estrellas select{
-    font-size: 2.3rem;
-  }  
-  
-  #sub-title {
-      margin-left: 11.8rem;
-      margin-top: 1.9rem;
-      margin-bottom: -3.6rem;
-      font-size: 3rem;
-      color: var(--ColorBlanco);
-    }
-    
     .lista-albums{
       margin-top: 6.5rem;
       margin-left: 4.5rem;
@@ -134,6 +101,38 @@
       background-repeat: no-repeat;
       cursor: pointer;
       }
+      .atributo-puntuacion{
+        color:white;
+        margin-top:10rem;
+        margin-left: 6rem;
+        font-size: 3rem;
+      }
+      .atributo-review{
+        color:white;
+        margin-top:2rem;
+        margin-left: 6rem;
+        font-size: 3rem;
+      }
+      textarea{
+        margin-left: 6.2rem;
+      }
+    
+      .select-estrellas{
+        margin-left: 41rem;
+        font-size: 4rem;
+        margin-top: -4.3rem;
+      }
+      .select-estrellas select{
+        font-size: 2.3rem;
+      }  
+      
+      #sub-title {
+          margin-left: 11.8rem;
+          margin-top: 1.9rem;
+          margin-bottom: -3.6rem;
+          font-size: 3rem;
+          color: var(--ColorBlanco);
+        }
     
     
     .guardado-albums{
@@ -484,6 +483,75 @@ button:active {
 }
   
 @media only screen and (min-width: 1080px) and (max-width:1223px) {
+  #modal{ 
+    margin: auto;
+    border: none;
+  background: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+    .atributo-puntuacion{
+      color:white;
+      margin-top:10rem;
+      margin-left: 6rem;
+      font-size: 3rem;
+    }
+    .atributo-review{
+      color:white;
+      margin-top:2rem;
+      margin-left: 6rem;
+      font-size: 3rem;
+    }
+    textarea{
+      margin-left: 6.2rem;
+    }
+  
+    .select-estrellas{
+      margin-left: 41rem;
+      font-size: 4rem;
+      margin-top: -4.3rem;
+    }
+    .select-estrellas select{
+      font-size: 2.3rem;
+    }  
+    
+    #sub-title {
+        margin-left: 11.8rem;
+        margin-top: 1.9rem;
+        margin-bottom: -3.6rem;
+        font-size: 3rem;
+        color: var(--ColorBlanco);
+      }
+  
+  
+  .guardado-albums{
+    margin-left: 30rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  .cerrar-albums{
+    margin-left: 30rem;
+  }
+  
+    #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }
+  
+  
   .container-1 { /* EDITAR */
     border: solid;
     height: 54.3rem;
@@ -646,6 +714,74 @@ font-family: var(--Fuenteprincipal);
 }
   
   @media only screen and (min-width: 800px) and (max-width:1080px) {    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+      .atributo-puntuacion{
+        color:white;
+        margin-top:10rem;
+        margin-left: 6rem;
+        font-size: 3rem;
+      }
+      .atributo-review{
+        color:white;
+        margin-top:2rem;
+        margin-left: 6rem;
+        font-size: 3rem;
+      }
+      textarea{
+        margin-left: 6.2rem;
+      }
+    
+      .select-estrellas{
+        margin-left: 41rem;
+        font-size: 4rem;
+        margin-top: -4.3rem;
+      }
+      .select-estrellas select{
+        font-size: 2.3rem;
+      }  
+      
+      #sub-title {
+          margin-left: 11.8rem;
+          margin-top: 1.9rem;
+          margin-bottom: -3.6rem;
+          font-size: 3rem;
+          color: var(--ColorBlanco);
+        }
+    
+    
+    .guardado-albums{
+      margin-left: 30rem;
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+    }
+    .cerrar-albums{
+      margin-left: 30rem;
+    }
+    
+      #guardar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color:#590306;
+      color:white;
+      font-family: var(--Fuenteprincipal);
+    }
+    #cerrar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color: grey;
+      color:black;
+      font-weight: bold;
+      font-family: var(--Fuenteprincipal);
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -850,6 +986,74 @@ font-family: var(--Fuenteprincipal);
   
   
   @media only screen and (min-width: 800px) and (max-width:831px) {
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+      .atributo-puntuacion{
+        color:white;
+        margin-top:10rem;
+        margin-left: 6rem;
+        font-size: 3rem;
+      }
+      .atributo-review{
+        color:white;
+        margin-top:2rem;
+        margin-left: 6rem;
+        font-size: 3rem;
+      }
+      textarea{
+        margin-left: 6.2rem;
+      }
+    
+      .select-estrellas{
+        margin-left: 41rem;
+        font-size: 4rem;
+        margin-top: -4.3rem;
+      }
+      .select-estrellas select{
+        font-size: 2.3rem;
+      }  
+      
+      #sub-title {
+          margin-left: 11.8rem;
+          margin-top: 1.9rem;
+          margin-bottom: -3.6rem;
+          font-size: 3rem;
+          color: var(--ColorBlanco);
+        }
+    
+    
+    .guardado-albums{
+      margin-left: 30rem;
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+    }
+    .cerrar-albums{
+      margin-left: 30rem;
+    }
+    
+      #guardar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color:#590306;
+      color:white;
+      font-family: var(--Fuenteprincipal);
+    }
+    #cerrar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color: grey;
+      color:black;
+      font-weight: bold;
+      font-family: var(--Fuenteprincipal);
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -877,6 +1081,74 @@ font-family: var(--Fuenteprincipal);
     }
   }
 @media only screen and (min-width: 0px) and (max-width:799px) {
+  #modal{ 
+    margin: auto;
+    border: none;
+  background: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+    .atributo-puntuacion{
+      color:white;
+      margin-top:10rem;
+      margin-left: 6rem;
+      font-size: 3rem;
+    }
+    .atributo-review{
+      color:white;
+      margin-top:2rem;
+      margin-left: 6rem;
+      font-size: 3rem;
+    }
+    textarea{
+      margin-left: 6.2rem;
+    }
+  
+    .select-estrellas{
+      margin-left: 41rem;
+      font-size: 4rem;
+      margin-top: -4.3rem;
+    }
+    .select-estrellas select{
+      font-size: 2.3rem;
+    }  
+    
+    #sub-title {
+        margin-left: 11.8rem;
+        margin-top: 1.9rem;
+        margin-bottom: -3.6rem;
+        font-size: 3rem;
+        color: var(--ColorBlanco);
+      }
+  
+  
+  .guardado-albums{
+    margin-left: 30rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  .cerrar-albums{
+    margin-left: 30rem;
+  }
+  
+    #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }
+  
   .container-1 { /* EDITAR */
     border: solid;
     height: 54.3rem;
