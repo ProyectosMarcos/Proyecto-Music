@@ -55,7 +55,7 @@
     </div>
 
     <div class="barra_boton_nueva_lista">
-        <button class="btn" id="btn-abrir-modal">Buscar</button>
+        <button class="btn" id="">Buscar</button>
     </div>
 
 
@@ -82,7 +82,7 @@
             <a class="link_album" href="https://es.wikipedia.org/wiki/Animals_(%C3%A1lbum)">+ info</a>
         </div>
         <div class="boton-puntuacion-album">
-            <button class="boton-puntuar" id="">Puntuacion, Review</button>
+            <button class="boton-puntuar" id="btn-abrir-modal">Puntuacion, Review</button>
         </div>
         <div class="reviews">
             <p class="caracteristica">Reseñas:</p>
@@ -101,8 +101,46 @@
                 </ul>
             </div>
         </div>
+
+
+
+
+
+
+
+
+        <div class="modal">
+            <dialog  id="modal">
+                <div class="container-1">
+                    <!-- <h2 id="title">Editar Listenlist</h2> -->
+                    <form>
+                        <h2 id="sub-title">Dejá tu opinion sobre el album!</h2>
+                        <p class="atributo-puntuacion">Puntuacion (estrellas):</p>
+                        <div class="select-estrellas">
+                            <select id="estrellas">
+                                <option value="5">5</option>
+                                <option value="4">4</option>
+                                <option value="3">3</option>
+                                <option value="2">2</option>
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                        <p class="atributo-review">Reseña:</p>
+                        <textarea id="descripcion-review" name="descripcion-review" rows="10" cols="67"></textarea>
+
+                        <div class="guardado-albums">
+                            <button id="guardar-detalle-album">Guardar</button>
+                        </div>
+                        <div class="cerrar-albums">
+                            <button id="cerrar-detalle-album">Cerrar</button>
+                        </div>                        
+                    </form>
+                </div>
+            </dialog>
+        </div>
     </main>
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
     <script src="menu.js"></script>
+    <script src ="/Proyecto-Musicbox/detalle_album/modal.js"></script>
 </body>
 </html>

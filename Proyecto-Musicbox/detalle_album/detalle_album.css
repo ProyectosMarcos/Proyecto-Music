@@ -61,6 +61,108 @@
   
   
   @media (min-width: 1224px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+  .atributo-puntuacion{
+    color:white;
+    margin-top:10rem;
+    margin-left: 6rem;
+    font-size: 3rem;
+  }
+  .atributo-review{
+    color:white;
+    margin-top:2rem;
+    margin-left: 6rem;
+    font-size: 3rem;
+  }
+  textarea{
+    margin-left: 6.2rem;
+  }
+
+  .select-estrellas{
+    margin-left: 41rem;
+    font-size: 4rem;
+    margin-top: -4.3rem;
+  }
+  .select-estrellas select{
+    font-size: 2.3rem;
+  }  
+  
+  #sub-title {
+      margin-left: 11.8rem;
+      margin-top: 1.9rem;
+      margin-bottom: -3.6rem;
+      font-size: 3rem;
+      color: var(--ColorBlanco);
+    }
+    
+    .lista-albums{
+      margin-top: 6.5rem;
+      margin-left: 4.5rem;
+      margin-bottom: 4rem;
+    }
+    .opcion-album{
+      margin-top: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      width:16px;
+      height:16px;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
+    
+    .guardado-albums{
+      margin-left: 30rem;
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+    }
+    .cerrar-albums{
+      margin-left: 30rem;
+    }
+    
+      #guardar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color:#590306;
+      color:white;
+      font-family: var(--Fuenteprincipal);
+    }
+    #cerrar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color: grey;
+      color:black;
+      font-weight: bold;
+      font-family: var(--Fuenteprincipal);
+    }
+    
     .review_usuario{
       background-color:#232526;
       border-color: white;
@@ -382,6 +484,27 @@ button:active {
 }
   
 @media only screen and (min-width: 1080px) and (max-width:1223px) {
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 54.3rem;
+    width: 70rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  #modal{ 
+    margin: auto;
+    border: none;
+  background: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+  
   .NAV-LIST a {
     font-size: 2rem;
   }
@@ -523,6 +646,28 @@ font-family: var(--Fuenteprincipal);
 }
   
   @media only screen and (min-width: 800px) and (max-width:1080px) {    
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -705,11 +850,55 @@ font-family: var(--Fuenteprincipal);
   
   
   @media only screen and (min-width: 800px) and (max-width:831px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .NAV-LIST a {
       font-size: 1.8rem
     }
   }
 @media only screen and (min-width: 0px) and (max-width:799px) {
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 54.3rem;
+    width: 70rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  
+  #modal{ 
+    margin: auto;
+    border: none;
+  background: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+  
   .input-contenedor-2 {
     border: solid;
     width: auto;
@@ -841,6 +1030,28 @@ font-family: var(--Fuenteprincipal);
 }
 
   @media only screen and (min-width: 700px) and (max-width:799px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .NAV-LIST a {
       font-size: 1.7rem
     }
@@ -863,6 +1074,28 @@ font-family: var(--Fuenteprincipal);
   }
   
   @media only screen and (min-width: 701px) and (max-width:748px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .NAV-LIST a {
       font-size: 1.5rem
     }
@@ -876,7 +1109,28 @@ font-family: var(--Fuenteprincipal);
   }
 
   @media only screen and (min-width: 701px) and (max-width:799px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
     
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+
     .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -896,6 +1150,28 @@ font-family: var(--Fuenteprincipal);
   }
 
   @media only screen and (min-width:600px) and (max-width:700px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -920,6 +1196,28 @@ font-family: var(--Fuenteprincipal);
   }
 
   @media only screen and (min-width: 542px) and (max-width:699px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -973,6 +1271,28 @@ font-family: var(--Fuenteprincipal);
   
 
   @media only screen and (min-width: 469px) and (max-width:541px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -1029,6 +1349,28 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width: 407px) and (max-width:468px) {
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 54.3rem;
+    width: 70rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  
+  #modal{ 
+    margin: auto;
+    border: none;
+  background: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+  
   .input-contenedor-2 {
     border: solid;
     width: 18rem;
@@ -1066,6 +1408,28 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width: 360px) and (max-width:406px) {
+  
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 54.3rem;
+    width: 70rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  
+  #modal{ 
+    margin: auto;
+    border: none;
+  background: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
   
   .input-contenedor-2 {
     border: solid;
@@ -1105,7 +1469,29 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width:0px) and (max-width:364px) {
- .input-contenedor-2 {
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 54.3rem;
+    width: 70rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  
+  #modal{ 
+    margin: auto;
+    border: none;
+  background: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+  
+  .input-contenedor-2 {
     border: solid;
     width: 18rem;
    border-color:rgb(255, 255, 255);
@@ -1263,7 +1649,29 @@ font-family: var(--Fuenteprincipal);
   
   
         @media only screen and (min-width: 0px) and (max-width:700px) {
-        .contenedor-grid{
+          .container-1 { /* EDITAR */
+            border: solid;
+            height: 54.3rem;
+            width: 70rem;
+            border-radius: 12%;
+            margin-top: 1rem;
+            background-color: #160a3b;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          ::-webkit-scrollbar {
+            display: none;
+        }
+          
+          #modal{ 
+            margin: auto;
+            border: none;
+          background: none;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            }
+          
+          .contenedor-grid{
             display: grid;
           
         grid-template-areas: 
@@ -1443,6 +1851,28 @@ font-family: var(--Fuenteprincipal);
   
   /*Comienza @media querie mas baja - movil pequeño 360x640px */
   @media (min-width:0px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+    
+    #modal{ 
+      margin: auto;
+      border: none;
+    background: none;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+    
     .input-contenedor-2 {
       border: solid;
       width: auto;
