@@ -60,7 +60,7 @@
   }
   
   
-  @media (min-width: 1224px) {
+  @media (min-width: 1224px) {    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -80,14 +80,8 @@
       margin-left: 4.5rem;
       margin-bottom: 4rem;
     }
-    .opcion-album{
-      margin-top: 1.5rem;
-    }
-    #Album { /*ES EL CHECKBOX */
-      margin-left: 4.3rem;
-      width:16px;
-      height:16px;
-    }
+    
+    
     .nombre-album{
       color:white;
       font-size: 2rem;
@@ -139,6 +133,33 @@
           margin-bottom: -3.6rem;
           font-size: 3rem;
           color: var(--ColorBlanco);
+        }
+        #sub-title-listas {
+          margin-left: 9rem;
+          margin-top: 1.9rem;
+          margin-bottom: -0rem;
+          font-size: 3rem;
+          color: var(--ColorBlanco);
+        }
+        .lista-albums{
+          margin-top: -0.2rem;
+          margin-left: 9rem;
+          margin-bottom: 0rem;
+        }
+        .opcion-album{
+          margin-top: 2rem;
+          margin-bottom: 0rem;
+        }
+        .nombre-album{
+          color:white;
+          font-size: 2rem;
+          margin-left: 1.5rem;
+        }
+        #Album { /*ES EL CHECKBOX */
+          margin-left: 4.3rem;
+          margin-top: 0rem;
+          width:16px;
+          height:16px;
         }
     
     
@@ -494,6 +515,34 @@ button:active {
 }
   
 @media only screen and (min-width: 1080px) and (max-width:1223px) {
+  .lista-albums{
+    margin-top: -0.2rem;
+    margin-left: 9rem;
+    margin-bottom: 0rem;
+  }
+  #sub-title-listas {
+    margin-left: 9rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: var(--ColorBlanco);
+  }
+  .opcion-album{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .nombre-album{
+    color:white;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  #Album { /*ES EL CHECKBOX */
+    margin-left: 4.3rem;
+    margin-top: 0rem;
+    width:16px;
+    height:16px;
+  }
+  
   #modal{ 
     margin: auto;
     border: none;
@@ -540,6 +589,7 @@ button:active {
         font-size: 3rem;
         color: var(--ColorBlanco);
       }
+      
   
   
   .guardado-albums{
@@ -742,7 +792,28 @@ font-family: var(--Fuenteprincipal);
 }
 }
   
-  @media only screen and (min-width: 800px) and (max-width:1080px) {    
+  @media only screen and (min-width: 800px) and (max-width:1080px) {       
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     #modal{ 
       margin: auto;
       border: none;
@@ -786,6 +857,13 @@ font-family: var(--Fuenteprincipal);
           margin-left: 11.8rem;
           margin-top: 1.9rem;
           margin-bottom: -3.6rem;
+          font-size: 3rem;
+          color: var(--ColorBlanco);
+        }
+        #sub-title-listas {
+          margin-left: 9rem;
+          margin-top: 1.9rem;
+          margin-bottom: 3rem;
           font-size: 3rem;
           color: var(--ColorBlanco);
         }
@@ -1033,6 +1111,27 @@ font-family: var(--Fuenteprincipal);
   
   
   @media only screen and (min-width: 800px) and (max-width:831px) {
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     #modal{ 
       margin: auto;
       border: none;
@@ -1076,6 +1175,13 @@ font-family: var(--Fuenteprincipal);
           margin-left: 11.8rem;
           margin-top: 1.9rem;
           margin-bottom: -3.6rem;
+          font-size: 3rem;
+          color: var(--ColorBlanco);
+        }
+        #sub-title-listas {
+          margin-left: 9rem;
+          margin-top: 1.9rem;
+          margin-bottom: 2rem;
           font-size: 3rem;
           color: var(--ColorBlanco);
         }
@@ -1142,6 +1248,35 @@ font-family: var(--Fuenteprincipal);
     }
   }
 @media only screen and (min-width: 0px) and (max-width:799px) {
+  #sub-title-listas {
+    margin-left: 9rem;
+    margin-top: 1.9rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--ColorBlanco);
+  }
+  
+  .lista-albums{
+    margin-top: -0.2rem;
+    margin-left: 9rem;
+    margin-bottom: 0rem;
+  }
+  .opcion-album{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .nombre-album{
+    color:white;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  #Album { /*ES EL CHECKBOX */
+    margin-left: 4.3rem;
+    margin-top: 0rem;
+    width:16px;
+    height:16px;
+  }
+  
   #modal{ 
     margin: auto;
     border: none;
@@ -1188,6 +1323,7 @@ font-family: var(--Fuenteprincipal);
         font-size: 3rem;
         color: var(--ColorBlanco);
       }
+      
   
   
   .guardado-albums{
@@ -1381,6 +1517,27 @@ font-family: var(--Fuenteprincipal);
 }
 
   @media only screen and (min-width: 700px) and (max-width:799px) {
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -1432,6 +1589,27 @@ font-family: var(--Fuenteprincipal);
   }
   
   @media only screen and (min-width: 701px) and (max-width:748px) {
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -1474,6 +1652,27 @@ font-family: var(--Fuenteprincipal);
   }
 
   @media only screen and (min-width: 701px) and (max-width:799px) {
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -1522,6 +1721,27 @@ font-family: var(--Fuenteprincipal);
   }
 
   @media only screen and (min-width:600px) and (max-width:700px) {
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -1570,11 +1790,53 @@ font-family: var(--Fuenteprincipal);
   }
 
   @media only screen and (min-width:600px) and (max-width:599px) {
- 
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
+    
  
   }
 
   @media only screen and (min-width: 542px) and (max-width:699px) {
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -1657,6 +1919,27 @@ font-family: var(--Fuenteprincipal);
   
 
   @media only screen and (min-width: 469px) and (max-width:541px) {
+    .lista-albums{
+      margin-top: -0.2rem;
+      margin-left: 9rem;
+      margin-bottom: 0rem;
+    }
+    .opcion-album{
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+    }
+    .nombre-album{
+      color:white;
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    #Album { /*ES EL CHECKBOX */
+      margin-left: 4.3rem;
+      margin-top: 0rem;
+      width:16px;
+      height:16px;
+    }
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
@@ -1742,6 +2025,27 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width: 407px) and (max-width:468px) {
+  .lista-albums{
+    margin-top: -0.2rem;
+    margin-left: 9rem;
+    margin-bottom: 0rem;
+  }
+  .opcion-album{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .nombre-album{
+    color:white;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  #Album { /*ES EL CHECKBOX */
+    margin-left: 4.3rem;
+    margin-top: 0rem;
+    width:16px;
+    height:16px;
+  }
+  
   .container-1 { /* EDITAR */
     border: solid;
     height: 54.3rem;
@@ -1808,6 +2112,27 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width: 360px) and (max-width:406px) {
+  
+  .lista-albums{
+    margin-top: -0.2rem;
+    margin-left: 9rem;
+    margin-bottom: 0rem;
+  }
+  .opcion-album{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .nombre-album{
+    color:white;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  #Album { /*ES EL CHECKBOX */
+    margin-left: 4.3rem;
+    margin-top: 0rem;
+    width:16px;
+    height:16px;
+  }
   
   .container-1 { /* EDITAR */
     border: solid;
@@ -1876,6 +2201,27 @@ font-family: var(--Fuenteprincipal);
 
 
 @media only screen and (min-width:0px) and (max-width:364px) {
+  .lista-albums{
+    margin-top: -0.2rem;
+    margin-left: 9rem;
+    margin-bottom: 0rem;
+  }
+  .opcion-album{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .nombre-album{
+    color:white;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+  #Album { /*ES EL CHECKBOX */
+    margin-left: 4.3rem;
+    margin-top: 0rem;
+    width:16px;
+    height:16px;
+  }
+  
   .container-1 { /* EDITAR */
     border: solid;
     height: 54.3rem;
@@ -2063,6 +2409,27 @@ font-family: var(--Fuenteprincipal);
   
   
         @media only screen and (min-width: 0px) and (max-width:700px) {
+          .lista-albums{
+            margin-top: -0.2rem;
+            margin-left: 9rem;
+            margin-bottom: 0rem;
+          }
+          .opcion-album{
+            margin-top: 2rem;
+            margin-bottom: 0rem;
+          }
+          .nombre-album{
+            color:white;
+            font-size: 2rem;
+            margin-left: 1.5rem;
+          }
+          #Album { /*ES EL CHECKBOX */
+            margin-left: 4.3rem;
+            margin-top: 0rem;
+            width:16px;
+            height:16px;
+          }
+          
           .container-1 { /* EDITAR */
             border: solid;
             height: 54.3rem;
@@ -2271,7 +2638,8 @@ font-family: var(--Fuenteprincipal);
   
   
   /*Comienza @media querie mas baja - movil pequeño 360x640px */
-  @media (min-width:0px) {
+  @media (min-width:0px) {  
+    
     .container-1 { /* EDITAR */
       border: solid;
       height: 54.3rem;
