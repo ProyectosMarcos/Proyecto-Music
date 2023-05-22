@@ -6606,37 +6606,5 @@ color: var(--ColorBlanco);
   }
 
    
-  /*Comienza @media querie mas baja - movil pequeño 360x640px */
-  @media (min-width:0px) {
-    /*Cajas y imagenes*/
-  
-    .caja1 {
-     
-      }
-      .caja2 {
-    
-      }
-      .caja3 {
-    
-      
-      }
-      .caja4{
-       
-      }
-      
-      
-      .imagen-1 {
-        
-      }
-      
-      .imagen-2 {
-       
-      }
-      .imagen-3 {
-      }
-      
-      .imagen-4 {
-      }
-    } 
-
+ 
    
