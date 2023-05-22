@@ -179,10 +179,27 @@
   background-color: var(--ColorNav);
   }
   
+  .input-contenedor-tipo-busqueda {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
+   background-color: green;
+  }
+  
+  .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
+  }
+  
   .input-contenedor-2 {
     border: solid;
     width: auto;
    border-color:rgb(255, 255, 255);
+   border-radius: 1rem;
   }
   .formulario__campo-2 {
   margin: auto;
@@ -190,7 +207,7 @@
   font-family: var(--Fuenteprincipal);
   background-color: black;
   color: white;
-  width: 15rem;
+  width: 20rem;
   font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
   } 
@@ -1015,18 +1032,24 @@ font-family: var(--Fuenteprincipal);
         justify-content: space-evenly;
         gap: 2rem;
       }
+      
+      .formulario-1{
+        background-color: black;
+      }
+
       .input-contenedor-1 {
       border: solid;
-      border-radius: 1rem;
-      width: auto;
+      border-radius: 0.7rem;
+      width: 25rem;
       color: white;
       }
       .formulario__campo-1{
         background-color: black;
         color: white;
-        width: 22rem;
+        width: 24.4rem;
         font-size: 1.7rem;
         font-family: var(--Fuenteprincipal);
+        font-weight: bold;        
       }
      
     

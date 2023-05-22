@@ -144,8 +144,47 @@ background: none;
  margin-top: 3rem;
   
 }
-#Album {
-  margin-top: 8rem;
+
+.guardado-albums{
+  width: 20rem;
+  margin-left: 27rem;
+  margin-bottom: 2rem;
+}
+#guardar-albums-listenlist{
+  width: 10rem;
+  height: 3.3rem;
+  font-size: 1.5rem;
+  background-color:#590306;
+  color:white;
+}
+#cerrar-modal-listenlist{
+  width: 10rem;
+  height: 3.3rem;
+  font-size: 1.5rem;
+  background-color: grey;
+  color:black;
+  font-weight: bold;
+}
+
+.lista-albums{
+  margin-top: 6.5rem;
+  margin-left: 4.5rem;
+  margin-bottom: 4rem;
+}
+
+.opcion-album{
+  margin-top: 1.5rem;
+}
+.nombre-album{
+  color:white;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+}
+
+#Album { /*ES EL CHECKBOX */
+  margin-left: 4.3rem;
+  width:16px;
+  height:16px;
 }
 #title {
   margin-left: 26rem;
@@ -156,20 +195,26 @@ background: none;
 
 
 #sub-title {
-  margin-left: 6.7rem;
+  margin-left: 4.3rem;
+  margin-top: 2rem;
+  margin-bottom: -3.6rem;
+  font-size: 1.7rem;
   color: var(--ColorBlanco);
 }
-  .container-1 {
+  .container-1 { /* EDITAR */
     border: solid;
-    margin-bottom: 3rem;
-    height: 55rem;
+    height: 54.3rem;
     width: 70rem;
-    border-radius: 33%;
+    border-radius: 12%;
     margin-top: 1rem;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
-  } 
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  
 
       .Titulo {
         border: none;
@@ -488,6 +533,9 @@ background: none;
  margin-top: 3rem;
   
 }
+
+
+
 #Album {
   margin-top: 8rem;
 }
