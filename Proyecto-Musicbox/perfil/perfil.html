@@ -74,7 +74,7 @@
     <input  class="confirmar-contraseña" type="text" placeholder="Ingresar contraseña">
 
 <button id="Guardar">Guardar</button>
-<button id="btn-cerrar-modal">Cerrar</button>
+ <button id="btn-cerrar-modal">Cerrar</button> 
     </form>
    
    
@@ -84,23 +84,39 @@
   </nav>
  
   <main class="main">
-    <div class="container">
-        <button class="arrow-left control" aria-label="Previous image">◀</button>
-        <button class="arrow-right control" aria-label="Next Image">▶</button>
-        <h2 id="H2">Artistas favoritos</h2>
-        <div class="gallery-wrapper">
-            <div class="gallery">
-<img src="/perfil/album-modificado/adele.png" alt="" class="item current-item">
-<img src="/perfil/album-modificado/Cerati.png" alt="" class="item current-item">
-<img src="/perfil/album-modificado/Queen.png" alt="" class="item current-item">
-<img src="/perfil/album-modificado/The Beatles.png" alt="" class="item current-item">
+   <h2 id="H2">Artistas Favoritos</h2>
+    <div class="cont-imagenes">
+        <div class="slider">
 
-          </div>
+            <button class="slider-prev">
+                <i class="bx bx-chevron-left"></i>
+            </button>
+    
+            <div class="inner-slider">
+                <div class="slider-item">
+                    <img src="/Proyecto-Musicbox/perfil/album-modificado/adele.png" alt="...">
+                </div>
+                <div class="slider-item">
+                    <img src="/Proyecto-Musicbox/perfil/album-modificado/Cerati.png" alt="...">
+                </div>
+                <div class="slider-item">
+                    <img src="/Proyecto-Musicbox/perfil/album-modificado/Queen.png" alt="...">
+                </div>
+                <div class="slider-item">
+                    <img src="/Proyecto-Musicbox/perfil/album-modificado/The Beatles.png" alt="...">
+                </div>
+            </div>
+    
+            <button class="slider-next">
+                <i class="bx bx-chevron-right"></i>
+            </button>
+    
         </div>
-      </div>
+    
+   </div>
 
 
-   
+
 
 <div class="contenedor-albums-favoritos">
 <div class="elementos-seccion">
@@ -132,7 +148,7 @@
 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="/Proyecto-Musicbox/menu.js"></script>
-    <script src="app.js"></script>
+    <script src="/Proyecto-Musicbox/perfil/app.js"></script>
     <script src="perfil.js"></script>
 </body>
 </html>
