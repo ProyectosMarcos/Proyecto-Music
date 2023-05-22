@@ -3039,12 +3039,12 @@ cursor: pointer;
                 }
                 
                 #title {
-                 text-align: center;
+                 margin-left: auto;
                   margin-bottom: 1rem;
                   color: var(--ColorBlanco);
                 }
                 #usuario-title {
-                  text-align: center;
+                  margin-left: auto;
                   color: var(--ColorBlanco);
                 }
                 #input-usuario {
@@ -3053,14 +3053,14 @@ cursor: pointer;
                   padding: .3rem;
                   font-size: 1.2rem;
                   margin-top: 2rem;
-                  text-align: center;
+                  margin-left: auto;
                   cursor: pointer;
                 }
                 
                 #H2-modal {
                  color: var(--ColorBlanco);
                  margin-top: 1rem;
-                text-align: center;
+                margin-left: auto;
           
                 }
                 .imagen-icono-user{
