@@ -193,6 +193,10 @@
       margin-top: 5rem;
       margin-left: 18.4rem;
     }
+    .boton-agregar-lista{
+      margin-top: 2rem;
+      margin-left: 18.4rem;
+    }
     .boton-puntuar{
       background-color:#590306;
       width: 21rem;
@@ -619,6 +623,10 @@ button:active {
     margin-left: 18.4rem;
     color:white;
   }
+  .boton-agregar-lista{
+    margin-top: 2rem;
+    margin-left: 18.4rem;
+  }
   .boton-puntuar{
     background-color:#590306;
     width: 21rem;
@@ -840,6 +848,10 @@ font-family: var(--Fuenteprincipal);
     
     .boton-puntuacion-album{
       margin-top: 5rem;
+      margin-left: 18.4rem;
+    }
+    .boton-agregar-lista{
+      margin-top: 2rem;
       margin-left: 18.4rem;
     }
     .boton-puntuar{
@@ -1233,6 +1245,10 @@ font-family: var(--Fuenteprincipal);
   
   .boton-puntuacion-album{
     margin-top: 5rem;
+    margin-left: 18.4rem;
+  }
+  .boton-agregar-lista{
+    margin-top: 2rem;
     margin-left: 18.4rem;
   }
   .boton-puntuar{
