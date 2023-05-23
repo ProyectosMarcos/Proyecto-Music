@@ -108,12 +108,7 @@
         margin-left: 6rem;
         font-size: 3rem;
       }
-      .atributo-review{
-        color:white;
-        margin-top:2rem;
-        margin-left: 6rem;
-        font-size: 3rem;
-      }
+
       textarea{
         margin-left: 6.2rem;
       }
@@ -190,32 +185,14 @@
       font-family: var(--Fuenteprincipal);
     }
     
-    .review_usuario{
-      background-color:#232526;
-      border-color: white;
-      border-style: solid;
-      margin-right: 17rem;
-      padding-left: 2rem;
-    }
-    
-    .datos-review{
-      color:rgb(185, 185, 0);
-      font-size: 1.9rem;
-      margin-left: 6rem;
-      margin-bottom: 1rem;
-    }
+
     
     .nombre_usuario{
       color:rgb(185, 185, 0);
       font-size: 2rem;
       margin-top: 0.6rem;
     }
-    
-    .reviews{
-      color:white;
-      font-size: 2.7rem;
-      margin-left: 62rem;     
-    }
+  
     
     .boton-puntuacion-album{
       margin-top: 5rem;
@@ -235,43 +212,62 @@
       font-size: 1.8rem;
     }
     
-    .link_album{
-      color:white;
-      margin-top: 1rem; 
-    }
     .datos-album{
       color:white;
       font-size: 2.7rem;
-      margin-left: 62rem;
-      margin-top: -35.8rem;
-    }
-    .listado-canciones{
-      color:white;
-      margin-left: 5rem;
-      margin-top: 1rem;
+      margin-left: 42rem;
+      margin-top: -40rem;
     }
     .caracteristica{
-      margin-top: 1rem;
+      margin-top: 20rem;
     }
     
-    .portada-album{
-      width: 45rem;
-      height: 35rem;
-      margin-left: 5rem;
-      margin-top: 5rem;
+
+
+
+
+    .review{
+      margin-bottom: 5rem;
+      margin-left: 5.2rem;
+      margin-right: 6.5rem;
+      border-style: solid;
+      border-color: yellow;
+      padding-bottom: 2.6rem;
     }
-    
+    .datos-review{
+      color:white;
+      margin-left: 35rem;
+      margin-top: -20rem;
+    }
+    .artista-album{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    .datos-album-review{
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .datos-album-puntuacion{
+      font-size: 2rem;
+    }
+    .foto-album{
+      width: 30rem;
+      height: 20rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+    }
     .titulo_album{
       color:white;
       font-size: 5rem;
       margin-left: 5rem;
+      margin-bottom: 5rem;
     }
-    .banda_album{
-      color:white;
-      font-size: 2.3rem;
-      margin-left: 5rem;
-      margin-top: 1rem;
-    }
+
+
+
+
+    
+    
     
     .contenedor-grid {
         grid-template-columns: 4rem 3rem 1fr;
@@ -515,6 +511,58 @@ button:active {
 }
   
 @media only screen and (min-width: 1080px) and (max-width:1223px) {
+  .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 0.2rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+  }
+  
+  .review{
+    margin-bottom: 5rem;
+    margin-left: 5.2rem;
+    margin-right: 6.5rem;
+    border-style: solid;
+    border-color: yellow;
+    padding-bottom: 2.5rem;
+  }
+  .datos-review{
+    color:white;
+    margin-left: 35rem;
+    margin-top: -20rem;
+  }
+  .artista-album{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .datos-album-review{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .datos-album-puntuacion{
+    font-size: 2rem;
+  }
+  .foto-album{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .titulo_album{
+    color:white;
+    font-size: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
+
+
+  
+  
+  
   .lista-albums{
     margin-top: -0.2rem;
     margin-left: 9rem;
@@ -560,12 +608,6 @@ button:active {
     .atributo-puntuacion{
       color:white;
       margin-top:10rem;
-      margin-left: 6rem;
-      font-size: 3rem;
-    }
-    .atributo-review{
-      color:white;
-      margin-top:2rem;
       margin-left: 6rem;
       font-size: 3rem;
     }
@@ -661,53 +703,7 @@ button:active {
     padding: 2rem;
     background-color: var(--ColorNav);
   }
-  
-  .review_usuario{
-    background-color:#232526;
-    border-color: white;
-    border-style: solid;
-    margin-right: 20rem;
-    padding-left: 2rem;
-  }
-  
-  .datos-review{
-    color:rgb(185, 185, 0);
-    font-size: 1.9rem;
-    margin-left: 6rem;
-    margin-bottom: 1rem;
-  }
-  
-  .nombre_usuario{
-    color:rgb(185, 185, 0);
-    font-size: 2rem;
-    margin-top: 0.6rem;
-  }
-  
-  .reviews{
-    color:white;
-    font-size: 2.7rem;
-    margin-left: 5rem;     
-  }
-  
-  .boton-puntuacion-album{
-    margin-top: 5rem;
-    margin-left: 18.4rem;
-    color:white;
-  }
-  .boton-agregar-lista{
-    margin-top: 2rem;
-    margin-left: 18.4rem;
-  }
-  .boton-puntuar{
-    background-color:#590306;
-    width: 21rem;
-    height: 3rem;
-    border-color: white;
-    border-radius: 0.7rem;
-    border-style: solid;
-    font-size: 1.8rem;
-    color:white;
-  }
+
   
   .link_album{
     color:white;
@@ -739,23 +735,13 @@ button:active {
     color:white;
     font-size: 5rem;
     margin-left: 5rem;
+    margin-bottom: 5rem;
   }
   .banda_album{
     color:white;
     font-size: 2.3rem;
     margin-left: 5rem;
     margin-top: 1rem;
-  }
-
-  .barra_boton_nueva_lista .btn { 
-    font-size: 20px;
-    color: white;
-    background-color: #590306;
-    border-color: white;
-    border-radius: 5px;
-    padding-bottom: 0.3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 .formulario__campo-2 {
 margin: auto;
@@ -793,6 +779,43 @@ font-family: var(--Fuenteprincipal);
 }
   
   @media only screen and (min-width: 800px) and (max-width:1080px) {       
+    .review{
+      margin-bottom: 5rem;
+      margin-left: 5.2rem;
+      margin-right: 6.5rem;
+      border-style: solid;
+      border-color: yellow;
+      padding-bottom: 2.5rem;
+    }
+    .datos-review{
+      color:white;
+      margin-left: 35rem;
+      margin-top: -20rem;
+    }
+    .artista-album{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    .datos-album-review{
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .datos-album-puntuacion{
+      font-size: 2rem;
+    }
+    .foto-album{
+      width: 30rem;
+      height: 20rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+    }
+    .titulo_album{
+      color:white;
+      font-size: 5rem;
+      margin-left: 5rem;
+      margin-bottom: 5rem;
+    }
+    
     .lista-albums{
       margin-top: -0.2rem;
       margin-left: 9rem;
@@ -828,36 +851,21 @@ font-family: var(--Fuenteprincipal);
         background-repeat: no-repeat;
         cursor: pointer;
         }
-      .atributo-puntuacion{
-        color:white;
-        margin-top:10rem;
-        margin-left: 6rem;
-        font-size: 2rem;
-      }
-      .atributo-review{
-        color:white;
-        margin-top:2rem;
-        margin-left: 6rem;
-        font-size: 2rem;
-      }
-      textarea{
-        margin-left: 6.2rem;
-      }
     
       .select-estrellas{
-        margin-left: 29rem;
+        margin-left: 41rem;
         font-size: 4rem;
         margin-top: -4.3rem;
       }
       .select-estrellas select{
-        font-size: 1.8rem;
+        font-size: 2.3rem;
       }  
       
       #sub-title {
-          margin-left: 13rem;
+          margin-left: 11.8rem;
           margin-top: 1.9rem;
-          margin-bottom: -6rem;
-          font-size: 2rem;
+          margin-bottom: -3.6rem;
+          font-size: 3rem;
           color: var(--ColorBlanco);
         }
         #sub-title-listas {
@@ -870,12 +878,12 @@ font-family: var(--Fuenteprincipal);
     
     
     .guardado-albums{
-      margin-left: 23.5rem;
+      margin-left: 30rem;
       margin-bottom: 2rem;
       margin-top: 5rem;
     }
     .cerrar-albums{
-      margin-left: 23.5rem;
+      margin-left: 30rem;
     }
     
       #guardar-detalle-album{
@@ -896,14 +904,13 @@ font-family: var(--Fuenteprincipal);
       font-family: var(--Fuenteprincipal);
     }
     
-        
-    .container-1 {
+    .container-1 { /* EDITAR */
       border: solid;
-      height: 45rem;
-      width: 58rem;
+      height: 54.3rem;
+      width: 70rem;
       border-radius: 12%;
       margin-top: 1rem;
-      background-color:#160a3b;
+      background-color: #160a3b;
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -933,54 +940,10 @@ font-family: var(--Fuenteprincipal);
      border-radius: 1rem;
     }
     
-    .review_usuario{
-      background-color:#232526;
-      border-color: white;
-      border-style: solid;
-      margin-right: 12rem;
-      padding-left: 2rem;
-    }
-    
-    .datos-review{
-      color:rgb(185, 185, 0);
-      font-size: 1.9rem;
-      margin-left: 6rem;
-      margin-bottom: 1rem;
-    }
-    
     .nombre_usuario{
       color:rgb(185, 185, 0);
       font-size: 2rem;
       margin-top: 0.6rem;
-    }
-    
-    .reviews{
-      color:white;
-      font-size: 2.7rem;
-      margin-left: 5rem;     
-    }
-    
-    .boton-puntuacion-album{
-      margin-top: 5rem;
-      margin-left: 18.4rem;
-    }
-    .boton-agregar-lista{
-      margin-top: 2rem;
-      margin-left: 18.4rem;
-    }
-    .boton-puntuar{
-      background-color:#590306;
-      width: 21rem;
-      height: 3rem;
-      border-color: white;
-      border-radius: 0.7rem;
-      border-style: solid;
-      font-size: 1.8rem;
-    }
-    
-    .link_album{
-      color:white;
-      margin-top: 1rem; 
     }
     .datos-album{
       color:white;
@@ -1147,7 +1110,20 @@ font-family: var(--Fuenteprincipal);
         background-repeat: no-repeat;
         cursor: pointer;
         }
+      .atributo-puntuacion{
+        color:white;
+        margin-top:10rem;
+        margin-left: 6rem;
+        font-size: 3rem;
+      }  
       
+      #sub-title {
+          margin-left: 11.8rem;
+          margin-top: 1.9rem;
+          margin-bottom: -3.6rem;
+          font-size: 3rem;
+          color: var(--ColorBlanco);
+        }
         #sub-title-listas {
           margin-left: 9rem;
           margin-top: 1.9rem;
@@ -1157,14 +1133,14 @@ font-family: var(--Fuenteprincipal);
         }
     
     
-        .guardado-albums{
-          margin-left: 23.5rem;
-          margin-bottom: 2rem;
-          margin-top: 5rem;
-        }
+    .guardado-albums{
+      margin-left: 30rem;
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+    }
     .cerrar-albums{
-          margin-left: 23.5rem;
-        }
+      margin-left: 30rem;
+    }
     
       #guardar-detalle-album{
       width: 10rem;
@@ -1184,7 +1160,16 @@ font-family: var(--Fuenteprincipal);
       font-family: var(--Fuenteprincipal);
     }
     
-    
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
     ::-webkit-scrollbar {
       display: none;
   }
@@ -1209,55 +1194,42 @@ font-family: var(--Fuenteprincipal);
     }
   }
 @media only screen and (min-width: 0px) and (max-width:799px) {
-  .container-1 {
-    border: solid;
-    height: 45rem;
-    width: 58rem;
-    border-radius: 12%;
+  .review{
+    margin-bottom: 5rem;
+    margin-left: 5.2rem;
+    margin-right: 6.5rem;
+    border-style: solid;
+    border-color: yellow;
+    padding-bottom: 2.5rem;
+  }
+  .datos-review{
+    color:white;
+    margin-left: 2rem;
     margin-top: 1rem;
-    background-color:#160a3b;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
-.guardado-albums{
-    margin-left: 23.5rem;
+  .artista-album{
+    font-size: 3rem;
     margin-bottom: 2rem;
-    margin-top: 5rem;
   }
-.cerrar-albums{
-    margin-left: 23.5rem;
+  .datos-album-review{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
-#sub-title {
-        margin-left: 13rem;
-        margin-top: 1.9rem;
-        margin-bottom: -6rem;
-        font-size: 2rem;
-        color: var(--ColorBlanco);
-      }
-.atributo-puntuacion{
-      color:white;
-      margin-top:10rem;
-      margin-left: 6rem;
-      font-size: 2rem;
-    }
-.atributo-review{
-      color:white;
-      margin-top:2rem;
-      margin-left: 6rem;
-      font-size: 2rem;
-    }
-textarea{
-      margin-left: 6.2rem;
-    }
-  
-.select-estrellas{
-      margin-left: 29rem;
-      font-size: 4rem;
-      margin-top: -4.3rem;
-    }
-.select-estrellas select{
-      font-size: 1.8rem;
-    } 
+  .datos-album-puntuacion{
+    font-size: 1.7rem;
+  }
+  .foto-album{
+    width: 25rem;
+    height: 18rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .titulo_album{
+    color:white;
+    font-size: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
   
   #sub-title-listas {
     margin-left: 9rem;
@@ -1265,27 +1237,6 @@ textarea{
     margin-bottom: 2rem;
     font-size: 3rem;
     color: var(--ColorBlanco);
-  }
-  
-  .lista-albums{
-    margin-top: -0.2rem;
-    margin-left: 9rem;
-    margin-bottom: 0rem;
-  }
-  .opcion-album{
-    margin-top: 2rem;
-    margin-bottom: 0rem;
-  }
-  .nombre-album{
-    color:white;
-    font-size: 2rem;
-    margin-left: 1.5rem;
-  }
-  #Album { /*ES EL CHECKBOX */
-    margin-left: 4.3rem;
-    margin-top: 0rem;
-    width:16px;
-    height:16px;
   }
   
   #modal{ 
@@ -1302,7 +1253,34 @@ textarea{
       background-repeat: no-repeat;
       cursor: pointer;
       }
+  
+    .select-estrellas{
+      margin-left: 41rem;
+      font-size: 4rem;
+      margin-top: -4.3rem;
+    }
+    .select-estrellas select{
+      font-size: 2.3rem;
+    }  
     
+    #sub-title {
+        margin-left: 11.8rem;
+        margin-top: 1.9rem;
+        margin-bottom: -3.6rem;
+        font-size: 3rem;
+        color: var(--ColorBlanco);
+      }
+      
+  
+  
+  .guardado-albums{
+    margin-left: 30rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  .cerrar-albums{
+    margin-left: 30rem;
+  }
   
     #guardar-detalle-album{
     width: 10rem;
@@ -1322,7 +1300,16 @@ textarea{
     font-family: var(--Fuenteprincipal);
   }
   
-  
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 54.3rem;
+    width: 70rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   ::-webkit-scrollbar {
     display: none;
 }
@@ -1375,40 +1362,10 @@ textarea{
    border-radius: 1rem;
   }
   
-  .review_usuario{
-    background-color:#232526;
-    border-color: white;
-    border-style: solid;
-    margin-right: 12rem;
-    padding-left: 2rem;
-  }
-  
-  .datos-review{
-    color:rgb(185, 185, 0);
-    font-size: 1.9rem;
-    margin-left: 6rem;
-    margin-bottom: 1rem;
-  }
-  
   .nombre_usuario{
     color:rgb(185, 185, 0);
     font-size: 2rem;
     margin-top: 0.6rem;
-  }
-  
-  .reviews{
-    color:white;
-    font-size: 2.7rem;
-    margin-left: 5rem;     
-  }
-  
-  .boton-puntuacion-album{
-    margin-top: 5rem;
-    margin-left: 18.4rem;
-  }
-  .boton-agregar-lista{
-    margin-top: 2rem;
-    margin-left: 18.4rem;
   }
   .boton-puntuar{
     background-color:#590306;
@@ -1633,13 +1590,13 @@ textarea{
       height:16px;
     }
     
-    .container-1 {
+    .container-1 { /* EDITAR */
       border: solid;
-      height: 45rem;
-      width: 58rem;
+      height: 54.3rem;
+      width: 70rem;
       border-radius: 12%;
       margin-top: 1rem;
-      background-color:#160a3b;
+      background-color: #160a3b;
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -2369,8 +2326,6 @@ font-family: var(--Fuenteprincipal);
   
   
         @media only screen and (min-width: 0px) and (max-width:700px) {
-          
-          
           .lista-albums{
             margin-top: -0.2rem;
             margin-left: 9rem;
@@ -2392,13 +2347,13 @@ font-family: var(--Fuenteprincipal);
             height:16px;
           }
           
-          .container-1 {
+          .container-1 { /* EDITAR */
             border: solid;
-            height: 45rem;
-            width: 58rem;
+            height: 54.3rem;
+            width: 70rem;
             border-radius: 12%;
             margin-top: 1rem;
-            background-color:#160a3b;
+            background-color: #160a3b;
             background-repeat: no-repeat;
             background-size: cover;
           }
@@ -2600,7 +2555,20 @@ font-family: var(--Fuenteprincipal);
   
   
   /*Comienza @media querie mas baja - movil pequeño 360x640px */
-  @media (min-width:0px) {  
+  @media (min-width:0px) {     
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 54.3rem;
+      width: 70rem;
+      border-radius: 12%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
     
     #modal{ 
       margin: auto;
