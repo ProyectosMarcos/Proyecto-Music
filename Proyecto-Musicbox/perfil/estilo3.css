@@ -134,7 +134,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -44rem;
+  margin-left: -33rem;
 }
 
 
@@ -6125,37 +6125,6 @@ color: var(--ColorBlanco);
 }
 
   
-      .imagen-1-editada {
-        border: solid;
-        border-color:crimson;
-        height: 25.4rem;
-        width: 37rem;
-        margin-top: 8.5rem;
-        margin-left: 4rem;
-      }
-      .imagen-1-editada-comfort {
-        border: solid;
-        border-color: var(--ColorBlanco);
-        height: 25.4rem;
-        width: 37rem;
-        margin-top: 8.5rem;
-        margin-left: 4rem;
-      }
-      .imagen-1-editada-1 {
-        border: solid;
-        border-color:crimson;
-        height: 25.4rem;
-        width:37rem;
-        margin-top: 2rem;
-        margin-left: 2.5rem;
-      }
-      .imagen-2-editada {
-        height: 25.4rem;
-        width:37rem;
-        border: solid;
-        margin-left: 4rem;
-        margin-top: 4.5rem;
-      }
        #H2 {
          margin-top: 23rem;
         }
@@ -6313,6 +6282,40 @@ color: var(--ColorBlanco);
   
   
   
+
+@media only screen and (min-width:0px) and (max-width:499px) {
+ 
+
+  .imagen-1-editada-comfort {
+    border: solid;
+    border-color: var(--ColorBlanco);
+    height: 25.4rem;
+    width: 37rem;
+    margin-top: 8.5rem;
+    margin-left: .1rem;
+  }
+  .imagen-1-editada-1 {
+    border: solid;
+    border-color:crimson;
+    height: 25.4rem;
+    width:37rem;
+    margin-top: 2rem;
+    margin-left: .1rem;
+  }
+  .imagen-2-editada {
+    height: 25.4rem;
+    width: 37rem;
+    border: solid;
+    margin-left: .1rem;
+    margin-top: 4.5rem;
+  }
+
+  }
+
+
+
+
+
   @media only screen and (min-width: 701px) and (max-width:748px) {
     .NAV-LIST a {
       font-size: 1.5rem
@@ -6456,39 +6459,14 @@ color: var(--ColorBlanco);
           }  */
  
 
-          .imagen-2-editada {
-            height: 25.4rem;
-            width:40rem;
-            border: solid;
-            margin-left: 2.9rem;
-            margin-top: 4.5rem;
-          }
+      
 
-        .imagen-2-editada {
-           margin-left: 2rem;
-           width: 37.5rem;
-                    }
+    
 
           #h3-1-editado {
             margin-left: 2.3rem;
           }
 
-          .imagen-1-editada-comfort {
-            border: solid;
-            border-color: var(--ColorBlanco);
-            height: 25.4rem;
-            width: 37rem;
-            margin-top: 8.5rem;
-            margin-left: 2.6rem;
-          }
-          .imagen-1-editada-1 {
-            border: solid;
-            border-color:crimson;
-            height: 25.4rem;
-            width:37rem;
-            margin-top: 2rem;
-            margin-left: 2.5rem;
-          }
         .hamburguer {
           display: block;
         }
