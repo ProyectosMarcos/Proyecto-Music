@@ -59,6 +59,8 @@
   text-align: center;
   }
   
+
+ 
   
   @media (min-width: 1223px) {
     .contenedor-grid {
@@ -4834,7 +4836,7 @@ color: var(--ColorBlanco);
         border: solid;
         border-color: var(--ColorBlanco);
         height: 25.4rem;
-        width: 40rem;
+        width: 39rem;
         margin-top: 9rem;
         margin-left: 4rem;
       }
@@ -4842,16 +4844,16 @@ color: var(--ColorBlanco);
         border: solid;
         border-color:crimson;
         height: 25.4rem;
-        width: 40rem;
+        width:39rem;
         margin-top: 2rem;
         margin-left: 2.5rem;
       }
       .imagen-2-editada {
         height: 25.4rem;
-        width: 40rem;
+        width: 39rem;
         border: solid;
         margin-left: 4rem;
-        margin-top: 4.5rem;
+        margin-top: 5.3rem;
       }
 
       #H2-editado {
@@ -5457,7 +5459,7 @@ color: var(--ColorBlanco);
           height: 25.4rem;
           width: 40rem;
           margin-top: 8.5rem;
-          margin-left: 4rem;
+          margin-left: 2.4rem;
         }
         .imagen-1-editada-1 {
           border: solid;
@@ -5471,7 +5473,7 @@ color: var(--ColorBlanco);
           height: 25.4rem;
           width: 40rem;
           border: solid;
-          margin-left: 4rem;
+          margin-left: 2.4rem;
           margin-top: 4.5rem;
         }
        #H2 {
@@ -5806,7 +5808,7 @@ color: var(--ColorBlanco);
         height: 25.4rem;
         width: 40rem;
         margin-top: 8.5rem;
-        margin-left: 4rem;
+        margin-left: 2.5em;
       }
       .imagen-1-editada-1 {
         border: solid;
@@ -5820,7 +5822,7 @@ color: var(--ColorBlanco);
         height: 25.4rem;
         width: 40rem;
         border: solid;
-        margin-left: 4rem;
+        margin-left: 2.5rem;
         margin-top: 4.5rem;
       }
  #H2 {
@@ -5978,7 +5980,20 @@ color: var(--ColorBlanco);
 
   }
 
+  #H2 {
+    font-size: 2rem;
+  }
+  #H2-editado{
+    font-size: 2rem;
+  }
+
+  #H2-editado-2{
+    font-size: 2rem;
+  }
+
+
  
+  
   @media only screen and (min-width: 800px) and (max-width:831px) {
     .NAV-LIST a {
       font-size: 1.8rem;
