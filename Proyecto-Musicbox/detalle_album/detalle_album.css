@@ -1866,7 +1866,28 @@ textarea{
       height:16px;
     }
     
-   
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 45rem;
+      width: 53rem;
+      border-radius: 12%;
+      margin-top: 10rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container-2 { /* EDITAR */
+      border: solid;
+      height: 63.9rem;
+      width: 52rem;
+      border-radius: 12%;
+      margin-left: 1%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
 /*     
     #modal{ 
       background: none;
@@ -1960,7 +1981,7 @@ textarea{
     }
 
   }
-  @media only screen and (min-width: 469px) and (max-width:541px) {
+  @media only screen and (min-width: 515px) and (max-width:541px) {
     .lista-albums{
       margin-top: -0.2rem;
       margin-left: 9rem;
@@ -1984,10 +2005,21 @@ textarea{
     
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
-      width: 70rem;
+      height: 45rem;
+      width: 53rem;
+      border-radius: 12%;
+      margin-top: 10rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container-2 { /* EDITAR */
+      border: solid;
+      height: 63rem;
+      width: 48rem;
       border-radius: 12%;
       margin-top: 1rem;
+      margin-left: 5%;
       background-color: #160a3b;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1997,17 +2029,15 @@ textarea{
   }
     
     #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       cursor: pointer;
       }
       #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
-        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
         cursor: pointer;
         }
     
@@ -2066,7 +2096,7 @@ font-family: var(--Fuenteprincipal);
 }
 
 
-@media only screen and (min-width: 407px) and (max-width:468px) {
+@media only screen and (min-width: 500px) and (max-width:515px) {
   .lista-albums{
     margin-top: -0.2rem;
     margin-left: 9rem;
@@ -2090,10 +2120,21 @@ font-family: var(--Fuenteprincipal);
   
   .container-1 { /* EDITAR */
     border: solid;
-    height: 54.3rem;
-    width: 70rem;
+    height: 45rem;
+    width: 53rem;
+    border-radius: 12%;
+    margin-top: 10rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-2 { /* EDITAR */
+    border: solid;
+    height: 63rem;
+    width: 48rem;
     border-radius: 12%;
     margin-top: 1rem;
+    margin-left: 2%;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2103,58 +2144,74 @@ font-family: var(--Fuenteprincipal);
 }
   
   #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.667);
+    min-width: 100%;
+    min-height: 100%;
     cursor: pointer;
     }
     #modalListas{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       cursor: pointer;
       }
   
   .input-contenedor-2 {
     border: solid;
-    width: 18rem;
+    width: auto;
    border-color:rgb(255, 255, 255);
-  
-  
+   border-radius: 1rem;
   }
-  .formulario__campo-2 {
+.formulario__campo-2 {
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
   background-color: black;
   color: white;
-  width: 9rem;
-  height: 3rem;
-  font-size: 1.5rem;
+  width: 20rem;
+  font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
   }
+
   button {
-    color: var(--ColorBlanco);
-    background-color: black;
-    transition: .2s;
-    width: 8rem;
-    height: 3rem;
-    cursor: pointer;
-  }
-  button span {
-    font-size: 1.4rem;
-  transition: .2s;
-  }
-  button:active {
-    transform: scale(0.9);
-  }
+color: var(--ColorBlanco);
+background-color: black;
+transition: .2s;
+width: 8rem;
+height: 3rem;
+cursor: pointer;
+}
+button span {
+font-size: 1.4rem;
+transition: .2s;
+}
+button:active {
+transform: scale(0.9);
+}
+
+.input-contenedor-2 {
+border: solid;
+width: 18rem;
+border-color:rgb(255, 255, 255);
+
+
+}
+.formulario__campo-2 {
+margin: auto;
+font-size: 1.2rem;
+font-family: var(--Fuenteprincipal);
+background-color: black;
+color: white;
+width: 9rem;
+height: 3rem;
+font-size: 1.5rem;
+font-family: var(--Fuenteprincipal);
+}
+
 }
 
 
-@media only screen and (min-width: 360px) and (max-width:406px) {
-  
+@media only screen and (min-width: 400px) and (max-width:499px) {
   .lista-albums{
     margin-top: -0.2rem;
     margin-left: 9rem;
@@ -2178,10 +2235,37 @@ font-family: var(--Fuenteprincipal);
   
   .container-1 { /* EDITAR */
     border: solid;
-    height: 54.3rem;
-    width: 70rem;
+    height: 47rem;
+    width: 45rem;
+    border-radius: 12%;
+    margin-left: 3%;
+    margin-top: 10rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #descripcion-review {
+    width: 36rem;
+  }
+
+
+  #guardar-detalle-album {
+    margin-left: -30%;
+  }
+  #cerrar-detalle-album {
+    margin-left: -30%;
+  }
+  #sub-title-listas {
+    margin-left: 10%;
+  }
+  .container-2 { /* EDITAR */
+    border: solid;
+    height: 63rem;
+    width: 40rem;
     border-radius: 12%;
     margin-top: 1rem;
+    margin-left: 6%;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2191,58 +2275,75 @@ font-family: var(--Fuenteprincipal);
 }
   
   #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.667);
+    min-width: 100%;
+    min-height: 100%;
     cursor: pointer;
     }
     #modalListas{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       cursor: pointer;
       }
   
   .input-contenedor-2 {
     border: solid;
-    width: 18rem;
+    width: auto;
    border-color:rgb(255, 255, 255);
-  
-  
+   border-radius: 1rem;
   }
-  .formulario__campo-2 {
+.formulario__campo-2 {
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
   background-color: black;
   color: white;
-  width: 9rem;
-  height: 3rem;
-  font-size: 1.5rem;
+  width: 20rem;
+  font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
   }
-  
+
   button {
-    color: var(--ColorBlanco);
-    background-color: black;
-    transition: .2s;
-    width: 8rem;
-    height: 3rem;
-    cursor: pointer;
-  }
-  button span {
-    font-size: 1.4rem;
-  transition: .2s;
-  }
-  button:active {
-    transform: scale(0.9);
-  }
+color: var(--ColorBlanco);
+background-color: black;
+transition: .2s;
+width: 8rem;
+height: 3rem;
+cursor: pointer;
+}
+button span {
+font-size: 1.4rem;
+transition: .2s;
+}
+button:active {
+transform: scale(0.9);
+}
+
+.input-contenedor-2 {
+border: solid;
+width: 18rem;
+border-color:rgb(255, 255, 255);
+
+
+}
+.formulario__campo-2 {
+margin: auto;
+font-size: 1.2rem;
+font-family: var(--Fuenteprincipal);
+background-color: black;
+color: white;
+width: 9rem;
+height: 3rem;
+font-size: 1.5rem;
+font-family: var(--Fuenteprincipal);
+}
+
 }
 
 
-@media only screen and (min-width:0px) and (max-width:364px) {
+
+@media only screen and (min-width: 360px) and (max-width:468px) {
   .lista-albums{
     margin-top: -0.2rem;
     margin-left: 9rem;
@@ -2266,10 +2367,37 @@ font-family: var(--Fuenteprincipal);
   
   .container-1 { /* EDITAR */
     border: solid;
-    height: 54.3rem;
-    width: 70rem;
+    height: 47rem;
+    width: 45rem;
+    border-radius: 12%;
+    margin-left: -2%;
+    margin-top: 10rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #descripcion-review {
+    width: 36rem;
+  }
+
+
+  #guardar-detalle-album {
+    margin-left: -30%;
+  }
+  #cerrar-detalle-album {
+    margin-left: -30%;
+  }
+  #sub-title-listas {
+    margin-left: 10%;
+  }
+  .container-2 { /* EDITAR */
+    border: solid;
+    height: 63rem;
+    width: 40rem;
     border-radius: 12%;
     margin-top: 1rem;
+    margin-left: 3%;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2279,55 +2407,172 @@ font-family: var(--Fuenteprincipal);
 }
   
   #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.667);
+    min-width: 100%;
+    min-height: 100%;
     cursor: pointer;
     }
     #modalListas{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       cursor: pointer;
       }
   
   .input-contenedor-2 {
     border: solid;
-    width: 18rem;
+    width: auto;
    border-color:rgb(255, 255, 255);
-  
-  
+   border-radius: 1rem;
   }
-  .formulario__campo-2 {
+.formulario__campo-2 {
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
   background-color: black;
   color: white;
-  width: 9rem;
-  height: 3rem;
-  font-size: 1.5rem;
+  width: 20rem;
+  font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
   }
-  
+
   button {
-    color: var(--ColorBlanco);
-    background-color: black;
-    transition: .2s;
-    width: 8rem;
-    height: 3rem;
-    cursor: pointer;
-  }
-  button span {
-    font-size: 1.4rem;
-  transition: .2s;
-  }
-  button:active {
-    transform: scale(0.9);
-  }
+color: var(--ColorBlanco);
+background-color: black;
+transition: .2s;
+width: 8rem;
+height: 3rem;
+cursor: pointer;
 }
+button span {
+font-size: 1.4rem;
+transition: .2s;
+}
+button:active {
+transform: scale(0.9);
+}
+
+.input-contenedor-2 {
+border: solid;
+width: 18rem;
+border-color:rgb(255, 255, 255);
+
+
+}
+.formulario__campo-2 {
+margin: auto;
+font-size: 1.2rem;
+font-family: var(--Fuenteprincipal);
+background-color: black;
+color: white;
+width: 9rem;
+height: 3rem;
+font-size: 1.5rem;
+font-family: var(--Fuenteprincipal);
+}
+}
+
+
+@media only screen and (min-width: 400px) and (max-width:442px) {
+
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 47rem;
+    width: 40rem;
+    border-radius: 12%;
+    margin-left: 1%;
+    margin-top: 10rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #descripcion-review {
+    width: 30rem;
+  }
+
+
+  #guardar-detalle-album {
+    margin-left: -30%;
+  }
+  #cerrar-detalle-album {
+    margin-left: -30%;
+  }
+
+  #sub-title {
+    margin-left: 12%;
+  }
+  #sub-title-listas {
+    margin-left: 10%;
+  }
+  .container-2 { /* EDITAR */
+    border: solid;
+    height: 63rem;
+    width: 40rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    margin-left: 3%;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:399px) {
+  
+  .container-1 { /* EDITAR */
+    border: solid;
+    height: 47rem;
+    width: 35rem;
+    border-radius: 12%;
+    margin-left: 1%;
+    margin-top: 10rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #descripcion-review {
+    width: 26rem;
+  }
+
+
+  #guardar-detalle-album {
+    margin-left: -99%;
+  }
+  #cerrar-detalle-album {
+    margin-left: -99%;
+  }
+
+  #sub-title {
+    margin-left: 12%;
+  }
+  #sub-title-listas {
+    margin-left: 10%;
+  }
+  .container-2 { /* EDITAR */
+    border: solid;
+    height: 67rem;
+    width: 33rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    margin-left: 3%;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+}
+
+
+
+
 
   
             .imagen-icono {
