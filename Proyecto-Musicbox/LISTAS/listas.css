@@ -84,9 +84,13 @@
       #modal{ 
         margin: auto;
         border: none;
-      background: none;
+        background: none;
         background-repeat: no-repeat;
         cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
+      
         }
         .container-1 form {
           margin-top: 3rem;
@@ -165,6 +169,7 @@
           margin-bottom: 3rem;
           height: 55rem;
           width: 70rem;
+          margin-left: 29%;
           border-radius: 33%;
           margin-top: 1rem;
           background-color: #160a3b;
@@ -397,6 +402,10 @@ button:active {
     background: none;
       background-repeat: no-repeat;
       cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
+    
       }
       .container-1 form {
         margin-top: 3rem;
@@ -476,6 +485,7 @@ button:active {
         margin-bottom: 3rem;
         height: 55rem;
         width: 70rem;
+        margin-left: 24%;
         border-radius: 33%;
         margin-top: 1rem;
         background-color: #160a3b;
@@ -552,10 +562,21 @@ button:active {
   } 
 
   }
-  
+  @media only screen and (min-width: 800px) and (max-width: 943px) {   
+  .container-1 {
+    border: solid;
+    margin-bottom: 3rem;
+    height: 55rem;
+    width: 70rem;
+    margin-left: 13%;
+    border-radius: 33%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
 
-
-
+  }
   @media only screen and (min-width: 540px) and (max-width: 799px) {    
     #modal{ 
       margin: auto;
@@ -563,6 +584,10 @@ button:active {
     background: none;
       background-repeat: no-repeat;
       cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
+    
       }
       .container-1 form {
         margin-top: 3rem;
@@ -643,6 +668,7 @@ button:active {
         height: 55rem;
         width: 50rem;
         border-radius: 33%;
+        margin-left: 20%;
         margin-top: 1rem;
         background-color: #160a3b;
         background-repeat: no-repeat;
@@ -659,7 +685,20 @@ button:active {
   }
 
 
-
+  @media only screen and (min-width: 0px) and (max-width:641px) {  
+  .container-1 {
+    border: solid;
+    margin-bottom: 3rem;
+    height: 55rem;
+    width: 50rem;
+    border-radius: 33%;
+    margin-left: 10%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  }
   @media only screen and (min-width: 0px) and (max-width:539px) {    
     #modal{ 
       margin: auto;
@@ -667,6 +706,9 @@ button:active {
     background: none;
       background-repeat: no-repeat;
       cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       }
       .container-1 form {
         margin-top: 3rem;

@@ -65,8 +65,21 @@
       border: solid;
       height: 54.3rem;
       width: 70rem;
+      margin-left: 29%;
       border-radius: 12%;
-      margin-top: 1rem;
+      margin-top: 13rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .container-2 { /* EDITAR */
+      border: solid;
+      height: 59rem;
+      width: 70rem;
+      margin-left: 29%;
+      border-radius: 12%;
+      margin-top: 10rem;
       background-color: #160a3b;
       background-repeat: no-repeat;
       background-size: cover;
@@ -91,16 +104,23 @@
     #modal{ 
       margin: auto;
       border: none;
-    background: none;
-      background-repeat: no-repeat;
       cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+       min-height: 100%;
       }
       #modalListas{ 
         margin: auto;
         border: none;
-      background: none;
+        background: none;
         background-repeat: no-repeat;
         cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
+      
+
+        
         }
       .atributo-puntuacion{
         color:white;
@@ -541,21 +561,21 @@ button:active {
     margin-top: 0rem;
     width:16px;
     height:16px;
+    
   }
   
-  #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
+    #modal{ 
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.667);
+    min-width: 100%;
+     min-height: 100%;
     }
     #modalListas{ 
-      margin: auto;
-      border: none;
-    background: none;
       background-repeat: no-repeat;
       cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+       min-height: 100%;
       }
     .atributo-puntuacion{
       color:white;
@@ -624,29 +644,30 @@ button:active {
     border: solid;
     height: 54.3rem;
     width: 70rem;
+    margin-top: 10rem;
+    margin-left: 20%;
     border-radius: 12%;
-    margin-top: 1rem;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .container-2 { /* EDITAR */
+    border: solid;
+    height: 59rem;
+    width: 70rem;
+    margin-top: 10rem;
+    margin-left: 20%;
+    border-radius: 12%;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   ::-webkit-scrollbar {
     display: none;
 }
-  #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    }
-    #modalListas{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      }
+ 
   
   .NAV-LIST a {
     font-size: 2rem;
@@ -792,7 +813,7 @@ font-family: var(--Fuenteprincipal);
 }
 }
   
-  @media only screen and (min-width: 800px) and (max-width:1080px) {       
+  @media only screen and (min-width: 800px) and (max-width:1079px) {       
     .lista-albums{
       margin-top: -0.2rem;
       margin-left: 9rem;
@@ -815,18 +836,19 @@ font-family: var(--Fuenteprincipal);
     }
     
     #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
       background-repeat: no-repeat;
       cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+       min-height: 100%;
       }
       #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
+       background: none;
         background-repeat: no-repeat;
         cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
         }
       .atributo-puntuacion{
         color:white;
@@ -901,6 +923,19 @@ font-family: var(--Fuenteprincipal);
       border: solid;
       height: 45rem;
       width: 58rem;
+      margin-left: 20%;
+      border-radius: 12%;
+      margin-top: 10rem;
+      background-color:#160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+           
+    .container-2 {
+      border: solid;
+      height: 63.9rem;
+      width: 58rem;
+      margin-left: 20%;
       border-radius: 12%;
       margin-top: 1rem;
       background-color:#160a3b;
@@ -911,20 +946,7 @@ font-family: var(--Fuenteprincipal);
       display: none;
   }
     
-    #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      }
-      #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        }
+  
     
     .input-contenedor-2 {
       border: solid;
@@ -1134,18 +1156,20 @@ font-family: var(--Fuenteprincipal);
     }
     
     #modal{ 
-      margin: auto;
-      border: none;
     background: none;
-      background-repeat: no-repeat;
-      cursor: pointer;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.667);
+    min-width: 100%;
+    min-height: 100%;
       }
       #modalListas{ 
-        margin: auto;
-        border: none;
       background: none;
-        background-repeat: no-repeat;
-        cursor: pointer;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
         }
       
         #sub-title-listas {
@@ -1188,7 +1212,7 @@ font-family: var(--Fuenteprincipal);
     ::-webkit-scrollbar {
       display: none;
   }
-    
+/*     
     #modal{ 
       margin: auto;
       border: none;
@@ -1202,14 +1226,14 @@ font-family: var(--Fuenteprincipal);
       background: none;
         background-repeat: no-repeat;
         cursor: pointer;
-        }
+        } */
     
     .NAV-LIST a {
       font-size: 1.8rem
     }
   }
 @media only screen and (min-width: 0px) and (max-width:799px) {
-  .container-1 {
+  /* .container-1 {
     border: solid;
     height: 45rem;
     width: 58rem;
@@ -1218,7 +1242,19 @@ font-family: var(--Fuenteprincipal);
     background-color:#160a3b;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
+
+/* 
+  .container-2 {
+    border: solid;
+    height: 45rem;
+    width: 58rem;
+    border-radius: 12%;
+    margin-top: 1rem;
+    background-color:#160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
 .guardado-albums{
     margin-left: 23.5rem;
     margin-bottom: 2rem;
@@ -1287,21 +1323,19 @@ textarea{
     width:16px;
     height:16px;
   }
-  
+/*   
   #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.667);
+    min-width: 100%;
+    min-height: 100%;
     }
     #modalListas{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
       cursor: pointer;
-      }
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
+      } */
     
   
     #guardar-detalle-album{
@@ -1327,20 +1361,7 @@ textarea{
     display: none;
 }
   
-  #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    }
-    #modalListas{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      }
+  
   
   .input-contenedor-2 {
     border: solid;
@@ -1500,8 +1521,22 @@ textarea{
     
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
-      width: 70rem;
+      height: 45rem;
+      width: 58rem;
+      margin-left: 15%;
+      border-radius: 12%;
+      margin-top: 10rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    .container-2 { /* EDITAR */
+      border: solid;
+      height: 63.9rem;
+      width: 58rem;
+      margin-left: 15% ;
       border-radius: 12%;
       margin-top: 1rem;
       background-color: #160a3b;
@@ -1513,16 +1548,15 @@ textarea{
   }
     
     #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       cursor: pointer;
       }
       #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
         background-repeat: no-repeat;
         cursor: pointer;
         }
@@ -1572,8 +1606,20 @@ textarea{
     
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
-      width: 70rem;
+      height: 45rem;
+      width: 58rem;
+      border-radius: 12%;
+      margin-top: 10rem;
+      margin-left: 12%;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container-2 { /* EDITAR */
+      border: solid;
+      height: 63.9rem;
+      width: 58rem;
+      margin-left: 12% ;
       border-radius: 12%;
       margin-top: 1rem;
       background-color: #160a3b;
@@ -1585,17 +1631,15 @@ textarea{
   }
     
     #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       cursor: pointer;
       }
       #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
-        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
         cursor: pointer;
         }
     
@@ -1633,34 +1677,11 @@ textarea{
       height:16px;
     }
     
-    .container-1 {
-      border: solid;
-      height: 45rem;
-      width: 58rem;
-      border-radius: 12%;
-      margin-top: 1rem;
-      background-color:#160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
     ::-webkit-scrollbar {
       display: none;
   }
     
-    #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      }
-      #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        }
+   
 
     .input-contenedor-2 {
       border: solid;
@@ -1704,10 +1725,22 @@ textarea{
     
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
-      width: 70rem;
+      height: 45rem;
+      width: 58rem;
+      border-radius: 12%;
+      margin-top: 10rem;
+      margin-left: 11%;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container-2 { /* EDITAR */
+      border: solid;
+      height:63.9rem;
+      width: 58rem;
       border-radius: 12%;
       margin-top: 1rem;
+      margin-left: 12%;
       background-color: #160a3b;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1717,17 +1750,15 @@ textarea{
   }
     
     #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       cursor: pointer;
       }
       #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
-        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
         cursor: pointer;
         }
     
@@ -1749,7 +1780,7 @@ textarea{
       } 
   }
 
-  @media only screen and (min-width:600px) and (max-width:599px) {
+  @media only screen and (min-width:500px) and (max-width:599px) {
     .lista-albums{
       margin-top: -0.2rem;
       margin-left: 9rem;
@@ -1770,7 +1801,45 @@ textarea{
       width:16px;
       height:16px;
     }
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 45rem;
+      width: 58rem;
+      border-radius: 12%;
+      margin-top: 10rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container-2 { /* EDITAR */
+      border: solid;
+      height: 63.9rem;
+      width: 58rem;
+      border-radius: 12%;
+      margin-left: 11%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
     
+    #modal{ 
+      background: none;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      }
+      #modalListas{ 
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
+        cursor: pointer;
+        }
     
  
   }
@@ -1797,35 +1866,23 @@ textarea{
       height:16px;
     }
     
-    .container-1 { /* EDITAR */
-      border: solid;
-      height: 54.3rem;
-      width: 70rem;
-      border-radius: 12%;
-      margin-top: 1rem;
-      background-color: #160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    ::-webkit-scrollbar {
-      display: none;
-  }
-    
+   
+/*     
     #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
+      background: none;
+      background-color: rgba(0, 0, 0, 0.667);
+      min-width: 100%;
+      min-height: 100%;
       background-repeat: no-repeat;
       cursor: pointer;
       }
       #modalListas{ 
-        margin: auto;
-        border: none;
-      background: none;
-        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.667);
+        min-width: 100%;
+        min-height: 100%;
         cursor: pointer;
         }
-    
+     */
     .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -1878,6 +1935,31 @@ textarea{
     }
   
 
+    @media only screen and (min-width: 600px) and (max-width:662px) {
+    .container-1 { /* EDITAR */
+      border: solid;
+      height: 45rem;
+      width: 58rem;
+      border-radius: 12%;
+      margin-left: 7%;
+      margin-top: 10rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container-2 { /* EDITAR */
+      border: solid;
+      height: 63.9rem;
+      width: 58rem;
+      border-radius: 12%;
+      margin-left: 5%;
+      margin-top: 1rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  }
   @media only screen and (min-width: 469px) and (max-width:541px) {
     .lista-albums{
       margin-top: -0.2rem;
@@ -2392,7 +2474,7 @@ font-family: var(--Fuenteprincipal);
             height:16px;
           }
           
-          .container-1 {
+          /* .container-1 {
             border: solid;
             height: 45rem;
             width: 58rem;
@@ -2419,7 +2501,7 @@ font-family: var(--Fuenteprincipal);
             background: none;
               background-repeat: no-repeat;
               cursor: pointer;
-              }
+              } */
           
           .contenedor-grid{
             display: grid;
@@ -2601,7 +2683,7 @@ font-family: var(--Fuenteprincipal);
   
   /*Comienza @media querie mas baja - movil pequeño 360x640px */
   @media (min-width:0px) {  
-    
+/*     
     #modal{ 
       margin: auto;
       border: none;
@@ -2615,7 +2697,7 @@ font-family: var(--Fuenteprincipal);
       background: none;
         background-repeat: no-repeat;
         cursor: pointer;
-        }
+        } */
     
     .input-contenedor-2 {
       border: solid;
