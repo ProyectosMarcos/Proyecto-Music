@@ -67,7 +67,7 @@
       margin-top: 0.5rem;
       font-size: 3rem;
       color:white;
-      margin-left: 18rem;
+      margin-left: 9rem;
      }
 
     .contenedor-grid {
@@ -142,7 +142,7 @@
    }
 
    .listado_portadas_favoritos{
-    margin-left: 18rem;
+    margin-left: 3rem;
     width: 390px;
     margin-top: 2rem;
    }
@@ -176,7 +176,7 @@
   height: 30rem;
   margin-top: 3rem;
   display: flex;
-  margin-left: 15rem; 
+  margin-left: 1rem; 
   margin-bottom: 9rem;
   /* 
   height: 50vh;
