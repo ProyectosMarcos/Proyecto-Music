@@ -374,6 +374,15 @@ button:active {
   font-family: var(--Fuenteprincipal);
   } 
 
+    
+  .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
+  }
   }
   
   
@@ -420,7 +429,15 @@ button:active {
      button:active {
        transform: scale(0.9);
      }
-  
+    
+     .barra_boton_nueva_lista .btn { 
+      font-size: 20px;
+      color: white;
+      background-color: #590306;
+      border-color: white;
+      border-radius: 5px;
+      padding-bottom: 2.5rem;
+    }
   }
   
   @media only screen and (min-width: 701px) and (max-width:748px) {
@@ -462,7 +479,15 @@ button:active {
       width: auto;
      border-color:rgb(255, 255, 255);
     }
-    
+      
+  .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
+  }
     .formulario__campo-2 {
       margin: auto;
       font-size: 1.5rem;
@@ -496,7 +521,15 @@ button:active {
      button:active {
        transform: scale(0.9);
      }
-  
+    
+     .barra_boton_nueva_lista .btn { 
+      font-size: 20px;
+      color: white;
+      background-color: #590306;
+      border-color: white;
+      border-radius: 5px;
+      padding-bottom: 2.5rem;
+    }
      .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -517,155 +550,180 @@ button:active {
   
 
   @media only screen and (min-width: 469px) and (max-width:541px) {
-button {
-  color: var(--ColorBlanco);
-  background-color: black;
-  transition: .2s;
-  width: 8rem;
-  height: 3rem;
-  cursor: pointer;
-}
-button span {
-  font-size: 1.4rem;
-transition: .2s;
-}
-button:active {
-  transform: scale(0.9);
-}
-  
-.input-contenedor-2 {
-  border: solid;
-  width: 18rem;
- border-color:rgb(255, 255, 255);
-
-
-}
-.formulario__campo-2 {
-margin: auto;
-font-size: 1.2rem;
-font-family: var(--Fuenteprincipal);
-background-color: black;
-color: white;
-width: 9rem;
-height: 3rem;
-font-size: 1.5rem;
-font-family: var(--Fuenteprincipal);
-}
-
+    button {
+      background-color: black;
+      color: var(--ColorBlanco);
+     width: 11rem;
+     height: 2.3rem;
+     transition: .2s;
+     cursor: pointer;
+     }
+     button span {
+       font-size: 1.7rem;
+       transition: .2s;
+     }
+     button:active {
+       transform: scale(0.9);
+     }
+    
+     .barra_boton_nueva_lista .btn { 
+      font-size: 20px;
+      color: white;
+      background-color: #590306;
+      border-color: white;
+      border-radius: 5px;
+      padding-bottom: 2.5rem;
+    }
+     .input-contenedor-2 {
+      border: solid;
+      width: auto;
+     border-color:rgb(255, 255, 255);
+    }
+    
+    .formulario__campo-2 {
+      margin: auto;
+      font-size: 1.5rem;
+      font-family: var(--Fuenteprincipal);
+      background-color: black;
+      color: white;
+      width: 15rem;
+      font-size: 1.7rem;
+      font-family: var(--Fuenteprincipal);
+      } 
 }
 
 
 @media only screen and (min-width: 407px) and (max-width:468px) {
-  .input-contenedor-2 {
-    border: solid;
-    width: 18rem;
-   border-color:rgb(255, 255, 255);
-  
-  
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.2rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 9rem;
-  height: 3rem;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  }
   button {
-    color: var(--ColorBlanco);
     background-color: black;
-    transition: .2s;
-    width: 8rem;
-    height: 3rem;
-    cursor: pointer;
+    color: var(--ColorBlanco);
+   width: 11rem;
+   height: 2.3rem;
+   transition: .2s;
+   cursor: pointer;
+   }
+   button span {
+     font-size: 1.7rem;
+     transition: .2s;
+   }
+   button:active {
+     transform: scale(0.9);
+   }
+  
+   .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
   }
-  button span {
-    font-size: 1.4rem;
-  transition: .2s;
+   .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
   }
-  button:active {
-    transform: scale(0.9);
-  }
+  
+  .formulario__campo-2 {
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: var(--Fuenteprincipal);
+    background-color: black;
+    color: white;
+    width: 15rem;
+    font-size: 1.7rem;
+    font-family: var(--Fuenteprincipal);
+    } 
 }
 
 
 @media only screen and (min-width: 360px) and (max-width:406px) {
   
-  .input-contenedor-2 {
-    border: solid;
-    width: 18rem;
-   border-color:rgb(255, 255, 255);
-  
-  
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.2rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 9rem;
-  height: 3rem;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  }
-  
   button {
-    color: var(--ColorBlanco);
     background-color: black;
-    transition: .2s;
-    width: 8rem;
-    height: 3rem;
-    cursor: pointer;
+    color: var(--ColorBlanco);
+   width: 11rem;
+   height: 2.3rem;
+   transition: .2s;
+   cursor: pointer;
+   }
+   button span {
+     font-size: 1.7rem;
+     transition: .2s;
+   }
+   button:active {
+     transform: scale(0.9);
+   }
+  
+   .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
   }
-  button span {
-    font-size: 1.4rem;
-  transition: .2s;
+   .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
   }
-  button:active {
-    transform: scale(0.9);
-  }
+  
+  .formulario__campo-2 {
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: var(--Fuenteprincipal);
+    background-color: black;
+    color: white;
+    width: 15rem;
+    font-size: 1.7rem;
+    font-family: var(--Fuenteprincipal);
+    } 
 }
 
 
 @media only screen and (min-width:0px) and (max-width:364px) {
- .input-contenedor-2 {
-    border: solid;
-    width: 18rem;
-   border-color:rgb(255, 255, 255);
-  
-  
-  }
-  .formulario__campo-2 {
-  margin: auto;
-  font-size: 1.2rem;
-  font-family: var(--Fuenteprincipal);
-  background-color: black;
-  color: white;
-  width: 9rem;
-  height: 3rem;
-  font-size: 1.5rem;
-  font-family: var(--Fuenteprincipal);
-  }
-  
+ 
   button {
-    color: var(--ColorBlanco);
     background-color: black;
-    transition: .2s;
-    width: 8rem;
-    height: 3rem;
-    cursor: pointer;
+    color: var(--ColorBlanco);
+   width: 11rem;
+   height: 2.3rem;
+   transition: .2s;
+   cursor: pointer;
+   }
+   button span {
+     font-size: 1.7rem;
+     transition: .2s;
+   }
+   button:active {
+     transform: scale(0.9);
+   }
+  
+   .barra_boton_nueva_lista .btn { 
+    font-size: 20px;
+    color: white;
+    background-color: #590306;
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
   }
-  button span {
-    font-size: 1.4rem;
-  transition: .2s;
+   .input-contenedor-2 {
+    border: solid;
+    width: auto;
+   border-color:rgb(255, 255, 255);
   }
-  button:active {
-    transform: scale(0.9);
-  }
+  
+  .formulario__campo-2 {
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: var(--Fuenteprincipal);
+    background-color: black;
+    color: white;
+    width: 15rem;
+    font-size: 1.7rem;
+    font-family: var(--Fuenteprincipal);
+    } 
 }
 
   
@@ -1052,6 +1110,8 @@ font-family: var(--Fuenteprincipal);
         font-weight: bold;        
       }
      
+
+      
     
     } 
   
