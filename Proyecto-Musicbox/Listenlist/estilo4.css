@@ -205,7 +205,7 @@
 }
   .container-1 { /* EDITAR */
     border: solid;
-    height: 54.3rem;
+    padding-bottom: 2rem;
     width: 70rem;
     margin-left: 25%;
     border-radius: 12%;
@@ -567,7 +567,7 @@ button:active {
 }
   .container-1 { /* EDITAR */
     border: solid;
-    height: 54.3rem;
+    padding-bottom: 2rem;
     width: 70rem;
     margin-left: 25%;
     border-radius: 12%;
@@ -961,7 +961,7 @@ button:active {
   }
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
+      padding-bottom: 2rem;
       width: 70rem;
       margin-left: 20%;
       border-radius: 12%;
@@ -1177,7 +1177,7 @@ button:active {
   }
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
+      padding-bottom: 2rem;
       width: 70rem;
       margin-left: 13%;
       border-radius: 12%;
@@ -1395,7 +1395,7 @@ button:active {
   }
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
+      padding-bottom: 2rem;
       width: 70rem;
       margin-left: 6.5%;
       border-radius: 12%;
@@ -1586,7 +1586,7 @@ button:active {
   }
     .container-1 { /* EDITAR */
       border: solid;
-      height: 54.3rem;
+      padding-bottom: 2rem;
       width: 69rem;
       margin-left: 1%;
       border-radius: 12%;
@@ -1779,7 +1779,7 @@ button:active {
       }
         .container-1 { /* EDITAR */
           border: solid;
-          height: 54.9rem;
+          padding-bottom: 2rem;
           width: 64rem;
           margin-left: 3%;
           border-radius: 12%;
@@ -1971,7 +1971,7 @@ button:active {
       }
         .container-1 { /* EDITAR */
           border: solid;
-          height: 54.9rem;
+          padding-bottom: 2rem;
           width: 60rem;
           margin-left: 5%;
           border-radius: 12%;
@@ -2159,7 +2159,7 @@ button:active {
           }
             .container-1 { /* EDITAR */
               border: solid;
-              height: 54.9rem;
+              padding-bottom: 2rem;
               width: 58.9rem;
               margin-left: .3%;
               border-radius: 12%;
@@ -2352,7 +2352,7 @@ button:active {
               }
                 .container-1 { /* EDITAR */
                   border: solid;
-                  height: 54.9rem;
+                  padding-bottom: 2rem;
                   width: 50rem;
                   margin-left: 9%;
                   border-radius: 12%;
@@ -2395,7 +2395,7 @@ button:active {
 
                 .container-1 { /* EDITAR */
                   border: solid;
-                  height: 54.9rem;
+                  padding-bottom: 2rem;
                   width: 49rem;
                   margin-left: 1%;
                   border-radius: 12%;
@@ -2564,7 +2564,7 @@ button:active {
               }
                 .container-1 { /* EDITAR */
                   border: solid;
-                  height: 54.9rem;
+                  padding-bottom: 2rem;
                   width: 40rem;
                   margin-left: 9%;
                   border-radius: 12%;
@@ -2607,7 +2607,7 @@ button:active {
 
               .container-1 { /* EDITAR */
                 border: solid;
-                height: 54.9rem;
+                padding-bottom: 2rem;
                 width: 40rem;
                 margin-left: 3%;
                 border-radius: 12%;
@@ -2791,7 +2791,7 @@ button:active {
                 }
                   .container-1 { /* EDITAR */
                     border: solid;
-                    height: 54.9rem;
+                    padding-bottom: 2rem;
                     width: 39rem;
                    
                     border-radius: 12%;
@@ -2854,118 +2854,6 @@ button:active {
   }
 
 
-  /* @media only screen and (min-width: 700px) and (max-width:799px) {
-    .caja2 .imagen-1 {
-      height: 25.4rem;
-      width: 40rem;
-      margin-left: 2.5rem;
-      margin-top: 3.9rem;
-      border: solid;
-      border-color: grey;
-      
-    }
-    #h3-2{
-      color: white;
-      margin-left: 2.6rem;
-      font-size:2rem;
-    }
-    
-    .NAV-LIST a {
-      font-size: 1.7rem
-    }
-    button {
-      background-color: black;
-      color: var(--ColorBlanco);
-     width: 11rem;
-     height: 2.3rem;
-     transition: .2s;
-     cursor: pointer;
-     }
-     button span {
-       font-size: 1.7rem;
-       transition: .2s;
-     }
-     button:active {
-       transform: scale(0.9);
-     }
-   */
-
-     /*MODAL*/
- /* #modal{ 
-  margin: auto;
-  border: none;
-background: none;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  }
-.boton {
-  margin-left: 50rem;
-  margin-bottom: 3rem;
-  font-size: 1.6rem;
-  cursor: pointer;
-}
-.boton-cerrar {
-  margin-top: 13rem;
-  margin-left: 41rem;
-  cursor: pointer;
-}
-.text-album {
-  color: var(--ColorBlanco);
- font-size: 2rem;
- margin-left: 30rem;
- margin-top: 3rem;
-  
-}
-#Album {
-  margin-top: 8rem;
-}
-#title {
-  margin-left: 26rem;
-  margin-top: 3rem;
-  font-size: 2rem;
-  color: var(--ColorBlanco);
-}
-
-
-#sub-title {
-  margin-left: 6.7rem;
-  color: var(--ColorBlanco);
-}
-  .container-1 {
-    border: solid;
-    margin-bottom: 3rem;
-    height: 55rem;
-    width: 70rem;
-    border-radius: 33%;
-    margin-top: 1rem;
-    background-color: #160a3b;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } 
-
-      .Titulo {
-        border: none;
-      }
-      .buton {
-        margin-left: 100rem;
-        margin-bottom: 3rem;
-      }
-
-      .caja5 {
-        width: 40rem;
-        margin-top: 3.3rem;
-    
-      }
-     
-      .imagen-5-nueva {
-        border: solid;
-        height: 25.5rem;
-        width: 40rem;
-        margin-left: 2.5rem;
-        margin-top: 2rem;
-   
-    }
-  } */
   
   @media only screen and (min-width: 701px) and (max-width:748px) {
     .NAV-LIST a {
@@ -3063,129 +2951,7 @@ background: none;
       }
   
     }
-/* 
-    @media (min-width: 400px) and (max-width: 725px) {
-      
-      
-      #Guardar {
-        margin-left: 16rem;
-         }
-         .boton-cerrar {
-          margin-bottom: rem;
-         }
-         .caja2 .imagen-1 {
-          height: 25.4rem;
-          width: 40rem;
-          margin-left: 2.5rem;
-          margin-top: 3.9rem;
-          border: solid;
-          border-color: grey;
-          
-        }
-        #h3-2{
-          color: white;
-          margin-left: 2.6rem;
-          font-size:2rem;
-        }
-    } */
-  /* @media only screen and (min-width:600px) and (max-width:699px) {
-    
-    
-    .caja2 .imagen-1 {
-      height: 25.4rem;
-      width: 40rem;
-      margin-left: 2.5rem;
-      margin-top: 3.9rem;
-      border: solid;
-      border-color: grey;
-      
-    }
-    #h3-2{
-      color: white;
-      margin-left: 2.6rem;
-      font-size:2rem;
-    }  */
-    
-    /*MODAL*/
-     /* #modal{ 
-      margin: auto;
-      border: none;
-    background: none;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      }
-    .boton {
-      margin-left: 50rem;
-      margin-bottom: 3rem;
-      font-size: 1.6rem;
-      cursor: pointer;
-    }
-    .boton-cerrar {
 
-      margin-left: 20rem;
-      cursor: pointer;
-    }
-    #Guardar {
-      margin-left: 14.5rem;
-    }
-    .text-album {
-      color: var(--ColorBlanco);
-     font-size: 2rem;
-     margin-left: 30rem;
-     margin-top: 3rem;
-      
-    }
-    #Album {
-      margin-top: 8rem;
-    }
-    #title {
-      margin-left: 26rem;
-      margin-top: 3rem;
-      font-size: 2rem;
-      color: var(--ColorBlanco);
-    }
-    
-    
-    #sub-title {
-      margin-left: 6.7rem;
-      color: var(--ColorBlanco);
-    }
-      .container-1 {
-        border: solid;
-        margin-bottom: 3rem;
-        height: 55rem;
-        width: 70rem;
-        border-radius: 33%;
-        margin-top: 1rem;
-        background-color: #160a3b;
-        background-repeat: no-repeat;
-        background-size: cover;
-      } 
-    
-          .Titulo {
-            border: none;
-          }
-          .buton {
-            margin-left: 100rem;
-            margin-bottom: 3rem;
-          }
-    
-          .caja5 {
-            width: 40rem;
-            margin-top: 3.3rem;
-        
-          }
-         
-          .imagen-5-nueva {
-            border: solid;
-            height: 25.5rem;
-            width: 40rem;
-            margin-left: 2.5rem;
-            margin-top: 2rem;
-       
-        }
- 
-  } */
 
   @media only screen and (min-width: 542px) and (max-width:699px) {
     
@@ -3351,214 +3117,6 @@ font-family: var(--Fuenteprincipal);
   }
 }
 
-
-
-
-/* @media only screen and (min-width: 600px) and (max-width: 726px){
-  
-  
-  .caja2 .imagen-1 {
-    height: 25.4rem;
-    width: 40rem;
-    margin-left: 2.5rem;
-    margin-top: 3.9rem;
-    border: solid;
-    border-color: grey;
-    
-  }
-  #h3-2{
-    color: white;
-    margin-left: 2.6rem;
-    font-size:2rem;
-  } */
-  /*MODAL*/
-  /* #modal{ 
-    margin: auto;
-    border: none;
-  background: none;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    }
-  .boton {
-    margin-left: 20rem;
-    margin-bottom: 3rem;
-    font-size: 1.6rem;
-    cursor: pointer;
-    height: 4rem;
-  }
-  .boton-cerrar {
-    margin-top: 11rem;
-    margin-left: 20rem;
-    cursor: pointer;
-  }
-  .text-album {
-    color: var(--ColorBlanco);
-   font-size: 2rem;
-   margin-left: 16rem;
-   margin-top: 3rem;
-    
-  }
-  #Guardar {
-    margin-left: 14rem;
-  }
-  #Album {
-    margin-top: 8rem;
-  }
-  #title {
-    margin-left: 10rem;
-    margin-top: 3rem;
-    font-size: 2rem;
-    color: var(--ColorBlanco);
-  }
-  
-  
-  #sub-title {
-    margin-left: 3.6rem;
-    font-size: 1.3rem;
-    color: var(--ColorBlanco);
-  }
-    .container-1 {
-      border: solid;
-      margin-bottom: 3rem;
-      height: 55rem;
-      width: 40rem;
-      border-radius: 33%;
-      margin-top: 1rem;
-      background-color: #160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    } 
-  
-        .Titulo {
-          border: none;
-        }
-        .buton {
-          margin-left: 100rem;
-          margin-bottom: 3rem;
-        }
-  
-        .caja5 {
-          width: 40rem;
-          margin-top: 3.3rem;
-      
-        }
-       
-        .imagen-5-nueva {
-          border: solid;
-          height: 25.5rem;
-          width: 40rem;
-          margin-left: 2.5rem;
-          margin-top: 2rem;
-     
-      }
-  } */
-
-
-
-
-
-/* 
-
-@media only screen and (min-width: 400px) and (max-width: 599px){
-  
-  
-  .caja2 .imagen-1 {
-    height: 25.4rem;
-    width: 40rem;
-    margin-left: 2.5rem;
-    margin-top: 3.9rem;
-    border: solid;
-    border-color: grey;
-    
-  }
-  #h3-2{
-    color: white;
-    margin-left: 2.6rem;
-    font-size:2rem;
-  } */
-  
- 
-  /*MODAL*/
- /* #modal{ 
-  margin: auto;
-  border: none;
-background: none;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  }
-.boton {
-  margin-left: 20rem;
-  margin-bottom: 3rem;
-  font-size: 1.6rem;
-  cursor: pointer;
-  height: 4rem;
-}
-.boton-cerrar {
-  margin-top: 11rem;
-  margin-left: 20rem;
-  cursor: pointer;
-}
-#Guardar {
-  margin-left: 15.9rem;
-}
-.text-album {
-  color: var(--ColorBlanco);
- font-size: 2rem;
- margin-left: 16rem;
- margin-top: 3rem;
-  
-}
-#Album {
-  margin-top: 8rem;
-}
-#title {
-  margin-left: 10rem;
-  margin-top: 3rem;
-  font-size: 2rem;
-  color: var(--ColorBlanco);
-}
-
-
-#sub-title {
-  margin-left: 3.6rem;
-  font-size: 1.3rem;
-  color: var(--ColorBlanco);
-}
-  .container-1 {
-    border: solid;
-    margin-bottom: 3rem;
-    height: 55rem;
-    width: 40rem;
-    border-radius: 33%;
-    margin-top: 1rem;
-    background-color: #160a3b;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } 
-
-      .Titulo {
-        border: none;
-      }
-      .buton {
-        margin-left: 100rem;
-        margin-bottom: 3rem;
-      }
-
-      .caja5 {
-        width: 40rem;
-        margin-top: 3.3rem;
-    
-      }
-     
-      .imagen-5-nueva {
-        border: solid;
-        height: 25.5rem;
-        width: 40rem;
-        margin-left: 2.5rem;
-        margin-top: 2rem;
-   
-    }
-} */
 
 @media only screen and (min-width: 360px) and (max-width:406px) {
   .caja2 .imagen-1 {
