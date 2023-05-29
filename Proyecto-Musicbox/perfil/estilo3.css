@@ -286,31 +286,109 @@ cursor: pointer;
 
 }
 
-
-  #title {
-  margin-left: 26.5rem;
-  margin-bottom: 1rem;
-  color: var(--ColorBlanco);
+  .container-1 {
+    border: solid;
+    margin-bottom: 3rem;
+    height: 76.5rem;
+    width: 55rem;
+    margin-left: 32%;
+    border-radius: 33%;
+    margin-top: 1rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  .seccion-password{
+    border-color: yellow;
+    border-style:solid;
+    width: 28rem;
+    margin-left: 13rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: .7rem;
   }
-  #usuario-title {
-  margin-left: 29.5rem;
-  color: var(--ColorBlanco);
+  #title {
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+    color: yellow;
+    font-size: 2.5rem;
+  }
+  #atributo-perfil-password{
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.7rem;
+  }
+  #atributo-perfil{
+    margin-left: 13rem;
+    color: white;
+    font-size: 1.7rem;
   }
   #input-usuario {
-  border: solid;
-  border-style: outset;
-  padding: .3rem;
-  font-size: 1.2rem;
-  margin-top: 2rem;
-  cursor: pointer;
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 13rem;
+    cursor: pointer;
+    width: 25rem;
+    margin-bottom: 3rem;
+  }
+  #input-usuario-password {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 25rem;
+    margin-bottom: 1rem;
+  }
+  .imagen-modal {
+    width: 17rem;
+    margin-left: 13rem;
+  }
+  #seleccionar-foto-perfil{
+    margin-left: 13rem;
+    margin-top: .7rem;
+    font-size: 1.4rem;
+    color: white;
+  }
+  #boton-guardar {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #160a3b;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
 
+    margin-left: 16rem;
+  }
+  #boton-cerrar {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #160a3b;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+
+    margin-left: 5rem;
   }
 
-  #H2-modal {
- color: var(--ColorBlanco);
- margin-top: 1rem;
- margin-left: 28rem;
-  }
+
+
   .imagen-icono-user{
   margin-left: 21.6rem;
   width: 2.6rem;
@@ -331,83 +409,11 @@ cursor: pointer;
   margin-top: 1rem; 
   margin-right: 1rem;
   }
- .container-1 {
-  border: solid;
-  margin-bottom: 3rem;
-  height: 55rem;
-  width: 70rem;
-  margin-left: 29%;
-  border-radius: 33%;
-  margin-top: 1rem;
-  background-color: #160a3b;
-  background-repeat: no-repeat;
-  background-size: cover;
-} 
 
-.contraseña-actual {
-  margin-left: 26rem;
-  margin-top: 1rem;
-  color: var(--ColorBlanco);
-}
-#ingresar-contraseña {
-  margin-top: 1rem;
-  margin-left: 24.6rem;
-  border: solid;
-  border-style: outset;
-  padding: .3rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  }
-
-.contraseña-nueva {
-color :var(--ColorBlanco);
-margin-left: 26rem;
-margin-top: 1rem;
-  
-}
-#nueva-contraseña {
-  margin-left: 24.6rem;
-  margin-top: 1rem;
-  border: solid;
-  border-style: outset;
-  padding: .3rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  }
   .confirmar {
   margin-left: 22rem;
   margin-top: 1rem;
   color: var(--ColorBlanco)
-  }
-  .confirmar-contraseña {
-  margin-top: 1rem;
-  margin-left: 24.6rem;
-  border: solid;
-  border-style: outset;
-  padding: .3rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  } 
-  #Guardar {
-  border: solid;
-  border-style: outset;
-  padding: .3rem;
-  margin-left: 27.4rem;
-  margin-top: 1rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  background-color: black;
-  color: var(--ColorBlanco);
-  }
-  #btn-cerrar-modal {
-  border: solid;
-  border-style: outset;
-  padding: .3rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  background-color: black;
-  color: var(--ColorBlanco);
- 
   }
 
   .input-usuario {
@@ -433,11 +439,7 @@ margin-top: 1rem;
   color: var(--ColorBlanco);
   font-size: 2rem;
 }
-.imagen-modal {
-  width: 10rem;
-  margin-top: 1rem;
-  margin-left: 41%
-}
+
 
 
 
@@ -887,23 +889,105 @@ right: 10px;
 }
 
 
-#title {
-margin-left: 26.5rem;
-margin-bottom: 1rem;
-color: var(--ColorBlanco);
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 76.5rem;
+  width: 55rem;
+  margin-left: 32%;
+  border-radius: 33%;
+  margin-top: 1rem;
+  background-color: #160a3b;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.seccion-password{
+  border-color: yellow;
+  border-style:solid;
+  width: 28rem;
+  margin-left: 13rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: .7rem;
 }
-#usuario-title {
-margin-left: 29.5rem;
-color: var(--ColorBlanco);
+#title {
+  margin-left: 20rem;
+  margin-bottom: 3rem;
+  color: yellow;
+  font-size: 2.5rem;
+}
+#atributo-perfil-password{
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.7rem;
+}
+#atributo-perfil{
+  margin-left: 13rem;
+  color: white;
+  font-size: 1.7rem;
 }
 #input-usuario {
-border: solid;
-border-style: outset;
-padding: .3rem;
-font-size: 1.2rem;
-margin-top: 2rem;
-cursor: pointer;
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-left: 13rem;
+  cursor: pointer;
+  width: 25rem;
+  margin-bottom: 3rem;
+}
+#input-usuario-password {
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  width: 25rem;
+  margin-bottom: 1rem;
+}
+.imagen-modal {
+  width: 17rem;
+  margin-left: 13rem;
+}
+#seleccionar-foto-perfil{
+  margin-left: 13rem;
+  margin-top: .7rem;
+  font-size: 1.4rem;
+  color: white;
+}
+#boton-guardar {
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background-color: #160a3b;
+  color: yellow;
+  border-color: yellow;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
 
+  margin-left: 16rem;
+}
+#boton-cerrar {
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background-color: #160a3b;
+  color: yellow;
+  border-color: yellow;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+
+  margin-left: 5rem;
 }
 
 #H2-modal {
@@ -931,18 +1015,6 @@ cursor: pointer;
 margin-top: 1rem; 
 margin-right: 1rem;
 }
-.container-1 {
-border: solid;
-margin-bottom: 3rem;
-height: 55rem;
-width: 70rem;
-border-radius: 33%;
-margin-left: 20%;
-margin-top: 1rem;
-background-color: #160a3b;
-background-repeat: no-repeat;
-background-size: cover;
-} 
 
 .contraseña-actual {
 margin-left: 26rem;
@@ -1032,11 +1104,6 @@ font-size: 2rem;
 margin-left: 37.5%;
 color: var(--ColorBlanco);
 font-size: 2rem;
-}
-.imagen-modal {
-width: 10rem;
-margin-top: 1rem;
-margin-left: 41%
 }
 
 
@@ -1252,19 +1319,106 @@ font-family: var(--Fuenteprincipal);
 
 
 @media (min-width: 700px) and (max-width:799px) {
-
   .container-1 {
     border: solid;
     margin-bottom: 3rem;
-    height: 55rem;
-    width: 70rem;
+    height: 76.5rem;
+    width: 55rem;
+    margin-left: 13%;
     border-radius: 33%;
-    margin-left: 5%;
     margin-top: 1rem;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
-    } 
+  } 
+  .seccion-password{
+    border-color: yellow;
+    border-style:solid;
+    width: 28rem;
+    margin-left: 13rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: .7rem;
+  }
+  #title {
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+    color: yellow;
+    font-size: 2.5rem;
+  }
+  #atributo-perfil-password{
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.7rem;
+  }
+  #atributo-perfil{
+    margin-left: 13rem;
+    color: white;
+    font-size: 1.7rem;
+  }
+  #input-usuario {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 13rem;
+    cursor: pointer;
+    width: 25rem;
+    margin-bottom: 3rem;
+  }
+  #input-usuario-password {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 25rem;
+    margin-bottom: 1rem;
+  }
+  .imagen-modal {
+    width: 17rem;
+    margin-left: 13rem;
+  }
+  #seleccionar-foto-perfil{
+    margin-left: 13rem;
+    margin-top: .7rem;
+    font-size: 1.4rem;
+    color: white;
+  }
+  #boton-guardar {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #160a3b;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+
+    margin-left: 16rem;
+  }
+  #boton-cerrar {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #160a3b;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+
+    margin-left: 5rem;
+  }
 }
 
 
@@ -1273,15 +1427,103 @@ font-family: var(--Fuenteprincipal);
   .container-1 {
     border: solid;
     margin-bottom: 3rem;
-    height: 55rem;
-    width: 70rem;
+    height: 76.5rem;
+    width: 55rem;
+    margin-left: 13%;
     border-radius: 33%;
-    margin-left: 7%;
     margin-top: 1rem;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
-    } 
+  } 
+  .seccion-password{
+    border-color: yellow;
+    border-style:solid;
+    width: 28rem;
+    margin-left: 13rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: .7rem;
+  }
+  #title {
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+    color: yellow;
+    font-size: 2.5rem;
+  }
+  #atributo-perfil-password{
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.7rem;
+  }
+  #atributo-perfil{
+    margin-left: 13rem;
+    color: white;
+    font-size: 1.7rem;
+  }
+  #input-usuario {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 13rem;
+    cursor: pointer;
+    width: 25rem;
+    margin-bottom: 3rem;
+  }
+  #input-usuario-password {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 25rem;
+    margin-bottom: 1rem;
+  }
+  .imagen-modal {
+    width: 17rem;
+    margin-left: 13rem;
+  }
+  #seleccionar-foto-perfil{
+    margin-left: 13rem;
+    margin-top: .7rem;
+    font-size: 1.4rem;
+    color: white;
+  }
+  #boton-guardar {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #160a3b;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+
+    margin-left: 16rem;
+  }
+  #boton-cerrar {
+    border: solid;
+    border-style: outset;
+    padding: .3rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #160a3b;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+
+    margin-left: 5rem;
+  }
 }
 
 
@@ -1522,24 +1764,7 @@ right: 10px;
 }
 
 
-#title {
-text-align: center;
-margin-bottom: 1rem;
-color: var(--ColorBlanco);
-}
-#usuario-title {
-text-align: center;
-color: var(--ColorBlanco);
-}
-#input-usuario {
-border: solid;
-border-style: outset;
-padding: .3rem;
-font-size: 1.2rem;
-margin-top: 2rem;
-cursor: pointer;
 
-}
 
 #H2-modal {
 color: var(--ColorBlanco);
@@ -1566,93 +1791,107 @@ cursor: pointer;
 margin-top: 1rem; 
 margin-right: 1rem;
 }
+
 .container-1 {
-border: solid;
-margin-bottom: 3rem;
-height: 55rem;
-width: 50rem;
-border-radius: 33%;
-margin-top: 1rem;
-margin-left: 17%;
-background-color: #160a3b;
-background-repeat: no-repeat;
-background-size: cover;
+  border: solid;
+  margin-bottom: 3rem;
+  height: 76.5rem;
+  width: 55rem;
+  margin-left: 13%;
+  border-radius: 33%;
+  margin-top: 1rem;
+  background-color: #160a3b;
+  background-repeat: no-repeat;
+  background-size: cover;
 } 
+.seccion-password{
+  border-color: yellow;
+  border-style:solid;
+  width: 28rem;
+  margin-left: 13rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: .7rem;
+}
+#title {
+  margin-left: 20rem;
+  margin-bottom: 3rem;
+  color: yellow;
+  font-size: 2.5rem;
+}
+#atributo-perfil-password{
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.7rem;
+}
+#atributo-perfil{
+  margin-left: 13rem;
+  color: white;
+  font-size: 1.7rem;
+}
+#input-usuario {
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-left: 13rem;
+  cursor: pointer;
+  width: 25rem;
+  margin-bottom: 3rem;
+}
+#input-usuario-password {
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  width: 25rem;
+  margin-bottom: 1rem;
+}
+.imagen-modal {
+  width: 17rem;
+  margin-left: 13rem;
+}
+#seleccionar-foto-perfil{
+  margin-left: 13rem;
+  margin-top: .7rem;
+  font-size: 1.4rem;
+  color: white;
+}
+#boton-guardar {
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background-color: #160a3b;
+  color: yellow;
+  border-color: yellow;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
 
-.contraseña-actual {
-margin-left: 18rem;
-margin-top: 1rem;
-color: var(--ColorBlanco);
+  margin-left: 16rem;
 }
-#ingresar-contraseña {
-margin-top: 1rem;
-margin-left: 17rem;
-border: solid;
-border-style: outset;
-padding: .3rem;
-font-size: 1.2rem;
-cursor: pointer;
-}
+#boton-cerrar {
+  border: solid;
+  border-style: outset;
+  padding: .3rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background-color: #160a3b;
+  color: yellow;
+  border-color: yellow;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
 
-.contraseña-nueva {
-color :var(--ColorBlanco);
-margin-left: 18rem;
-margin-top: 1rem;
-
+  margin-left: 5rem;
 }
-#nueva-contraseña {
-margin-left: 17rem;
-margin-top: 1rem;
-border: solid;
-border-style: outset;
-padding: .3rem;
-font-size: 1.2rem;
-cursor: pointer;
-}
-.confirmar {
-margin-left: 14rem;
-margin-top: 1rem;
-color: var(--ColorBlanco)
-}
-.confirmar-contraseña {
-margin-top: 1rem;
-margin-left: 17rem;
-border: solid;
-border-style: outset;
-padding: .3rem;
-font-size: 1.2rem;
-cursor: pointer;
-} 
-#Guardar {
-border: solid;
-border-style: outset;
-padding: .3rem;
-margin-left: 20rem;
-margin-top: 1rem;
-font-size: 1.2rem;
-cursor: pointer;
-background-color: black;
-color: var(--ColorBlanco);
-}
-#btn-cerrar-modal {
-border: solid;
-border-style: outset;
-padding: .3rem;
-font-size: 1.2rem;
-cursor: pointer;
-background-color: black;
-color: var(--ColorBlanco);
-
-}
-
-.input-usuario {
-margin-left: 27%;
-border: solid;
-font-size: 2rem;
-border-color: black;
-background-color: black;
-color: var(--ColorBlanco);
-} 
 
 
 
@@ -1668,11 +1907,7 @@ margin-left: 37.5%;
 color: var(--ColorBlanco);
 font-size: 2rem;
 }
-.imagen-modal {
-width: 10rem;
-margin-top: 1rem;
-margin-left: 41%
-}
+
 
 
 
