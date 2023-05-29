@@ -91,21 +91,22 @@
      
     }
    .boton__tuerca {
-    margin-left: 42.5%;
+    margin-left: 41.8%;
     font-size: 1.3rem;
     background-color: rgba(13, 87, 214, 0.237);
     overflow: hidden;
-    width: 15rem;
+    width: 16.7rem;
     display: inline-flex;
     gap: .1rem;
     cursor: pointer;
+    margin-top: 1rem;
+    padding-left: 0.8rem;
    } 
 
    .texto-tuerca {
     font-size: 1.6rem;
-    margin-top: .1rem;
+    margin-top: .2rem;
     color: var(--ColorBlanco);
-
    }
 
 
@@ -677,23 +678,24 @@ cursor: pointer;
     width: 2.5rem;
    
   }
- .boton__tuerca {
-  margin-left: 42.5%;
-  font-size: 1.3rem;
-  background-color: rgba(13, 87, 214, 0.237);
-  overflow: hidden;
-  width: 15rem;
-  display: inline-flex;
-  gap: .1rem;
-  cursor: pointer;
- } 
+  .boton__tuerca {
+    margin-left: 41.8%;
+    font-size: 1.3rem;
+    background-color: rgba(13, 87, 214, 0.237);
+    overflow: hidden;
+    width: 16.7rem;
+    display: inline-flex;
+    gap: .1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding-left: 0.8rem;
+   } 
 
- .texto-tuerca {
-  font-size: 1.6rem;
-  margin-top: .1rem;
-  color: var(--ColorBlanco);
-
- }
+   .texto-tuerca {
+    font-size: 1.6rem;
+    margin-top: .2rem;
+    color: var(--ColorBlanco);
+   }
 
 
  .texto-tuerca:hover {
@@ -733,13 +735,13 @@ cursor: pointer;
  }
 
  .actividad_reciente{
-  margin-left: 50rem;
+  margin-left: 38rem;
   margin-top: -78.9rem;
  }
 
  .listado_portadas_favoritos{
   margin-left: 2rem;
-  width: 390px;
+  width: 300px; /*XD*/
   margin-top: 2rem;
   margin-bottom: 3.5rem;
  }
@@ -789,7 +791,7 @@ margin-bottom: -10rem;
 .slider {
 display: flex;
 align-items: center;
-width: 100rem;
+width: 65rem;
 margin-left: -16rem;
 height: 235px;
 padding: 20px 0;
@@ -1543,7 +1545,7 @@ font-family: var(--Fuenteprincipal);
   
 
   .imagen-perfil {
-    margin-left: 18.4rem;
+    margin-left: 43.3%;
     height: 12rem;
     border-radius: 1rem;
   }
@@ -1551,23 +1553,24 @@ font-family: var(--Fuenteprincipal);
     width: 2.5rem;
    
   }
- .boton__tuerca {
-  margin-left: 17rem;
-  font-size: 1.3rem;
-  background-color: rgba(13, 87, 214, 0.237);
-  overflow: hidden;
-  width: 15rem;
-  display: inline-flex;
-  gap: .1rem;
-  cursor: pointer;
- } 
+  .boton__tuerca {
+    margin-left: 41.8%;
+    font-size: 1.3rem;
+    background-color: rgba(13, 87, 214, 0.237);
+    overflow: hidden;
+    width: 16.7rem;
+    display: inline-flex;
+    gap: .1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding-left: 0.8rem;
+   } 
 
- .texto-tuerca {
-  font-size: 1.6rem;
-  margin-top: .1rem;
-  color: var(--ColorBlanco);
-
- }
+   .texto-tuerca {
+    font-size: 1.6rem;
+    margin-top: .2rem;
+    color: var(--ColorBlanco);
+   }
 
 
  .texto-tuerca:hover {
@@ -1589,7 +1592,7 @@ font-family: var(--Fuenteprincipal);
  }
 
  .h2-nombre {
-  margin-left: 20rem;
+  margin-left: 44.33%;
   color: var(--ColorBlanco);
  }
 
@@ -1613,7 +1616,7 @@ font-family: var(--Fuenteprincipal);
 
  .listado_portadas_favoritos{
   margin-left: 2rem;
-  width: 390px;
+  width: 180px;
   margin-top: 2rem;
   margin-bottom: 3.5rem;
  }
