@@ -1320,6 +1320,7 @@ font-family: var(--Fuenteprincipal);
 }
 
 
+
 @media (min-width: 700px) and (max-width:799px) {
   .container-1 {
     border: solid;
@@ -1531,17 +1532,180 @@ font-family: var(--Fuenteprincipal);
 
 
 
+/** Arreglos header **/
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--ColorNav);
+}
+.NAV-LIST{
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.NAV-LIST a {
+  text-decoration: none;
+  color: var(--ColorBlanco) 
+}
+.hamburguer {
+  display: none;
+  cursor: pointer 
+}
+.bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin-left: auto;
+  margin-top: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--ColorBlanco);
+}
+
+@media only screen and (min-width: 701px) and (max-width:729px) {
+  .NAV-LIST a {
+    text-decoration: none;
+    color: var(--ColorBlanco);
+    font-size: 1.9rem;
+  }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:700px) {
+  .novedades{
+    color: white;
+    border-color: yellow;
+    border-style:groove;
+    border-radius: 1.2rem;
+    margin-left: 1rem;
+    width: 85.35%;
+    padding: 2rem;
+  }
+  .descripcion-novedades{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .listado-albumes-novedades{
+    font-size: 1.8rem;
+    margin-left: 4rem;
+  }
+  .definicion-app{
+    color:white;
+    border-color: violet;
+    border-style:groove;
+    border-radius: 1.2rem;
+    margin-left: 1rem;
+    width: 85.35%;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .estadisticas{
+    color: green;
+    border-color: green;
+    border-style:solid;
+    border-radius: 1.2rem;
+    padding: 2rem;
+    width: 85.35%;
+    /* margin-left: 113rem; */
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .titulo-estadisticas{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .listado-estadisticas{
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+  
+  
+  
+  .contenedor-grid{
+      display: grid;
+      grid-template-areas: "header" "navbar" "main" "footer";
+ }
+  .header {
+      grid-area: header;
+      background-color:var(--ColorNav);
+ }
+  .navbar {
+      grid-area: navbar;
+      background-color: var(--ColorNav);
+ }
+  .main {
+      grid-area: main;
+      background-color: var(--ColorPrincipal);
+ }
+  .footer {
+      grid-area: footer;
+      background-color: var(--ColorPrincipal);
+ }
+  #H2 {
+      color: var(--ColorBlanco);
+      margin-left: 3rem;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+ }
+  #h3-4{
+      color: var(--ColorBlanco);
+      margin-left: 15.5rem;
+ }
+  .hamburguer {
+      display: block;
+ }
+  .hamburguer.active .bar:nth-child(2) {
+      opacity: 0;
+ }
+  .hamburguer.active .bar:nth-child(1) {
+      transform: translateX(8px) rotate(45deg);
+ }
+  .hamburguer.active .bar:nth-child(3) {
+      transform: translateX(-8px) rotate(-45deg);
+ }
+  .NAV-LIST {
+      position: fixed;
+      right: -100%;
+      top:70px;
+      gap:0;
+      flex-direction: column;
+      align-items: center;
+      background-color: var(--ColorNav);
+      width: 100%;
+      transition: 0.3s;
+ }
+  .Listas {
+      margin: 16px 0;
+ }
+  .NAV-LIST a {
+      font-size: 1.4rem;
+ }
+  .NAV-LIST a:hover{
+      transition: 0.1s ease;
+      color: aqua;
+ }
+  .contenedor-inputs {
+      margin-right: 17rem;
+      margin-top: 2rem;
+      border: solid;
+ }
+}
+
+.NAV-LIST.active {
+  right: 0;
+}
+.barra {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media (min-width: 0px) and (max-width:729px) {
   
-  .contenedor-grid {
-      grid-template-columns: 4rem 3rem 1fr;
-      grid-template-rows: auto;
-      grid-template-areas: 
-      "header header header"
-      "navbar navbar navbar"
-      "main   main   main"
-      "footer footer footer" 
-  }    
   
 
   .imagen-perfil {
@@ -2015,48 +2179,6 @@ grid-template-rows: auto;
       margin-top: 5rem;
         }
   
-        /** Arreglos header **/
-        .header {
-          display: flex;
-          align-items: center;
-          justify-content: end;
-          flex-direction: row-reverse;
-          padding: 2rem;
-          background-color: var(--ColorNav);
-        }
-        
-        
-        
-        .NAV-LIST{
-        display: flex;
-        list-style-type: none;
-        gap: 1rem;
-        
-        }
-        .NAV-LIST a {
-          text-decoration: none;
-          color: var(--ColorBlanco);
-          font-family: var(--Fuenteprincipal);
-          font-size: 2rem;
-        }
-        .NAV-LIST a:hover{
-          transition: 0.3s ease;
-          color: aqua;
-        }
-        .hamburguer {
-          display: none;
-          cursor: pointer
-        }
-        .bar {
-        display: block;
-        width: 20px;
-        height: 2px;
-        margin-left: auto;
-        margin-top: 3px;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: var(--ColorBlanco);
-        }
       
 
 .inputs-nav {
@@ -2120,8 +2242,6 @@ font-family: var(--Fuenteprincipal);
   width: 3.4rem;
   height: 3rem;
 }
-
-
 
 
 }
