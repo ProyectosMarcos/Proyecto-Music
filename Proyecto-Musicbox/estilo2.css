@@ -50,6 +50,55 @@ body {
   text-align: center;
 }
 @media (min-width: 1224px) {
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 2.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 46%;
+    margin-top: 3rem;
+    height: 5rem;
+    width: 13rem;
+  }
+  
+  #input-recomendacion{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .input-nombre{
+    font-size: 2.9rem;
+  }
+  .container-input{
+    margin-left: 7rem;
+    margin-top: 3rem;
+  }
+  #input-fijo{
+    font-size: 2.3rem;
+    width: 55rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-color: rgb(0, 234, 255);
+    background-color:#232526;
+    padding: 0.4rem;
+    color: #ffffff;
+  }
+  
+  .contacto{
+    color: white;
+    border-color: rgb(0, 234, 255);
+    border-style:groove;
+    border-radius: 1.2rem;
+    margin-left: 7rem;
+    width: 85.35%;
+    padding: 2rem;
+    margin-top: 4.7rem;
+    margin-bottom: 2rem;
+  }
+  
   .novedades{
     color: white;
     border-color: yellow;
@@ -310,6 +359,55 @@ body {
  }
 }
 @media only screen and (min-width: 800px) and (max-width:1223px) {
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 2.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 46%;
+    margin-top: 3rem;
+    height: 5rem;
+    width: 13rem;
+  }
+  
+  #input-recomendacion{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .input-nombre{
+    font-size: 2.9rem;
+  }
+  .container-input{
+    margin-left: 7rem;
+    margin-top: 3rem;
+  }
+  #input-fijo{
+    font-size: 2.3rem;
+    width: 55rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-color: rgb(0, 234, 255);
+    background-color:#232526;
+    padding: 0.4rem;
+    color: #ffffff;
+  }
+  
+  .contacto{
+    color: white;
+    border-color: rgb(0, 234, 255);
+    border-style:groove;
+    border-radius: 1.2rem;
+    margin-left: 7rem;
+    width: 85.35%;
+    padding: 2rem;
+    margin-top: 4.7rem;
+    margin-bottom: 2rem;
+  }
+  
   .novedades{
     color: white;
     border-color: yellow;
@@ -438,6 +536,57 @@ body {
  }
 }
 @media only screen and (min-width: 0px) and (max-width:799px) {
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 1.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 36%;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 8.5rem;
+  }
+  
+  #input-recomendacion{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    
+  }
+  
+  .input-nombre{
+    font-size: 1.8rem;
+  }
+  .container-input{
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  #input-fijo{
+    font-size: 1.5rem;
+    width: 45rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-color: rgb(0, 234, 255);
+    background-color:#232526;
+    padding: 0.4rem;
+    color: #ffffff;
+  }
+  
+  .contacto{
+    color: white;
+    border-color: rgb(0, 234, 255);
+    border-style:groove;
+    border-radius: 1.2rem;
+    margin-left: 7rem;
+    width: 85.35%;
+    padding: 2rem;
+    padding-right: 2%;
+    margin-top: 4.7rem;
+    margin-bottom: 2rem;
+  }
+  
   .novedades{
     color: white;
     border-color: yellow;
@@ -884,6 +1033,57 @@ body {
   background-color: var(--ColorBlanco);
 }
 @media only screen and (min-width: 0px) and (max-width:700px) {
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 1.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 36%;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 8.5rem;
+  }
+  
+  #input-recomendacion{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    
+  }
+  
+  .input-nombre{
+    font-size: 1.8rem;
+  }
+  .container-input{
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  #input-fijo{
+    font-size: 1.5rem;
+    width: 90%;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-color: rgb(0, 234, 255);
+    background-color:#232526;
+    padding: 0.4rem;
+    color: #ffffff;
+  }
+  
+  .contacto{
+    color: white;
+    border-color: rgb(0, 234, 255);
+    border-style:groove;
+    border-radius: 1.2rem;
+    margin-left: 1rem;
+    width: 85.35%;
+    padding: 2rem;
+    padding-right: 2%;
+    margin-top: 4.7rem;
+    margin-bottom: 2rem;
+  }
+  
   .novedades{
     color: white;
     border-color: yellow;
