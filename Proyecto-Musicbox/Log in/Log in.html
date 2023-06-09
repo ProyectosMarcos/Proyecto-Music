@@ -4,14 +4,14 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/Log in/styleLog.css">
-      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="/Proyecto-Musicbox/Log in/styleLog.css">
+      <link rel="stylesheet" href="/Proyecto-Musicbox/normalize.css">
       <script src="https://kit.fontawesome.com/ef233ec86e.js" crossorigin="anonymous"></script>
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <style>
          @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
       </style>
-      <title>Proyecto1</title>
+      <title>Log in</title>
    </head>
    <body class="contenedor-grid">
       <header class="header">
@@ -37,11 +37,34 @@
                      <div class="input-contenedor-2">
                         <input type="password" class="formulario__campo-1" placeholder="Ingrese contraseña" style="text-align: center;">
                         </div>
-                              <nav class="nav" id="nav">
-                               <ul class="NAV-LIST">
-                                  <div class="caja-link">
-                                 <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"></i>¿ Olvidaste la contraseña ?</a></li>
+
+                        <nav class="nav" id="nav">
+                           <ul class="NAV-LIST">
+                              <div class="caja-link">
+                            
+                        <button aria-label="setting" class="boton__tuerca" id="btn-abrir-modal">
+                          
+                           <li class="Listas"><a href="#" class="Listas-a"><i class="Listas-i"></i>¿ Olvidaste la contraseña ?</a></li>
+                        </button>
+                        </div>
+                        <dialog  id="modal">
+                           <div class="container-1">
+                           <div class="form-content">
+                              <form>
+                                 <h1 id="title">Se ha enviado a tu correo electronico un mail con los pasos a seguir para cambiar la contraseña</h1>
+                               
+                                
                                  </div>
+                                
+                             
+                                 
+                                 
+                                 <div class="caja-buttons-1">
+                                 <button id="btn-cerrar-modal">Log in</button> 
+                                 </div>
+                              </form>
+                           </div>
+                        </dialog>
                         </div>
                       <div class="caja-buttons">
                         <button id="button-1">Ingresar</button>
@@ -65,6 +88,7 @@
       <footer class="footer">
          <h3 class="Footer-h3"></h3>
       </footer>
-      <script src="menu.js"></script>
+   
+      <script src="/Proyecto-Musicbox/Log in/modal.js"></script>
    </body>
 </html>

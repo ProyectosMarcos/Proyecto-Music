@@ -50,28 +50,19 @@ body {
   color: aqua;
   text-align: center;
 }
-.NAV-LIST {
-  list-style-type: none;
-}
-  
-
-
-
-
-
-
 
 @media only screen and (min-width:1901px)  {
   
+
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -14%;
+    margin-left: -.1%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
-      margin-left: -16%;
+      margin-left: 1%;
       }
-    
+      
              .novedades{
                 color: white;
                 margin-left: 10%;
@@ -80,7 +71,7 @@ body {
             
               }
             .logo-musica {
-              margin-left: 37.8%;
+              margin-left: 44.6%;
             width: 20rem;        
           }
             
@@ -90,11 +81,10 @@ body {
              .input-contenedor-1 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
               margin-top: 3rem;
               color:red;
              margin: auto;
-             margin-left: 35%;
               cursor: pointer;
               }
             
@@ -102,11 +92,32 @@ body {
             .input-contenedor-2 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
+              color:red;
+             margin-left: 38.4%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
               color:red;
              margin: auto;
+             margin-left: 38%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 34.6%;
              cursor: pointer;
-             margin-left: 30.5%;
+           
             }
             
             
@@ -115,23 +126,14 @@ body {
             .formulario__campo-1{
                 background-color: var(--ColorPrincipal);
                 color: white;
-                width: 29.2rem;
+                width: 32.3rem;
                 font-size: 2rem;
                 font-family: var(--Fuenteprincipal);
                 font-weight: bold;
             } 
             
             
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
+          
             #button-2 {
               border: solid;
               border-radius: 0.7rem;
@@ -151,42 +153,29 @@ body {
             }
             
             
-              .Listas-a {
-               margin-left: 33.4%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
+            
                .caja-buttons {
-              margin-left: 32.9%;
+              text-align: center;
               margin-top: 6rem;
+            margin-left: -2%;
                }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-               
-               }
+            
               .listado-albumes-novedades{
                 font-size: 2.4rem;
-                margin-left: 6rem;
+                margin-left: 4rem;
               }
               .definicion-app{
                 color:white;
-             
                margin-right: 2%;
                 width: 100%;
                 padding: 2rem;
                 margin-bottom: 5%;
-
                 cursor: pointer;
               }
               
               .novedades{
                 color: white;
+               
                 margin-left: 7rem;
                 width: 90%;
                 padding: 1rem;
@@ -202,54 +191,105 @@ body {
                   grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
              }
             
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
+          
               .footer {
                   background-color: var(--ColorPrincipal);
              }
+
              /**H2 - H3**/
-            
+
+
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+
 }
 
 
 
 @media only screen and (min-width:1800px) and (max-width:1900px) {
   
+ 
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -14%;
+    margin-left: -.1%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
-      margin-left: -16%;
+      margin-left: 1%;
       }
-    
+      
              .novedades{
                 color: white;
                 margin-left: 10%;
@@ -258,7 +298,7 @@ body {
             
               }
             .logo-musica {
-              margin-left: 37.6%;
+              margin-left: 44.6%;
             width: 20rem;        
           }
             
@@ -268,11 +308,10 @@ body {
              .input-contenedor-1 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
               margin-top: 3rem;
               color:red;
              margin: auto;
-             margin-left: 35%;
               cursor: pointer;
               }
             
@@ -280,11 +319,32 @@ body {
             .input-contenedor-2 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
+              color:red;
+             margin-left: 38.4%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
               color:red;
              margin: auto;
+             margin-left: 38%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 34.6%;
              cursor: pointer;
-             margin-left: 30.5%;
+           
             }
             
             
@@ -293,23 +353,14 @@ body {
             .formulario__campo-1{
                 background-color: var(--ColorPrincipal);
                 color: white;
-                width: 29.2rem;
+                width: 32.3rem;
                 font-size: 2rem;
                 font-family: var(--Fuenteprincipal);
                 font-weight: bold;
             } 
             
             
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
+          
             #button-2 {
               border: solid;
               border-radius: 0.7rem;
@@ -329,37 +380,23 @@ body {
             }
             
             
-              .Listas-a {
-               margin-left: 33.4%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
+            
                .caja-buttons {
-             margin-left: 32.9%;
+              text-align: center;
               margin-top: 6rem;
+            margin-left: -2%;
                }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-                
-               }
+            
               .listado-albumes-novedades{
                 font-size: 2.4rem;
-                margin-left: 6rem;
+                margin-left: 4rem;
               }
               .definicion-app{
                 color:white;
-             
                margin-right: 2%;
                 width: 100%;
                 padding: 2rem;
                 margin-bottom: 5%;
-
                 cursor: pointer;
               }
               
@@ -381,52 +418,104 @@ body {
                   grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
              }
             
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
+          
               .footer {
                   background-color: var(--ColorPrincipal);
              }
+
              /**H2 - H3**/
-            
+
+
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+
+
 }
 
 @media only screen and (min-width:1701px) and (max-width:1799px) {
   
+ 
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -14%;
+    margin-left: -.1%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
-      margin-left: -16%;
+      margin-left: 1%;
       }
-    
+      
              .novedades{
                 color: white;
                 margin-left: 10%;
@@ -435,7 +524,7 @@ body {
             
               }
             .logo-musica {
-              margin-left: 37.6%;
+              margin-left: 44%;
             width: 20rem;        
           }
             
@@ -445,11 +534,10 @@ body {
              .input-contenedor-1 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
               margin-top: 3rem;
               color:red;
              margin: auto;
-             margin-left: 35%;
               cursor: pointer;
               }
             
@@ -457,11 +545,32 @@ body {
             .input-contenedor-2 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
+              color:red;
+             margin-left: 37.7%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
               color:red;
              margin: auto;
+             margin-left: 37.4%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 33.9%;
              cursor: pointer;
-             margin-left: 30.5%;
+           
             }
             
             
@@ -470,23 +579,14 @@ body {
             .formulario__campo-1{
                 background-color: var(--ColorPrincipal);
                 color: white;
-                width: 29.2rem;
+                width: 32.3rem;
                 font-size: 2rem;
                 font-family: var(--Fuenteprincipal);
                 font-weight: bold;
             } 
             
             
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
+          
             #button-2 {
               border: solid;
               border-radius: 0.7rem;
@@ -506,37 +606,23 @@ body {
             }
             
             
-              .Listas-a {
-               margin-left: 33.4%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
+            
                .caja-buttons {
-             margin-left: 32.9%;
+              text-align: center;
               margin-top: 6rem;
+            margin-left: -2%;
                }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-                
-               }
+            
               .listado-albumes-novedades{
                 font-size: 2.4rem;
-                margin-left: 6rem;
+                margin-left: 4rem;
               }
               .definicion-app{
                 color:white;
-             
                margin-right: 2%;
                 width: 100%;
                 padding: 2rem;
                 margin-bottom: 5%;
-
                 cursor: pointer;
               }
               
@@ -558,53 +644,102 @@ body {
                   grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
              }
             
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
+          
               .footer {
                   background-color: var(--ColorPrincipal);
              }
+
              /**H2 - H3**/
-            
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+
 }
 
 
 @media only screen and (min-width:1601px) and (max-width:1700px) {
   
+  
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -13%;
+    margin-left: -.1%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
-      margin-left: -14.2%;
+      margin-left: 1%;
       }
-    
+      
              .novedades{
                 color: white;
                 margin-left: 10%;
@@ -613,7 +748,7 @@ body {
             
               }
             .logo-musica {
-              margin-left: 37.5%;
+              margin-left: 44%;
             width: 20rem;        
           }
             
@@ -623,11 +758,10 @@ body {
              .input-contenedor-1 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
               margin-top: 3rem;
               color:red;
              margin: auto;
-             margin-left: 34%;
               cursor: pointer;
               }
             
@@ -635,11 +769,32 @@ body {
             .input-contenedor-2 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
+              color:red;
+             margin-left: 37%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
               color:red;
              margin: auto;
+             margin-left: 36.6%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 32.9%;
              cursor: pointer;
-             margin-left: 29%;
+           
             }
             
             
@@ -648,23 +803,14 @@ body {
             .formulario__campo-1{
                 background-color: var(--ColorPrincipal);
                 color: white;
-                width: 29.2rem;
+                width: 32.3rem;
                 font-size: 2rem;
                 font-family: var(--Fuenteprincipal);
                 font-weight: bold;
             } 
             
             
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
+          
             #button-2 {
               border: solid;
               border-radius: 0.7rem;
@@ -684,37 +830,23 @@ body {
             }
             
             
-              .Listas-a {
-               margin-left: 31.8%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
+            
                .caja-buttons {
-             margin-left: 31.9%;
+              text-align: center;
               margin-top: 6rem;
+            margin-left: -2.5%;
                }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-              
-               }
+            
               .listado-albumes-novedades{
                 font-size: 2.4rem;
-                margin-left: 6rem;
+                margin-left: 4rem;
               }
               .definicion-app{
                 color:white;
-           
                margin-right: 2%;
                 width: 100%;
                 padding: 2rem;
                 margin-bottom: 5%;
-
                 cursor: pointer;
               }
               
@@ -736,54 +868,102 @@ body {
                   grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
              }
             
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
+          
               .footer {
                   background-color: var(--ColorPrincipal);
              }
+
              /**H2 - H3**/
-            
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
 }
 
 
 
 @media only screen and (min-width:1501px) and (max-width:1600px) {
   
+  
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -12%;
+    margin-left: -.1%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
-      margin-left: -14%;
+      margin-left: 1%;
       }
-    
+      
              .novedades{
                 color: white;
                 margin-left: 10%;
@@ -792,7 +972,7 @@ body {
             
               }
             .logo-musica {
-              margin-left: 37.5%;
+              margin-left: 42.5%;
             width: 20rem;        
           }
             
@@ -802,11 +982,10 @@ body {
              .input-contenedor-1 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
               margin-top: 3rem;
               color:red;
              margin: auto;
-             margin-left: 34%;
               cursor: pointer;
               }
             
@@ -814,11 +993,32 @@ body {
             .input-contenedor-2 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
+              color:red;
+             margin-left: 35.9%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
               color:red;
              margin: auto;
+             margin-left: 35.7%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 31.7%;
              cursor: pointer;
-             margin-left: 29%;
+           
             }
             
             
@@ -827,23 +1027,14 @@ body {
             .formulario__campo-1{
                 background-color: var(--ColorPrincipal);
                 color: white;
-                width: 29.2rem;
+                width: 32.3rem;
                 font-size: 2rem;
                 font-family: var(--Fuenteprincipal);
                 font-weight: bold;
             } 
             
             
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
+          
             #button-2 {
               border: solid;
               border-radius: 0.7rem;
@@ -863,43 +1054,29 @@ body {
             }
             
             
-              .Listas-a {
-               margin-left: 31.8%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
+            
                .caja-buttons {
-             margin-left: 32.1%;
+              text-align: center;
               margin-top: 6rem;
+            margin-left: -2.5%;
                }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-                
-               }
+            
               .listado-albumes-novedades{
                 font-size: 2.4rem;
-                margin-left: 6rem;
+                margin-left: 4rem;
               }
               .definicion-app{
                 color:white;
-             
                margin-right: 2%;
                 width: 100%;
                 padding: 2rem;
                 margin-bottom: 5%;
-
                 cursor: pointer;
               }
               
               .novedades{
                 color: white;
-                
+               
                 margin-left: 7rem;
                 width: 90%;
                 padding: 1rem;
@@ -915,941 +1092,94 @@ body {
                   grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
              }
             
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
+          
               .footer {
                   background-color: var(--ColorPrincipal);
              }
+
              /**H2 - H3**/
+
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
             
 }
 
 
 @media only screen and (min-width:1401px) and (max-width:1500px) {
   
-  .descripcion-novedades {
-    font-size: 3rem;
-    margin-left: -12%;
-    }
-    .descripcion-novedades-2 {
-      font-size: 3rem;
-      margin-left: -15%;
-      }
-    
-             .novedades{
-                color: white;
-                margin-left: 10%;
-                width: 85.35%;
-                padding: 2rem;
-            
-              }
-            .logo-musica {
-              margin-left: 37.5%;
-            width: 20rem;        
-          }
-            
-              .formulario-1{
-                background-color: black;
-            }
-             .input-contenedor-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              margin-top: 3rem;
-              color:red;
-             margin: auto;
-             margin-left: 33%;
-              cursor: pointer;
-              }
-            
-            
-            .input-contenedor-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              color:red;
-             margin: auto;
-             cursor: pointer;
-             margin-left: 27.4%;
-            }
-            
-            
-            
-            
-            .formulario__campo-1{
-                background-color: var(--ColorPrincipal);
-                color: white;
-                width: 29.2rem;
-                font-size: 2rem;
-                font-family: var(--Fuenteprincipal);
-                font-weight: bold;
-            } 
-            
-            
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            #button-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            button  {
-              font-size: 1.7rem;
-              transition: .2s;
-            }
-            button:active {
-              transform: scale(0.9);
-            }
-            
-            
-              .Listas-a {
-               margin-left: 30.2%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
-               .caja-buttons {
-             margin-left: 30.7%;
-              margin-top: 6rem;
-               }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-                
-               }
-              .listado-albumes-novedades{
-                font-size: 2.4rem;
-                margin-left: 6rem;
-              }
-              .definicion-app{
-                color:white;
-             
-               margin-right: 2%;
-                width: 100%;
-                padding: 2rem;
-                margin-bottom: 5%;
 
-                cursor: pointer;
-              }
-              
-              .novedades{
-                color: white;
-               
-                margin-left: 7rem;
-                width: 90%;
-                padding: 1rem;
-                height: auto;
-                 margin: auto;
-                cursor: pointer;
-              }
-             
-              
-              .contenedor-grid {
-                  
-                  grid-template-rows: auto;
-                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
-             }
-            
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
-              .footer {
-                  background-color: var(--ColorPrincipal);
-             }
-             /**H2 - H3**/
-            
-}
-
-
-@media only screen and (min-width:1301px) and (max-width:1400px) {
-
-   
-    
-  .descripcion-novedades {
-    font-size: 3rem;
-    margin-left: -9%;
-    }
-    .descripcion-novedades-2 {
-      font-size: 3rem;
-      margin-left: -11.5%;
-      }
-    
-             .novedades{
-                color: white;
-                margin-left: 10%;
-                width: 85.35%;
-                padding: 2rem;
-            
-              }
-            .logo-musica {
-              margin-left: 38%;
-            width: 20rem;        
-          }
-            
-              .formulario-1{
-                background-color: black;
-            }
-             .input-contenedor-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              margin-top: 3rem;
-              color:red;
-             margin: auto;
-            margin-left: 33%;
-              cursor: pointer;
-              }
-            
-            
-            .input-contenedor-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              color:red;
-             margin: auto;
-             cursor: pointer;
-             margin-left: 26.8%;
-            }
-            
-            
-            
-            
-            .formulario__campo-1{
-                background-color: var(--ColorPrincipal);
-                color: white;
-                width: 29.2rem;
-                font-size: 2rem;
-                font-family: var(--Fuenteprincipal);
-                font-weight: bold;
-            } 
-            
-            
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            #button-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            button  {
-              font-size: 1.7rem;
-              transition: .2s;
-            }
-            button:active {
-              transform: scale(0.9);
-            }
-            
-            
-              .Listas-a {
-               margin-left: 29.2%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
-               .caja-buttons {
-             margin-left: 30.6%;
-              margin-top: 6rem;
-               }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-               
-               }
-              .listado-albumes-novedades{
-                font-size: 2.4rem;
-                margin-left: 6rem;
-              }
-              .definicion-app{
-                color:white;
-             
-               margin-right: 2%;
-                width: 100%;
-                padding: 2rem;
-                margin-bottom: 5%;
-
-                cursor: pointer;
-              }
-              
-              .novedades{
-                color: white;
-              
-                margin-left: 7rem;
-                width: 90%;
-                padding: 1rem;
-                height: auto;
-                 margin: auto;
-                cursor: pointer;
-              }
-             
-              
-              .contenedor-grid {
-                  
-                  grid-template-rows: auto;
-                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
-             }
-            
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
-              .footer {
-                  background-color: var(--ColorPrincipal);
-             }
-             /**H2 - H3**/
-            
-}
-
-@media only screen and (min-width:1201px) and (max-width:1300px) {
-
-   
-    
-  .descripcion-novedades {
-    font-size: 3rem;
-    margin-left: -9%;
-    }
-    .descripcion-novedades-2 {
-      font-size: 3rem;
-      margin-left: -10%;
-      }
-    
-             .novedades{
-                color: white;
-                margin-left: 10%;
-                width: 85.35%;
-                padding: 2rem;
-            
-              }
-            .logo-musica {
-              margin-left: 37.5%;
-            width: 20rem;        
-          }
-            
-              .formulario-1{
-                background-color: black;
-            }
-             .input-contenedor-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              margin-top: 3rem;
-              color:red;
-             margin: auto;
-            margin-left: 33%;
-              cursor: pointer;
-              }
-            
-            
-            .input-contenedor-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              color:red;
-             margin: auto;
-             cursor: pointer;
-             margin-left: 26.8%;
-            }
-            
-            
-            
-            
-            .formulario__campo-1{
-                background-color: var(--ColorPrincipal);
-                color: white;
-                width: 29.2rem;
-                font-size: 2rem;
-                font-family: var(--Fuenteprincipal);
-                font-weight: bold;
-            } 
-            
-            
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            #button-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            button  {
-              font-size: 1.7rem;
-              transition: .2s;
-            }
-            button:active {
-              transform: scale(0.9);
-            }
-            
-            
-              .Listas-a {
-               margin-left: 29.2%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
-               .caja-buttons {
-             margin-left: 31.1%;
-              margin-top: 6rem;
-               }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-               
-               }
-              .listado-albumes-novedades{
-                font-size: 2.4rem;
-                margin-left: 6rem;
-              }
-              .definicion-app{
-                color:white;
-             
-               margin-right: 2%;
-                width: 100%;
-                padding: 2rem;
-                margin-bottom: 5%;
-
-                cursor: pointer;
-              }
-              
-              .novedades{
-                color: white;
-              
-                margin-left: 7rem;
-                width: 90%;
-                padding: 1rem;
-                height: auto;
-                 margin: auto;
-                cursor: pointer;
-              }
-             
-              
-              .contenedor-grid {
-                  
-                  grid-template-rows: auto;
-                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
-             }
-            
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
-              .footer {
-                  background-color: var(--ColorPrincipal);
-             }
-             /**H2 - H3**/
-            
-}
-@media only screen and (min-width:1001px) and (max-width:1200px) {
-
-   
-    
-  .descripcion-novedades {
-    font-size: 3rem;
-    margin-left: -8%;
-    }
-    .descripcion-novedades-2 {
-      font-size: 3rem;
-      margin-left: -10%;
-      }
-    
-             .novedades{
-                color: white;
-                margin-left: 10%;
-                width: 85.35%;
-                padding: 2rem;
-            
-              }
-            .logo-musica {
-              margin-left: 37.5%;
-            width: 20rem;        
-          }
-            
-              .formulario-1{
-                background-color: black;
-            }
-             .input-contenedor-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              margin-top: 3rem;
-              color:red;
-             margin: auto;
-            margin-left: 31.5%;
-              cursor: pointer;
-              }
-            
-            
-            .input-contenedor-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              color:red;
-             margin: auto;
-             cursor: pointer;
-             margin-left: 24.6%;
-            }
-            
-            
-            
-            
-            .formulario__campo-1{
-                background-color: var(--ColorPrincipal);
-                color: white;
-                width: 29.2rem;
-                font-size: 2rem;
-                font-family: var(--Fuenteprincipal);
-                font-weight: bold;
-            } 
-            
-            
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            #button-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            button  {
-              font-size: 1.7rem;
-              transition: .2s;
-            }
-            button:active {
-              transform: scale(0.9);
-            }
-            
-            
-              .Listas-a {
-               margin-left: 27%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
-               .caja-buttons {
-             margin-left: 29%;
-              margin-top: 6rem;
-               }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 9%;
-               
-               }
-              .listado-albumes-novedades{
-                font-size: 2.4rem;
-                margin-left: 6rem;
-              }
-              .definicion-app{
-                color:white;
-             
-               margin-right: 2%;
-                width: 100%;
-                padding: 2rem;
-                margin-bottom: 5%;
-
-                cursor: pointer;
-              }
-              
-              .novedades{
-                color: white;
-                margin-left: 7rem;
-                width: 90%;
-                padding: 1rem;
-                height: auto;
-                 margin: auto;
-                cursor: pointer;
-              }
-             
-              
-              .contenedor-grid {
-                  
-                  grid-template-rows: auto;
-                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
-             }
-            
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
-              .footer {
-                  background-color: var(--ColorPrincipal);
-             }
-             /**H2 - H3**/
-            
-}
-
-@media only screen and (min-width:901px) and (max-width:1000px) {
-
-   
-    
-  .descripcion-novedades {
-    font-size: 3rem;
-    margin-left: -5%;
-    }
-    .descripcion-novedades-2 {
-      font-size: 3rem;
-      margin-left: -5%;
-      }
-    
-             .novedades{
-                color: white;
-                margin-left: 10%;
-                width: 85.35%;
-                padding: 2rem;
-            
-              }
-            .logo-musica {
-              margin-left: 37.5%;
-            width: 20rem;        
-          }
-            
-              .formulario-1{
-                background-color: black;
-            }
-             .input-contenedor-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              margin-top: 3rem;
-              color:red;
-             margin: auto;
-            margin-left: 31.5%;
-              cursor: pointer;
-              }
-            
-            
-            .input-contenedor-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 30rem;
-              color:red;
-             margin: auto;
-             cursor: pointer;
-             margin-left: 23%;
-            }
-            
-            
-            
-            
-            .formulario__campo-1{
-                background-color: var(--ColorPrincipal);
-                color: white;
-                width: 29.2rem;
-                font-size: 2rem;
-                font-family: var(--Fuenteprincipal);
-                font-weight: bold;
-            } 
-            
-            
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            #button-2 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
-            button  {
-              font-size: 1.7rem;
-              transition: .2s;
-            }
-            button:active {
-              transform: scale(0.9);
-            }
-            
-            
-              .Listas-a {
-               margin-left: 25.5%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
-               .caja-buttons {
-              text-align: center;
-              margin-top: 6rem;
-               }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 10%;
-               
-               }
-              .listado-albumes-novedades{
-                font-size: 2.4rem;
-                margin-left: 6rem;
-              }
-              .definicion-app{
-                color:white;
-             
-               margin-right: 2%;
-                width: 100%;
-                padding: 2rem;
-                margin-bottom: 5%;
-
-                cursor: pointer;
-              }
-              
-              .novedades{
-                color: white;
-              
-                margin-left: 7rem;
-                width: 90%;
-                padding: 1rem;
-                height: auto;
-                 margin: auto;
-                cursor: pointer;
-              }
-             
-              
-              .contenedor-grid {
-                  
-                  grid-template-rows: auto;
-                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
-             }
-            
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
-              .footer {
-                  background-color: var(--ColorPrincipal);
-             }
-             /**H2 - H3**/
-            
-}
-
-
-
-
-@media only screen and (min-width:801px) and (max-width:900px) {
-
-   
-    
+  
   .descripcion-novedades {
     font-size: 3rem;
     margin-left: -2%;
@@ -1858,7 +1188,7 @@ body {
       font-size: 3rem;
       margin-left: 1%;
       }
-    
+      
              .novedades{
                 color: white;
                 margin-left: 10%;
@@ -1867,7 +1197,7 @@ body {
             
               }
             .logo-musica {
-              margin-left: 37.5%;
+              margin-left: 42.5%;
             width: 20rem;        
           }
             
@@ -1877,11 +1207,10 @@ body {
              .input-contenedor-1 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
               margin-top: 3rem;
               color:red;
              margin: auto;
-            
               cursor: pointer;
               }
             
@@ -1889,11 +1218,32 @@ body {
             .input-contenedor-2 {
               border: solid;
               border-radius: 0.7rem;
-              width: 30rem;
+              width: 33rem;
+              color:red;
+             margin-left: 35%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
               color:red;
              margin: auto;
+             margin-left: 34.5%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 30%;
              cursor: pointer;
-             margin-left: 25%;
+           
             }
             
             
@@ -1902,23 +1252,14 @@ body {
             .formulario__campo-1{
                 background-color: var(--ColorPrincipal);
                 color: white;
-                width: 29.2rem;
+                width: 32.3rem;
                 font-size: 2rem;
                 font-family: var(--Fuenteprincipal);
                 font-weight: bold;
             } 
             
             
-            #button-1 {
-              border: solid;
-              border-radius: 0.7rem;
-              width: 15rem;
-              font-size: 1.9rem;
-              background-color: var(--ColorPrincipal);
-              border-color: red;
-              color:rgb(255, 255, 255);
-              cursor: pointer;
-            }
+          
             #button-2 {
               border: solid;
               border-radius: 0.7rem;
@@ -1938,37 +1279,23 @@ body {
             }
             
             
-              .Listas-a {
-               margin-left: 27.5%;
-              list-style-type: none;
-              font-size: 1.3rem;
-              color: var(--ColorBlanco);
-              }
-              .NAV-LIST a:hover{
-                transition: 0.1s ease;
-                color: aqua;
-           }
+            
                .caja-buttons {
               text-align: center;
               margin-top: 6rem;
+            margin-left: -2.5%;
                }
-               .caja-link {
-                margin-top: 0rem;
-                margin-right: 10%;
-              
-               }
+            
               .listado-albumes-novedades{
                 font-size: 2.4rem;
                 margin-left: 4rem;
               }
               .definicion-app{
                 color:white;
-              
                margin-right: 2%;
                 width: 100%;
                 padding: 2rem;
                 margin-bottom: 5%;
-
                 cursor: pointer;
               }
               
@@ -1990,39 +1317,1251 @@ body {
                   grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
              }
             
-             /**H2 - H3**/
-              #H2 {
-                  color: var(--ColorBlanco);
-                  margin-left: 3rem;
-                  margin-bottom: 2rem;
-                  font-size: 2rem;
-             }
-              #H2-dos {
-                  color: var(--ColorBlanco);
-                  margin-top: 1rem;
-                  margin-left: 2rem;
-             }
-              #h3-1 {
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-2{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem 
-             }
-              #h3-3{
-                  color: var(--ColorBlanco);
-                  margin-left: 2.4rem;
-             }
-              #h3-4{
-                  color: var(--ColorBlanco);
-                  text-align: center;
-             }
+          
               .footer {
                   background-color: var(--ColorPrincipal);
              }
+
              /**H2 - H3**/
+
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+}
+
+
+@media only screen and (min-width:1301px) and (max-width:1400px) {
+
+   
+ 
+  
+  .descripcion-novedades {
+    font-size: 3rem;
+    margin-left: -3%;
+    }
+    .descripcion-novedades-usu {
+      font-size: 3rem;
+      margin-left: 1%;
+      }
+    .descripcion-novedades-2 {
+      font-size: 3rem;
+      margin-left: 1%;
+      }
+      
+             .novedades{
+                color: white;
+                margin-left: 10%;
+                width: 85.35%;
+                padding: 2rem;
             
+              }
+            .logo-musica {
+              margin-left: 42.8%;
+            width: 20rem;        
+          }
+            
+              .formulario-1{
+                background-color: black;
+            }
+             .input-contenedor-1 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 33.5%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+             margin-left: 33%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 28%;
+             cursor: pointer;
+           
+            }
+            
+            
+            
+            
+            .formulario__campo-1{
+                background-color: var(--ColorPrincipal);
+                color: white;
+                width: 32.3rem;
+                font-size: 2rem;
+                font-family: var(--Fuenteprincipal);
+                font-weight: bold;
+            } 
+            
+            
+          
+            #button-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 15rem;
+              font-size: 1.9rem;
+              background-color: var(--ColorPrincipal);
+              border-color: red;
+              color:rgb(255, 255, 255);
+              cursor: pointer;
+            }
+            button  {
+              font-size: 1.7rem;
+              transition: .2s;
+            }
+            button:active {
+              transform: scale(0.9);
+            }
+            
+            
+            
+               .caja-buttons {
+              text-align: center;
+            margin-left: -2.5%;
+         
+               }
+            
+              .listado-albumes-novedades{
+                font-size: 2.4rem;
+                margin-left: 4rem;
+              }
+              .definicion-app{
+                color:white;
+               margin-right: 2%;
+                width: 100%;
+                padding: 2rem;
+                margin-bottom: 5%;
+                cursor: pointer;
+               
+              }
+              
+              .novedades{
+                color: white;
+               
+                margin-left: 7rem;
+                width: 90%;
+                padding: 1rem;
+                height: auto;
+                 margin: auto;
+                cursor: pointer;
+              }
+             
+              
+              .contenedor-grid {
+                  
+                  grid-template-rows: auto;
+                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
+             }
+            
+          
+              .footer {
+                  background-color: var(--ColorPrincipal);
+             }
+
+             /**H2 - H3**/
+
+
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px) {
+
+  .descripcion-novedades {
+    font-size: 3rem;
+    margin-left: -2%;
+    }
+    .descripcion-novedades-2 {
+      font-size: 3rem;
+      margin-left: 1%;
+      }
+      
+             .novedades{
+                color: white;
+                margin-left: 10%;
+                width: 85.35%;
+                padding: 2rem;
+            
+              }
+            .logo-musica {
+              margin-left: 41%;
+            width: 20rem;        
+          }
+            
+              .formulario-1{
+                background-color: black;
+            }
+             .input-contenedor-1 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 32.3%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+             margin-left: 31.5%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 26%;
+             cursor: pointer;
+           
+            }
+            
+            
+            
+            
+            .formulario__campo-1{
+                background-color: var(--ColorPrincipal);
+                color: white;
+                width: 32.3rem;
+                font-size: 2rem;
+                font-family: var(--Fuenteprincipal);
+                font-weight: bold;
+            } 
+            
+            
+          
+            #button-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 15rem;
+              font-size: 1.9rem;
+              background-color: var(--ColorPrincipal);
+              border-color: red;
+              color:rgb(255, 255, 255);
+              cursor: pointer;
+            }
+            button  {
+              font-size: 1.7rem;
+              transition: .2s;
+            }
+            button:active {
+              transform: scale(0.9);
+            }
+            
+            
+            
+               .caja-buttons {
+              text-align: center;
+              margin-top: 6rem;
+            margin-left: -2%;
+               }
+            
+              .listado-albumes-novedades{
+                font-size: 2.4rem;
+                margin-left: 4rem;
+              }
+              .definicion-app{
+                color:white;
+               margin-right: 2%;
+                width: 100%;
+                padding: 2rem;
+                margin-bottom: 5%;
+                cursor: pointer;
+              }
+              
+              .novedades{
+                color: white;
+               
+                margin-left: 7rem;
+                width: 90%;
+                padding: 1rem;
+                height: auto;
+                 margin: auto;
+                cursor: pointer;
+              }
+             
+              
+              .contenedor-grid {
+                  
+                  grid-template-rows: auto;
+                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
+             }
+            
+          
+              .footer {
+                  background-color: var(--ColorPrincipal);
+             }
+
+             /**H2 - H3**/
+
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 34%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+}      
+
+
+
+
+
+@media only screen and (min-width:1001px) and (max-width:1200px) {
+
+   
+    
+    
+  
+  .descripcion-novedades {
+    font-size: 3rem;
+    margin-left: -2%;
+    }
+    .descripcion-novedades-2 {
+      font-size: 3rem;
+      margin-left: 1%;
+      }
+      
+             .novedades{
+                color: white;
+                margin-left: 10%;
+                width: 85.35%;
+                padding: 2rem;
+            
+              }
+            .logo-musica {
+              margin-left: 38.8%;
+            width: 20rem;        
+          }
+            
+              .formulario-1{
+                background-color: black;
+            }
+             .input-contenedor-1 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 31%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+             margin-left: 30%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 23.5%;
+             cursor: pointer;
+           
+            }
+            
+            
+            
+            
+            .formulario__campo-1{
+                background-color: var(--ColorPrincipal);
+                color: white;
+                width: 32.3rem;
+                font-size: 2rem;
+                font-family: var(--Fuenteprincipal);
+                font-weight: bold;
+            } 
+            
+            
+          
+            #button-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 15rem;
+              font-size: 1.9rem;
+              background-color: var(--ColorPrincipal);
+              border-color: red;
+              color:rgb(255, 255, 255);
+              cursor: pointer;
+            }
+            button  {
+              font-size: 1.7rem;
+              transition: .2s;
+            }
+            button:active {
+              transform: scale(0.9);
+            }
+            
+            
+              .Listas-a {
+             
+              list-style-type: none;
+              font-size: 1.3rem;
+              color: var(--ColorBlanco);
+              }
+              .NAV-LIST a:hover{
+                transition: 0.1s ease;
+                color: aqua;
+           }
+               .caja-buttons {
+              text-align: center;
+              margin-top: 6rem;
+              margin:auto;
+               }
+            
+              .listado-albumes-novedades{
+                font-size: 2.4rem;
+                margin-left: 4rem;
+              }
+              .definicion-app{
+                color:white;
+               margin-right: 2%;
+                width: 100%;
+                padding: 2rem;
+                margin-bottom: 5%;
+                cursor: pointer;
+              }
+              
+              .novedades{
+                color: white;
+               
+                margin-left: 7rem;
+                width: 90%;
+                padding: 1rem;
+                height: auto;
+                 margin: auto;
+                cursor: pointer;
+              }
+             
+              
+              .contenedor-grid {
+                  
+                  grid-template-rows: auto;
+                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
+             }
+            
+          
+              .footer {
+                  background-color: var(--ColorPrincipal);
+             }
+
+             /**H2 - H3**/
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 30%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+}
+
+@media only screen and (min-width:901px) and (max-width:1000px) {
+
+   
+  
+  .descripcion-novedades {
+    font-size: 3rem;
+    margin-left: -2%;
+    }
+    .descripcion-novedades-2 {
+      font-size: 3rem;
+      margin-left: 1%;
+      }
+      
+             .novedades{
+                color: white;
+                margin-left: 10%;
+                width: 85.35%;
+                padding: 2rem;
+            
+              }
+            .logo-musica {
+              margin-left: 38.8%;
+            width: 20rem;        
+          }
+            
+              .formulario-1{
+                background-color: black;
+            }
+             .input-contenedor-1 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 26.6%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+             margin-left: 25.5%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 16.6%;
+             cursor: pointer;
+           
+            }
+            
+            
+            
+            
+            .formulario__campo-1{
+                background-color: var(--ColorPrincipal);
+                color: white;
+                width: 32.3rem;
+                font-size: 2rem;
+                font-family: var(--Fuenteprincipal);
+                font-weight: bold;
+            } 
+            
+            
+          
+            #button-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 15rem;
+              font-size: 1.9rem;
+              background-color: var(--ColorPrincipal);
+              border-color: red;
+              color:rgb(255, 255, 255);
+              cursor: pointer;
+            }
+            button  {
+              font-size: 1.7rem;
+              transition: .2s;
+            }
+            button:active {
+              transform: scale(0.9);
+            }
+            
+            
+              .Listas-a {
+             
+              list-style-type: none;
+              font-size: 1.3rem;
+              color: var(--ColorBlanco);
+              }
+              .NAV-LIST a:hover{
+                transition: 0.1s ease;
+                color: aqua;
+           }
+               .caja-buttons {
+              text-align: center;
+              margin-top: 6rem;
+               }
+               .caja-link {
+                margin-top: 0rem;
+                margin-right: 45%;
+              
+               }
+              .listado-albumes-novedades{
+                font-size: 2.4rem;
+                margin-left: 4rem;
+              }
+              .definicion-app{
+                color:white;
+               margin-right: 2%;
+                width: 100%;
+                padding: 2rem;
+                margin-bottom: 5%;
+                cursor: pointer;
+              }
+              
+              .novedades{
+                color: white;
+               
+                margin-left: 7rem;
+                width: 90%;
+                padding: 1rem;
+                height: auto;
+                 margin: auto;
+                cursor: pointer;
+              }
+             
+              
+              .contenedor-grid {
+                  
+                  grid-template-rows: auto;
+                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
+             }
+            
+          
+              .footer {
+                  background-color: var(--ColorPrincipal);
+             }
+
+             /**H2 - H3**/
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 26%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+}
+
+
+
+
+@media only screen and (min-width:801px) and (max-width:900px) {
+
+   
+ 
+  .descripcion-novedades {
+    font-size: 3rem;
+    margin-left: -2%;
+    }
+    .descripcion-novedades-2 {
+      font-size: 3rem;
+      margin-left: 1%;
+      }
+      
+             .novedades{
+                color: white;
+                margin-left: 10%;
+                width: 85.35%;
+                padding: 2rem;
+            
+              }
+            .logo-musica {
+              margin-left: 38.8%;
+            width: 20rem;        
+          }
+            
+              .formulario-1{
+                background-color: black;
+            }
+             .input-contenedor-1 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 23.3%;
+             cursor: pointer;
+           
+            }
+            .input-contenedor-3 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              margin-top: 3rem;
+              color:red;
+             margin: auto;
+             margin-left: 21.4%;
+              cursor: pointer;
+              }
+            
+            
+            .input-contenedor-4 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 33rem;
+              color:red;
+             margin-left: 11%;
+             cursor: pointer;
+           
+            }
+            
+            
+            
+            
+            .formulario__campo-1{
+                background-color: var(--ColorPrincipal);
+                color: white;
+                width: 32.3rem;
+                font-size: 2rem;
+                font-family: var(--Fuenteprincipal);
+                font-weight: bold;
+            } 
+            
+            
+          
+            #button-2 {
+              border: solid;
+              border-radius: 0.7rem;
+              width: 15rem;
+              font-size: 1.9rem;
+              background-color: var(--ColorPrincipal);
+              border-color: red;
+              color:rgb(255, 255, 255);
+              cursor: pointer;
+            }
+            button  {
+              font-size: 1.7rem;
+              transition: .2s;
+            }
+            button:active {
+              transform: scale(0.9);
+            }
+            
+            
+              .Listas-a {
+             
+              list-style-type: none;
+              font-size: 1.3rem;
+              color: var(--ColorBlanco);
+              }
+              .NAV-LIST a:hover{
+                transition: 0.1s ease;
+                color: aqua;
+           }
+               .caja-buttons {
+              text-align: center;
+              margin-top: 6rem;
+               }
+               .caja-link {
+                margin-top: 0rem;
+                margin-right: 45%;
+              
+               }
+              .listado-albumes-novedades{
+                font-size: 2.4rem;
+                margin-left: 4rem;
+              }
+              .definicion-app{
+                color:white;
+               margin-right: 2%;
+                width: 100%;
+                padding: 2rem;
+                margin-bottom: 5%;
+                cursor: pointer;
+              }
+              
+              .novedades{
+                color: white;
+               
+                margin-left: 7rem;
+                width: 90%;
+                padding: 1rem;
+                height: auto;
+                 margin: auto;
+                cursor: pointer;
+              }
+             
+              
+              .contenedor-grid {
+                  
+                  grid-template-rows: auto;
+                  grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
+             }
+            
+          
+              .footer {
+                  background-color: var(--ColorPrincipal);
+             }
+
+             /**H2 - H3**/
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 25%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
 }
 
 
@@ -2032,6 +2571,246 @@ body {
 
    
     
+    .descripcion-novedades {
+      font-size: 3rem;
+      margin-left: -2%;
+      }
+      .descripcion-novedades-2 {
+        font-size: 3rem;
+        margin-left: 1%;
+        }
+        
+               .novedades{
+                  color: white;
+                  margin-left: 10%;
+                  width: 85.35%;
+                  padding: 2rem;
+              
+                }
+              .logo-musica {
+                margin-left: 36.5%;
+              width: 20rem;        
+            }
+              
+                .formulario-1{
+                  background-color: black;
+              }
+               .input-contenedor-1 {
+                border: solid;
+                border-radius: 0.7rem;
+                width: 33rem;
+                margin-top: 3rem;
+                color:red;
+               margin: auto;
+              
+                cursor: pointer;
+                }
+              
+              
+              .input-contenedor-2 {
+                border: solid;
+                border-radius: 0.7rem;
+                width: 33rem;
+                color:red;
+               margin-left: 19.3%;
+               cursor: pointer;
+             
+              }
+              .input-contenedor-3 {
+                border: solid;
+                border-radius: 0.7rem;
+                width: 33rem;
+                margin-top: 3rem;
+                color:red;
+               margin: auto;
+               margin-left: 16.7%;
+                cursor: pointer;
+                }
+              
+              
+              .input-contenedor-4 {
+                border: solid;
+                border-radius: 0.7rem;
+                width: 33rem;
+                color:red;
+               margin-left: 4%;
+               cursor: pointer;
+             
+              }
+              
+              
+              
+              
+              .formulario__campo-1{
+                  background-color: var(--ColorPrincipal);
+                  color: white;
+                  width: 32.3rem;
+                  font-size: 2rem;
+                  font-family: var(--Fuenteprincipal);
+                  font-weight: bold;
+              } 
+              
+              
+            
+              #button-2 {
+                border: solid;
+                border-radius: 0.7rem;
+                width: 15rem;
+                font-size: 1.9rem;
+                background-color: var(--ColorPrincipal);
+                border-color: red;
+                color:rgb(255, 255, 255);
+                cursor: pointer;
+              }
+              button  {
+                font-size: 1.7rem;
+                transition: .2s;
+              }
+              button:active {
+                transform: scale(0.9);
+              }
+              
+              
+                .Listas-a {
+               
+                list-style-type: none;
+                font-size: 1.3rem;
+                color: var(--ColorBlanco);
+                }
+                .NAV-LIST a:hover{
+                  transition: 0.1s ease;
+                  color: aqua;
+             }
+                 .caja-buttons {
+                text-align: center;
+                margin-top: 6rem;
+                 }
+                 .caja-link {
+                  margin-top: 0rem;
+                  margin-right: 45%;
+                
+                 }
+                .listado-albumes-novedades{
+                  font-size: 2.4rem;
+                  margin-left: 4rem;
+                }
+                .definicion-app{
+                  color:white;
+                 margin-right: 2%;
+                  width: 100%;
+                  padding: 2rem;
+                  margin-bottom: 5%;
+                  cursor: pointer;
+                }
+                
+                .novedades{
+                  color: white;
+                 
+                  margin-left: 7rem;
+                  width: 90%;
+                  padding: 1rem;
+                  height: auto;
+                   margin: auto;
+                  cursor: pointer;
+                }
+               
+                
+                .contenedor-grid {
+                    
+                    grid-template-rows: auto;
+                    grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
+               }
+              
+            
+                .footer {
+                    background-color: var(--ColorPrincipal);
+               }
+
+               /**H2 - H3**/
+
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 23%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+    }
+
+
+
+ 
+
+
+    @media only screen and (min-width:601px) and (max-width:700px) {
+    
       .descripcion-novedades {
         font-size: 3rem;
         margin-left: -2%;
@@ -2040,7 +2819,7 @@ body {
           font-size: 3rem;
           margin-left: 1%;
           }
-        
+      
                  .novedades{
                     color: white;
                     margin-left: 10%;
@@ -2049,7 +2828,7 @@ body {
                 
                   }
                 .logo-musica {
-                  margin-left: 37.5%;
+                  margin-left: 35%;
                 width: 20rem;        
               }
                 
@@ -2059,7 +2838,7 @@ body {
                  .input-contenedor-1 {
                   border: solid;
                   border-radius: 0.7rem;
-                  width: 30rem;
+                  width: 33rem;
                   margin-top: 3rem;
                   color:red;
                  margin: auto;
@@ -2071,11 +2850,32 @@ body {
                 .input-contenedor-2 {
                   border: solid;
                   border-radius: 0.7rem;
-                  width: 30rem;
+                  width: 33rem;
+                  color:red;
+                 margin-left: 14%;
+                 cursor: pointer;
+               
+                }
+                .input-contenedor-3 {
+                  border: solid;
+                  border-radius: 0.7rem;
+                  width: 33rem;
+                  margin-top: 3rem;
                   color:red;
                  margin: auto;
+                margin-left: 11%;
+                  cursor: pointer;
+                  }
+                
+                
+                .input-contenedor-4 {
+                  border: solid;
+                  border-radius: 0.7rem;
+                  width: 33rem;
+                  color:red;
+                 margin-left: -5.5%;
                  cursor: pointer;
-                 margin-left: 21.5%;
+               
                 }
                 
                 
@@ -2084,23 +2884,14 @@ body {
                 .formulario__campo-1{
                     background-color: var(--ColorPrincipal);
                     color: white;
-                    width: 29.2rem;
+                    width: 32.3rem;
                     font-size: 2rem;
                     font-family: var(--Fuenteprincipal);
                     font-weight: bold;
                 } 
                 
                 
-                #button-1 {
-                  border: solid;
-                  border-radius: 0.7rem;
-                  width: 15rem;
-                  font-size: 1.9rem;
-                  background-color: var(--ColorPrincipal);
-                  border-color: red;
-                  color:rgb(255, 255, 255);
-                  cursor: pointer;
-                }
+              
                 #button-2 {
                   border: solid;
                   border-radius: 0.7rem;
@@ -2120,24 +2911,15 @@ body {
                 }
                 
                 
-                  .Listas-a {
-                   margin-left: 23%;
-                  list-style-type: none;
-                  font-size: 1.3rem;
-                  color: var(--ColorBlanco);
-                  }
-                  .NAV-LIST a:hover{
-                    transition: 0.1s ease;
-                    color: aqua;
-               }
+               
                    .caja-buttons {
                   text-align: center;
                   margin-top: 6rem;
                    }
                    .caja-link {
                     margin-top: 0rem;
-                    margin-right: 10%;
-                   
+                    margin-right: 45%;
+                  
                    }
                   .listado-albumes-novedades{
                     font-size: 2.4rem;
@@ -2145,18 +2927,16 @@ body {
                   }
                   .definicion-app{
                     color:white;
-                
                    margin-right: 2%;
                     width: 100%;
                     padding: 2rem;
                     margin-bottom: 5%;
-
                     cursor: pointer;
                   }
                   
                   .novedades{
                     color: white;
-                  
+                   
                     margin-left: 7rem;
                     width: 90%;
                     padding: 1rem;
@@ -2172,225 +2952,96 @@ body {
                       grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
                  }
                 
-                 /**H2 - H3**/
-                  #H2 {
-                      color: var(--ColorBlanco);
-                      margin-left: 3rem;
-                      margin-bottom: 2rem;
-                      font-size: 2rem;
-                 }
-                  #H2-dos {
-                      color: var(--ColorBlanco);
-                      margin-top: 1rem;
-                      margin-left: 2rem;
-                 }
-                  #h3-1 {
-                      color: var(--ColorBlanco);
-                      margin-left: 2.4rem;
-                 }
-                  #h3-2{
-                      color: var(--ColorBlanco);
-                      margin-left: 2.4rem 
-                 }
-                  #h3-3{
-                      color: var(--ColorBlanco);
-                      margin-left: 2.4rem;
-                 }
-                  #h3-4{
-                      color: var(--ColorBlanco);
-                      text-align: center;
-                 }
+              
                   .footer {
                       background-color: var(--ColorPrincipal);
                  }
+
                  /**H2 - H3**/
-                
-    }
 
 
 
- 
 
 
-    @media only screen and (min-width:601px) and (max-width:700px) {
-    
-        .descripcion-novedades {
-          font-size: 3rem;
-          margin-left: -2%;
-          }
-          .descripcion-novedades-2 {
-            font-size: 3rem;
-            margin-left: 1%;
-            }
-          
-                   .novedades{
-                      color: white;
-                      margin-left: 10%;
-                      width: 85.35%;
-                      padding: 2rem;
-                  
-                    }
-                  .logo-musica {
-                    margin-left: 30%;
-                  width: 20rem;        
-                }
-                  
-                    .formulario-1{
-                      background-color: black;
-                  }
-                   .input-contenedor-1 {
-                    border: solid;
-                    border-radius: 0.7rem;
-                    width: 30rem;
-                    margin-top: 3rem;
-                    color:red;
-                   margin: auto;
-                  
-                    cursor: pointer;
-                    }
-                  
-                  
-                  .input-contenedor-2 {
-                    border: solid;
-                    border-radius: 0.7rem;
-                    width: 30rem;
-                    color:red;
-                   margin: auto;
-                   cursor: pointer;
-                   margin-left: 16.5%;
-                  }
-                  
-                  
-                  
-                  
-                  .formulario__campo-1{
-                      background-color: var(--ColorPrincipal);
-                      color: white;
-                      width: 29.2rem;
-                      font-size: 2rem;
-                      font-family: var(--Fuenteprincipal);
-                      font-weight: bold;
-                  } 
-                  
-                  
-                  #button-1 {
-                    border: solid;
-                    border-radius: 0.7rem;
-                    width: 15rem;
-                    font-size: 1.9rem;
-                    background-color: var(--ColorPrincipal);
-                    border-color: red;
-                    color:rgb(255, 255, 255);
-                    cursor: pointer;
-                  }
-                  #button-2 {
-                    border: solid;
-                    border-radius: 0.7rem;
-                    width: 15rem;
-                    font-size: 1.9rem;
-                    background-color: var(--ColorPrincipal);
-                    border-color: red;
-                    color:rgb(255, 255, 255);
-                    cursor: pointer;
-                  }
-                  button  {
-                    font-size: 1.7rem;
-                    transition: .2s;
-                  }
-                  button:active {
-                    transform: scale(0.9);
-                  }
-                  
-                  
-                    .Listas-a {
-                     margin-left: 18%;
-                    list-style-type: none;
-                    font-size: 1.3rem;
-                    color: var(--ColorBlanco);
-                    }
-                    .NAV-LIST a:hover{
-                      transition: 0.1s ease;
-                      color: aqua;
-                 }
-                     .caja-buttons {
-                    text-align: center;
-                    margin-top: 6rem;
-                     }
-                     .caja-link {
-                      margin-top: 0rem;
-                      margin-right: 10%;
-                      
-                     }
-                    .listado-albumes-novedades{
-                      font-size: 2.4rem;
-                      margin-left: 4rem;
-                    }
-                    .definicion-app{
-                      color:white;
-                  
-                     margin-right: 2%;
-                      width: 100%;
-                      padding: 2rem;
-                      margin-bottom: 5%;
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
   
-                      cursor: pointer;
-                    }
-                    
-                    .novedades{
-                      color: white;
-                      margin-left: 7rem;
-                      width: 90%;
-                      padding: 1rem;
-                      height: auto;
-                       margin: auto;
-                      cursor: pointer;
-                    }
-                   
-                    
-                    .contenedor-grid {
-                        
-                        grid-template-rows: auto;
-                        grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
-                   }
-                  
-                   /**H2 - H3**/
-                    #H2 {
-                        color: var(--ColorBlanco);
-                        margin-left: 3rem;
-                        margin-bottom: 2rem;
-                        font-size: 2rem;
-                   }
-                    #H2-dos {
-                        color: var(--ColorBlanco);
-                        margin-top: 1rem;
-                        margin-left: 2rem;
-                   }
-                    #h3-1 {
-                        color: var(--ColorBlanco);
-                        margin-left: 2.4rem;
-                   }
-                    #h3-2{
-                        color: var(--ColorBlanco);
-                        margin-left: 2.4rem 
-                   }
-                    #h3-3{
-                        color: var(--ColorBlanco);
-                        margin-left: 2.4rem;
-                   }
-                    #h3-4{
-                        color: var(--ColorBlanco);
-                        text-align: center;
-                   }
-                    .footer {
-                        background-color: var(--ColorPrincipal);
-                   }
-                   /**H2 - H3**/
-                  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 17%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+  
+
       }
   
     
 
     @media only screen and (min-width:544px) and (max-width:600px) {
+                
       .descripcion-novedades {
         font-size: 3rem;
         margin-left: -2%;
@@ -2399,7 +3050,7 @@ body {
           font-size: 3rem;
           margin-left: 1%;
           }
-        
+      
                  .novedades{
                     color: white;
                     margin-left: 10%;
@@ -2418,7 +3069,7 @@ body {
                  .input-contenedor-1 {
                   border: solid;
                   border-radius: 0.7rem;
-                  width: 30rem;
+                  width: 33rem;
                   margin-top: 3rem;
                   color:red;
                  margin: auto;
@@ -2430,11 +3081,32 @@ body {
                 .input-contenedor-2 {
                   border: solid;
                   border-radius: 0.7rem;
-                  width: 30rem;
+                  width: 33rem;
+                  color:red;
+                 margin-left: 6%;
+                 cursor: pointer;
+               
+                }
+                .input-contenedor-3 {
+                  border: solid;
+                  border-radius: 0.7rem;
+                  width: 33rem;
+                  margin-top: 3rem;
                   color:red;
                  margin: auto;
+                margin-left: 1.5%;
+                  cursor: pointer;
+                  }
+                
+                
+                .input-contenedor-4 {
+                  border: solid;
+                  border-radius: 0.7rem;
+                  width: 33rem;
+                  color:red;
+                 margin-left: -22%;
                  cursor: pointer;
-                 margin-left: 8.5%;
+               
                 }
                 
                 
@@ -2443,23 +3115,14 @@ body {
                 .formulario__campo-1{
                     background-color: var(--ColorPrincipal);
                     color: white;
-                    width: 29.2rem;
+                    width: 32.3rem;
                     font-size: 2rem;
                     font-family: var(--Fuenteprincipal);
                     font-weight: bold;
                 } 
                 
                 
-                #button-1 {
-                  border: solid;
-                  border-radius: 0.7rem;
-                  width: 15rem;
-                  font-size: 1.9rem;
-                  background-color: var(--ColorPrincipal);
-                  border-color: red;
-                  color:rgb(255, 255, 255);
-                  cursor: pointer;
-                }
+              
                 #button-2 {
                   border: solid;
                   border-radius: 0.7rem;
@@ -2480,7 +3143,7 @@ body {
                 
                 
                   .Listas-a {
-                   margin-left: 9%;
+                 
                   list-style-type: none;
                   font-size: 1.3rem;
                   color: var(--ColorBlanco);
@@ -2495,8 +3158,8 @@ body {
                    }
                    .caja-link {
                     margin-top: 0rem;
-                    margin-right: 10%;
-                   
+                    margin-right: 45%;
+                  
                    }
                   .listado-albumes-novedades{
                     font-size: 2.4rem;
@@ -2504,17 +3167,16 @@ body {
                   }
                   .definicion-app{
                     color:white;
-                  
                    margin-right: 2%;
                     width: 100%;
                     padding: 2rem;
                     margin-bottom: 5%;
-
                     cursor: pointer;
                   }
                   
                   .novedades{
                     color: white;
+                   
                     margin-left: 7rem;
                     width: 90%;
                     padding: 1rem;
@@ -2530,43 +3192,92 @@ body {
                       grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
                  }
                 
-                 /**H2 - H3**/
-                  #H2 {
-                      color: var(--ColorBlanco);
-                      margin-left: 3rem;
-                      margin-bottom: 2rem;
-                      font-size: 2rem;
-                 }
-                  #H2-dos {
-                      color: var(--ColorBlanco);
-                      margin-top: 1rem;
-                      margin-left: 2rem;
-                 }
-                  #h3-1 {
-                      color: var(--ColorBlanco);
-                      margin-left: 2.4rem;
-                 }
-                  #h3-2{
-                      color: var(--ColorBlanco);
-                      margin-left: 2.4rem 
-                 }
-                  #h3-3{
-                      color: var(--ColorBlanco);
-                      margin-left: 2.4rem;
-                 }
-                  #h3-4{
-                      color: var(--ColorBlanco);
-                      text-align: center;
-                 }
+              
                   .footer {
                       background-color: var(--ColorPrincipal);
                  }
+
                  /**H2 - H3**/
-                
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+
+
+
+
+
+/*MODAL*/
+#modal{ 
+background-color: rgba(0, 0, 0, 0.667);
+min-width: 100%;
+min-height: 100%;
+cursor: pointer;
+
+}
+#title {
+margin-top: 8rem;
+color: var(--ColorBlanco);
+font-size: 2rem;
+text-align: center;
+}
+
+.container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 45rem;
+  margin-left: 13%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+
+
+.caja-buttons-1 {
+margin-left: 33rem;
+}
+
+
+
+#btn-cerrar-modal {
+border: solid;
+border-radius: 0.7rem;
+width: 15rem;
+font-size: 1.9rem;
+background-color: rgb(72, 71, 71);
+border-color: red;
+color:rgb(255, 255, 255);
+cursor: pointer;
+margin-left: -19rem;
+margin-top: 2rem;
+
+}
+
+
     }
 
 
         @media only screen and (min-width:501px) and (max-width:543px) {
+                   
           .descripcion-novedades {
             font-size: 3rem;
             margin-left: -2%;
@@ -2575,7 +3286,7 @@ body {
               font-size: 3rem;
               margin-left: 1%;
               }
-            
+          
                      .novedades{
                         color: white;
                         margin-left: 10%;
@@ -2584,7 +3295,7 @@ body {
                     
                       }
                     .logo-musica {
-                      margin-left: 26%;
+                      margin-left: 30%;
                     width: 20rem;        
                   }
                     
@@ -2594,7 +3305,7 @@ body {
                      .input-contenedor-1 {
                       border: solid;
                       border-radius: 0.7rem;
-                      width: 30rem;
+                      width: 33rem;
                       margin-top: 3rem;
                       color:red;
                      margin: auto;
@@ -2606,11 +3317,32 @@ body {
                     .input-contenedor-2 {
                       border: solid;
                       border-radius: 0.7rem;
-                      width: 30rem;
+                      width: 33rem;
+                      color:red;
+                     margin-left: 3%;
+                     cursor: pointer;
+                   
+                    }
+                    .input-contenedor-3 {
+                      border: solid;
+                      border-radius: 0.7rem;
+                      width: 33rem;
+                      margin-top: 3rem;
                       color:red;
                      margin: auto;
+                    margin-left: -2%;
+                      cursor: pointer;
+                      }
+                    
+                    
+                    .input-contenedor-4 {
+                      border: solid;
+                      border-radius: 0.7rem;
+                      width: 33rem;
+                      color:red;
+                     margin-left: -29.3%;
                      cursor: pointer;
-                     margin-left: 3%;
+                   
                     }
                     
                     
@@ -2619,23 +3351,14 @@ body {
                     .formulario__campo-1{
                         background-color: var(--ColorPrincipal);
                         color: white;
-                        width: 29.2rem;
+                        width: 32.3rem;
                         font-size: 2rem;
                         font-family: var(--Fuenteprincipal);
                         font-weight: bold;
                     } 
                     
                     
-                    #button-1 {
-                      border: solid;
-                      border-radius: 0.7rem;
-                      width: 15rem;
-                      font-size: 1.9rem;
-                      background-color: var(--ColorPrincipal);
-                      border-color: red;
-                      color:rgb(255, 255, 255);
-                      cursor: pointer;
-                    }
+                  
                     #button-2 {
                       border: solid;
                       border-radius: 0.7rem;
@@ -2656,7 +3379,7 @@ body {
                     
                     
                       .Listas-a {
-                       
+                     
                       list-style-type: none;
                       font-size: 1.3rem;
                       color: var(--ColorBlanco);
@@ -2672,6 +3395,7 @@ body {
                        .caja-link {
                         margin-top: 0rem;
                         margin-right: 45%;
+                      
                        }
                       .listado-albumes-novedades{
                         font-size: 2.4rem;
@@ -2679,12 +3403,10 @@ body {
                       }
                       .definicion-app{
                         color:white;
-                     
                        margin-right: 2%;
                         width: 100%;
                         padding: 2rem;
                         margin-bottom: 5%;
-
                         cursor: pointer;
                       }
                       
@@ -2706,44 +3428,113 @@ body {
                           grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
                      }
                     
-                     /**H2 - H3**/
-                      #H2 {
-                          color: var(--ColorBlanco);
-                          margin-left: 3rem;
-                          margin-bottom: 2rem;
-                          font-size: 2rem;
-                     }
-                      #H2-dos {
-                          color: var(--ColorBlanco);
-                          margin-top: 1rem;
-                          margin-left: 2rem;
-                     }
-                      #h3-1 {
-                          color: var(--ColorBlanco);
-                          margin-left: 2.4rem;
-                     }
-                      #h3-2{
-                          color: var(--ColorBlanco);
-                          margin-left: 2.4rem 
-                     }
-                      #h3-3{
-                          color: var(--ColorBlanco);
-                          margin-left: 2.4rem;
-                     }
-                      #h3-4{
-                          color: var(--ColorBlanco);
-                          text-align: center;
-                     }
+                  
                       .footer {
                           background-color: var(--ColorPrincipal);
                      }
+
                      /**H2 - H3**/
-                    
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+  
+  
+  
+  
+  
+  
+  /*MODAL*/
+  #modal{ 
+  background-color: rgba(0, 0, 0, 0.667);
+  min-width: 100%;
+  min-height: 100%;
+  cursor: pointer;
+  
+  }
+  #title {
+  margin-top: 8rem;
+  color: var(--ColorBlanco);
+  font-size: 2rem;
+  text-align: center;
+  }
+  
+  
+  .container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 30rem;
+  margin-left: 19%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+  
+  
+  .caja-buttons-1 {
+  margin-left: 26rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  #btn-cerrar-modal {
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: rgb(72, 71, 71);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  margin-left: -19rem;
+  margin-top: 2rem;
+}
+
         }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
           @media only screen and (min-width:0px) and (max-width:500px) {
 
+           
+              
+                       
             .descripcion-novedades {
               font-size: 3rem;
               margin-left: -2%;
@@ -2752,7 +3543,7 @@ body {
                 font-size: 3rem;
                 margin-left: 1%;
                 }
-              
+            
                        .novedades{
                           color: white;
                           margin-left: 10%;
@@ -2761,7 +3552,7 @@ body {
                       
                         }
                       .logo-musica {
-                        margin-left: 26%;
+                        margin-left: 30%;
                       width: 20rem;        
                     }
                       
@@ -2771,7 +3562,7 @@ body {
                        .input-contenedor-1 {
                         border: solid;
                         border-radius: 0.7rem;
-                        width: 30rem;
+                        width: 33rem;
                         margin-top: 3rem;
                         color:red;
                        margin: auto;
@@ -2783,9 +3574,30 @@ body {
                       .input-contenedor-2 {
                         border: solid;
                         border-radius: 0.7rem;
-                        width: 30rem;
+                        width: 33rem;
                         color:red;
-                       margin-left: -13%;
+                       margin-left: 2%;
+                       cursor: pointer;
+                     
+                      }
+                      .input-contenedor-3 {
+                        border: solid;
+                        border-radius: 0.7rem;
+                        width: 33rem;
+                        margin-top: 3rem;
+                        color:red;
+                       margin: auto;
+                      margin-left: -3%;
+                        cursor: pointer;
+                        }
+                      
+                      
+                      .input-contenedor-4 {
+                        border: solid;
+                        border-radius: 0.7rem;
+                        width: 33rem;
+                        color:red;
+                       margin-left: -31%;
                        cursor: pointer;
                      
                       }
@@ -2796,23 +3608,14 @@ body {
                       .formulario__campo-1{
                           background-color: var(--ColorPrincipal);
                           color: white;
-                          width: 29.2rem;
+                          width: 32.3rem;
                           font-size: 2rem;
                           font-family: var(--Fuenteprincipal);
                           font-weight: bold;
                       } 
                       
                       
-                      #button-1 {
-                        border: solid;
-                        border-radius: 0.7rem;
-                        width: 15rem;
-                        font-size: 1.9rem;
-                        background-color: var(--ColorPrincipal);
-                        border-color: red;
-                        color:rgb(255, 255, 255);
-                        cursor: pointer;
-                      }
+                    
                       #button-2 {
                         border: solid;
                         border-radius: 0.7rem;
@@ -2849,6 +3652,7 @@ body {
                          .caja-link {
                           margin-top: 0rem;
                           margin-right: 45%;
+                        
                          }
                         .listado-albumes-novedades{
                           font-size: 2.4rem;
@@ -2881,41 +3685,99 @@ body {
                             grid-template-areas: "header header header" "navbar navbar navbar" "main main main" "footer footer footer" 
                        }
                       
-                       /**H2 - H3**/
-                        #H2 {
-                            color: var(--ColorBlanco);
-                            margin-left: 3rem;
-                            margin-bottom: 2rem;
-                            font-size: 2rem;
-                       }
-                        #H2-dos {
-                            color: var(--ColorBlanco);
-                            margin-top: 1rem;
-                            margin-left: 2rem;
-                       }
-                        #h3-1 {
-                            color: var(--ColorBlanco);
-                            margin-left: 2.4rem;
-                       }
-                        #h3-2{
-                            color: var(--ColorBlanco);
-                            margin-left: 2.4rem 
-                       }
-                        #h3-3{
-                            color: var(--ColorBlanco);
-                            margin-left: 2.4rem;
-                       }
-                        #h3-4{
-                            color: var(--ColorBlanco);
-                            text-align: center;
-                       }
+                    
                         .footer {
                             background-color: var(--ColorPrincipal);
                        }
+ 
                        /**H2 - H3**/
-                      
-          }
 
+
+
+
+/*Boton "contraseña envidada"**********************************************************/
+.boton__tuerca {
+  margin-left: -3.5rem;
+  background-color: var(--ColorPrincipal);
+  width: 25rem;  
+  border: none;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+  }
+  
+  
+  
+  
+  
+  
+  /*MODAL*/
+  #modal{ 
+  background-color: rgba(0, 0, 0, 0.667);
+  min-width: 100%;
+  min-height: 100%;
+  cursor: pointer;
+  
+  }
+  #title {
+  margin-top: 8rem;
+  color: var(--ColorBlanco);
+  font-size: 2rem;
+  text-align: center;
+  }
+  
+  
+  .container-1 {
+  border: solid;
+  margin-bottom: 3rem;
+  height: 30rem;
+  width: 30rem;
+  margin-left: 19%;
+  border-radius: 20%;
+  margin-top: 5rem;
+  background-color: rgb(72, 71, 71);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+  
+  
+  
+  .caja-buttons-1 {
+  margin-left: 26rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  #btn-cerrar-modal {
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: rgb(72, 71, 71);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  margin-left: -19rem;
+  margin-top: 2rem;
+}
+ }
 
         
          
+
+
+
+/* 
+.contenedor {
+  border: solid;
+} 
