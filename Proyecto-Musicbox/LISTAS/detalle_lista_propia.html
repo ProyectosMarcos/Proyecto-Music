@@ -43,35 +43,51 @@
         </div>
     </nav></nav>
     <dialog  id="modal">
+        <!-- 
+        <div class="lista-albums">
+            <div class="opcion-album">
+                <input type="checkbox" name="Album" id="Album">
+                <label for="Album" class="nombre-album">Album</label>
+            </div>
+        -->
         <div class="container-1">
             <form>
-              <h2 id="sub-title">Editar lista</h2>
-              <h3 id="sub-title-2">Nombre</h3>
+              <h2 id="sub-title">Nombre de la nueva Lista</h2>
                 <input id="input-1" type="text" placeholder="Ingresar nombre">
-                <h2 id="sub-title-2">Descripcion</h2>
-                <input id="input-2" type="text" placeholder="Ingresar descripcion de la lista">
-                <h2 id="sub-title-3">Lista de albumes pertenecientes:</h2>
-                <div>
-                    <div class="lista-albums">
-                        <div class="opcion-album">
-                            <input type="checkbox" name="Album" id="Album">
-                            <label for="Album" class="nombre-album">Album</label>
-                        </div>
-                        <div class="opcion-album">
-                            <input type="checkbox" name="Album" id="Album">
-                            <label for="Album" class="nombre-album">Album</label>
-                        </div>
-                        <div class="opcion-album">
-                            <input type="checkbox" name="Album" id="Album">
-                            <label for="Album" class="nombre-album">Album</label>
-                        </div>
-                        </div>
-                        <div class="contenedor-buttons">
-                <button id="Guardar">Crear</button>
-                <button id="btn-cerrar-modal" class="boton-cerrar">Cerrar</button>
+                <h2 id="sub-title">Descripcion</h2>
+                <textarea id="descripcion-review" name="descripcion-review" rows="3" cols="30"></textarea>
+                <h2 id="sub-title">Albumes pertenecientes:</h2>
+                <div class="lista-albums">
+                    <div class="opcion-album">
+                        <input type="checkbox" name="Album" id="Album">
+                        <label for="Album" class="nombre-album">Album</label>
+                    </div>
+                    <div class="opcion-album">
+                        <input type="checkbox" name="Album" id="Album">
+                        <label for="Album" class="nombre-album">Album</label>
+                    </div>
+                    <div class="opcion-album">
+                        <input type="checkbox" name="Album" id="Album">
+                        <label for="Album" class="nombre-album">Album</label>
+                    </div>
+                    <div class="opcion-album">
+                        <input type="checkbox" name="Album" id="Album">
+                        <label for="Album" class="nombre-album">Album</label>
+                    </div>
                 </div>
+                
+                <div class="guardado-albums">
+                    <button id="guardar-detalle-album">Crear</button>
+                </div>
+                <div class="cerrar-albums">
+                    <button id="cerrar-detalle-album">Cerrar</button>
+                </div> 
             </form>
         </div>
+
+
+
+        
     </dialog>
 </div>
 

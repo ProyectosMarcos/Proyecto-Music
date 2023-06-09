@@ -60,7 +60,70 @@
   }
   
 
-  @media (min-width: 1224px) {
+  @media (min-width: 1224px) {    
+    .container-1 {
+      border: solid;
+      padding-bottom: 3rem;
+      width: 70rem;
+      margin-left: 29%;
+      border-radius: 12%;
+      margin-top: 13rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #sub-title {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 3rem;
+      color: var(--ColorBlanco);
+    }
+    #input-1 {
+      margin-left: 16.5rem;
+      margin-bottom: 3rem;
+      border-style: solid;
+      border-radius: 0.7rem;
+      background-color:#232526;
+      color: yellow;
+      font-size: 2rem;
+      padding: 0.3rem;
+      width: 35rem;
+    }
+    #descripcion-review{
+      background-color:#232526;
+      margin-left: 16.5rem;
+      font-size: 2rem;
+      border-style: solid;
+      border-radius: 0.7rem;
+      color:yellow;
+      margin-bottom: 2rem;
+    }
+    .guardado-albums{
+      margin-left: 30rem;
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+    }
+    #guardar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color:#590306;
+      color:white;
+      font-family: var(--Fuenteprincipal);
+    }
+    .cerrar-albums{
+      margin-left: 30rem;
+    }
+    #cerrar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color: grey;
+      color:black;
+      font-weight: bold;
+      font-family: var(--Fuenteprincipal);
+    }
+    
     .contenedor-grid {
         grid-template-columns: 4rem 3rem 1fr;
         grid-template-rows: auto;
@@ -134,12 +197,7 @@
       }
       
       
-      #sub-title {
-        text-align: center;
-        margin-bottom: 3rem;
-        font-size: 2rem;
-        color: var(--ColorBlanco);
-      }
+
       #sub-title-2 {
         text-align: center;
         margin-bottom: 1.5rem;
@@ -152,15 +210,7 @@
         font-size: 2.7rem;
         color: var(--ColorBlanco);
       }
-      #input-1 {
-        margin-left: 22rem;
-        margin-bottom: 3rem;
-        border: solid;
-        border-style: outset;
-        background-color: transparent;
-        color: var(--ColorBlanco);
-        font-size: 2.3rem;
-      }
+      
       #input-2 {
         margin-left: 16.5rem;
         margin-top: 2rem;
@@ -171,18 +221,7 @@
         height: 4rem;
         width: 35rem;
       }
-        .container-1 {
-          border: solid;
-          margin-bottom: 3rem;
-          height: 55rem;
-          width: 70rem;
-          margin-left: 28.7%;
-          border-radius: 33%;
-          margin-top: 1rem;
-          background-color: #160a3b;
-          background-repeat: no-repeat;
-          background-size: cover;
-        } 
+
       
             .Titulo {
               border: none;
@@ -464,7 +503,70 @@ button:active {
     
   }
   
-  @media only screen and (min-width: 800px) and (max-width:1223px) {
+  @media only screen and (min-width: 800px) and (max-width:1223px) {    
+    .container-1 {
+      border: solid;
+      padding-bottom: 3rem;
+      width: 70rem;
+      margin-left: 13%;
+      border-radius: 12%;
+      margin-top: 13rem;
+      background-color: #160a3b;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #sub-title {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 3rem;
+      color: var(--ColorBlanco);
+    }
+    #input-1 {
+      margin-left: 16.5rem;
+      margin-bottom: 3rem;
+      border-style: solid;
+      border-radius: 0.7rem;
+      background-color:#232526;
+      color: yellow;
+      font-size: 2rem;
+      padding: 0.3rem;
+      width: 35rem;
+    }
+    #descripcion-review{
+      background-color:#232526;
+      margin-left: 16.5rem;
+      font-size: 2rem;
+      border-style: solid;
+      border-radius: 0.7rem;
+      color:yellow;
+      margin-bottom: 2rem;
+    }
+    .guardado-albums{
+      margin-left: 30rem;
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+    }
+    #guardar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color:#590306;
+      color:white;
+      font-family: var(--Fuenteprincipal);
+    }
+    .cerrar-albums{
+      margin-left: 30rem;
+    }
+    #cerrar-detalle-album{
+      width: 10rem;
+      height: 3.3rem;
+      font-size: 1.5rem;
+      background-color: grey;
+      color:black;
+      font-weight: bold;
+      font-family: var(--Fuenteprincipal);
+    }
+    
     .contenedor-main {
       display: grid;
       gap: 1rem;
@@ -522,12 +624,7 @@ button:active {
     }
     
     
-    #sub-title {
-      text-align: center;
-      margin-bottom: 3rem;
-      font-size: 2rem;
-      color: var(--ColorBlanco);
-    }
+
     #sub-title-2 {
       text-align: center;
       margin-bottom: 1.5rem;
@@ -540,15 +637,7 @@ button:active {
       font-size: 2.7rem;
       color: var(--ColorBlanco);
     }
-    #input-1 {
-      margin-left: 22rem;
-      margin-bottom: 3rem;
-      border: solid;
-      border-style: outset;
-      background-color: transparent;
-      color: var(--ColorBlanco);
-      font-size: 2.3rem;
-    }
+    
     #input-2 {
       margin-left: 16.5rem;
       margin-top: 2rem;
@@ -559,18 +648,7 @@ button:active {
       height: 4rem;
       width: 35rem;
     }
-      .container-1 {
-        border: solid;
-        margin-bottom: 3rem;
-        height: 55rem;
-        width: 70rem;
-        margin-left: 28.7%;
-        border-radius: 33%;
-        margin-top: 1rem;
-        background-color: #160a3b;
-        background-repeat: no-repeat;
-        background-size: cover;
-      } 
+
     
           .Titulo {
             border: none;
@@ -850,35 +928,145 @@ border-radius: 5px;
 
 
 @media only screen  and (min-width: 800px) and (max-width:949px) {
-.container-1 {
-  border: solid;
-  margin-bottom: 3rem;
-  height: 55rem;
-  width: 70rem;
-  margin-left: 13%;
-  border-radius: 33%;
-  margin-top: 1rem;
-  background-color: #160a3b;
-  background-repeat: no-repeat;
-  background-size: cover;
-} 
+  .lista-albums{
+    margin-left: 20rem;
+  }
+  
+  .container-1 {
+    border: solid;
+    padding-bottom: 3rem;
+    width: 60rem;
+    margin-left: 13%;
+    border-radius: 12%;
+    margin-top: 13rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: var(--ColorBlanco);
+    
+  }
+  #input-1 {
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    background-color:#232526;
+    color: yellow;
+    font-size: 2rem;
+    padding: 0.3rem;
+    width: 35rem;
+  }
+  #descripcion-review{
+    background-color:#232526;
+    margin-left: 11rem;
+    font-size: 2rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    color:yellow;
+    margin-bottom: 2rem;
+  }
+  .guardado-albums{
+    margin-left: 23.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  .cerrar-albums{
+    margin-left: 23.5rem;
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }
 
 }
 
 
 @media only screen  and (min-width: 800px) and (max-width:820px) {
+  .lista-albums{
+    margin-left: 15rem;
+  }
+  
   .container-1 {
     border: solid;
-    margin-bottom: 3rem;
-    height: 55rem;
-    width: 70rem;
-    margin-left: 6%;
-    border-radius: 33%;
-    margin-top: 1rem;
+    padding-bottom: 3rem;
+    width: 50rem;
+    margin-left: 13%;
+    border-radius: 12%;
+    margin-top: 13rem;
     background-color: #160a3b;
     background-repeat: no-repeat;
     background-size: cover;
-  } 
+  }
+  #sub-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: var(--ColorBlanco);
+    
+  }
+  #input-1 {
+    margin-left: 6.5rem;
+    margin-bottom: 3rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    background-color:#232526;
+    color: yellow;
+    font-size: 2rem;
+    padding: 0.3rem;
+    width: 35rem;
+  }
+  #descripcion-review{
+    background-color:#232526;
+    margin-left: 6.5rem;
+    font-size: 2rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    color:yellow;
+    margin-bottom: 2rem;
+  }
+  .guardado-albums{
+    margin-left: 18.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  .cerrar-albums{
+    margin-left: 18.5rem;
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }
   
   }
 
@@ -886,7 +1074,75 @@ border-radius: 5px;
 
 
 @media only screen  and (min-width: 739px) and (max-width:799px) {
+  .lista-albums{
+    margin-left: 15rem;
+  }
+  
+  .container-1 {
+    border: solid;
+    padding-bottom: 3rem;
+    width: 50rem;
+    margin-left: 13%;
+    border-radius: 12%;
+    margin-top: 13rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: var(--ColorBlanco);
     
+  }
+  #input-1 {
+    margin-left: 6.5rem;
+    margin-bottom: 3rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    background-color:#232526;
+    color: yellow;
+    font-size: 2rem;
+    padding: 0.3rem;
+    width: 35rem;
+  }
+  #descripcion-review{
+    background-color:#232526;
+    margin-left: 6.5rem;
+    font-size: 2rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    color:yellow;
+    margin-bottom: 2rem;
+  }
+  .guardado-albums{
+    margin-left: 18.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  .cerrar-albums{
+    margin-left: 18.5rem;
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }  
+
+
   #modal{ 
     margin: auto;
     border: none;
@@ -935,13 +1191,7 @@ border-radius: 5px;
     color: var(--ColorBlanco);
   }
   
-  
-  #sub-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    color: var(--ColorBlanco);
-  }
+
   #sub-title-2 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -954,15 +1204,7 @@ border-radius: 5px;
     font-size: 2.7rem;
     color: var(--ColorBlanco);
   }
-  #input-1 {
-    margin-left: 22rem;
-    margin-bottom: 3rem;
-    border: solid;
-    border-style: outset;
-    background-color: transparent;
-    color: var(--ColorBlanco);
-    font-size: 2.3rem;
-  }
+  
   #input-2 {
     margin-left: 16.5rem;
     margin-top: 2rem;
@@ -973,18 +1215,7 @@ border-radius: 5px;
     height: 4rem;
     width: 35rem;
   }
-    .container-1 {
-      border: solid;
-      margin-bottom: 3rem;
-      height: 55rem;
-      width: 70rem;
-      margin-left: 4%;
-      border-radius: 33%;
-      margin-top: 1rem;
-      background-color: #160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    } 
+    
   
         .Titulo {
           border: none;
@@ -999,11 +1230,7 @@ border-radius: 5px;
          font-size: 1.6rem;
          color: var(--ColorBlanco);
         }
-        .lista-albums{
-          margin-top: -0.2rem;
-          margin-left: 25rem;
-          margin-bottom: 0rem;
-        }
+        
         .opcion-album{
           margin-top: 2rem;
           margin-bottom: 0rem;
@@ -1266,7 +1493,73 @@ border-radius: 5px;
 
 
 @media only screen  and (min-width: 0px) and (max-width:738px) {
+  
+  
+  .container-1 {
+    border: solid;
+    padding-bottom: 3rem;
+    width: 35rem;
+    margin-left: 14%;
+    border-radius: 12%;
+    margin-top: 13rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    color: var(--ColorBlanco);
     
+  }
+  #input-1 {
+    margin-left: 6.5rem;
+    margin-bottom: 3rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    background-color:#232526;
+    color: yellow;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    width: 23rem;
+  }
+  #descripcion-review{
+    background-color:#232526;
+    margin-left: 6.5rem;
+    font-size: 1.2rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    color:yellow;
+    margin-bottom: 2rem;
+  }
+  .guardado-albums{
+    margin-left: 12.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  .cerrar-albums{
+    margin-left: 12.5rem;
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }
+
+
   #modal{ 
     margin: auto;
     border: none;
@@ -1317,12 +1610,7 @@ border-radius: 5px;
   }
   
   
-  #sub-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    color: var(--ColorBlanco);
-  }
+
   #sub-title-2 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -1335,15 +1623,7 @@ border-radius: 5px;
     font-size: 2.7rem;
     color: var(--ColorBlanco);
   }
-  #input-1 {
-    margin-left: 18rem;
-    margin-bottom: 3rem;
-    border: solid;
-    border-style: outset;
-    background-color: transparent;
-    color: var(--ColorBlanco);
-    font-size: 2.3rem;
-  }
+  
   #input-2 {
     margin-left: 13rem;
     margin-top: 2rem;
@@ -1354,18 +1634,7 @@ border-radius: 5px;
     height: 4rem;
     width: 35rem;
   }
-    .container-1 {
-      border: solid;
-      margin-bottom: 3rem;
-      height: 55rem;
-      width: 60rem;
-      margin-left: 1%;
-      border-radius: 33%;
-      margin-top: 1rem;
-      background-color: #160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    } 
+    
   
         .Titulo {
           border: none;
@@ -1380,18 +1649,14 @@ border-radius: 5px;
          font-size: 1.6rem;
          color: var(--ColorBlanco);
         }
-        .lista-albums{
-          margin-top: -0.2rem;
-          margin-left: 20rem;
-          margin-bottom: 0rem;
-        }
+        
         .opcion-album{
           margin-top: 2rem;
           margin-bottom: 0rem;
         }
         .nombre-album{
           color:white;
-          font-size: 2rem;
+          font-size: 1.6rem;
           margin-left: 1.5rem;
         }
         #Album { /*ES EL CHECKBOX */
@@ -1408,7 +1673,72 @@ border-radius: 5px;
 
 
 @media only screen  and (min-width: 0px) and (max-width:621px) {
+  
+  .container-1 {
+    border: solid;
+    padding-bottom: 3rem;
+    width: 35rem;
+    margin-left: 14%;
+    border-radius: 12%;
+    margin-top: 13rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    color: var(--ColorBlanco);
     
+  }
+  #input-1 {
+    margin-left: 6.5rem;
+    margin-bottom: 3rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    background-color:#232526;
+    color: yellow;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    width: 23rem;
+  }
+  #descripcion-review{
+    background-color:#232526;
+    margin-left: 6.5rem;
+    font-size: 1.2rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    color:yellow;
+    margin-bottom: 2rem;
+  }
+  .guardado-albums{
+    margin-left: 12.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  .cerrar-albums{
+    margin-left: 12.5rem;
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }  
+
+
   #modal{ 
     margin: auto;
     border: none;
@@ -1459,12 +1789,7 @@ border-radius: 5px;
   }
   
   
-  #sub-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    color: var(--ColorBlanco);
-  }
+
   #sub-title-2 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -1477,15 +1802,7 @@ border-radius: 5px;
     font-size: 2.7rem;
     color: var(--ColorBlanco);
   }
-  #input-1 {
-    margin-left: 13rem;
-    margin-bottom: 3rem;
-    border: solid;
-    border-style: outset;
-    background-color: transparent;
-    color: var(--ColorBlanco);
-    font-size: 2.3rem;
-  }
+  
   #input-2 {
     margin-left: 8.5rem;
     margin-top: 2rem;
@@ -1496,18 +1813,7 @@ border-radius: 5px;
     height: 4rem;
     width: 35rem;
   }
-    .container-1 {
-      border: solid;
-      margin-bottom: 3rem;
-      height: 55rem;
-      width: 50rem;
-      margin-left: 1%;
-      border-radius: 33%;
-      margin-top: 1rem;
-      background-color: #160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    } 
+    
   
         .Titulo {
           border: none;
@@ -1522,18 +1828,14 @@ border-radius: 5px;
          font-size: 1.6rem;
          color: var(--ColorBlanco);
         }
-        .lista-albums{
-          margin-top: -0.2rem;
-          margin-left: 15rem;
-          margin-bottom: 0rem;
-        }
+        
         .opcion-album{
           margin-top: 2rem;
           margin-bottom: 0rem;
         }
         .nombre-album{
           color:white;
-          font-size: 2rem;
+          font-size: 1.6rem;
           margin-left: 1.5rem;
         }
         #Album { /*ES EL CHECKBOX */
@@ -1551,7 +1853,73 @@ border-radius: 5px;
 
 
 @media only screen and (min-width: 0px) and (max-width:461px){
-   
+  
+  
+  .container-1 {
+    border: solid;
+    padding-bottom: 3rem;
+    width: 35rem;
+    margin-left: 14%;
+    border-radius: 12%;
+    margin-top: 13rem;
+    background-color: #160a3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sub-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    color: var(--ColorBlanco);
+    
+  }
+  #input-1 {
+    margin-left: 6.5rem;
+    margin-bottom: 3rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    background-color:#232526;
+    color: yellow;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    width: 23rem;
+  }
+  #descripcion-review{
+    background-color:#232526;
+    margin-left: 6.5rem;
+    font-size: 1.2rem;
+    border-style: solid;
+    border-radius: 0.7rem;
+    color:yellow;
+    margin-bottom: 2rem;
+  }
+  .guardado-albums{
+    margin-left: 12.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+  #guardar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color:#590306;
+    color:white;
+    font-family: var(--Fuenteprincipal);
+  }
+  .cerrar-albums{
+    margin-left: 12.5rem;
+  }
+  #cerrar-detalle-album{
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family: var(--Fuenteprincipal);
+  }
+
+
   #modal{ 
     margin: auto;
     border: none;
@@ -1602,12 +1970,7 @@ border-radius: 5px;
   }
   
   
-  #sub-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    color: var(--ColorBlanco);
-  }
+
   #sub-title-2 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -1620,15 +1983,7 @@ border-radius: 5px;
     font-size: 2.7rem;
     color: var(--ColorBlanco);
   }
-  #input-1 {
-    margin-left: 8rem;
-    margin-bottom: 3rem;
-    border: solid;
-    border-style: outset;
-    background-color: transparent;
-    color: var(--ColorBlanco);
-    font-size: 2.3rem;
-  }
+  
   #input-2 {
     margin-left: 2rem;
     margin-top: 2rem;
@@ -1639,18 +1994,7 @@ border-radius: 5px;
     height: 4rem;
     width: 35rem;
   }
-    .container-1 {
-      border: solid;
-      margin-bottom: 3rem;
-      height: 60rem;
-      width: 40rem;
-      margin-left: 1%;
-      border-radius: 33%;
-      margin-top: 1rem;
-      background-color: #160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    } 
+    
   
         .Titulo {
           border: none;
@@ -1665,11 +2009,7 @@ border-radius: 5px;
          font-size: 1.6rem;
          color: var(--ColorBlanco);
         }
-        .lista-albums{
-          margin-top: -0.2rem;
-          margin-left: 10rem;
-          margin-bottom: 0rem;
-        }
+        
         .opcion-album{
           margin-top: 2rem;
           margin-bottom: 0rem;
@@ -1744,12 +2084,7 @@ border-radius: 5px;
   }
   
   
-  #sub-title {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    color: var(--ColorBlanco);
-  }
+ 
   #sub-title-2 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -1762,15 +2097,7 @@ border-radius: 5px;
     font-size: 2.7rem;
     color: var(--ColorBlanco);
   }
-  #input-1 {
-    margin-left: 8rem;
-    margin-bottom: 3rem;
-    border: solid;
-    border-style: outset;
-    background-color: transparent;
-    color: var(--ColorBlanco);
-    font-size: 2.3rem;
-  }
+  
   #input-2 {
     margin-left: 2rem;
     margin-top: 2rem;
@@ -1781,18 +2108,7 @@ border-radius: 5px;
     height: 4rem;
     width: 35rem;
   }
-    .container-1 {
-      border: solid;
-      margin-bottom: 3rem;
-      height: 60rem;
-      width: 40rem;
-      margin-left: -1%;
-      border-radius: 33%;
-      margin-top: 1rem;
-      background-color: #160a3b;
-      background-repeat: no-repeat;
-      background-size: cover;
-    } 
+    
   
         .Titulo {
           border: none;
@@ -1807,11 +2123,7 @@ border-radius: 5px;
          font-size: 1.6rem;
          color: var(--ColorBlanco);
         }
-        .lista-albums{
-          margin-top: -0.2rem;
-          margin-left: 10rem;
-          margin-bottom: 0rem;
-        }
+        
         .opcion-album{
           margin-top: 2rem;
           margin-bottom: 0rem;
