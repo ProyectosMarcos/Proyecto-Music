@@ -56,11 +56,14 @@ body {
 
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -.1%;
+    margin-left: -10%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
-      margin-left: 1%;
+      margin-left: -4%;
+      }
+      .descripcion-novedades-usu {
+        margin-left: -4%;
       }
       
              .novedades{
@@ -71,8 +74,8 @@ body {
             
               }
             .logo-musica {
-              margin-left: 44.6%;
-            width: 20rem;        
+              margin-left: 43%;
+              width: 20rem;        
           }
             
               .formulario-1{
@@ -83,8 +86,9 @@ body {
               border-radius: 0.7rem;
               width: 33rem;
               margin-top: 3rem;
+              margin-left: 39%;
               color:red;
-             margin: auto;
+              
               cursor: pointer;
               }
             
@@ -94,7 +98,7 @@ body {
               border-radius: 0.7rem;
               width: 33rem;
               color:red;
-             margin-left: 38.4%;
+             margin-left: 36.2%;
              cursor: pointer;
            
             }
@@ -105,7 +109,7 @@ body {
               margin-top: 3rem;
               color:red;
              margin: auto;
-             margin-left: 38%;
+             margin-left: 35.7%;
               cursor: pointer;
               }
             
@@ -115,7 +119,7 @@ body {
               border-radius: 0.7rem;
               width: 33rem;
               color:red;
-             margin-left: 34.6%;
+             margin-left: 32%;
              cursor: pointer;
            
             }
@@ -157,7 +161,7 @@ body {
                .caja-buttons {
               text-align: center;
               margin-top: 6rem;
-            margin-left: -2%;
+            margin-left: -7.7%;
                }
             
               .listado-albumes-novedades{
@@ -171,11 +175,11 @@ body {
                 padding: 2rem;
                 margin-bottom: 5%;
                 cursor: pointer;
+          
               }
               
               .novedades{
                 color: white;
-               
                 margin-left: 7rem;
                 width: 90%;
                 padding: 1rem;
@@ -243,9 +247,9 @@ text-align: center;
   margin-bottom: 3rem;
   height: 30rem;
   width: 45rem;
-  margin-left: 34%;
+  margin-left: 36.5%;
   border-radius: 20%;
-  margin-top: 5rem;
+  margin-top: 20rem;
   background-color: rgb(72, 71, 71);
   background-repeat: no-repeat;
   background-size: cover;
