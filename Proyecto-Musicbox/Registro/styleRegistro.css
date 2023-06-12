@@ -292,10 +292,17 @@ margin-top: 2rem;
 
 @media only screen and (min-width:1800px) and (max-width:1900px) {
   
- 
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 46.6%;
+    }
+  
+    .descripcion-novedades-3 {
+      margin-left: 39%;
+      }
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -.1%;
+    margin-left: -3%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
@@ -518,10 +525,17 @@ margin-top: 2rem;
 
 @media only screen and (min-width:1701px) and (max-width:1799px) {
   
- 
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 46.6%;
+    }
+  
+    .descripcion-novedades-3 {
+      margin-left: 39%;
+      }
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -.1%;
+    margin-left: -2%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
@@ -742,7 +756,14 @@ margin-top: 2rem;
 
 @media only screen and (min-width:1601px) and (max-width:1700px) {
   
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 46.6%;
+    }
   
+    .descripcion-novedades-3 {
+      margin-left: 37%;
+      }
   .descripcion-novedades {
     font-size: 3rem;
     margin-left: -.1%;
@@ -966,10 +987,17 @@ margin-top: 2rem;
 
 @media only screen and (min-width:1501px) and (max-width:1600px) {
   
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 46.6%;
+    }
   
+    .descripcion-novedades-3 {
+      margin-left: 37%;
+      }
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -.1%;
+    margin-left: -3%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
@@ -984,7 +1012,7 @@ margin-top: 2rem;
             
               }
             .logo-musica {
-              margin-left: 42.5%;
+              margin-left: 43%;
             width: 20rem;        
           }
             
@@ -1190,7 +1218,14 @@ margin-top: 2rem;
 
 @media only screen and (min-width:1401px) and (max-width:1500px) {
   
-
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 46%;
+    }
+  
+    .descripcion-novedades-3 {
+      margin-left: 36%;
+      }
   
   .descripcion-novedades {
     font-size: 3rem;
@@ -1423,12 +1458,15 @@ margin-top: 2rem;
     }
     .descripcion-novedades-usu {
       font-size: 3rem;
-      margin-left: 1%;
+      margin-left: 46%;
       }
     .descripcion-novedades-2 {
       font-size: 3rem;
       margin-left: 1%;
       }
+      .descripcion-novedades-3 {
+        margin-left: 35%;
+        }
       
              .novedades{
                 color: white;
@@ -1646,6 +1684,14 @@ margin-top: 2rem;
 
 @media only screen and (min-width:1201px) and (max-width:1300px) {
 
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 44%;
+    }
+  
+    .descripcion-novedades-3 {
+      margin-left: 28%;
+      }
   .descripcion-novedades {
     font-size: 3rem;
     margin-left: -2%;
@@ -1872,9 +1918,14 @@ margin-top: 2rem;
 
 @media only screen and (min-width:1001px) and (max-width:1200px) {
 
-   
-    
-    
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 44%;
+    }
+  
+    .descripcion-novedades-3 {
+      margin-left: 28%;
+      }
   
   .descripcion-novedades {
     font-size: 3rem;
@@ -2105,11 +2156,17 @@ margin-top: 2rem;
 
 @media only screen and (min-width:901px) and (max-width:1000px) {
 
-   
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 44%;
+    }
   
+    .descripcion-novedades-3 {
+      margin-left: 28%;
+      }
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -2%;
+    margin-left: -5%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
@@ -2124,7 +2181,7 @@ margin-top: 2rem;
             
               }
             .logo-musica {
-              margin-left: 38.8%;
+              margin-left: 39.5%;
             width: 20rem;        
           }
             
@@ -2343,17 +2400,22 @@ margin-top: 2rem;
 
 @media only screen and (min-width:801px) and (max-width:900px) {
 
-   
+  .descripcion-novedades-usu {
+    font-size: 3rem;
+    margin-left: 44%;
+    }
  
   .descripcion-novedades {
     font-size: 3rem;
-    margin-left: -2%;
+    margin-left: -5%;
     }
     .descripcion-novedades-2 {
       font-size: 3rem;
       margin-left: 1%;
       }
-      
+      .descripcion-novedades-3 {
+        margin-left: 25%;
+        }
              .novedades{
                 color: white;
                 margin-left: 10%;
@@ -2581,17 +2643,22 @@ margin-top: 2rem;
 
   @media only screen and (min-width:701px) and (max-width:800px) {
 
-   
+    .descripcion-novedades-usu {
+      font-size: 3rem;
+      margin-left: 42%;
+      }
     
     .descripcion-novedades {
       font-size: 3rem;
-      margin-left: -2%;
+      margin-left: -6%;
       }
       .descripcion-novedades-2 {
         font-size: 3rem;
         margin-left: 1%;
         }
-        
+        .descripcion-novedades-3 {
+          margin-left: 20%;
+          }
                .novedades{
                   color: white;
                   margin-left: 10%;
@@ -2822,16 +2889,24 @@ margin-top: 2rem;
 
 
     @media only screen and (min-width:601px) and (max-width:700px) {
-    
+      .descripcion-novedades-usu {
+        font-size: 3rem;
+        margin-left: 42%;
+        }
+        
+
       .descripcion-novedades {
         font-size: 3rem;
-        margin-left: -2%;
+        margin-left: -7%;
         }
         .descripcion-novedades-2 {
           font-size: 3rem;
           margin-left: 1%;
           }
-      
+          .descripcion-novedades-3 {
+           
+            margin-left: 15%;
+            }
                  .novedades{
                     color: white;
                     margin-left: 10%;
@@ -3053,7 +3128,12 @@ margin-top: 2rem;
     
 
     @media only screen and (min-width:544px) and (max-width:600px) {
-                
+              
+      .descripcion-novedades-usu {
+        font-size: 3rem;
+        margin-left: 39.9%;
+        }
+        
       .descripcion-novedades {
         font-size: 3rem;
         margin-left: -2%;
@@ -3071,7 +3151,7 @@ margin-top: 2rem;
                 
                   }
                 .logo-musica {
-                  margin-left: 30%;
+                  margin-left: 31%;
                 width: 20rem;        
               }
                 
@@ -3290,6 +3370,11 @@ margin-top: 2rem;
 
         @media only screen and (min-width:501px) and (max-width:543px) {
                    
+          .descripcion-novedades-usu {
+            font-size: 3rem;
+            margin-left: 39.9%;
+            }
+            
           .descripcion-novedades {
             font-size: 3rem;
             margin-left: -2%;
@@ -3544,7 +3629,10 @@ margin-top: 2rem;
    
           @media only screen and (min-width:0px) and (max-width:500px) {
 
-           
+            .descripcion-novedades-usu {
+              font-size: 3rem;
+              margin-left: 39.9%;
+              }
               
                        
             .descripcion-novedades {
@@ -3556,6 +3644,7 @@ margin-top: 2rem;
                 margin-left: 1%;
                 }
             
+                
                        .novedades{
                           color: white;
                           margin-left: 10%;
@@ -3564,7 +3653,7 @@ margin-top: 2rem;
                       
                         }
                       .logo-musica {
-                        margin-left: 30%;
+                        margin-left: 31%;
                       width: 20rem;        
                     }
                       
