@@ -61,59 +61,18 @@
                     <form>
                         <h2 id="sub-title">Seleccioná los albumes que aún queres tener pendientes para escuchar:</h2>
                         <div class="lista-albums">
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            
+                            <li v-for="album in albumes">
+                                <div class="opcion-album">
+                                    <input type="checkbox" name="Album" id="Album" checked>
+                                    <label for="Album" class="nombre-album">{{album.nombreAlbum}}</label>
+                                </div>
+                            </li>
+
                         </div>
                      
                         <div class="guardado-albums">
                             <button id="guardar-albums-listenlist">Guardar</button>
+                            <!-- CUANDO SE PRESIONA, SE RECARGA LA PAGINA, PARA QUE IMPACTE EN LA BD LA LISTA ACTUALIZADA-->
                         </div>
                         <div class="guardado-albums">
                             <button id="cerrar-modal-listenlist">Cerrar</button>
