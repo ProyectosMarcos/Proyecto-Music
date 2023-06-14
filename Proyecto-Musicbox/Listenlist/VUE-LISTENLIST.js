@@ -3,7 +3,7 @@ createApp({
  data() {
  return {
     nombrePagina: 'ListenList',
-    cantAlbumesPendientes: 6,
+    cantAlbumesPendientes: 4,
     albumes:[
         {nombreAlbum:"Animals", nombreAlbumArchivo: "/Proyecto-Musicbox/albums/Animals.png"},
         {nombreAlbum:"The Wall", nombreAlbumArchivo: "/Proyecto-Musicbox/albums/The_Wall.png"},

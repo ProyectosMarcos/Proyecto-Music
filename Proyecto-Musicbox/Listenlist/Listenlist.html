@@ -127,7 +127,7 @@
 
 
 
-       <div class="contenedor-main">
+       <div class="contenedor-main">            
             <li v-for="album in albumes">
                 <div class="caja2">
                     <section>
@@ -136,34 +136,12 @@
                     </section>
                 </div>
             </li>
-        <!--
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
--->
-
-
+            <span v-if="cantAlbumesPendientes<=3">
+                <!-- VERIFICACION PARA QUE LA ESTRUCTURA DE LA PAGINA SE MANTENGA-->
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </span>
         </div>
 
     </main>
