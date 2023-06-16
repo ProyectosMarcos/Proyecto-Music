@@ -202,6 +202,19 @@
         color: rgb(72, 9, 218);
       }
     }
+    @media only screen and (min-width: 831px) and (max-width:854px) {
+        .logo {
+            margin-right: .1rem;
+            font-size: 2.1rem;
+            font-family: var(--Fuenteprincipal);
+            color: rgb(94, 157, 253);
+            white-space: nowrap;
+             overflow:hidden;
+          }
+          .logo-2 {
+            color: rgb(72, 9, 218);
+          }
+        }
                 
 @media only screen and (min-width: 786px) and (max-width:799px) {
     .logo {
@@ -231,6 +244,21 @@
       }
     }
 
+
+                    
+@media only screen and (min-width: 749px) and (max-width:765px) {
+    .logo {
+        margin-right: 1rem;
+        font-size: 1.32rem;
+        font-family: var(--Fuenteprincipal);
+        color: rgb(94, 157, 253);
+        white-space: nowrap;
+         overflow:hidden;
+      }
+      .logo-2 {
+        color: rgb(72, 9, 218);
+      }
+    }
     @media only screen and (min-width: 771px) and (max-width:799px) {
         .logo {
             margin-right: .1rem;
@@ -244,51 +272,69 @@
             color: rgb(72, 9, 218);
           }
         }
+   
+        @media only screen and (min-width: 760px) and (max-width:770px) {
+            .logo {
+                margin-right: .1rem;
+                font-size: 2rem;
+                font-family: var(--Fuenteprincipal);
+                color: rgb(94, 157, 253);
+                white-space: nowrap;
+                 overflow:hidden;
+              }
+              .logo-2 {
+                color: rgb(72, 9, 218);
+              }
+            }
+       
+  
+            @media only screen and (min-width: 754px) and (max-width:759px) {
+                .logo {
+                    margin-right: .1rem;
+                    font-size: 1.89rem;
+                    font-family: var(--Fuenteprincipal);
+                    color: rgb(94, 157, 253);
+                    white-space: nowrap;
+                     overflow:hidden;
+                  }
+                  .logo-2 {
+                    color: rgb(72, 9, 218);
+                  }
+                }
         
-    @media only screen and (min-width: 720px) and (max-width:770px) {
-        .logo {
-            margin-right: .1rem;
-            font-size: 2.1rem;
-            font-family: var(--Fuenteprincipal);
-            color: rgb(94, 157, 253);
-            white-space: nowrap;
-             overflow:hidden;
-          }
-          .logo-2 {
-            color: rgb(72, 9, 218);
-          }
-        }
 
-            
-    @media only screen and (min-width: 714px) and (max-width:719px) {
-        .logo {
-            margin-right: .1rem;
-            font-size: 2rem;
-            font-family: var(--Fuenteprincipal);
-            color: rgb(94, 157, 253);
-            white-space: nowrap;
-             overflow:hidden;
-          }
-          .logo-2 {
-            color: rgb(72, 9, 218);
-          }
-        }
-                   
-    @media only screen and (min-width: 700px) and (max-width:713px) {
-        .logo {
-            margin-right: .1rem;
-            font-size: 1.77rem;
-            font-family: var(--Fuenteprincipal);
-            color: rgb(94, 157, 253);
-            white-space: nowrap;
-             overflow:hidden;
-          }
-          .logo-2 {
-            color: rgb(72, 9, 218);
-          }
-        }
+                
+            @media only screen and (min-width: 750px) and (max-width:753px) {
+                .logo {
+                    margin-right: .1rem;
+                    font-size: 1.81rem;
+                    font-family: var(--Fuenteprincipal);
+                    color: rgb(94, 157, 253);
+                    white-space: nowrap;
+                     overflow:hidden;
+                  }
+                  .logo-2 {
+                    color: rgb(72, 9, 218);
+                  }
+                }
 
-                        
+
+                  
+            @media only screen and (min-width: 701px) and (max-width:749px) {
+                .logo {
+                    margin-right: .1rem;
+                    font-size: 1.77rem;
+                    font-family: var(--Fuenteprincipal);
+                    color: rgb(94, 157, 253);
+                    white-space: nowrap;
+                     overflow:hidden;
+                  }
+                  .logo-2 {
+                    color: rgb(72, 9, 218);
+                  }
+                }
+
+
     @media only screen and (min-width: 0px) and (max-width:700px) {
         .logo {
            margin-right: -1rem;
