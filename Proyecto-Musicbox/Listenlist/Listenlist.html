@@ -15,7 +15,9 @@
     </style>
     <title>Proyecto3</title>
 </head>
+
 <body class="contenedor-grid">
+    
     <header class="header">
         <nav class="nav" id="nav">
             <ul class="NAV-LIST">
@@ -36,7 +38,7 @@
     
     <nav class="navbar"><nav class="inputs-nav">
         <div class="barra">
-            <div class="titulo_pagina_navbar">🌟 ListenList 🌟</div>
+            <div class="titulo_pagina_navbar">🌟 {{nombrePagina}} 🌟</div>
         </div>
         <div class="barra_boton_nueva_lista">
             <button class="btn" id="btn-abrir-modal">Editar lista</button>
@@ -46,7 +48,7 @@
     <main class="main">    
         <p class="descripcion_lista">Aca tenes los albumes que tenes pendientes por escuchar!</p>
         <br><br><br><br><br>
-        <p class="descripcion_lista">Cantidad albumes: X</p>        
+        <p class="descripcion_lista">Cantidad albumes: {{cantAlbumesPendientes}}</p>        
         
         
         
@@ -59,59 +61,18 @@
                     <form>
                         <h2 id="sub-title">Seleccioná los albumes que aún queres tener pendientes para escuchar:</h2>
                         <div class="lista-albums">
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Album</label>
-                            </div>
-                            
+                            <li v-for="album in albumes">
+                                <div class="opcion-album">
+                                    <input type="checkbox" name="Album" id="Album" checked>
+                                    <label for="Album" class="nombre-album">{{album.nombreAlbum}}</label>
+                                </div>
+                            </li>
+
                         </div>
                      
                         <div class="guardado-albums">
                             <button id="guardar-albums-listenlist">Guardar</button>
+                            <!-- CUANDO SE PRESIONA, SE RECARGA LA PAGINA, PARA QUE IMPACTE EN LA BD LA LISTA ACTUALIZADA-->
                         </div>
                         <div class="guardado-albums">
                             <button id="cerrar-modal-listenlist">Cerrar</button>
@@ -125,34 +86,28 @@
 
 
 
-       <div class="contenedor-main">      
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-            <div class="caja2">
-                <section>
-                    <img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1">
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
+       <div class="contenedor-main">            
+            <li v-for="album in albumes">
+                <div class="caja2">
+                    <section>
+                        <img v-bind:src= "album.nombreAlbumArchivo" alt="" class="imagen-1">
+                        <h3 id="h3-2">{{ album.nombreAlbum }}</h3>
+                    </section>
+                </div>
+            </li>
+            <span v-if="cantAlbumesPendientes<=3">
+                <!-- VERIFICACION PARA QUE LA ESTRUCTURA DE LA PAGINA SE MANTENGA-->
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </span>
+        </div>
 
     </main>
+    
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="VUE-LISTENLIST.js"></script>
     <script src="/Proyecto-Musicbox/menu.js"></script>
     <script src ="/Proyecto-Musicbox/Listenlist/modal.js"></script>
 </body>
