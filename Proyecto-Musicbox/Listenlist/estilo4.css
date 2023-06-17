@@ -786,6 +786,8 @@ button:active {
   
   
   @media only screen and (min-width: 1012px) and (max-width:1223px) {
+    
+    
     .contenedor-main {
       display: grid;
       gap: 1rem;
@@ -1268,9 +1270,9 @@ button:active {
   color: var(--ColorBlanco);
   margin: auto;
   }
-  .NAV-LIST a {
+   /* .NAV-LIST a {
     font-size: 2rem;
-  }
+  }  */
   button {
     background-color: black;
     color: var(--ColorBlanco);
@@ -1434,6 +1436,65 @@ button:active {
   }
 
 
+/*---media queries para el nav*/
+ @media only screen and (min-width: 832px) and (max-width:899px) {
+  .NAV-LIST a {
+    font-size: 2rem;
+  }
+  }
+  @media only screen and (min-width: 832px) and (max-width:834px) {
+    .NAV-LIST a {
+      font-size: 1.9rem;
+    }
+    }
+    @media only screen and (min-width: 800px) and (max-width:808px) {
+      .NAV-LIST a {
+        font-size: 1.7rem;
+      }
+      }
+   @media only screen and (min-width: 832px) and (max-width:854px) {
+    .NAV-LIST a {
+        font-size: 1.8rem;
+   }
+  } 
+  /* @media only screen and (min-width: 800px) and (max-width:831px) {
+    .NAV-LIST a {
+        font-size: 1.8rem;
+   }
+  } */
+
+
+  @media only screen and (min-width: 800px) and (max-width:808px) {
+    .NAV-LIST a {
+        font-size: 1.7rem;
+   }
+  }
+  
+   /* @media only screen and (min-width: 800px) and (max-width:899px) {
+    .NAV-LIST a {
+        font-size: 1.7rem 
+   }
+  } */
+  @media only screen and (min-width: 730px) and (max-width:746px) {
+    .NAV-LIST a {
+        font-size: 1.6rem; 
+   }
+  }
+  @media only screen and (min-width: 700px) and (max-width:729px) {
+    .NAV-LIST a {
+        font-size: 1.5rem; 
+   }
+  }
+  
+  @media only screen and (min-width: 747px) and (max-width:799px) {
+    .NAV-LIST a {
+        font-size: 1.7rem 
+   }
+  } 
+/*---media queries para el nav*/
+
+
+
 
   @media only screen and (min-width: 700px) and (max-width:799px) {
  
@@ -1459,9 +1520,9 @@ button:active {
   color: var(--ColorBlanco);
   margin: auto;
   }
-  .NAV-LIST a {
+  /* .NAV-LIST a {
     font-size: 2rem;
-  }
+  } */
   button {
     background-color: black;
     color: var(--ColorBlanco);

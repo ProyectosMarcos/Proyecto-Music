@@ -1229,12 +1229,12 @@ grid-template-rows: auto;
         gap: 1rem;
         
         }
-        .NAV-LIST a {
+        /* .NAV-LIST a {
           text-decoration: none;
           color: var(--ColorBlanco);
           font-family: var(--Fuenteprincipal);
           font-size: 2rem;
-        }
+        } */
         .NAV-LIST a:hover{
           transition: 0.3s ease;
           color: aqua;
@@ -1320,6 +1320,39 @@ font-family: var(--Fuenteprincipal);
 }
 
 
+@media only screen and (min-width: 800px) and (max-width:1223px) {
+.NAV-LIST a {
+  font-size: 2rem;
+}
+}
+@media only screen and (min-width: 800px) and (max-width:831px) {
+  .NAV-LIST a {
+      font-size: 1.8rem 
+ }
+}
+@media only screen and (min-width: 800px) and (max-width:808px) {
+  .NAV-LIST a {
+      font-size: 1.7rem 
+ }
+}
+
+
+@media only screen and (min-width: 730px) and (max-width:746px) {
+  .NAV-LIST a {
+      font-size: 1.6rem; 
+ }
+}
+@media only screen and (min-width: 700px) and (max-width:729px) {
+  .NAV-LIST a {
+      font-size: 1.5rem; 
+ }
+}
+
+@media only screen and (min-width: 747px) and (max-width:799px) {
+  .NAV-LIST a {
+      font-size: 1.7rem 
+ }
+} 
 
 @media (min-width: 700px) and (max-width:799px) {
   .container-1 {
@@ -1564,14 +1597,14 @@ font-family: var(--Fuenteprincipal);
   transition: all 0.3s ease-in-out;
   background-color: var(--ColorBlanco);
 }
-
+/* 
 @media only screen and (min-width: 701px) and (max-width:729px) {
   .NAV-LIST a {
     text-decoration: none;
     color: var(--ColorBlanco);
     font-size: 1.9rem;
   }
-}
+} */
 
 
 @media only screen and (min-width: 0px) and (max-width:700px) {
