@@ -1,11 +1,12 @@
 
 @media (min-width: 1346px) {
 .logo {
-  margin-right: 50rem;
+  margin-right: 46rem;
     display: block;
-    font-size: 2.3rem;
-    font-family: var(--Fuenteprincipal);
-    color: rgb(94, 157, 253);
+    font-size: 2.8rem;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
     white-space: nowrap;
     border-right: 4px solid;
      width: 9.1ch;
@@ -15,7 +16,7 @@
   
   }
   .logo-2 {
-    color: rgb(72, 9, 218);
+    /* color: rgb(72, 9, 218); */
   }
   @keyframes typing {
     from {
@@ -35,9 +36,9 @@
     .logo {
         margin-right: 40rem;
         display: block;
-        font-size: 2.3rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        font-size: 2.8rem;
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
         border-right: 4px solid;
          width: 9.1ch;
@@ -47,7 +48,7 @@
       
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
       @keyframes typing {
         from {
@@ -68,9 +69,9 @@
     .logo {
         margin-right: 30rem;
         display: block;
-        font-size: 2.3rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        font-size: 2.8rem;
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
         border-right: 4px solid;
          width: 9.1ch;
@@ -80,7 +81,7 @@
       
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
       @keyframes typing {
         from {
@@ -97,11 +98,11 @@
      
 @media only screen and (min-width: 1000px) and (max-width:1199px) {
     .logo {
-        margin-right: 10rem;
+        margin-right: 11rem;
         display: block;
-        font-size: 2.3rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        font-size: 2.8rem;
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
         border-right: 4px solid;
          width: 9.1ch;
@@ -111,7 +112,7 @@
       
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
       @keyframes typing {
         from {
@@ -128,11 +129,11 @@
        
 @media only screen and (min-width: 900px) and (max-width:999px) {
     .logo {
-        margin-right: 5rem;
+        margin-right: 1rem;
         display: block;
-        font-size: 2.3rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        font-size: 2.8rem;
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
         border-right: 4px solid;
          width: 9.1ch;
@@ -142,7 +143,7 @@
       
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
       @keyframes typing {
         from {
@@ -162,8 +163,8 @@
         margin-right: 1rem;
         display: block;
         font-size: 2.3rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
         border-right: 4px solid;
          width: 9.1ch;
@@ -173,7 +174,7 @@
       
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
       @keyframes typing {
         from {
@@ -193,13 +194,13 @@
     .logo {
         margin-right: 1rem;
         font-size: 2.3rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
          overflow:hidden;
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
     }
 
@@ -209,13 +210,13 @@
       .logo {
           margin-right: 1rem;
           font-size: 1.89rem;
-          font-family: var(--Fuenteprincipal);
-          color: rgb(94, 157, 253);
+          /* font-family: var(--Fuenteprincipal); */
+          /* color: rgb(94, 157, 253); */
           white-space: nowrap;
            overflow:hidden;
         }
         .logo-2 {
-          color: rgb(72, 9, 218);
+          /* color: rgb(72, 9, 218); */
         }
       }
   
@@ -225,13 +226,13 @@
         .logo {
             margin-right: 1rem;
             font-size: 2rem;
-            font-family: var(--Fuenteprincipal);
-            color: rgb(94, 157, 253);
+            /* font-family: var(--Fuenteprincipal); */
+            /* color: rgb(94, 157, 253); */
             white-space: nowrap;
              overflow:hidden;
           }
           .logo-2 {
-            color: rgb(72, 9, 218);
+            /* color: rgb(72, 9, 218); */
           }
         }
                  
@@ -239,13 +240,13 @@
     .logo {
         margin-right: 1rem;
         font-size: 2.3rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
          overflow:hidden;
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
     }
                     
@@ -253,13 +254,13 @@
     .logo {
         margin-right: 1rem;
         font-size: 2.2rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
          overflow:hidden;
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
     }
 
@@ -269,26 +270,26 @@
     .logo {
         margin-right: 1rem;
         font-size: 1.32rem;
-        font-family: var(--Fuenteprincipal);
-        color: rgb(94, 157, 253);
+        /* font-family: var(--Fuenteprincipal); */
+        /* color: rgb(94, 157, 253); */
         white-space: nowrap;
          overflow:hidden;
       }
       .logo-2 {
-        color: rgb(72, 9, 218);
+        /* color: rgb(72, 9, 218); */
       }
     }
     @media only screen and (min-width: 771px) and (max-width:799px) {
         .logo {
             margin-right: .1rem;
             font-size: 2.2rem;
-            font-family: var(--Fuenteprincipal);
-            color: rgb(94, 157, 253);
+            /* font-family: var(--Fuenteprincipal); */
+            /* color: rgb(94, 157, 253); */
             white-space: nowrap;
              overflow:hidden;
           }
           .logo-2 {
-            color: rgb(72, 9, 218);
+            /* color: rgb(72, 9, 218); */
           }
         }
    
@@ -296,13 +297,13 @@
             .logo {
                 margin-right: .1rem;
                 font-size: 2rem;
-                font-family: var(--Fuenteprincipal);
-                color: rgb(94, 157, 253);
+                /* font-family: var(--Fuenteprincipal); */
+                /* color: rgb(94, 157, 253); */
                 white-space: nowrap;
                  overflow:hidden;
               }
               .logo-2 {
-                color: rgb(72, 9, 218);
+                /* color: rgb(72, 9, 218); */
               }
             }
        
@@ -311,13 +312,13 @@
                 .logo {
                     margin-right: .1rem;
                     font-size: 1.89rem;
-                    font-family: var(--Fuenteprincipal);
+                    /* font-family: var(--Fuenteprincipal); */
                     color: rgb(94, 157, 253);
                     white-space: nowrap;
                      overflow:hidden;
                   }
                   .logo-2 {
-                    color: rgb(72, 9, 218);
+                    /* color: rgb(72, 9, 218); */
                   }
                 }
         
@@ -327,13 +328,13 @@
                 .logo {
                     margin-right: .1rem;
                     font-size: 1.81rem;
-                    font-family: var(--Fuenteprincipal);
-                    color: rgb(94, 157, 253);
+                    /* font-family: var(--Fuenteprincipal); */
+                    /* color: rgb(94, 157, 253); */
                     white-space: nowrap;
                      overflow:hidden;
                   }
                   .logo-2 {
-                    color: rgb(72, 9, 218);
+                    /* color: rgb(72, 9, 218); */
                   }
                 }
 
@@ -343,13 +344,13 @@
                 .logo {
                     margin-right: .1rem;
                     font-size: 1.77rem;
-                    font-family: var(--Fuenteprincipal);
-                    color: rgb(94, 157, 253);
+                    /* font-family: var(--Fuenteprincipal); */
+                    /* color: rgb(94, 157, 253); */
                     white-space: nowrap;
                      overflow:hidden;
                   }
                   .logo-2 {
-                    color: rgb(72, 9, 218);
+                    /* color: rgb(72, 9, 218); */
                   }
                 }
 
@@ -358,12 +359,27 @@
         .logo {
            margin-right: -1rem;
             font-size: 1.77rem;
-            font-family: var(--Fuenteprincipal);
+            /* font-family: var(--Fuenteprincipal); */
             color: rgb(94, 157, 253);
             white-space: nowrap;
              overflow:hidden;
           }
           .logo-2 {
-            color: rgb(72, 9, 218);
+            /* color: rgb(72, 9, 218); */
           }
+        }
+
+        @media (min-width: 0px) {
+         .logo{
+          font-family: 'Kanit', sans-serif;
+          text-decoration: solid;
+          color: rgb(0, 0, 0);
+
+          background: #83a4d4;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         }
+         .logo-2 {
+          color: rgb(233, 33, 2);
+        }
         }
