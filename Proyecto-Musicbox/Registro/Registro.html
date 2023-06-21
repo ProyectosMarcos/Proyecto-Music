@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/Proyecto-Musicbox/Registro/styleRegistro.css">
+      <link rel="stylesheet" href="/Proyecto-Musicbox/Registro/StyleRegistro2.css">
       <link rel="stylesheet" href="/Proyecto-Musicbox/normalize.css">
       <script src="https://kit.fontawesome.com/ef233ec86e.js" crossorigin="anonymous"></script>
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -22,43 +22,42 @@
       </nav>
       <main class="main">
          <div class="contenedor">
-         <div class="definicion-app">
-            <p class="descripcion-novedades-usu">
-                Usuario
-            </p>
-            <div class="input-contenedor-1">
-            <input type="password" class="formulario__campo-1" placeholder="Ingresar nombre de usuario" style="text-align: center;">
-            </div>
-            <div class="novedades">
-              <p class="descripcion-novedades-2" style="text-align: center;">
-                 Correo electronico
-              </p>
-              
-               <div class="listado-albumes-novedades">
-                 <div class="input-contenedor-2">
-                    <input type="password" class="formulario__campo-1" placeholder="Ingrese contraseña" style="text-align: center;">
-                    </div>
-                    <div class="contenedor">
-                     <div class="definicion-app">
-                        <p class="descripcion-novedades" style="text-align: center;">
-                           Contraseña
-                        </p>
-                        <div class="input-contenedor-3">
-                        <input type="password" class="formulario__campo-1" placeholder="Ingresar contraseña" style="text-align: center;">
-                        </div>
-                        <div class="novedades">
-                          <p class="descripcion-novedades-3">
-                             Confirmar contraseña
-                          </p>
-                          
-                           <div class="listado-albumes-novedades">
-                             <div class="input-contenedor-4">
-                                <input type="password" class="formulario__campo-1" placeholder="Volver a ingresa la contraseña" style="text-align: center;">
-                                </div>
+            <form action="" class="formulario" id="formulario" autocomplete="off">
+              <div class="form-input usuario">
+                <input type="text" id="usuario" placeholder="Ingresar nombre de usuario">
+                <label for="usuario">Nombre</label>
+                <p class="mensajeError"></p>
+              </div>
+              <div class="form-input correo">
+                <input type="email" id="correo" placeholder="Ingrese correo electronico">
+                <label for="correo">Correo electrónico</label>
+                <p class="mensajeError"></p>
+              </div>
+             
+              <div class="form-input contraseña">
+                <input type="password" id="contraseña" placeholder="Ingrese contraseña">
+                <label for="contraseña">Contraseña</label>
+                <p class="mensajeError"></p>
+              </div>
+              <div class="form-input repeatContraseña">
+                <input type="password" id="repeatContraseña" placeholder="Ingrese contraseña">
+                <label for="repeatContraseña">Confirmar contraseña</label>
+                <p class="mensajeError"></p>
+              </div>
+              <div class="form-termsAndConditions termsAndConditions">
+                <input type="checkbox" id="termsAndConditions">
+                <label for="termsAndConditions">He leído y acepto los</label>
+                <a href="#" style="color: rgb(6, 106, 255);">Términos y Condiciones</a>
+                <p class="mensajeError"></p>
+              </div>
+              <div class="form-boton">
+                <input type="submit" value="Registrarse">
+              </div>
+              <p class="mensajeCorrecto"></p>
+            </form>
+          </div>
 
-                  </div>   
-                 
-                    </div>
+<!-- 
                     <dialog  id="modal">
                        <div class="container-1">
                        <div class="form-content">
@@ -80,8 +79,8 @@
                      <button aria-label="setting" class="boton__tuerca" id="btn-abrir-modal"> Registrarse </button>
                   </div>
                </div>
-        </div>
-        
+        </div> 
+       -->
       
         <!-- CANTIDAD PARA TENER ESTRUCTURA FIJA
         <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -98,6 +97,7 @@
          <h3 class="Footer-h3"></h3>
       </footer>
    
-      <script src="/Proyecto-Musicbox/Registro/modal.js"></script>
+      <!-- <script src="/Proyecto-Musicbox/Registro/modal.js"></script> -->
+      <script src="/Proyecto-Musicbox/Registro/form.js"></script>
    </body>
 </html>
