@@ -112,25 +112,66 @@
                <p class="descripcion-novedades">
                   ¿Querés recomendar contenido (ya sea un artista o album) ? Comunicate con nosotros!
               </p>
+              <form action="https://formspree.io/f/xayzrzzg" method="POST" class="formulario" id="formulario" autocomplete="off" required>
+               <div class="form-input Email">
+                  <label for="Email" id="Email-nombre">Email</label>
+                 <input type="text" id="Email" placeholder="Ingresar email" required>
+                 <p class="mensajeError"></p>
+               </div>
+               <div class="form-input Usuario">
+                  <label for="Usuario" id="Usuario-nombre">Usuario</label>
+                 <input type="Usuario" id="Usuario" placeholder="Ingresar tu usuario" required>
+                 <p class="mensajeError"></p>
+               </div>
+              
+               <div class="form-input Asunto">
+                  <label for="Asunto" id="Asunto-nombre">Asunto</label>
+                 <input type="text" id="Asunto" placeholder="Ingresar el tema de la recomendación" required>
+                 <p class="mensajeError"></p>
+               </div>
+               <div class="form-input Recomendacíon">
+                  <label for="input-recomendación" class="Recomendacíon" id="Recomendacíon-nombre">Recomendacíon</label>
+                  <textarea id="input-recomendacíon" name="input-recomendacion" rows="10" cols="48"></textarea>
+                  <p class="mensajeError"></p>
+               </div>
+               <div class="form-boton">
+                  <input type="submit" value="Registrarse" class="btn-contacto">
+                </div>
+                <p class="mensajeCorrecto"></p>
+              </form>
+               </div>
+               </div>
+              
+           </div>
+ 
+              <!-- <form action="" id="formulario" class="formulario" autocomplete="off">
               <div class="container-input">
-                  <p class="input-nombre">Email</p>
-                  <input id="input-fijo" type="text" placeholder="Ingresar email">
+                 <label for="Email" class="Email">Email</label>
+                  <input id="Email" class="input-fijo" type="text" placeholder="Ingresar email">
+                  <p class="mensajeError"></p>
+              </div>     
+               <div class="container-input">
+                 <label for="Usuario" class="Usuario">Usuario</label>
+                  <input id="Usuario" class="input-fijo" type="text" placeholder="Ingresar tu usuario">
+                  <p class="mensajeError"></p>
+               </div>
+               <div class="container-input">
+                  <label for="Asunto" class="Asunto">Asunto</label>
+                  <input id="Asunto" class="input-fijo" type="text" placeholder="Ingresar el tema de la recomendación">
+                  <p class="mensajeError"></p>
+               </div>
+               <div class="container-input">
+                  <label for="input-recomendación" class="Recomendacíon">Recomendacíon</label>
+                  <textarea id="input-recomendacíon" name="input-recomendacion" rows="10" cols="48"></textarea>
+                  <p class="mensajeError"></p>
+               </div>
+                 <div class="form-boton">
+                <input type="submit" value="Registrarse" class="btn-contacto">
               </div>
-               <div class="container-input">
-                  <p class="input-nombre">Usuario</p>
-                  <input id="input-fijo" type="text" placeholder="Ingresar tu usuario">
-               </div>
-               <div class="container-input">
-                  <p class="input-nombre">Asunto</p>
-                  <input id="input-fijo" type="text" placeholder="Ingresar el tema de la recomendación">
-               </div>
-               <div class="container-input">
-                  <p class="input-nombre">Recomendación</p>
-                  <textarea id="input-recomendacion" name="input-recomendacion" rows="10" cols="48"></textarea>
-               </div>
-               <button class="btn-contacto" id="btn-contacto">Enviar</button>
+              <p class="mensajeCorrecto"></p>
+              </form>
             </div>
-
+          -->
 
             <!-- CANTIDAD PARA TENER ESTRUCTURA FIJA
             <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -147,5 +188,7 @@
          <h3 class="Footer-h3">Todos los derechos reservados</h3>
       </footer>
       <script src="menu.js"></script>
+      <script src="/Proyecto-Musicbox/form-index.js"></script>
+      </script>
    </body>
 </html>

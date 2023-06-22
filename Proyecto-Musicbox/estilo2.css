@@ -57,16 +57,115 @@ body {
     border-style: solid;
     border-color: rgb(0, 234, 255);
     margin-left: 46%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     height: 5rem;
-    width: 13rem;
+    width: 14rem;
+    transition: .2s;
+    cursor: pointer;
+    color: var(--ColorBlanco);
   }
+
+.btn-contacto {
+    transition: .2s;
+}
+.btn-contacto:active {
+    transform: scale(0.9);
+}
+
+.formulario{
+  height: 79rem;
   
-  #input-recomendacion{
+}
+.form-input{
+  position: relative;
+}
+
+#Email-nombre {
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 4.4rem;
+
+}
+#Email {
+   font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+
+.Usuario {
+  font-size: 2.5rem;
+}
+#Usuario {
+  font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 7rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+#Usuario-nombre{
+  position: absolute;
+  bottom: 4.4rem;
+}
+
+.Asunto {
+  font-size: 2.5rem;
+}
+
+#Asunto{
+  font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 7rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+
+#Asunto-nombre {
+  position: absolute;
+  bottom: 4.4rem;
+}
+
+
+.Recomendacíon {
+  font-size: 2.5rem;
+}
+
+#Recomendacíon-nombre {
+  position: absolute;
+  bottom: 24.9rem;
+}
+.mensajeError {
+  color: red;
+  font-size: 1.77rem;
+}
+.mensajeCorrecto {
+  color: aqua;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+  margin-left: 25rem;
+}
+
+
+
+
+  #input-recomendacíon{
     background-color: #232526;
     border-radius: 0.8rem;
     color: white;
     font-size: 2rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
   }
   
   .input-nombre{
@@ -76,7 +175,7 @@ body {
     margin-left: 7rem;
     margin-top: 3rem;
   }
-  #input-fijo{
+  .input-fijo{
     font-size: 2.3rem;
     width: 55rem;
     margin-top: 1rem;
@@ -86,6 +185,7 @@ body {
     padding: 0.4rem;
     color: #ffffff;
   }
+  
   
   .contacto{
     color: white;
@@ -97,6 +197,7 @@ body {
     padding: 2rem;
     margin-top: 4.7rem;
     margin-bottom: 2rem;
+   
   }
   
   .novedades{
@@ -381,6 +482,146 @@ body {
     font-size: 2rem;
   }
   
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 2.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 46%;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 14rem;
+    transition: .2s;
+    cursor: pointer;
+    color: var(--ColorBlanco);
+  }
+
+.btn-contacto {
+    transition: .2s;
+}
+.btn-contacto:active {
+    transform: scale(0.9);
+}
+
+.formulario{
+  height: 79rem;
+  
+}
+.form-input{
+  position: relative;
+}
+
+#Email-nombre {
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 4.4rem;
+
+}
+#Email {
+   font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+
+.Usuario {
+  font-size: 2.5rem;
+}
+#Usuario {
+  font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 7rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+#Usuario-nombre{
+  position: absolute;
+  bottom: 4.4rem;
+}
+
+.Asunto {
+  font-size: 2.5rem;
+}
+
+#Asunto{
+  font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 7rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+
+#Asunto-nombre {
+  position: absolute;
+  bottom: 4.4rem;
+}
+
+
+.Recomendacíon {
+  font-size: 2.5rem;
+}
+
+#Recomendacíon-nombre {
+  position: absolute;
+  bottom: 24.9rem;
+}
+.mensajeError {
+  color: red;
+  font-size: 1.77rem;
+}
+.mensajeCorrecto {
+  color: aqua;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+  margin-left: 25rem;
+}
+
+
+
+
+  #input-recomendacíon{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 2rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
+  }
+  
+  .input-nombre{
+    font-size: 2.9rem;
+  }
+  .container-input{
+    margin-left: 7rem;
+    margin-top: 3rem;
+  }
+  .input-fijo{
+    font-size: 2.3rem;
+    width: 55rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-color: rgb(0, 234, 255);
+    background-color:#232526;
+    padding: 0.4rem;
+    color: #ffffff;
+  }
+
+
+
+
+
   .input-nombre{
     font-size: 2.9rem;
   }
@@ -551,6 +792,145 @@ body {
     width: 8.5rem;
   }
   
+
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 2.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 46%;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 14rem;
+    transition: .2s;
+    cursor: pointer;
+    color: var(--ColorBlanco);
+  }
+
+.btn-contacto {
+    transition: .2s;
+}
+.btn-contacto:active {
+    transform: scale(0.9);
+}
+
+.formulario{
+  height: 79rem;
+  
+}
+.form-input{
+  position: relative;
+}
+
+#Email-nombre {
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 4.4rem;
+
+}
+#Email {
+   font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+
+.Usuario {
+  font-size: 2.5rem;
+}
+#Usuario {
+  font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 7rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+#Usuario-nombre{
+  position: absolute;
+  bottom: 4.4rem;
+}
+
+.Asunto {
+  font-size: 2.5rem;
+}
+
+#Asunto{
+  font-size: 2.3rem;
+  width: 55rem;
+  margin-top: 7rem;
+  border-radius: 0.5rem;
+  border-color: rgb(0, 234, 255);
+  background-color:#232526;
+  padding: 0.4rem;
+  color: #ffffff;
+}
+
+#Asunto-nombre {
+  position: absolute;
+  bottom: 4.4rem;
+}
+
+
+.Recomendacíon {
+  font-size: 2.5rem;
+}
+
+#Recomendacíon-nombre {
+  position: absolute;
+  bottom: 24.9rem;
+}
+.mensajeError {
+  color: red;
+  font-size: 1.77rem;
+}
+.mensajeCorrecto {
+  color: aqua;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+  margin-left: 25rem;
+}
+
+
+
+
+  #input-recomendacíon{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 2rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
+  }
+  
+  .input-nombre{
+    font-size: 2.9rem;
+  }
+  .container-input{
+    margin-left: 7rem;
+    margin-top: 3rem;
+  }
+  .input-fijo{
+    font-size: 2.3rem;
+    width: 55rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-color: rgb(0, 234, 255);
+    background-color:#232526;
+    padding: 0.4rem;
+    color: #ffffff;
+  }
+
+
+
   #input-recomendacion{
     background-color: #232526;
     border-radius: 0.8rem;
