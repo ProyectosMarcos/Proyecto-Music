@@ -69,47 +69,27 @@
     <main class="main">
         <p class="titulo_album">Tus reseñas sobre distintos albums!</p>
         
-        <div class="review">
-            <img src="/Proyecto-Musicbox/albums/Animals.png" alt=""class="foto-album" >
-            <div class="datos-review">
-                <p class="artista-album">Pink Floyd - Animals</p>
-                <p class="datos-album-review">"La grabación se llevó a cabo en los estudios de la banda, Britannia Row, en Londres. La producción del álbum se vio salpicada por los primeros signos de discordia que varios años después culminarían con la marcha de Roger Waters de la banda. La imagen de la portada del álbum —un cerdo flotando entre dos de las chimeneas de la estación eléctrica Battersea Power Station— fue diseñada por el compositor y bajista Roger Waters, y producido por el colaborador habitual de Pink Floyd, Hipgnosis.La grabación se llevó a cabo en los estudios de la banda, Britannia Row, en Londres. La producción del álbum se vio salpicada por los primeros signos de discordia que varios años después culminarían con la marcha de Roger Waters de la banda. La imagen de la portada del álbum —un cerdo flotando entre dos de las chimeneas de la estación eléctrica Battersea Power Station— fue diseñada por el compositor y bajista Roger Waters, y producido por el colaborador habitual de Pink Floyd, Hipgnosis.La grabación se llevó a cabo en los estudios de la banda, Britannia Row, en Londres. La producción del álbum se vio salpicada por los primeros signos de discordia que varios años después culminarían con la marcha de Roger Waters de la banda. La imagen de la portada del álbum —un cerdo flotando entre dos de las chimeneas de la estación eléctrica Battersea Power Station— fue diseñada por el compositor y bajista Roger Waters, y producido por el colaborador habitual de Pink Floyd, Hipgnosis."</p>
-                <p class="datos-album-puntuacion">4 estrellas</p>
-            </div>            
-        </div>
-        <div class="review">
-            <img src="/Proyecto-Musicbox/albums/Animals.png" alt=""class="foto-album" >
-            <div class="datos-review">
-                <p class="artista-album">Pink Floyd - Animals</p>
-                <p class="datos-album-review">"La grabación se llevó a cabo en los estudios de la banda, Britannia Row, en Londres. La producción del álbum se vio salpicada por los primeros signos de discordia que varios años después culminarían con la marcha de Roger Waters de la banda. La imagen de la portada del álbum —un cerdo flotando entre dos de las chimeneas de la estación eléctrica Battersea Power Station— fue diseñada por el compositor y bajista Roger Waters, y producido por el colaborador habitual de Pink Floyd, Hipgnosis."</p>
-                <p class="datos-album-puntuacion">4 estrellas</p>
-            </div>            
-        </div>
-        <div class="review">
-            <img src="/Proyecto-Musicbox/albums/Animals.png" alt=""class="foto-album" >
-            <div class="datos-review">
-                <p class="artista-album">Pink Floyd - Animals</p>
-                <p class="datos-album-review">"La grabación se llevó a cabo en los estudios de la banda, Britannia Row, en Londres. La producción del álbum se vio salpicada por los primeros signos de discordia que varios años después culminarían con la marcha de Roger Waters de la banda. La imagen de la portada del álbum —un cerdo flotando entre dos de las chimeneas de la estación eléctrica Battersea Power Station— fue diseñada por el compositor y bajista Roger Waters, y producido por el colaborador habitual de Pink Floyd, Hipgnosis."</p>
-                <p class="datos-album-puntuacion">4 estrellas</p>
-            </div>            
-        </div>
-        <div class="review">
-            <img src="/Proyecto-Musicbox/albums/Animals.png" alt=""class="foto-album" >
-            <div class="datos-review">
-                <p class="artista-album">Pink Floyd - Animals</p>
-                <p class="datos-album-review">"La grabación se llevó a cabo en los estudios de la banda, Britannia Row, en Londres. La producción del álbum se vio salpicada por los primeros signos de discordia que varios años después culminarían con la marcha de Roger Waters de la banda. La imagen de la portada del álbum —un cerdo flotando entre dos de las chimeneas de la estación eléctrica Battersea Power Station— fue diseñada por el compositor y bajista Roger Waters, y producido por el colaborador habitual de Pink Floyd, Hipgnosis."</p>
-                <p class="datos-album-puntuacion">4 estrellas</p>
-            </div>            
-        </div>
-        
-        
+        <li v-for="review in reviews">
+            <div class="review">
+                <img v-bind:src="review.nombreAlbumArchivo" alt=""class="foto-album" >
+                <div class="datos-review">
+                    <p class="artista-album">{{ review.nombreAlbum }}</p>
+                    <p class="datos-album-review">"{{ review.review }}"</p>
+                    <p class="datos-album-puntuacion">{{ review.puntuacion }} estrellas</p>
+                </div>            
+            </div>
+        </li>
 
+        <span v-if="cantReviews==0">
+            <!-- VERIFICACION PARA QUE LA ESTRUCTURA DE LA PAGINA SE MANTENGA-->
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br>
+        </span>
 
-        
-        
-        
     </main>
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="VUE-REVIEWS.js"></script>
     <script src="menu.js"></script>
     <script src ="/Proyecto-Musicbox/detalle_album/modal.js"></script>
 </body>

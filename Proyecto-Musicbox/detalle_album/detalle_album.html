@@ -67,21 +67,19 @@
     </nav>
     </nav>
     <main class="main">
-        <p class="titulo_album">Animals</p>
-        <p class="banda_album">Pink Floyd</p>
-        <img src="/Proyecto-Musicbox/albums/Animals.png" alt=""class="portada-album" >
+        <p class="titulo_album">{{nombreAlbum}}</p>
+        <p class="banda_album">{{nombreArtista}}</p>
+        <img v-bind:src="nombreAlbumArchivo" alt=""class="portada-album" >
         <div class="datos-album">
-            <p class="caracteristica">Año: 1967</p>
-            <p class="caracteristica">Duracion: 42 minutos</p>
+            <p class="caracteristica">Año: {{anio}}</p>
+            <p class="caracteristica">Duracion: {{duracion}} minutos</p>
             <p class="caracteristica">Canciones:</p>
             <ul class="listado-canciones">
-                <li>Pigs on the Wing 1</li>
-                <li>Dogs</li>
-                <li>Pigs (Three Different Ones)</li>
-                <li>Sheep</li>
-                <li>Pigs on the Wing 2</li>
+                <li v-for="cancion in canciones">
+                    {{cancion.nombreCancion}}
+                </li>
             </ul>
-            <a class="link_album" href="https://es.wikipedia.org/wiki/Animals_(%C3%A1lbum)">+ info</a>
+            <a class="link_album" v-bind:href="linkInfo">+ info</a>
         </div>
         <div class="boton-puntuacion-album">
             <button class="boton-puntuar" id="btn-abrir-modal">Puntuacion, Review</button>
@@ -91,20 +89,15 @@
         </div>
         <div class="reviews">
             <p class="caracteristica">Reseñas:</p>
-            <div class="review_usuario">
-                <p class="nombre_usuario">gabo.alvarez</p>
-                <ul class="datos-review">
-                    <li>Puntuacion: 4 estrellas</li>
-                    <li>Reseña: "La selección argentina sub 20 empieza a calentar motores para lo que será su debut estelar en el Mundial de la categoría que se desarrollará en el país. El Estadio Único Madre de Ciudades será el epicentro de la acción desde las 18 para los dirigidos por Javier Mascherano, quienes a horas del cruce ante Uzbekistán posaron frente a las cámaras de FIFA para las imágenes protocolares de la competencia."</li>
-                </ul>
-            </div>
-            <div class="review_usuario">
-                <p class="nombre_usuario">marcos.music</p>
-                <ul class="datos-review">
-                    <li>Puntuacion: 3 estrellas</li>
-                    <li>Reseña: "Excelente portada"</li>
-                </ul>
-            </div>
+            <li v-for="review in reviews">
+                <div class="review_usuario">
+                    <p class="nombre_usuario">{{review.usuario}}</p>
+                    <ul class="datos-review">
+                        <li>◉ Puntuacion: {{review.puntaje}} estrellas</li>
+                        <li>◉ Reseña: "{{review.review}}"</li>
+                    </ul>
+                </div>
+            </li>
         </div>
 
 
@@ -150,55 +143,17 @@
                     <form>
                         <h2 id="sub-title-listas">¿En qué listas querés este album?</h2>
                         <div class="lista-albums">
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            <div class="opcion-album">
-                                <input type="checkbox" name="Album" id="Album">
-                                <label for="Album" class="nombre-album">Lista</label>
-                            </div>
-                            
+                            <li v-for="lista in listas">
+                                <div class="opcion-album">
+                                    <span v-if="lista.check==0">
+                                        <input type="checkbox" name="Album" id="Album">
+                                    </span>
+                                    <span v-if="lista.check==1">
+                                        <input type="checkbox" name="Album" id="Album" checked>
+                                    </span>
+                                    <label for="Album" class="nombre-album">{{lista.nombreLista}}</label>
+                                </div>
+                            </li>
                         </div>
 
 
@@ -215,6 +170,8 @@
         </div>
     </main>
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="VUE-DETALLE_ALBUM.js"></script>
     <script src="menu.js"></script>
     <script src ="/Proyecto-Musicbox/detalle_album/modal.js"></script>
 </body>

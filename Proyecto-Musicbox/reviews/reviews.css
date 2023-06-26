@@ -232,7 +232,7 @@
       margin-right: 6.5rem;
       border-style: solid;
       border-color: yellow;
-      padding-bottom: 2.6rem;
+      padding-bottom: 9rem;
     }
     .datos-review{
       color:white;
@@ -255,6 +255,7 @@
       height: 20rem;
       margin-left: 2rem;
       margin-top: 2rem;
+      
     }
     .titulo_album{
       color:white;
@@ -528,7 +529,7 @@ button:active {
     margin-right: 6.5rem;
     border-style: solid;
     border-color: yellow;
-    padding-bottom: 2.5rem;
+    padding-bottom: 7.5rem;
   }
   .datos-review{
     color:white;
@@ -785,7 +786,7 @@ font-family: var(--Fuenteprincipal);
       margin-right: 6.5rem;
       border-style: solid;
       border-color: yellow;
-      padding-bottom: 2.5rem;
+      padding-bottom: 7.5rem;
     }
     .datos-review{
       color:white;

@@ -64,9 +64,9 @@
       <main class="main">
             <div class="definicion-app">
                 <p class="descripcion-novedades">
-                    Hola *nombre_usuario*!
+                    Hola {{nombreUsuario}}!
                     <br>                    
-                    *nombre_app* es una red social en donde todo es en torno a albumes de musica, podes:
+                    Music~Box es una red social en donde todo es en torno a albumes de musica, podes:
                     <br><br> # Crear listas donde almacenar albumes
                     <br> # Seguir a usuarios para conocer sus gustos musicales y ver sus reseñas sobre distintos albumes
                     <br> # Dejar reseñas y puntuaciones para los albumes que te gusten, permitiendo a otros usuarios ver tus opiniones
@@ -76,10 +76,10 @@
             <div class="estadisticas">
                 <p class="titulo-estadisticas">Tus estadisticas:</p>
                 <div class="listado-estadisticas">
-                    <li> Cantidad de listas: 9 </li>
-                    <li> Cantidad de albumes a escuchar: 13 </li>
-                    <li> Usuarios seguidos: 3 </li>
-                    <li> Cantidad de albumes escuchados: 23 </li>
+                    <li> Cantidad de listas: {{cantListas}} </li>
+                    <li> Cantidad de albumes a escuchar: {{cantAlbumesListenlist}} </li>
+                    <li> Cantidad de usuarios seguidos: {{cantUsuariosSeguidos}} </li>
+                    <li> Cantidad de seguidores: {{cantUsuariosSeguidores}} </li>
                     <!-- SOLO DEJAR ESTOS 4 ITEMS -->
                 </div>
             </div>
@@ -89,22 +89,9 @@
                 </p>
                 <div class="listado-albumes-novedades">
                     <ul>
-                        <li> Linkin Park - Hybrid Theory </li>
-                        <li> Linkin Park - Meteora </li>
-                        <li> Linkin Park - Minutes to Midnight </li>
-                        <li> Limp Bizkit - Chocolate Starfish And The Hot Dog Flavored Water </li>
-                        <li> Linkin Park - Hybrid Theory </li>
-                        <li> Linkin Park - Meteora </li>
-                        <li> Linkin Park - Minutes to Midnight </li>
-                        <li> Limp Bizkit - Chocolate Starfish And The Hot Dog Flavored Water </li>
-                        <li> Linkin Park - Hybrid Theory </li>
-                        <li> Linkin Park - Meteora </li>
-                        <li> Linkin Park - Minutes to Midnight </li>
-                        <li> Limp Bizkit - Chocolate Starfish And The Hot Dog Flavored Water </li>
-                        <li> Linkin Park - Hybrid Theory </li>
-                        <li> Linkin Park - Meteora </li>
-                        <li> Linkin Park - Minutes to Midnight </li>
-                        <li> Limp Bizkit - Chocolate Starfish And The Hot Dog Flavored Water </li>
+                        <li v-for="novedad in novedades">
+                           {{novedad.nombreAlbumArtista}}
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -143,50 +130,14 @@
                </div>
               
            </div>
- 
-              <!-- <form action="" id="formulario" class="formulario" autocomplete="off">
-              <div class="container-input">
-                 <label for="Email" class="Email">Email</label>
-                  <input id="Email" class="input-fijo" type="text" placeholder="Ingresar email">
-                  <p class="mensajeError"></p>
-              </div>     
-               <div class="container-input">
-                 <label for="Usuario" class="Usuario">Usuario</label>
-                  <input id="Usuario" class="input-fijo" type="text" placeholder="Ingresar tu usuario">
-                  <p class="mensajeError"></p>
-               </div>
-               <div class="container-input">
-                  <label for="Asunto" class="Asunto">Asunto</label>
-                  <input id="Asunto" class="input-fijo" type="text" placeholder="Ingresar el tema de la recomendación">
-                  <p class="mensajeError"></p>
-               </div>
-               <div class="container-input">
-                  <label for="input-recomendación" class="Recomendacíon">Recomendacíon</label>
-                  <textarea id="input-recomendacíon" name="input-recomendacion" rows="10" cols="48"></textarea>
-                  <p class="mensajeError"></p>
-               </div>
-                 <div class="form-boton">
-                <input type="submit" value="Registrarse" class="btn-contacto">
-              </div>
-              <p class="mensajeCorrecto"></p>
-              </form>
-            </div>
-          -->
-
-            <!-- CANTIDAD PARA TENER ESTRUCTURA FIJA
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br>
-            -->
             
 
       </main>
       <footer class="footer">
          <h3 class="Footer-h3">Todos los derechos reservados</h3>
       </footer>
+      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+      <script src="VUE-INICIO.js"></script>
       <script src="menu.js"></script>
       <script src="/Proyecto-Musicbox/form-index.js"></script>
       </script>
