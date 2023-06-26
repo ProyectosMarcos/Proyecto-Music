@@ -70,44 +70,35 @@
     <main class="main">
         <div class="contenedor-main">
              <div class="contenedor-main">
-                        
-            <div class="caja-1">
-                <a class="titulo_lista-2" href="detalle_lista_propia.html">Rock de los 70s</a>
-                <section class="section-album"> 
-                    <!-- SE DEBEN MOSTRAR HASTA 4 ALBUMES POR LISTA, NO MAS, DESPUES CONFIGURARLO
-                    PARA QUE MUESTREN LOS ULTIMOS 4 DISCOS AGREGADOS -->
-                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/Animals.png" alt="" class="imagen-1"></div>
-                    <div id="album-2" class="imagen-"><img src="/Proyecto-Musicbox/albums/The_Wall.png" alt="" class="imagen-1"></div>
-                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div >
-                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                </section>
-            </div>
-           
-            <div class="caja-1">
-                <a class="titulo_lista-2" href="">Pop argentino</a>
-                <section class="section-album-2">
-                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                    <div id="album-2" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                </section>
-            </div>
+                <li v-for="lista in listas">
 
-            <div class="caja-1">
-                <a class="titulo_lista-3" href="">Hip Hop</a>
-                <section class="section-album-3">
-                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                    <div class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                    <div id="album" class="imagen-"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-1"></div>
-                </section>
-            </div> 
+                    <div class="caja-1">
+                        <a class="titulo_lista-2" v-bind:href="lista.refLista">{{lista.nombreLista}}</a>
+                        <section class="section-album"> 
+                            <!-- SE DEBEN MOSTRAR HASTA 4 ALBUMES POR LISTA, NO MAS, DESPUES CONFIGURARLO
+                            PARA QUE MUESTREN LOS ULTIMOS 4 DISCOS AGREGADOS -->
+                            <li v-for="album in lista.listadoAlbumes">
+                                <div id="album" class="imagen-"><img v-bind:src="album.nombreAlbum" alt="" class="imagen-1"></div>
+                            </li>
 
-            
+                        </section>
+                    </div>
 
+                </li>
+                <span v-if="cantListas==0">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br>
+                </span>
+                <span v-if="cantListas==1">
+                    <br><br><br><br><br><br><br><br><br><br>
+                    
+                </span>
         </div>
     </main>
 
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="VUE-LISTAS.js"></script>
     <script src="/Proyecto-Musicbox/menu.js"></script>
     <script src="/Proyecto-Musicbox/LISTAS/modal.js"></script>
 </body>
