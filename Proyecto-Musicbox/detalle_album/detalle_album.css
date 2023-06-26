@@ -210,6 +210,10 @@
       font-family: var(--Fuenteprincipal);
     }
     
+    li::marker{
+      color:#232526;
+    }
+    
     .review_usuario{
       background-color:#232526;
       border-color: white;
@@ -234,7 +238,7 @@
     .reviews{
       color:white;
       font-size: 2.7rem;
-      margin-left: 62rem;     
+      margin-left: 5rem;    
     }
     
     .boton-puntuacion-album{
@@ -689,6 +693,10 @@ button:active {
     border-style: solid;
     margin-right: 20rem;
     padding-left: 2rem;
+  }
+
+  li::marker{
+    color:#232526;
   }
   
   .datos-review{
