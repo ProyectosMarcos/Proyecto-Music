@@ -463,7 +463,7 @@ body {
  }
 }
 @media only screen and (min-width: 800px) and (max-width:1223px) {
-  .btn-contacto{
+  /* .btn-contacto{
     background-color: #88898946;
     font-size: 2.5rem;
     border-radius: 1.1rem;
@@ -474,7 +474,7 @@ body {
     height: 5rem;
     width: 13rem;
   }
-  
+   */
   #input-recomendacion{
     background-color: #232526;
     border-radius: 0.8rem;
@@ -780,7 +780,7 @@ body {
  }
 }
 @media only screen and (min-width: 0px) and (max-width:799px) {
-  .btn-contacto{
+  /* .btn-contacto{
     background-color: #88898946;
     font-size: 1.5rem;
     border-radius: 1.1rem;
@@ -791,7 +791,7 @@ body {
     height: 3rem;
     width: 8.5rem;
   }
-  
+   */
 
   .btn-contacto{
     background-color: #88898946;
@@ -935,8 +935,7 @@ body {
     background-color: #232526;
     border-radius: 0.8rem;
     color: white;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem; 
   }
   
   .input-nombre{
@@ -1036,11 +1035,381 @@ body {
       margin-top: 2rem;
  }
 }
+
+
+
+@media only screen and (min-width: 600px) and (max-width:790px) {
+
+  #input-recomendacíon{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.9rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
+  }
+}
+
+
+@media only screen and (min-width: 744px) and (max-width:756px) {
+
+  #input-recomendacíon{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.9rem;
+    width: 58rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 700px) and (max-width:756px) {
+
+  #input-recomendacíon{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.9rem;
+    width: 54rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
+  }
+
+    
+#Email {
+  font-size: 2.3rem;
+ width: 54rem;
+ margin-top: 3rem;
+ border-radius: 0.5rem;
+ border-color: rgb(0, 234, 255);
+ background-color:#232526;
+ padding: 0.4rem;
+ color: #ffffff;
+}
+
+
+#Usuario {
+ font-size: 2.3rem;
+ width: 54rem;
+ margin-top: 7rem;
+ border-radius: 0.5rem;
+ border-color: rgb(0, 234, 255);
+ background-color:#232526;
+ padding: 0.4rem;
+ color: #ffffff;
+}
+
+
+
+
+#Asunto{
+ font-size: 2.3rem;
+ width: 54rem;
+ margin-top: 7rem;
+ border-radius: 0.5rem;
+ border-color: rgb(0, 234, 255);
+ background-color:#232526;
+ padding: 0.4rem;
+ color: #ffffff;
+}
+
+
+.btn-contacto{
+  background-color: #88898946;
+  font-size: 2.5rem;
+  border-radius: 1.1rem;
+  border-style: solid;
+  border-color: rgb(0, 234, 255);
+  margin-left: 46%;
+  margin-top: 2rem;
+  height: 5rem;
+  width: 14rem;
+  transition: .2s;
+  cursor: pointer;
+  color: var(--ColorBlanco);
+}
+button {
+  background-color: black;
+  color: var(--ColorBlanco);
+  width: 11rem;
+  height: 2.3rem;
+  transition: .2s;
+  cursor: pointer;
+}
+button span {
+  font-size: 1.7rem;
+  transition: .2s;
+}
+button:active {
+  transform: scale(0.9);
+}
+  }
+
+
+
+  
+@media only screen and (min-width: 647px) and (max-width:699px) {
+ 
+#Email {
+  font-size: 2.3rem;
+ width: 50rem;
+ margin-top: 3rem;
+ border-radius: 0.5rem;
+ border-color: rgb(0, 234, 255);
+ background-color:#232526;
+ padding: 0.4rem;
+ color: #ffffff;
+}
+
+
+#Usuario {
+ font-size: 2.3rem;
+ width: 50rem;
+ margin-top: 7rem;
+ border-radius: 0.5rem;
+ border-color: rgb(0, 234, 255);
+ background-color:#232526;
+ padding: 0.4rem;
+ color: #ffffff;
+}
+
+
+
+
+#Asunto{
+ font-size: 2.3rem;
+ width: 50rem;
+ margin-top: 7rem;
+ border-radius: 0.5rem;
+ border-color: rgb(0, 234, 255);
+ background-color:#232526;
+ padding: 0.4rem;
+ color: #ffffff;
+}
+
+#input-recomendacíon{
+  background-color: #232526;
+  border-radius: 0.8rem;
+  color: white;
+  font-size: 1.9rem;
+  width: 50rem;
+  height: 3rem;
+  margin-top: 8rem;
+  height: 25rem;
+}
+
+.btn-contacto{
+  background-color: #88898946;
+  font-size: 2.5rem;
+  border-radius: 1.1rem;
+  border-style: solid;
+  border-color: rgb(0, 234, 255);
+  margin-left: 46%;
+  margin-top: 2rem;
+  height: 5rem;
+  width: 14rem;
+  transition: .2s;
+  cursor: pointer;
+  color: var(--ColorBlanco);
+}
+button {
+  background-color: black;
+  color: var(--ColorBlanco);
+  width: 11rem;
+  height: 2.3rem;
+  transition: .2s;
+  cursor: pointer;
+}
+button span {
+  font-size: 1.7rem;
+  transition: .2s;
+}
+button:active {
+  transform: scale(0.9);
+}
+  }
+
+
+
+  
+  
+@media only screen and (min-width: 600px) and (max-width:647px) {
+ 
+  #Email {
+    font-size: 2.3rem;
+   width: 44rem;
+   margin-top: 3rem;
+   border-radius: 0.5rem;
+   border-color: rgb(0, 234, 255);
+   background-color:#232526;
+   padding: 0.4rem;
+   color: #ffffff;
+  }
+  
+  
+  #Usuario {
+   font-size: 2.3rem;
+   width: 44rem;
+   margin-top: 7rem;
+   border-radius: 0.5rem;
+   border-color: rgb(0, 234, 255);
+   background-color:#232526;
+   padding: 0.4rem;
+   color: #ffffff;
+  }
+  
+  
+  
+  
+  #Asunto{
+   font-size: 2.3rem;
+   width: 44rem;
+   margin-top: 7rem;
+   border-radius: 0.5rem;
+   border-color: rgb(0, 234, 255);
+   background-color:#232526;
+   padding: 0.4rem;
+   color: #ffffff;
+  }
+  
+  #input-recomendacíon{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.9rem;
+    width: 44rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
+  }
+  
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 2.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 46%;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 14rem;
+    transition: .2s;
+    cursor: pointer;
+    color: var(--ColorBlanco);
+  }
+  button {
+    background-color: black;
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  button span {
+    font-size: 1.7rem;
+    transition: .2s;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+    }
+
+
+    
+@media only screen and (min-width: 0px) and (max-width:599px) {
+ 
+  #Email {
+    font-size: 2.3rem;
+   width: 44rem;
+   margin-top: 3rem;
+   border-radius: 0.5rem;
+   border-color: rgb(0, 234, 255);
+   background-color:#232526;
+   padding: 0.4rem;
+   color: #ffffff;
+  }
+  
+  
+  #Usuario {
+   font-size: 2.3rem;
+   width: 44rem;
+   margin-top: 7rem;
+   border-radius: 0.5rem;
+   border-color: rgb(0, 234, 255);
+   background-color:#232526;
+   padding: 0.4rem;
+   color: #ffffff;
+  }
+  
+  
+  
+  
+  #Asunto{
+   font-size: 2.3rem;
+   width: 44rem;
+   margin-top: 7rem;
+   border-radius: 0.5rem;
+   border-color: rgb(0, 234, 255);
+   background-color:#232526;
+   padding: 0.4rem;
+   color: #ffffff;
+  }
+  
+  #input-recomendacíon{
+    background-color: #232526;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.9rem;
+    width: 44rem;
+    height: 3rem;
+    margin-top: 8rem;
+    height: 25rem;
+  }
+  
+  .btn-contacto{
+    background-color: #88898946;
+    font-size: 2.5rem;
+    border-radius: 1.1rem;
+    border-style: solid;
+    border-color: rgb(0, 234, 255);
+    margin-left: 46%;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 14rem;
+    transition: .2s;
+    cursor: pointer;
+    color: var(--ColorBlanco);
+  }
+  button {
+    background-color: black;
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  button span {
+    font-size: 1.7rem;
+    transition: .2s;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+    }
+
+
+
 @media only screen and (min-width: 700px) and (max-width:799px) {
   .NAV-LIST a {
       font-size: 1.7rem 
  }
-  button {
+  /* button {
       background-color: black;
       color: var(--ColorBlanco);
       width: 11rem;
@@ -1054,7 +1423,7 @@ body {
  }
   button:active {
       transform: scale(0.9);
- }
+ } */
   .barra_boton_nueva_lista .btn {
       font-size: 20px;
       color: white;
@@ -1064,6 +1433,7 @@ body {
       padding-bottom: 2.5rem;
  }
 }
+
 @media only screen and (min-width: 701px) and (max-width:748px) {
   .NAV-LIST a {
       font-size: 1.5rem 
@@ -1074,6 +1444,7 @@ body {
       border-color:rgb(255, 255, 255);
  }
 }
+
 @media only screen and (min-width: 701px) and (max-width:799px) {
   .input-contenedor-2 {
       border: solid;
@@ -1091,6 +1462,8 @@ body {
       font-family: var(--Fuenteprincipal);
  }
 }
+
+
 @media only screen and (min-width:600px) and (max-width:700px) {
   .input-contenedor-2 {
       border: solid;
@@ -1116,6 +1489,8 @@ body {
       font-family: var(--Fuenteprincipal);
  }
 }
+
+
 @media only screen and (min-width:600px) and (max-width:599px) {
 }
 @media only screen and (min-width: 542px) and (max-width:699px) {
@@ -1158,6 +1533,9 @@ body {
       font-family: var(--Fuenteprincipal);
  }
 }
+
+
+
 @media only screen and (min-width: 469px) and (max-width:541px) {
   button {
       background-color: black;
