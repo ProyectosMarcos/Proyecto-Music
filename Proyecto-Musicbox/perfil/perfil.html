@@ -104,38 +104,39 @@
                </button>
             </div>
          </div>
+         
+         
+         <h2 id="H2">Actividad reciente</h2>
+         <div class="actividad_reciente">
+            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">
+            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">            
+            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">
+            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">
+            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">            
+         </div>
+         
+         
+         
+         
+         
+         
          <h2 id="H2">Albums Favoritos</h2>
          <div class="listado_portadas_favoritos">
-            <div class="mini-portada">
-               <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="...">
-               <a href="www.google.com" class="nombre-mini-portada">The Dark Side of The Moon</a>
-            </div>
-            <div class="mini-portada">
-               <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="...">
-               <a href="www.google.com" class="nombre-mini-portada">The Dark Side of The Moon</a>
-            </div>
-            <div class="mini-portada">
-               <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="...">
-               <a href="www.google.com" class="nombre-mini-portada">The Dark Side of The Moon</a>
-            </div>
+            <li v-for="albumFav in albumesFavoritos">
+               <div class="mini-portada">
+                  <img v-bind:src="albumFav.nombreAlbumArchivo" alt="...">
+                  <a href="www.google.com" class="nombre-mini-portada">{{albumFav.nombre}}</a>
+               </div>
+            </li>
          </div>
-         <div class="actividad_reciente">
-            <h2 id="H2">Actividad reciente</h2>
-            <div class="listado_portadas_favoritos">
-               <div class="mini-portada">
-                  <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="...">
-                  <a href="www.google.com" class="nombre-mini-portada">The Dark Side of The Moon</a>
-               </div>
-               <div class="mini-portada">
-                  <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="...">
-                  <a href="www.google.com" class="nombre-mini-portada">The Dark Side of The Moon</a>
-               </div>
-               <div class="mini-portada">
-                  <img src="/Proyecto-Musicbox/albums/triangulo.png" alt="...">
-                  <a href="www.google.com" class="nombre-mini-portada">The Dark Side of The Moon</a>
-               </div>
-            </div>
-         </div>
+
+
+
+
+
+         
+
+
          <br><br><br><br><br> <!--para que no se deforme el final de la pagina-->
       </main>
       <footer class="footer">
@@ -145,6 +146,8 @@
       <script src="/Proyecto-Musicbox/menu.js"></script>
       <script src="/Proyecto-Musicbox/perfil/app.js"></script>
       <script src="perfil.js"></script>
+      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+      <script src="VUE-PERFIL.js"></script>
    </body>
 </html>
 </html>
