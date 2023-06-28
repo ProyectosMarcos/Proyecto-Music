@@ -20,6 +20,7 @@ createApp({
         {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
         {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
         {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
+        {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
         {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"}
     ]
     }

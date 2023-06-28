@@ -107,12 +107,12 @@
          
          
          <h2 id="H2">Actividad reciente</h2>
+         <!-- SOLO MOSTRAR 5, SON LOS 5 MAS RECIENTES -->
          <div class="actividad_reciente">
-            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">
-            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">            
-            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">
-            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">
-            <img src="/Proyecto-Musicbox/albums/triangulo.png" class="imagen-actividad">            
+            <li v-for="albumFav in actividadReciente">
+               <img v-bind:src="albumFav.nombreAlbumArchivo" class="imagen-actividad">
+            </li>
+                      
          </div>
          
          
@@ -120,7 +120,7 @@
          
          
          
-         <h2 id="H2">Albums Favoritos</h2>
+         <h2 id="H2">Mis albums favoritos</h2>
          <div class="listado_portadas_favoritos">
             <li v-for="albumFav in albumesFavoritos">
                <div class="mini-portada">

@@ -67,7 +67,7 @@
       margin-top: 0.5rem;
       font-size: 3rem;
       color:white;
-      margin-left: 9rem;
+      margin-left: 40%;
      }
 
     .contenedor-grid {
@@ -138,21 +138,26 @@
 
 
    .actividad_reciente{
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
     border-style: solid;
     border-color:#590306;
+    display:flex;
    }
 
+   li::marker{
+    color:#232526;
+  }
+
    .imagen-actividad{
-    width: 18%;
+    width: 90%;
     height: 15rem;
     margin: 1rem;
    }
 
    .listado_portadas_favoritos{
-    margin-left: 3rem;
+    margin-left: 34%;
     width: 390px;
     margin-top: 2rem;
     display: grid;
@@ -741,27 +746,30 @@ cursor: pointer;
   margin-top: 0.5rem;
   font-size: 3rem;
   color:white;
-  margin-left: 2rem;
+  margin-left: 40%;
  }
 
  .actividad_reciente{
-  margin-left: 1%;
+  margin-left: 2rem;
   margin-top: 2rem;
-  padding-right: 0%;
-  width: 95%;
   margin-bottom: 5rem;
   border-style: solid;
   border-color:#590306;
+  display:flex;
  }
 
+ li::marker{
+  color:#232526;
+}
+
  .imagen-actividad{
-  width: 16.5%;
-  height: 15%;
+  width: 90%;
+  height: 15rem;
   margin: 1rem;
  }
 
  .listado_portadas_favoritos{
-  margin-left: 2rem;
+  margin-left: 34%;
   width: 300px; /*XD*/
   margin-top: 2rem;
   margin-bottom: 3.5rem;
@@ -770,20 +778,20 @@ cursor: pointer;
  .mini-portada{
   background-color:#590306;
   margin-bottom: 2rem;
-  width: 300px;
+  width: 390px;
  }
 
  .nombre-mini-portada{
   color:white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 1rem;
   text-decoration: none;
  }
 
 
  .mini-portada img{
-  width: 300px;
-  height: 200px;
+  width: 390px;
+  height: 280px;
  }
 
 
@@ -1701,7 +1709,7 @@ font-family: var(--Fuenteprincipal);
  }
   #H2 {
       color: var(--ColorBlanco);
-      margin-left: 3rem;
+      margin-left: 40%;
       margin-bottom: 2rem;
       font-size: 2rem;
  }
@@ -1824,17 +1832,31 @@ font-family: var(--Fuenteprincipal);
   margin-top: 0.5rem;
   font-size: 1.7rem;
   color:white;
-  margin-left: 2rem;
+  margin-left: 35%;
  }
 
  .actividad_reciente{
-  margin-left: 25rem;
-  margin-top: -45.95rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  border-style: solid;
+  border-color:#590306;
+  display:flex;
+ }
+
+ li::marker{
+  color:#232526;
+}
+
+ .imagen-actividad{
+  width: 90%;
+  height: 10rem;
+  margin: 1rem;
  }
 
  .listado_portadas_favoritos{
-  margin-left: 2rem;
-  width: 180px;
+  margin-left: 19%;
+  width: 300px; /*XD*/
   margin-top: 2rem;
   margin-bottom: 3.5rem;
  }
@@ -1842,22 +1864,21 @@ font-family: var(--Fuenteprincipal);
  .mini-portada{
   background-color:#590306;
   margin-bottom: 2rem;
-  width: 150px;
+  width: 300px;
  }
 
  .nombre-mini-portada{
   color:white;
-  font-size: 1.1rem;
-  margin-left: 0.3rem;
+  font-size: 1.8rem;
+  margin-left: 1rem;
   text-decoration: none;
  }
 
 
  .mini-portada img{
-  width: 150px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
  }
-
 
 
 
