@@ -37,9 +37,9 @@
       <nav class="navbar">
          <div class="contenedor-perfil">
             <picture>
-               <img src="/Proyecto-Musicbox/iconos/zeppelin.jpg" class="imagen-perfil">
+               <img v-bind:src="avatar" class="imagen-perfil">
             </picture>
-            <h2 class="h2-nombre">gabo.alvarez</h2>
+            <h2 class="h2-nombre">{{nombreUsuario}}</h2>
          </div>
          <button aria-label="setting" class="boton__tuerca" id="btn-abrir-modal">
             <box-icon type='solid'   name='cog' size="md"></box-icon>
@@ -52,10 +52,10 @@
                <form>
                   <h1 id="title">Editar perfil</h1>
                   <h2 id="atributo-perfil">Usuario</h2>
-                  <input type="text" placeholder="Nombre de usuario actual" id="input-usuario">
+                  <input type="text" v-bind:value="nombreUsuario" id="input-usuario">
                   <h2 id="atributo-perfil">Avatar actual</h2>
                   <div class="contenedor-imagen">
-                     <img src="/Proyecto-Musicbox/iconos/zeppelin.jpg" alt="zeppelin" class="imagen-modal"> 
+                     <img v-bind:src="avatar" alt="zeppelin" class="imagen-modal"> 
                   </div>
                   <input type="file" id="seleccionar-foto-perfil" name="seleccionar-foto-perfil">
                   
@@ -86,18 +86,11 @@
                <i class="bx bx-chevron-left"></i>
                </button>
                <div class="inner-slider">
-                  <div class="slider-item">
-                     <img src="/Proyecto-Musicbox/perfil/album-modificado/adele.png" alt="...">
-                  </div>
-                  <div class="slider-item">
-                     <img src="/Proyecto-Musicbox/perfil/album-modificado/Cerati.png" alt="...">
-                  </div>
-                  <div class="slider-item">
-                     <img src="/Proyecto-Musicbox/perfil/album-modificado/Queen.png" alt="...">
-                  </div>
-                  <div class="slider-item">
-                     <img src="/Proyecto-Musicbox/perfil/album-modificado/The Beatles.png" alt="...">
-                  </div>
+                  <li v-for="artistaFav in artistasFavoritos">
+                     <div class="slider-item">
+                        <img v-bind:src="artistaFav.nombreArtistaArchivo" alt="...">
+                     </div>
+                  </li>
                </div>
                <button class="slider-next">
                <i class="bx bx-chevron-right"></i>
@@ -143,11 +136,11 @@
          <h3 class="Footer-h3">Todos los derechos reservados</h3>
       </footer>
       <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-      <script src="/Proyecto-Musicbox/menu.js"></script>
-      <script src="/Proyecto-Musicbox/perfil/app.js"></script>
-      <script src="perfil.js"></script>
       <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
       <script src="VUE-PERFIL.js"></script>
+      <script src="/Proyecto-Musicbox/menu.js"></script>
+      <script src="app.js"></script>
+      <script src="perfil.js"></script>
    </body>
 </html>
 </html>

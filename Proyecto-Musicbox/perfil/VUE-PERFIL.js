@@ -3,9 +3,14 @@ createApp({
  data() {
  return {
     nombreUsuario: 'gabo_alvarez',
+    avatar: "/Proyecto-Musicbox/iconos/zeppelin.jpg",
+    passwordActual:"hola",
     artistasFavoritos:[
         {nombre:"adele",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/adele.png"},
         {nombre:"soda_stereo",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/Cerati.png"},
+        {nombre:"queen",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/Queen.png"},
+        {nombre:"queen",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/Queen.png"},
+        {nombre:"queen",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/Queen.png"},
         {nombre:"queen",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/Queen.png"},
         {nombre:"the_beatles",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/The Beatles.png"}
     ],
