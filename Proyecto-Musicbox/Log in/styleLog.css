@@ -136,6 +136,7 @@ background-color: var(--ColorPrincipal);
 }
 /*Contraseña*/
 
+
 .form-boton input {
 margin-top: 5rem;
 margin-left: 21rem;
@@ -150,10 +151,49 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
+}
+
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
 }
 
 
@@ -269,12 +309,50 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
 }
 
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
+}
 
 
 
@@ -390,12 +468,50 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
 }
 
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
+}
 
 
 
@@ -507,13 +623,50 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
 }
 
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
 
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
+}
 
 
 
@@ -625,10 +778,49 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
+}
+
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
 }
 
 
@@ -751,10 +943,49 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
+}
+
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
 }
 
 
@@ -852,6 +1083,10 @@ background-color: var(--ColorPrincipal);
 .botons {
   display: inline-flex;
 }
+
+
+
+  
 .form-boton input {
 margin-top: 5rem;
 margin-left: 9rem;
@@ -873,8 +1108,26 @@ font-size: 2rem;
   transition: .2s;
 }
 
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
 
-
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
+}
 
 
 
@@ -983,10 +1236,49 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
+}
+
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
 }
 
 
@@ -1106,26 +1398,57 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
 }
 
-
-
-
-
-
-.form-termsAndConditions label:before {
-content: "";
-width: 13px;
-height: 13px;
-border: 2px solid black;
-position: absolute;
-left: -14px;
-top: 3.2px;
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
 }
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
+}
+
+
+
+
+
+
+
 /*----------------Nuevo-----*--*/
     .contenedor-grid {
         
@@ -1232,11 +1555,51 @@ font-size: 2rem;
   cursor: pointer;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
 }
+
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
+}
+
 
 
 /*----------------Nuevo-----*--*/
@@ -1345,11 +1708,49 @@ font-size: 2rem;
   color:rgb(255, 255, 255);
   cursor: pointer;
 }
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
 
 .form-boton:active {
   transform: scale(0.9);
   font-size: 1.7rem;
   transition: .2s;
+}
+
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
 }
 
 
@@ -1465,10 +1866,49 @@ font-size: 2rem;
           cursor: pointer;
         }
         
-      .form-boton:active {
+        .botons {
+          display: inline-flex;
+        }
+        .form-boton input {
+        margin-top: 5rem;
+        margin-left: 9rem;
+        font-size: 2rem;
+          border: solid;
+          border-radius: 0.7rem;
+          width: 15rem;
+          font-size: 1.9rem;
+          background-color: var(--ColorPrincipal);
+          border-color: red;
+          color:rgb(255, 255, 255);
+          cursor: pointer;
+        }
+        
+        
+        .form-boton:active {
           transform: scale(0.9);
           font-size: 1.7rem;
           transition: .2s;
+        }
+        
+        .boton-registrarse {
+        margin-left: 9rem;
+        margin-top: 5rem;
+        font-size: 2rem;
+          border: solid;
+          border-radius: 0.7rem;
+          width: 15rem;
+          font-size: 1.9rem;
+          background-color: var(--ColorPrincipal);
+          border-color: red;
+          color:rgb(255, 255, 255);
+          cursor: pointer;
+          text-decoration: none;
+          
+        }
+        
+        .boton-registrarse a {
+          text-decoration: none;
+          color: var(--ColorBlanco);
         }
         
       
@@ -1589,14 +2029,51 @@ font-size: 2rem;
           cursor: pointer;
         }
         
-      .form-boton:active {
+        .botons {
+          display: inline-flex;
+        }
+        .form-boton input {
+        margin-top: 5rem;
+        margin-left: 9rem;
+        font-size: 2rem;
+          border: solid;
+          border-radius: 0.7rem;
+          width: 15rem;
+          font-size: 1.9rem;
+          background-color: var(--ColorPrincipal);
+          border-color: red;
+          color:rgb(255, 255, 255);
+          cursor: pointer;
+        }
+        
+        
+        .form-boton:active {
           transform: scale(0.9);
           font-size: 1.7rem;
           transition: .2s;
         }
         
-      
-      
+        .boton-registrarse {
+        margin-left: 9rem;
+        margin-top: 5rem;
+        font-size: 2rem;
+          border: solid;
+          border-radius: 0.7rem;
+          width: 15rem;
+          font-size: 1.9rem;
+          background-color: var(--ColorPrincipal);
+          border-color: red;
+          color:rgb(255, 255, 255);
+          cursor: pointer;
+          text-decoration: none;
+          
+        }
+        
+        .boton-registrarse a {
+          text-decoration: none;
+          color: var(--ColorBlanco);
+        }
+        
       
       
       
@@ -1716,7 +2193,44 @@ font-size: 2rem;
     }
     
   
-  
+    .botons {
+      display: inline-flex;
+    }
+    .form-boton input {
+    margin-top: 5rem;
+    margin-left: 9rem;
+    font-size: 2rem;
+      border: solid;
+      border-radius: 0.7rem;
+      width: 15rem;
+      font-size: 1.9rem;
+      background-color: var(--ColorPrincipal);
+      border-color: red;
+      color:rgb(255, 255, 255);
+      cursor: pointer;
+    }
+    
+    .boton-registrarse {
+    margin-left: 9rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+      border: solid;
+      border-radius: 0.7rem;
+      width: 15rem;
+      font-size: 1.9rem;
+      background-color: var(--ColorPrincipal);
+      border-color: red;
+      color:rgb(255, 255, 255);
+      cursor: pointer;
+      text-decoration: none;
+      
+    }
+    
+    .boton-registrarse a {
+      text-decoration: none;
+      color: var(--ColorBlanco);
+    }
+    
   
   
   
@@ -1832,7 +2346,45 @@ font-size: 2rem;
           transition: .2s;
         }
         
-      
+        .botons {
+          display: inline-flex;
+        }
+        .form-boton input {
+        margin-top: 5rem;
+        margin-left: 9rem;
+        font-size: 2rem;
+          border: solid;
+          border-radius: 0.7rem;
+          width: 15rem;
+          font-size: 1.9rem;
+          background-color: var(--ColorPrincipal);
+          border-color: red;
+          color:rgb(255, 255, 255);
+          cursor: pointer;
+        }
+        
+        
+        .boton-registrarse {
+        margin-left: 9rem;
+        margin-top: 5rem;
+        font-size: 2rem;
+          border: solid;
+          border-radius: 0.7rem;
+          width: 15rem;
+          font-size: 1.9rem;
+          background-color: var(--ColorPrincipal);
+          border-color: red;
+          color:rgb(255, 255, 255);
+          cursor: pointer;
+          text-decoration: none;
+          
+        }
+        
+        .boton-registrarse a {
+          text-decoration: none;
+          color: var(--ColorBlanco);
+        }
+        
       
       
       
@@ -1969,7 +2521,51 @@ font-size: 2rem;
         
         
         
-        
+          .botons {
+            display: inline-flex;
+          }
+          .form-boton input {
+          margin-top: 5rem;
+          margin-left: 9rem;
+          font-size: 2rem;
+            border: solid;
+            border-radius: 0.7rem;
+            width: 15rem;
+            font-size: 1.9rem;
+            background-color: var(--ColorPrincipal);
+            border-color: red;
+            color:rgb(255, 255, 255);
+            cursor: pointer;
+          }
+          
+          
+          .form-boton:active {
+            transform: scale(0.9);
+            font-size: 1.7rem;
+            transition: .2s;
+          }
+          
+          .boton-registrarse {
+          margin-left: 9rem;
+          margin-top: 5rem;
+          font-size: 2rem;
+            border: solid;
+            border-radius: 0.7rem;
+            width: 15rem;
+            font-size: 1.9rem;
+            background-color: var(--ColorPrincipal);
+            border-color: red;
+            color:rgb(255, 255, 255);
+            cursor: pointer;
+            text-decoration: none;
+            
+          }
+          
+          .boton-registrarse a {
+            text-decoration: none;
+            color: var(--ColorBlanco);
+          }
+          
         
         
    
@@ -2067,13 +2663,6 @@ background-color: var(--ColorPrincipal);
 }
 /*Contraseña*/
 
-.repeatContraseña {
-font-size: 3rem;
-margin-top: 7rem;
-position: relative;
-color: var(--ColorBlanco);
-}
-
 .form-boton input {
 margin-top: 5rem;
 margin-left: 21rem;
@@ -2094,6 +2683,50 @@ font-size: 2rem;
   transition: .2s;
 }
 
+.botons {
+  display: inline-flex;
+}
+.form-boton input {
+margin-top: 5rem;
+margin-left: 9rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+.form-boton:active {
+  transform: scale(0.9);
+  font-size: 1.7rem;
+  transition: .2s;
+}
+
+.boton-registrarse {
+margin-left: 9rem;
+margin-top: 5rem;
+font-size: 2rem;
+  border: solid;
+  border-radius: 0.7rem;
+  width: 15rem;
+  font-size: 1.9rem;
+  background-color: var(--ColorPrincipal);
+  border-color: red;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton-registrarse a {
+  text-decoration: none;
+  color: var(--ColorBlanco);
+}
 
 
 
