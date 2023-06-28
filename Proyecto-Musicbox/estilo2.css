@@ -49,6 +49,20 @@ body {
   color: aqua;
   text-align: center;
 }
+
+.formulario-1 {
+   display: inline-flex;
+   gap: 24rem;
+}
+
+.btn-contacto{
+ 
+  margin-left: 10%;
+ 
+}
+
+
+
 @media (min-width: 1224px) {
   .btn-contacto{
     background-color: #88898946;
@@ -381,6 +395,16 @@ body {
       font-size: 1.7rem;
       font-family: var(--Fuenteprincipal);
  }
+ .formulario__campo-1 {
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: white;
+  width: 20rem;
+  font-size: 1.7rem;
+  font-family: var(--Fuenteprincipal);
+}
  /**H2 - H3**/
   #H2 {
       color: var(--ColorBlanco);
@@ -2098,7 +2122,7 @@ button:active {
       gap: 2rem;
  }
   .formulario-1{
-      background-color: black;
+      /* background-color: black; */
  }
   .input-contenedor-1 {
       border: solid;
