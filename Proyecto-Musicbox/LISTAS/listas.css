@@ -59,6 +59,10 @@
   color: aqua;
   text-align: center;
   }
+
+  li::marker{
+    color:#232526;
+  }
   
   
 
@@ -1579,8 +1583,8 @@ font-family: var(--Fuenteprincipal);
             .imagen-1 {
               border: solid;
               border-color:yellow;
-              height: 23rem;
-              width: 27rem;
+              height: 20rem;
+              width: 26rem;
               margin-left: 2.5rem;
          
             }

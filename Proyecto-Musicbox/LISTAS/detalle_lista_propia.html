@@ -38,48 +38,35 @@
     
     <nav class="navbar"><nav class="inputs-nav">
         <div class="barra">
-            <div class="titulo_pagina_navbar">Rock de los 70s</div>
+            <div class="titulo_pagina_navbar">{{nombreLista}}</div>
         </div>
         <div class="barra_boton_nueva_lista">
             <button class="btn" id="btn-abrir-modal">Editar lista</button>
         </div>
     </nav></nav>
     <dialog  id="modal">
-        <!-- 
-        <div class="lista-albums">
-            <div class="opcion-album">
-                <input type="checkbox" name="Album" id="Album">
-                <label for="Album" class="nombre-album">Album</label>
-            </div>
-        -->
+
         <div class="container-1">
             <form>
-              <h2 id="sub-title">Nombre de la nueva Lista</h2>
-                <input id="input-1" type="text" placeholder="Ingresar nombre" required>
+              <h2 id="sub-title">Nombre de la Lista</h2>
+                <input id="input-1" type="text" v-bind:value="nombreLista">
                 <h2 id="sub-title">Descripcion</h2>
-                <textarea id="descripcion-review" name="descripcion-review" rows="3" cols="30"></textarea>
+                <textarea id="descripcion-review" name="descripcion-review" rows="3" cols="30" v-bind:value="descripcion"></textarea>
                 <h2 id="sub-title">Albumes pertenecientes:</h2>
                 <div class="lista-albums">
-                    <div class="opcion-album">
-                        <input type="checkbox" name="Album" id="Album">
-                        <label for="Album" class="nombre-album">Album</label>
-                    </div>
-                    <div class="opcion-album">
-                        <input type="checkbox" name="Album" id="Album">
-                        <label for="Album" class="nombre-album">Album</label>
-                    </div>
-                    <div class="opcion-album">
-                        <input type="checkbox" name="Album" id="Album">
-                        <label for="Album" class="nombre-album">Album</label>
-                    </div>
-                    <div class="opcion-album">
-                        <input type="checkbox" name="Album" id="Album">
-                        <label for="Album" class="nombre-album">Album</label>
-                    </div>
+                    <li v-for="album in albumes">
+
+                        <div class="opcion-album">
+                            <input type="checkbox" name="Album" id="Album" checked>
+                            <label for="Album" class="nombre-album">{{album.nombreAlbum}}</label>
+                        </div>
+        
+                    </li>
+
                 </div>
                 
                 <div class="guardado-albums">
-                    <button id="guardar-detalle-album">Crear</button>
+                    <button id="guardar-detalle-album">Guardar</button>
                 </div>
                 <div class="cerrar-albums">
                     <button id="cerrar-detalle-album">Cerrar</button>
@@ -96,41 +83,27 @@
     <main class="main">
         <p class="descripcion_lista">"Esta lista contiene las verdaderas canciones del rock"</p>
         <div class="contenedor-main">
-            
-            <div class="caja2">
-                <section>
-                    <a href="ACA_VA_ALBUM_DETALLE"><i class="Listas-i"><img class="imagen-icono-editado-new-1" src="/Proyecto-Musicbox/albums/The_Wall.png"></i></a>
-                    <h3 id="h3-2">The Wall</h3>
-                </section>
-            </div>
+            <li v-for="album in albumes">
 
+                <div class="caja2">
+                    <section>
+                        <a v-bind:href="album.refAlbum"><i class="Listas-i"><img class="imagen-icono-editado-new-1" v-bind:src="album.nombreArchivoAlbum"></i></a>
+                        <h3 id="h3-2">{{album.nombreAlbum}}</h3>
+                    </section>
+                </div>
 
-            <div class="caja2">
-                <section>
-                    <a href="/Proyecto-Musicbox/detalle_album/detalle_album.html"><img  class="imagen-icono-editado-new-1" src="/Proyecto-Musicbox/albums/Animals.png" alt=""></a>
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-
-            <div class="caja2">
-                <section>
-                    <a href="/Proyecto-Musicbox/detalle_album/detalle_album.html"><img class="imagen-icono-editado-new-1" src="/Proyecto-Musicbox/albums/Animals.png" alt=""></a>
-                    <h3 id="h3-2">Animals</h3>
-                </section>
-            </div>
-
-            <div class="caja2">
-                <section>
-                    <a href="ACA_VA_ALBUM_DETALLE"><img src="/Proyecto-Musicbox/albums/triangulo.png" alt="" class="imagen-icono-editado-new-4"></a>
-                    <h3 id="h3-2">The Dark Side of the Moon</h3>        
-                </section>
-            </div>
-
-
-
-</div>
+            </li>
+            <span v-if="cantAlbumes==0">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </span>
+        </div>
+        
     </main>
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="VUE-DETALLE_LISTA_PROPIA.js"></script>
     <script src="/Proyecto-Musicbox/menu.js"></script>
     <script src="/Proyecto-Musicbox/LISTAS/modal.js"></script>
 </body>
