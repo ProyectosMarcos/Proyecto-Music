@@ -23,6 +23,24 @@
     box-sizing: inherit;
   }
   
+
+  .formulario-1 {
+    display: inline-flex;
+    gap: 24rem;
+ }
+ 
+ .btn-contacto{
+   margin-left: 10%;
+ }
+ #botonValidar {
+  padding: 0.2rem;
+ font-size: 1.4rem;
+ font-family: var(--Fuenteprincipal);
+ background-color: black;
+ color: var(--ColorBlanco);
+ cursor: pointer;
+}
+
   .contenedor-grid > * {
   
     padding: 1rem;
@@ -3030,9 +3048,9 @@ font-family: var(--Fuenteprincipal);
         gap: 2rem;
       }
       
-      .formulario-1{
+      /* .formulario-1{
         background-color: black;
-      }
+      } */
 
       .input-contenedor-1 {
       border: solid;

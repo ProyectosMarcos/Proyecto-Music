@@ -37,13 +37,33 @@
     </header>
     <nav class="navbar"><nav class="inputs-nav">
             <div class="barra">
-        <div class="input-contenedor-1">
+                <form action="" class="formulario-1">
+                    <div>
+                     <input class="formulario__campo-1" type="text" placeholder="Ingrese texto para buscar" required style="cursor: pointer;">
+                     </div>
+                     <div>
+                     <select class="formulario__campo-2" id="selectorOption" name="selectorOption" required style="cursor: pointer;">
+                        <option value="0" disabled selected>Tipo busqueda</option>
+                        <option value="1">HHHH</option>
+                        <option value="2">EEEE</option>
+                        <option value="3">AAAA</option>
+                        <input type="button" onclick="validarSelectorBusqueda();" value="confirmar"  id="botonValidar">
+                     </select>
+                     </div>
+                      <div class="barra_boton_nueva_lista">
+                     <button class="btn" id="btn-abrir-modal">Buscar</button>
+                  </div>
+                  </form>
+        
+        
+        
+        
+        
+                <!-- <div class="input-contenedor-1">
                 <form class="formulario-1">
         <input class="formulario__campo-1" type="text" placeholder="Ingrese texto para buscar">
     </form>
     </div>
-    
-    
     
     <div class="input-contenedor-2">
         <form class="formulario-2">
@@ -58,7 +78,7 @@
 
     <div class="barra_boton_nueva_lista">
         <button class="btn" id="">Buscar</button>
-    </div>
+    </div> -->
 
 
 
@@ -91,6 +111,7 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="VUE-REVIEWS.js"></script>
     <script src="menu.js"></script>
+    <script src="/Proyecto-Musicbox/form-index.js"></script>
     <script src ="/Proyecto-Musicbox/detalle_album/modal.js"></script>
 </body>
 </html>
