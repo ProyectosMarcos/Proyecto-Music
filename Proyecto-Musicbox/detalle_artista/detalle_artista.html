@@ -68,18 +68,18 @@
     </nav>
     </nav>
     <main class="main">
-        <p class="titulo_album">Freddie Mercury</p>
-        <img src="/Proyecto-Musicbox/albums/Animals.png" alt=""class="portada-album" >
+        <p class="titulo_album">{{nombre}}</p>
+        <img v-bind:src="imagen" alt=""class="portada-album" >
         <div class="datos-album">
             <p class="caracteristica">
-                Freddie Mercury (nacido como Farrokh Bulsara;2​3​ Stone Town, Ciudad de Zanzíbar, actual Tanzania, 5 de septiembre de 1946-Kensington, Londres, 24 de noviembre de 1991) fue un cantante y compositor británico que alcanzó fama mundial por ser el vocalista principal y pianista de la banda de rock Queen. Siendo intérprete, ha sido reconocido por su poderosa voz y extravagantes puestas en escena.4​5​6​ Como compositor, escribió muchos de los éxitos de Queen, tales como «Killer Queen», «Bohemian Rhapsody», «Somebody to Love», «We Are the Champions», «Don't Stop Me Now», «Crazy Little Thing Called Love», «It's a Hard Life» o «Innuendo». Además de la actividad con la banda, en los años ochenta lanzó su carrera como solista que lo llevó a publicar dos álbumes: Mr. Bad Guy (1985) y Barcelona (1988), este último en colaboración con la soprano española Montserrat Caballé. El sencillo homónimo, una colaboración entre ambos, fue la canción oficial de los Juegos Olímpicos de Barcelona 1992.7​
-                Falleció por una bronconeumonía, derivada de complicaciones del sida, el 24 de noviembre de 1991, un día después de comunicar oficialmente que padecía esta enfermedad. En 2006, la revista Time Asia lo nombró como uno de los héroes asiáticos más influyentes de los últimos sesenta años.8​ En 2005, en una encuesta organizada por Blender y MTV2, fue nombrado el mejor cantante masculino de todos los tiempos.9​ En 2008, la revista estadounidense Rolling Stone lo colocó en el puesto 18 en su lista de los cien mejores cantantes de todos los tiempos.10​5​ Mientras que Classic Rock, al año siguiente, lo consideró el mejor cantante de rock de la historia.11​ Por su parte, Allmusic definió a Mercury como «uno de los líderes más carismáticos y dinámicos en la historia del rock».            </p>
+                {{biografia}}
             <p class="caracteristica">Albumes:</p>
             <ul class="listado-canciones">
-                <li>Mr. Bad Guy</li>
-                <li>Barcelona</li>
+                <li v-for="album in albumes">
+                    {{album}}
+                </li>
             </ul>
-            <a class="link_album" href="https://es.wikipedia.org/wiki/Animals_(%C3%A1lbum)">+ info</a>
+            <a class="link_album" v-bind:href="ref">+ info</a>
         </div>
         <div class="boton-puntuacion-album">
             <button class="boton-puntuar" id="btn-abrir-modal">Favorito</button>
@@ -100,10 +100,12 @@
                         <p class="atributo-puntuacion">¿Queres que este artista sea de tus favoritos?</p>
                         
                         <div class="guardado-albums">
-                            <button id="guardar-detalle-album">Añadir</button>
-                            <!--
+                            <span v-if="esFav==0">
                                 <button id="guardar-detalle-album">Quitar</button>
-                            -->
+                            </span>
+                            <span v-if="esFav==1">
+                                <button id="guardar-detalle-album">Añadir</button>
+                            </span>
                         </div>
                         <div class="cerrar-albums">
                             <button id="cerrar-detalle-album">Cerrar</button>
@@ -115,6 +117,8 @@
         
     </main>
     <footer class="footer"><h3 class="Footer-h3">Todos los derechos reservados</h3></footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="VUE-ARTISTA.js"></script>
     <script src="menu.js"></script>
     <script src ="/Proyecto-Musicbox/detalle_album/modal.js"></script>
 </body>
