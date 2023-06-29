@@ -80,48 +80,67 @@
       </nav>
       <main class="main">
          <h2 id="H2">Artistas Favoritos</h2>
-         <div class="cont-imagenes">
-            <div class="slider">
-               <button class="slider-prev">
-               <i class="bx bx-chevron-left"></i>
-               </button>
-               <div class="inner-slider">
-                  <li v-for="artistaFav in artistasFavoritos">
-                     <div class="slider-item">
-                        <img v-bind:src="artistaFav.nombreArtistaArchivo" alt="...">
-                     </div>
-                  </li>
+         <span v-if="cantArtistasFavoritos>=1">
+            <div class="cont-imagenes">
+               <div class="slider">
+                  <button class="slider-prev">
+                  <i class="bx bx-chevron-left"></i>
+                  </button>
+                  <div class="inner-slider">
+                     <li v-for="artistaFav in artistasFavoritos">
+                        <div class="slider-item">
+                           <img v-bind:src="artistaFav.nombreArtistaArchivo" alt="...">
+                        </div>
+                     </li>
+                  </div>
+                  <button class="slider-next">
+                  <i class="bx bx-chevron-right"></i>
+                  </button>
                </div>
-               <button class="slider-next">
-               <i class="bx bx-chevron-right"></i>
-               </button>
             </div>
-         </div>
+         </span>
+         <span v-if="cantArtistasFavoritos==0">
+            <h2 id="Aviso">Aun no seleccionaste artistas favoritos!</h2>
+            <br><br><br><br><br><br><br>
+         </span>
+            
          
          
          <h2 id="H2">Actividad reciente</h2>
          <!-- SOLO MOSTRAR 5, SON LOS 5 MAS RECIENTES -->
-         <div class="actividad_reciente">
-            <li v-for="albumFav in actividadReciente">
-               <img v-bind:src="albumFav.nombreAlbumArchivo" class="imagen-actividad">
-            </li>
-                      
-         </div>
-         
+         <span v-if="cantActividadReciente==0">
+            <h2 id="Aviso">Aun no tenes actividad reciente!</h2>
+            <br><br><br><br><br><br><br>
+         </span>
+         <span v-if="cantActividadReciente>=1">
+            <div class="actividad_reciente">
+               <li v-for="albumFav in actividadReciente">
+                  <img v-bind:src="albumFav.nombreAlbumArchivo" class="imagen-actividad">
+               </li>       
+            </div>
+         </span>
          
          
          
          
          
          <h2 id="H2">Mis albums favoritos</h2>
-         <div class="listado_portadas_favoritos">
-            <li v-for="albumFav in albumesFavoritos">
-               <div class="mini-portada">
-                  <img v-bind:src="albumFav.nombreAlbumArchivo" alt="...">
-                  <a href="www.google.com" class="nombre-mini-portada">{{albumFav.nombre}}</a>
-               </div>
-            </li>
-         </div>
+         <span v-if="cantAlbumesFavoritos==0">
+            <h2 id="Aviso">Aun no tenes albumes favoritos!</h2>
+            <br><br><br><br><br><br><br>
+         </span>
+         <span v-if="cantAlbumesFavoritos>=1">
+            <div class="listado_portadas_favoritos">
+               <li v-for="albumFav in albumesFavoritos">
+                  <div class="mini-portada">
+                     <img v-bind:src="albumFav.nombreAlbumArchivo" alt="...">
+                     <a href="www.google.com" class="nombre-mini-portada">{{albumFav.nombre}}</a>
+                  </div>
+               </li>
+            </div>
+         </span>
+         
+         
 
 
 

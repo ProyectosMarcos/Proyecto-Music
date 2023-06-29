@@ -63,6 +63,13 @@
  
   
   @media (min-width: 1223px) {
+    #Aviso{
+      margin-top: 0.5rem;
+      font-size: 3rem;
+      color:rgb(104, 104, 104);
+      margin-left: 33%;
+    }
+    
     #H2 {
       margin-top: 0.5rem;
       font-size: 3rem;
@@ -739,7 +746,12 @@ cursor: pointer;
 
 
 
-
+ #Aviso{
+  margin-top: 0.5rem;
+  font-size: 3rem;
+  color:rgb(104, 104, 104);
+  margin-left: 15%;
+}
 
  #H2 {
   margin-top: 0.5rem;
@@ -1704,7 +1716,8 @@ font-family: var(--Fuenteprincipal);
       grid-area: footer;
       background-color: var(--ColorPrincipal);
  }
-  #H2 {
+ 
+ #H2 {
       color: var(--ColorBlanco);
       margin-left: 40%;
       margin-bottom: 2rem;
@@ -1822,7 +1835,12 @@ font-family: var(--Fuenteprincipal);
 
 
 
-
+ #Aviso{
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  color:rgb(104, 104, 104);
+  margin-left: 10%;
+}
 
 
  #H2 {
