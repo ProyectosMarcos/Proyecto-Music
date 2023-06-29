@@ -239,7 +239,7 @@
     
     .boton-puntuacion-album{
       margin-top: 5rem;
-      margin-left: 55%;
+      margin-left: 40%;
     }
     .boton-agregar-lista{
       margin-top: 2rem;
@@ -258,8 +258,8 @@
     .datos-album{
       color:white;
       font-size: 2.7rem;
-      margin-left: 62rem;
-      margin-top: -35.8rem;
+      margin-left: 5rem;
+      margin-top: 0rem;
     }
     .listado-canciones{
       color:darkgoldenrod;
@@ -281,14 +281,14 @@
     .portada-album{
       width: 45rem;
       height: 35rem;
-      margin-left: 5rem;
+      margin-left: 30%;
       margin-top: 5rem;
     }
     
     .titulo_album{
       color:white;
       font-size: 5rem;
-      margin-left:43%;
+      margin-left:33%;
     }
     .banda_album{
       color:white;
@@ -716,7 +716,7 @@ button:active {
   
   .boton-puntuacion-album{
     margin-top: 5rem;
-    margin-left: 65%;
+    margin-left: 40%;
     color:white;
   }
   .boton-agregar-lista{
@@ -737,8 +737,8 @@ button:active {
   .datos-album{
     color:white;
     font-size: 2.7rem;
-    margin-left: 62rem;
-    margin-top: -35.8rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
   }
   .listado-canciones{
     color:darkgoldenrod;
@@ -761,14 +761,14 @@ button:active {
   .portada-album{
     width: 45rem;
     height: 35rem;
-    margin-left: 5rem;
+    margin-left: 30%;
     margin-top: 5rem;
   }
   
   .titulo_album{
     color:white;
     font-size: 5rem;
-    margin-left:43%;
+    margin-left:33%;
   }
   .banda_album{
     color:white;
@@ -1025,7 +1025,7 @@ font-family: var(--Fuenteprincipal);
     .caracteristica{
       margin-top: 1rem;
       margin-right: 10%;
-      color:white;
+      color:rgb(255, 255, 255);
       font-size: 2rem;
     }
     .link_album{
@@ -1037,7 +1037,7 @@ font-family: var(--Fuenteprincipal);
     .portada-album{
       width: 45rem;
       height: 35rem;
-      margin-left: 5rem;
+      margin-left: 30%;
       margin-top: 5rem;
     }
     
@@ -1484,14 +1484,14 @@ textarea{
   .portada-album{
     width: 35rem;
     height: 25rem;
-    margin-left: 5rem;
+    margin-left: 20%;
     margin-top: 5rem;
   }
   
   .titulo_album{
     color:white;
     font-size: 5rem;
-    margin-left:15%;
+    margin-left:10%;
   }
   .banda_album{
     color:white;

@@ -71,20 +71,16 @@
         <div class="contenedor-main">
              <div class="contenedor-main">
                 <li v-for="lista in listas">
-
                     <div class="caja-1">
                         <a class="titulo_lista-2" v-bind:href="lista.refLista">{{lista.nombreLista}}</a>
-                        <section class="section-album"> 
-                            <!-- SE DEBEN MOSTRAR HASTA 4 ALBUMES POR LISTA, NO MAS, DESPUES CONFIGURARLO
-                            PARA QUE MUESTREN LOS ULTIMOS 4 DISCOS AGREGADOS -->
-                            <li v-for="album in lista.listadoAlbumes">
-                                <div id="album" class="imagen-"><img v-bind:src="album.nombreAlbum" alt="" class="imagen-1"></div>
-                            </li>
-
-                        </section>
+                        <br><br>
+                        <div class="contenedor-imagen" v-for="album in lista.listadoAlbumes">
+                            <img v-bind:src="album" alt="" class="imagen-1">
+                        </div>
                     </div>
-
                 </li>
+
+                
                 <span v-if="cantListas==0">
                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                     <br><br><br><br><br><br><br><br><br><br>

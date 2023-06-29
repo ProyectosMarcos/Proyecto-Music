@@ -8,6 +8,7 @@ createApp({
     cantArtistasFavoritos: 1,
     cantAlbumesFavoritos: 1,
     cantActividadReciente: 1,
+    loSigo:0, // 1: SI, 0: NO
     artistasFavoritos:[
         {nombre:"the_beatles",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/The Beatles.png"},
         {nombre:"the_beatles",nombreArtistaArchivo:"/Proyecto-Musicbox/perfil/album-modificado/The Beatles.png"},
@@ -23,11 +24,11 @@ createApp({
         {nombre:"The Dark Side of The Moon5",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"}
     ],
     actividadReciente:[
-        {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
-        {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
-        {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
-        {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"},
-        {nombre:"The Dark Side of The Moon",nombreAlbumArchivo:"/Proyecto-Musicbox/albums/triangulo.png"}
+        {nombre:"Playlist",nombreAlbumArchivo:"/Proyecto-Musicbox/iconos/album-de-musica.png"},
+        {nombre:"Playlist",nombreAlbumArchivo:"/Proyecto-Musicbox/iconos/album-de-musica.png"},
+        {nombre:"Playlist",nombreAlbumArchivo:"/Proyecto-Musicbox/iconos/album-de-musica.png"},
+        {nombre:"Playlist",nombreAlbumArchivo:"/Proyecto-Musicbox/iconos/album-de-musica.png"},
+        {nombre:"Playlist",nombreAlbumArchivo:"/Proyecto-Musicbox/iconos/album-de-musica.png"}
     ]
     }
  }
