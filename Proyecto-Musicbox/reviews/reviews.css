@@ -26,18 +26,18 @@
   .formulario-1 {
     display: inline-flex;
     gap: 24rem;
- }
- 
- .btn-contacto{
-   margin-left: 10%;
- }
- #botonValidar {
+}
+
+.btn-contacto{
+margin-left: 10%;
+}
+#botonValidar {
   padding: 0.2rem;
- font-size: 1.4rem;
- font-family: var(--Fuenteprincipal);
- background-color: black;
- color: var(--ColorBlanco);
- cursor: pointer;
+  font-size: 1.4rem;
+  font-family: var(--Fuenteprincipal);
+  background-color: black;
+  color: var(--ColorBlanco);
+  cursor: pointer;
 }
 
 
