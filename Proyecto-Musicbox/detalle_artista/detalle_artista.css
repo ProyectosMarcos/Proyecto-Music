@@ -24,22 +24,7 @@
   }
   
 
-  .formulario-1 {
-    display: inline-flex;
-    gap: 24rem;
- }
- 
- .btn-contacto{
-   margin-left: 10%;
- }
- #botonValidar {
-  padding: 0.2rem;
- font-size: 1.4rem;
- font-family: var(--Fuenteprincipal);
- background-color: black;
- color: var(--ColorBlanco);
- cursor: pointer;
-}
+
 
 
   .contenedor-grid > * {
@@ -450,7 +435,7 @@
     padding-bottom: 2.5rem;
   }
   
-  .input-contenedor-2 {
+  /* .input-contenedor-2 {
     border: solid;
     width: auto;
    border-color:rgb(255, 255, 255);
@@ -465,7 +450,7 @@
   width: 20rem;
   font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
-  } 
+  }  */
 
 
   /**H2 - H3**/
@@ -806,7 +791,7 @@ button:active {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-.formulario__campo-2 {
+/* .formulario__campo-2 {
 margin: auto;
 font-size: 1.5rem;
 font-family: var(--Fuenteprincipal);
@@ -838,7 +823,7 @@ font-family: var(--Fuenteprincipal);
   width: auto;
  border-color:rgb(255, 255, 255);
  border-radius: 1rem;
-}
+} */
 }
   
   @media only screen and (min-width: 800px) and (max-width:1079px) {       
@@ -1136,7 +1121,7 @@ font-family: var(--Fuenteprincipal);
     border-radius: 5px;
     padding-bottom: 2.5rem;
   }
-.formulario__campo-2 {
+/* .formulario__campo-2 {
   margin: auto;
   font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
@@ -1162,7 +1147,7 @@ font-family: var(--Fuenteprincipal);
       }
 .formulario-1{
         background-color: black;
-      }
+      } */
 
   }
   
@@ -1395,7 +1380,7 @@ textarea{
     display: none;
 }
   
-  
+/*   
   
   .input-contenedor-2 {
     border: solid;
@@ -1412,7 +1397,7 @@ textarea{
   width: 20rem;
   font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
-  }
+  } */
   
   .barra_boton_nueva_lista .btn { 
     font-size: 20px;
@@ -1722,7 +1707,7 @@ textarea{
   }
     
    
-
+/* 
     .input-contenedor-2 {
       border: solid;
       width: auto;
@@ -1738,7 +1723,7 @@ textarea{
       width: 15rem;
       font-size: 1.7rem;
       font-family: var(--Fuenteprincipal);
-      } 
+      }  */
   }
 
   @media only screen and (min-width:600px) and (max-width:700px) {
@@ -1802,7 +1787,7 @@ textarea{
         cursor: pointer;
         }
     
-    .input-contenedor-2 {
+    /* .input-contenedor-2 {
       border: solid;
       width: auto;
      border-color:rgb(255, 255, 255);
@@ -1816,7 +1801,7 @@ textarea{
       color: white;
       width: 15rem;
       font-size: 1.7rem;
-      font-family: var(--Fuenteprincipal);
+      font-family: var(--Fuenteprincipal); */
       } 
   }
 
@@ -1944,7 +1929,7 @@ textarea{
         cursor: pointer;
         }
      */
-    .input-contenedor-2 {
+    /* .input-contenedor-2 {
       border: solid;
       width: auto;
      border-color:rgb(255, 255, 255);
@@ -1959,7 +1944,7 @@ textarea{
     width: 20rem;
     font-size: 1.7rem;
     font-family: var(--Fuenteprincipal);
-    }
+    } */
     
     button {
       background-color: black;
@@ -1977,7 +1962,7 @@ textarea{
        transform: scale(0.9);
      }
   
-     .input-contenedor-2 {
+     /* .input-contenedor-2 {
       border: solid;
       width: auto;
      border-color:rgb(255, 255, 255);
@@ -1992,7 +1977,7 @@ textarea{
       width: 15rem;
       font-size: 1.7rem;
       font-family: var(--Fuenteprincipal);
-      } 
+      }  */
     }
   
 
@@ -2082,7 +2067,7 @@ textarea{
         cursor: pointer;
         }
     
-    .input-contenedor-2 {
+    /* .input-contenedor-2 {
       border: solid;
       width: auto;
      border-color:rgb(255, 255, 255);
@@ -2097,7 +2082,7 @@ textarea{
     width: 20rem;
     font-size: 1.7rem;
     font-family: var(--Fuenteprincipal);
-    }
+    } */
 
     button {
   color: var(--ColorBlanco);
@@ -2115,7 +2100,7 @@ button:active {
   transform: scale(0.9);
 }
   
-.input-contenedor-2 {
+/* .input-contenedor-2 {
   border: solid;
   width: 18rem;
  border-color:rgb(255, 255, 255);
@@ -2132,7 +2117,7 @@ width: 9rem;
 height: 3rem;
 font-size: 1.5rem;
 font-family: var(--Fuenteprincipal);
-}
+} */
 
 }
 
@@ -2197,7 +2182,7 @@ font-family: var(--Fuenteprincipal);
       cursor: pointer;
       }
   
-  .input-contenedor-2 {
+  /* .input-contenedor-2 {
     border: solid;
     width: auto;
    border-color:rgb(255, 255, 255);
@@ -2212,7 +2197,7 @@ font-family: var(--Fuenteprincipal);
   width: 20rem;
   font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
-  }
+  } */
 
   button {
 color: var(--ColorBlanco);
@@ -2230,7 +2215,7 @@ button:active {
 transform: scale(0.9);
 }
 
-.input-contenedor-2 {
+/* .input-contenedor-2 {
 border: solid;
 width: 18rem;
 border-color:rgb(255, 255, 255);
@@ -2247,7 +2232,7 @@ width: 9rem;
 height: 3rem;
 font-size: 1.5rem;
 font-family: var(--Fuenteprincipal);
-}
+} */
 
 }
 
@@ -2328,7 +2313,7 @@ font-family: var(--Fuenteprincipal);
       cursor: pointer;
       }
   
-  .input-contenedor-2 {
+  /* .input-contenedor-2 {
     border: solid;
     width: auto;
    border-color:rgb(255, 255, 255);
@@ -2343,7 +2328,7 @@ font-family: var(--Fuenteprincipal);
   width: 20rem;
   font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
-  }
+  } */
 
   button {
 color: var(--ColorBlanco);
@@ -2361,7 +2346,7 @@ button:active {
 transform: scale(0.9);
 }
 
-.input-contenedor-2 {
+/* .input-contenedor-2 {
 border: solid;
 width: 18rem;
 border-color:rgb(255, 255, 255);
@@ -2378,7 +2363,7 @@ width: 9rem;
 height: 3rem;
 font-size: 1.5rem;
 font-family: var(--Fuenteprincipal);
-}
+} */
 
 }
 
@@ -2460,7 +2445,7 @@ font-family: var(--Fuenteprincipal);
       cursor: pointer;
       }
   
-  .input-contenedor-2 {
+  /* .input-contenedor-2 {
     border: solid;
     width: auto;
    border-color:rgb(255, 255, 255);
@@ -2475,7 +2460,7 @@ font-family: var(--Fuenteprincipal);
   width: 20rem;
   font-size: 1.7rem;
   font-family: var(--Fuenteprincipal);
-  }
+  } */
 
   button {
 color: var(--ColorBlanco);
@@ -2493,14 +2478,14 @@ button:active {
 transform: scale(0.9);
 }
 
-.input-contenedor-2 {
+/* .input-contenedor-2 {
 border: solid;
 width: 18rem;
 border-color:rgb(255, 255, 255);
 
 
-}
-.formulario__campo-2 {
+} */
+/* .formulario__campo-2 {
 margin: auto;
 font-size: 1.2rem;
 font-family: var(--Fuenteprincipal);
@@ -2510,7 +2495,7 @@ width: 9rem;
 height: 3rem;
 font-size: 1.5rem;
 font-family: var(--Fuenteprincipal);
-}
+} */
 }
 
 
@@ -2985,7 +2970,7 @@ font-family: var(--Fuenteprincipal);
         cursor: pointer;
         } */
     
-    .input-contenedor-2 {
+    /* .input-contenedor-2 {
       border: solid;
       width: auto;
      border-color:rgb(255, 255, 255);
@@ -2999,7 +2984,7 @@ font-family: var(--Fuenteprincipal);
     width: 20rem;
     font-size: 1.5rem;
     font-family: var(--Fuenteprincipal);
-    }
+    } */
     /*Cajas y imagenes*/
   
     .caja1 {
@@ -3067,7 +3052,7 @@ font-family: var(--Fuenteprincipal);
         background-color: black;
       } */
 
-      .input-contenedor-1 {
+      /* .input-contenedor-1 {
       border: solid;
       border-radius: 0.7rem;
       width: 25rem;
@@ -3081,7 +3066,7 @@ font-family: var(--Fuenteprincipal);
         font-family: var(--Fuenteprincipal);
         font-weight: bold;        
       }
-     
+      */
     
     } 
   

@@ -28,7 +28,7 @@
     gap: 24rem;
 }
 
-.btn-contacto{
+/* .btn-contacto{
 margin-left: 10%;
 }
 #botonValidar {
@@ -38,7 +38,7 @@ margin-left: 10%;
   background-color: black;
   color: var(--ColorBlanco);
   cursor: pointer;
-}
+} */
 
 
 
@@ -787,9 +787,9 @@ font-family: var(--Fuenteprincipal);
     width: 25rem;
     color: white;
     }
-.formulario-1{
+/* .formulario-1{
       background-color: black;
-    }
+    } */
 .input-contenedor-2 {
   border: solid;
   width: auto;
@@ -1087,9 +1087,9 @@ font-family: var(--Fuenteprincipal);
       width: 25rem;
       color: white;
       }
-.formulario-1{
+/* .formulario-1{
         background-color: black;
-      }
+      } */
 
   }
   
@@ -1962,7 +1962,6 @@ font-family: var(--Fuenteprincipal);
     }
   .formulario__campo-2 {
     margin: auto;
-    font-size: 1.5rem;
     font-family: var(--Fuenteprincipal);
     background-color: black;
     color: white;
@@ -1994,7 +1993,7 @@ button:active {
 
 
 }
-.formulario__campo-2 {
+/* .formulario__campo-2 {
 margin: auto;
 font-size: 1.2rem;
 font-family: var(--Fuenteprincipal);
@@ -2004,7 +2003,7 @@ width: 9rem;
 height: 3rem;
 font-size: 1.5rem;
 font-family: var(--Fuenteprincipal);
-}
+} */
 
 }
 
@@ -2067,7 +2066,7 @@ font-family: var(--Fuenteprincipal);
   
   
   }
-  .formulario__campo-2 {
+  /* .formulario__campo-2 {
   margin: auto;
   font-size: 1.2rem;
   font-family: var(--Fuenteprincipal);
@@ -2077,7 +2076,7 @@ font-family: var(--Fuenteprincipal);
   height: 3rem;
   font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
-  }
+  } */
   button {
     color: var(--ColorBlanco);
     background-color: black;
@@ -2155,7 +2154,7 @@ font-family: var(--Fuenteprincipal);
   
   
   }
-  .formulario__campo-2 {
+  /* .formulario__campo-2 {
   margin: auto;
   font-size: 1.2rem;
   font-family: var(--Fuenteprincipal);
@@ -2165,7 +2164,7 @@ font-family: var(--Fuenteprincipal);
   height: 3rem;
   font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
-  }
+  } */
   
   button {
     color: var(--ColorBlanco);
@@ -2243,7 +2242,7 @@ font-family: var(--Fuenteprincipal);
   
   
   }
-  .formulario__campo-2 {
+  /* .formulario__campo-2 {
   margin: auto;
   font-size: 1.2rem;
   font-family: var(--Fuenteprincipal);
@@ -2254,7 +2253,7 @@ font-family: var(--Fuenteprincipal);
   font-size: 1.5rem;
   font-family: var(--Fuenteprincipal);
   }
-  
+   */
   button {
     color: var(--ColorBlanco);
     background-color: black;
