@@ -70,6 +70,19 @@ body {
 
 
 @media (min-width: 1224px) {
+  
+  #btn-open-modal {
+
+  }
+  #cerrarsesion-modal {
+
+  }
+
+  #btn-close-modal {
+
+  }
+  
+  
   .btn-contacto{
     background-color: #88898946;
     font-size: 2.5rem;
@@ -2721,6 +2734,313 @@ button:active {
       font-size: 1.7rem;
       font-family: var(--Fuenteprincipal);
  }
+}/*******************Cerrar sesion******************************************************************************/
+@media only screen and (min-width: 651px) and (max-width:700px) {
+  .container-dialog {
+    background-color: rgba(0, 0, 0, 0.667);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #btn-open-modal {
+    background-color:var(--ColorNav);
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  #cerrarsesion-modal {
+    background-color:blue;
+    margin-left: 20.1rem;
+    margin-top: 15rem;
+    width: 30rem;
+  }
+  
+  #btn-close-modal {
+  margin-left: 34.5%;
+  }
+    /* button {
+      background-color: black;
+      color: var(--ColorBlanco);
+      width: 11rem;
+      height: 2.3rem;
+      transition: .2s;
+      cursor: pointer;
+    } */
+    button span {
+      font-size: 1.7rem;
+      transition: .2s;
+    }
+    button:active {
+      transform: scale(0.9);
+    }
+  /*******************Cerrar sesion*********************/
+  }
+/*******************Cerrar sesion******************************************************************************/
+@media only screen and (min-width: 601px) and (max-width:650px) {
+  .container-dialog {
+    background-color: rgba(0, 0, 0, 0.667);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #btn-open-modal {
+    background-color:var(--ColorNav);
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  #cerrarsesion-modal {
+    background-color:blue;
+    margin-left: 17rem;
+    margin-top: 15rem;
+    width: 30rem;
+  }
+  
+  #btn-close-modal {
+  margin-left: 34.5%;
+  }
+    /* button {
+      background-color: black;
+      color: var(--ColorBlanco);
+      width: 11rem;
+      height: 2.3rem;
+      transition: .2s;
+      cursor: pointer;
+    } */
+    button span {
+      font-size: 1.7rem;
+      transition: .2s;
+    }
+    button:active {
+      transform: scale(0.9);
+    }
+  /*******************Cerrar sesion*********************/
+  }
+/*******************Cerrar sesion******************************************************************************/
+@media only screen and (min-width: 551px) and (max-width:600px) {
+  .container-dialog {
+    background-color: rgba(0, 0, 0, 0.667);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #btn-open-modal {
+    background-color:var(--ColorNav);
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  #cerrarsesion-modal {
+    background-color:blue;
+    margin-left: 15rem;
+    margin-top: 15rem;
+    width: 30rem;
+  }
+  
+  #btn-close-modal {
+  margin-left: 34.5%;
+  }
+    /* button {
+      background-color: black;
+      color: var(--ColorBlanco);
+      width: 11rem;
+      height: 2.3rem;
+      transition: .2s;
+      cursor: pointer;
+    } */
+    button span {
+      font-size: 1.7rem;
+      transition: .2s;
+    }
+    button:active {
+      transform: scale(0.9);
+    }
+  /*******************Cerrar sesion*********************/
+  }
+/*******************Cerrar sesion******************************************************************************/
+@media only screen and (min-width: 521px) and (max-width:550px) {
+  .container-dialog {
+    background-color: rgba(0, 0, 0, 0.667);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #btn-open-modal {
+    background-color:var(--ColorNav);
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  #cerrarsesion-modal {
+    background-color:blue;
+    margin-left: 14rem;
+    margin-top: 15rem;
+    width: 30rem;
+  }
+  
+  #btn-close-modal {
+  margin-left: 34.5%;
+  }
+    /* button {
+      background-color: black;
+      color: var(--ColorBlanco);
+      width: 11rem;
+      height: 2.3rem;
+      transition: .2s;
+      cursor: pointer;
+    } */
+    button span {
+      font-size: 1.7rem;
+      transition: .2s;
+    }
+    button:active {
+      transform: scale(0.9);
+    }
+  /*******************Cerrar sesion*********************/
+  }
+/*******************Cerrar sesion******************************************************************************/
+@media only screen and (min-width: 458px) and (max-width:520px) {
+  .container-dialog {
+    background-color: rgba(0, 0, 0, 0.667);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #btn-open-modal {
+    background-color:var(--ColorNav);
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  #cerrarsesion-modal {
+    background-color:blue;
+    margin-left: 10rem;
+    margin-top: 15rem;
+    width: 30rem;
+  }
+  
+  #btn-close-modal {
+  margin-left: 34.5%;
+  }
+    /* button {
+      background-color: black;
+      color: var(--ColorBlanco);
+      width: 11rem;
+      height: 2.3rem;
+      transition: .2s;
+      cursor: pointer;
+    } */
+    button span {
+      font-size: 1.7rem;
+      transition: .2s;
+    }
+    button:active {
+      transform: scale(0.9);
+    }
+  /*******************Cerrar sesion*********************/
+  }
+/*******************Cerrar sesion******************************************************************************/
+@media only screen and (min-width: 407px) and (max-width:457px) {
+  .container-dialog {
+    background-color: rgba(0, 0, 0, 0.667);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #btn-open-modal {
+    background-color:var(--ColorNav);
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+  #cerrarsesion-modal {
+    background-color:blue;
+    margin-left: 7.5rem;
+    margin-top: 15rem;
+    width: 30rem;
+  }
+  
+  #btn-close-modal {
+  margin-left: 34.5%;
+  }
+    /* button {
+      background-color: black;
+      color: var(--ColorBlanco);
+      width: 11rem;
+      height: 2.3rem;
+      transition: .2s;
+      cursor: pointer;
+    } */
+    button span {
+      font-size: 1.7rem;
+      transition: .2s;
+    }
+    button:active {
+      transform: scale(0.9);
+    }
+  /*******************Cerrar sesion*********************/
+  }
+/*******************Cerrar sesion******************************************************************************/
+@media only screen and (min-width: 365px) and (max-width:406px) {
+.container-dialog {
+  background-color: rgba(0, 0, 0, 0.667);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#btn-open-modal {
+  background-color:var(--ColorNav);
+  color: var(--ColorBlanco);
+  width: 11rem;
+  height: 2.3rem;
+  transition: .2s;
+  cursor: pointer;
+}
+#cerrarsesion-modal {
+  background-color:blue;
+  margin-left: 5.3rem;
+  margin-top: 15rem;
+  width: 30rem;
+}
+
+#btn-close-modal {
+margin-left: 34.5%;
+}
+  /* button {
+    background-color: black;
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  } */
+  button span {
+    font-size: 1.7rem;
+    transition: .2s;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+/*******************Cerrar sesion*********************/
 }
 @media only screen and (min-width: 360px) and (max-width:406px) {
   button {
@@ -2801,7 +3121,55 @@ button:active {
       font-size: 1.7rem;
       font-family: var(--Fuenteprincipal);
  }
+
+
+/*******************Cerrar sesion******************************************************************************/
+.container-dialog {
+  background-color: rgba(0, 0, 0, 0.667);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+#btn-open-modal {
+  background-color:var(--ColorNav);
+  color: var(--ColorBlanco);
+  width: 11rem;
+  height: 2.3rem;
+  transition: .2s;
+  cursor: pointer;
+}
+#cerrarsesion-modal {
+  background-color:blue;
+  margin-left: 4rem;
+  margin-top: 15rem;
+  width: 30rem;
+}
+
+#btn-close-modal {
+margin-left: 34.5%;
+}
+  /* button {
+    background-color: black;
+    color: var(--ColorBlanco);
+    width: 11rem;
+    height: 2.3rem;
+    transition: .2s;
+    cursor: pointer;
+  } */
+  button span {
+    font-size: 1.7rem;
+    transition: .2s;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+/*******************Cerrar sesion*********************/
+
+
+}
+
+
 .imagen-icono {
   width: 2.4rem;
   margin-top: 1px;
@@ -2900,6 +3268,8 @@ button:active {
   background-color: var(--ColorBlanco);
 }
 
+
+
 @media only screen and (min-width: 0px) and (max-width:700px) {
   .btn-contacto{
     background-color: #88898946;
@@ -2913,6 +3283,10 @@ button:active {
     width: 8.5rem;
   }
   
+
+
+
+
   #input-recomendacion{
     background-color: #232526;
     border-radius: 0.8rem;
@@ -3226,21 +3600,16 @@ button:active {
 
 
 
-button {
-  background-color: black;
+
+
+
+
+#btn-open-modal {
+  background-color:var(--ColorNav);
   color: var(--ColorBlanco);
-  width: 11rem;
-  height: 2.3rem;
-  transition: .2s;
-  cursor: pointer;
+
 }
-button span {
-  font-size: 1.7rem;
-  transition: .2s;
-}
-button:active {
-  transform: scale(0.9);
-}
+
 
 .btn-contacto{
   align-items: center;
